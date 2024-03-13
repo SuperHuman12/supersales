@@ -51,7 +51,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Notion to Helpdesk</div>
-                    <div className="text-gray-600">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full ring-2 ring-gray-100"/> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full ring-2 ring-gray-100"/></div>
+                    <div className="text-gray-600 flex">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full ring-2 ring-gray-100 w-8"/> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full ring-2 ring-gray-100 w-8"/></div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
