@@ -34,7 +34,7 @@ export default function Hero() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Write on Notion, publish on your website instantly. no drag-and-drop, just a simple form. – No coding or design skills required.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-orange-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Get started for free</a>
+                  <a className="btn text-dark bg-orange-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Get started for free</a>
                 </div>
                 <div>
                   <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">View Demos</a>

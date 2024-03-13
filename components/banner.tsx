@@ -9,12 +9,12 @@ export default function Banner() {
   return (
     <>
       {bannerOpen && (
-        <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-50">
-          <div className="bg-slate-800 text-slate-50 text-sm p-3 md:rounded shadow-lg flex justify-between">
+        <div className="fixed bottom-0 left-0 ml-4 w-full md:bottom-8 md:left-12 md:w-auto z-50">
+          <div className="bg-slate-800 text-slate-50 text-sm py-2 px-3 md:rounded shadow-lg flex justify-between">
 
           <button 
               type="button" 
-              className="bg-gray-800 text-xs font-bold shadow-lg backdrop-blur-lg rounded-[cta-button-radius-value] py-1.5 px-2 fixed mx-4 flex items-center text-white"
+              className="bg-gray-800 text-xs font-bold shadow-lg backdrop-blur-lg rounded-[cta-button-radius-value] flex items-center text-white"
             >
               <span>Made with</span>
               <svg 

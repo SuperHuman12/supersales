@@ -11,8 +11,8 @@ export default function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Explore the solutions</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 mb-4">Don't spend your life managing a website.</h2>
+            <p className="text-xl text-gray-600">Manage a website directly on notion without the need for any complex software system. We auomate everything behind the hood!</p>
           </div>
 
           {/* Items */}
