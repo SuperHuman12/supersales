@@ -3,7 +3,7 @@ import Image from 'next/image' // Import the Image component from Next.js
 
 export default function Logo() {
   return (
-    <Link href="/" className="block" aria-label="Cruip">
+    <Link href="/" className="block" aria-label="NotionBear">
       {/* Use the Image component for optimized images */}
       <Image
         src="../images/logonew-black.png" 
