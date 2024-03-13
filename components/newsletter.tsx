@@ -16,7 +16,7 @@ export default function Newsletter() {
               <Image
         src="../images/notionfooter.png" 
         alt="Logo" 
-        width={450} 
+        width={400} 
         className="block" 
       />
 
