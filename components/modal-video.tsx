@@ -32,7 +32,7 @@ export default function ModalVideo({
 
       {/* Video thumbnail */}
       <div>
-        <div className="relative justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
+        <div className="justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
         <Image className="md:max-w-none mx-auto rounded" src="../images/notionbear-character-hero-2.png" width={750} height="462" alt="Features bg" />
 
           <div className="banner-bottom-wrapper">
