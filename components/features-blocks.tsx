@@ -30,8 +30,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
+              <div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">AI-Powered</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className="text-gray-600 text-center">Build a website or make changes with prompts.</p>
+              </div>
             </div>
 
             {/* 2nd item */}
@@ -46,8 +48,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
+              <div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Accept Payments</h4>
               <p className="text-gray-600 text-center">Accept payments with secure Stripe</p>
+              </div>
             </div>
 
             {/* 3rd item */}
@@ -63,8 +67,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
+              <div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">100% No Code</h4>
               <p className="text-gray-600 text-center">No need to code to build a powerful website.</p>
+              </div>
             </div>
 
             {/* 4th item */}
@@ -80,8 +86,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
+              <div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">UI & UX-Ready</h4>
               <p className="text-gray-600 text-center">No need to be a designer.</p>
+              </div>
             </div>
 
             {/* 5th item */}
@@ -96,8 +104,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
+              <div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Custom Code</h4>
               <p className="text-gray-600 text-center">If you need more, you can add custom code.</p>
+              </div>
             </div>
 
             {/* 6th item */}
@@ -111,8 +121,10 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
+              <div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Create a Blog</h4>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+              </div>
             </div>
 
           </div>
