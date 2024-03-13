@@ -31,7 +31,7 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">AI-Powered</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
@@ -64,7 +64,7 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">100% No Code</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
@@ -81,7 +81,7 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">UI & UX-Ready</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
@@ -97,7 +97,7 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Custom Code</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
@@ -112,7 +112,7 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Create a Blog</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
