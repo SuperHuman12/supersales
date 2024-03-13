@@ -33,7 +33,7 @@ export default function ModalVideo({
       {/* Video thumbnail */}
       <div>
         <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
-        <Image className="md:max-w-none mx-auto rounded" src="../images/notionbear-character-hero-2.png" width={500} height="462" alt="Features bg" />
+        <Image className="md:max-w-none mx-auto rounded" src="../images/notionbear-character-hero-2.png" width={750} height="462" alt="Features bg" />
 
           <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg border border-4 border-gray-500" onClick={() => { setModalOpen(true) }}>
             <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
