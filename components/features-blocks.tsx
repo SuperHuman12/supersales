@@ -11,8 +11,8 @@ export default function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Don't spend your life managing a website.</h2>
-            <p className="text-xl text-gray-600">Manage a website directly on notion without the need for any complex software system. We auomate everything behind the hood!</p>
+            <h2 className="h2 mb-4">Really Easy To Use Website Builder</h2>
+            <p className="text-xl text-gray-600">Notion Bear is a powerful website builder for startups, solo-entrepreneurs and hackers. Try it for free.</p>
           </div>
 
           {/* Items */}
