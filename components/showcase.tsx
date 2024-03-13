@@ -27,7 +27,7 @@ export default function showcases() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4 border rounded p-2">Thousands of people trust us with their website: see for yourself why</h2>
+            <h2 className="h2 mb-4 p-2">Thousands of people trust us with their website: see for yourself why</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Browse through examples of live Notion websites, built with NotionBear</p>
           </div>
 
