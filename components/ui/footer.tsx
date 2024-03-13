@@ -46,20 +46,29 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Wix</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Webflow</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with WordPress</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Unbounce</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Zendesk</a>
               </li>
+              <li className="mb-2">
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Intercom</a>
+              </li>
+              <li className="mb-2">
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Ghost</a>
+              </li>
+              <li className="mb-2">
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Framer</a>
+              </li>              
             </ul>
           </div>
 
@@ -87,7 +96,7 @@ export default function Footer() {
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Sites by Bear</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Sites by Bear 🐻</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Discord Bots</a>
@@ -104,6 +113,11 @@ export default function Footer() {
               <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Mental Health</a>
               </li>
+              <li className="mb-2">
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Agency Catalog</a>
+              </li>
+
+
             </ul>
           </div>
 
