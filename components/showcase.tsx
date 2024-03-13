@@ -27,9 +27,8 @@ export default function showcases() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Trusted by over 20,000 companies all over the world</h2>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
-              blandit libero cursus mattis.</p>
+            <h2 className="h2 mb-4 border rounded p-2">Thousands of people trust us with their website: see for yourself why</h2>
+            <p className="text-xl text-gray-600" data-aos="zoom-y-out">Browse through examples of live Notion websites, built with NotionBear</p>
           </div>
 
           {/* Items */}
@@ -73,78 +72,78 @@ export default function showcases() {
           </div>
 
           {/* showcases */}
-          <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
+          <div className="mx-auto mt-20" data-aos="zoom-y-out">
 
-<div role="list" className="relative w-auto">
-  <div role="listitem" className="mb-4">
+<div role="list" className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://pxweb.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/65c20db81cf1396c0cfe158a_pxweb.png" alt="PreviewX" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/65c20db81cf1396c0cfe158a_pxweb.png" alt="PreviewX" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">PreviewX</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://ong.ph/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0771_brandbird%20(50)-min.jpg" alt="Ong Pe Hon" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0771_brandbird%20(50)-min.jpg" alt="Ong Pe Hon" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">Ong Pe Hon</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://buildinpublic.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076b_brandbird%20(48)-min.jpg" alt="Build In Public Cheatsheet" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076b_brandbird%20(48)-min.jpg" alt="Build In Public Cheatsheet" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">Build In Public Cheatsheet</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="http://chdavid.com" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076d_brandbird.jpg" alt="Ch David" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076d_brandbird.jpg" alt="Ch David" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">Ch David</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://stevemarks.io/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076c_brandbird%20(54).jpg" alt="Steve Marks" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076c_brandbird%20(54).jpg" alt="Steve Marks" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">Steve Marks</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://stevemarksvoice.com/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0776_brandbird%20(53).jpg" alt="Steve Marks Voice" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0776_brandbird%20(53).jpg" alt="Steve Marks Voice" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">Steve Marks Voice</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://fisayoosilaja.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c07d2_brandbird%20(59).jpg" alt="Fisayo Osilaja" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c07d2_brandbird%20(59).jpg" alt="Fisayo Osilaja" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">Fisayo Osilaja</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://soundmindcareers.com/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c07ff_brandbird%20(60).jpg" alt="SoundMind Careers" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c07ff_brandbird%20(60).jpg" alt="SoundMind Careers" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">SoundMind Careers</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://rizkimulyawan.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0831_brandbird-min.jpeg" alt="Rizki Mulyawan" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0831_brandbird-min.jpeg" alt="Rizki Mulyawan" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">Rizki Mulyawan</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://mailthis.co/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c6_brandbird%20(71).jpg" alt="MailThis.co" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c6_brandbird%20(71).jpg" alt="MailThis.co" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">MailThis.co</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://georgebugianishvili.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c2_brandbird%20(77).jpg" alt="George Bugianishvili" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c2_brandbird%20(77).jpg" alt="George Bugianishvili" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">George Bugianishvili</h2>
     </a>
   </div>
-  <div role="listitem" className="mb-4">
+  <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://stampfans.com/" target="_blank" className="block" rel="noopener noreferrer">
-      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c3_brandbird%20(70).jpg" alt="StampFans.com" className="w-auto mx-auto" />
+      <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c3_brandbird%20(70).jpg" alt="StampFans.com" className="w-auto mx-auto px-4 mt-4" />
       <h2 className="text-center mt-2">StampFans.com</h2>
     </a>
   </div>
