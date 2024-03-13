@@ -7,9 +7,8 @@ export default function Logo() {
       {/* Use the Image component for optimized images */}
       <Image
         src="../images/logonew-black.png" 
-        alt="Cruip" 
-        width={32} 
-        height={32} 
+        alt="Logo" 
+        width={200} 
         className="block" 
       />
     </Link>
