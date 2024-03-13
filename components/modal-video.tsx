@@ -36,7 +36,7 @@ export default function ModalVideo({
         <Image className="md:max-w-none mx-auto rounded" src="../images/notionbear-character-hero-2.png" width={750} height="462" alt="Features bg" />
 
           <div className="banner-bottom-wrapper">
-            <img src="/assets/images/featurescreen.png" className="w-[71%] h-auto mx-auto" alt="description" />
+            <img src="https://web3summary.com/assets/images/featurescreen.png" className="w-[71%] h-auto mx-auto" alt="description" />
 
             <video 
               autoPlay 
@@ -45,7 +45,7 @@ export default function ModalVideo({
               playsInline 
               preload="auto"
               className="w-full max-w-[69%] mx-auto rounded-md object-cover" 
-              style={{ marginTop: '-45%', borderRadius: '0.3rem', imageRendering: 'auto' }} 
+              style={{borderRadius: '0.3rem', imageRendering: 'auto' }} 
               poster="https://web3summary.com/assets/videos/mainvid.jpg"
             >
               <source src="https://web3summary.com/assets/videos/mainvid.mp4" type="video/mp4" />
