@@ -35,6 +35,24 @@ export default function ModalVideo({
         <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
         <Image className="md:max-w-none mx-auto rounded" src="../images/notionbear-character-hero-2.png" width={750} height="462" alt="Features bg" />
 
+          <div className="relative banner-bottom-wrapper">
+            <img src="/assets/images/featurescreen.png" className="w-[71%] h-auto mx-auto" alt="description" />
+
+            <video 
+              autoPlay 
+              loop 
+              muted 
+              playsInline 
+              preload="auto"
+              className="w-full max-w-[69%] mx-auto rounded-md object-cover" 
+              style={{ marginTop: '-45%', borderRadius: '0.3rem', imageRendering: 'auto' }} 
+              poster="https://web3summary.com/assets/videos/mainvid.jpg"
+            >
+              <source src="https://web3summary.com/assets/videos/mainvid.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+
           <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg border border-4 border-gray-500" onClick={() => { setModalOpen(true) }}>
             <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
