@@ -21,7 +21,7 @@ export default function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Product</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</a>
@@ -84,6 +84,29 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
+          {/* 5th block */}
+          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+            <h6 className="text-gray-800 font-medium mb-2">Sites by Bear</h6>
+            <ul className="text-sm">
+              <li className="mb-2">
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Discord Bots</a>
+              </li>
+              <li className="mb-2">
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Telegram Bots</a>
+              </li>
+              <li className="mb-2">
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Whatsapp Bots</a>
+              </li>
+              <li className="mb-2">
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Remote Jobs</a>
+              </li>
+              <li className="mb-2">
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Mental Health</a>
+              </li>
+            </ul>
+          </div>
+
 
 
         </div>
