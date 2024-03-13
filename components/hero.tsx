@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
+          <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Notion to <span className="bg-clip-text text-transparent text-orange">website.</span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">

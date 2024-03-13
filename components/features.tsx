@@ -41,10 +41,7 @@ export default function Features() {
 
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
-              <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Build sites with powerpacked under the hood, perfomamce ready template that load faster and data that can be indexed easily.</p>
-              </div>
+
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
@@ -53,7 +50,7 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Notion to Helpdesk</div>
                     <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -68,7 +65,7 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Notion to Blog</div>
                     <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -83,7 +80,7 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Notion to Catalog</div>
                     <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">

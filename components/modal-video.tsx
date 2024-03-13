@@ -44,7 +44,7 @@ export default function ModalVideo({
               muted 
               playsInline 
               preload="auto"
-              className="w-full max-w-[69%] mx-auto rounded-md object-cover" 
+              className="w-full mx-auto rounded-md object-cover" 
               style={{borderRadius: '0.3rem', imageRendering: 'auto' }} 
               poster="https://web3summary.com/assets/videos/mainvid.jpg"
             >
