@@ -21,7 +21,7 @@ export default function Features() {
   }, []) 
 
   return (
-    <section className="text-white mt-4 mb-4 pt-4 pb-4 bg-gray-900">
+    <section className="text-white mt-4 mb-4 pb-4 bg-gray-900">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -42,7 +42,7 @@ export default function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
 
               {/* Tabs buttons */}
-              <div className="grid gap-4 mb-8 md:mb-0">
+              <div className="grid gap-2 mb-8 md:mb-0">
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
@@ -178,6 +178,10 @@ export default function Features() {
 
         </div>
       </div>
+
+<br/>
+<br/>
+
     </section>
   )
 }
