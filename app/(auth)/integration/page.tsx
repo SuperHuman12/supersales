@@ -17,7 +17,7 @@ export default function ResetPassword() {
 
           {/* Form */}
           <div className="max-w-sm mx-auto">
-            <h2>
+            <h2 className="h4 w-full mx-auto mb-4 font-thin">
               We believe NotionBear should work with all the tools and services you use every day. That‘s why we have integrations for issue trackers, diagrams, interactive code sandboxes and more.
             </h2>
           </div>
@@ -30,9 +30,9 @@ export default function ResetPassword() {
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-white font-bold">Linear</span>
+                  <span className="text-dark font-bold">Linear</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
               </div>
@@ -41,9 +41,9 @@ export default function ResetPassword() {
             {/* 2nd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-white font-bold">Linear</span>
+                  <span className="text-dark font-bold">Linear</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
               </div>
@@ -52,9 +52,9 @@ export default function ResetPassword() {
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-white font-bold">Linear</span>
+                  <span className="text-dark font-bold">Linear</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
               </div>
@@ -63,9 +63,9 @@ export default function ResetPassword() {
             {/* 4th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-white font-bold">Linear</span>
+                  <span className="text-dark font-bold">Linear</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
               </div>
@@ -74,9 +74,9 @@ export default function ResetPassword() {
             {/* 5th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-white font-bold">Linear</span>
+                  <span className="text-dark font-bold">Linear</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
               </div>
@@ -85,9 +85,9 @@ export default function ResetPassword() {
             {/* 6th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-white font-bold">Linear</span>
+                  <span className="text-dark font-bold">Linear</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
               </div>
