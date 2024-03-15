@@ -29,7 +29,7 @@ export default function showcases() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4 p-2">Thousands of people trust us with their website: see for yourself why</h2>
+            <h2 className="h2 mb-4 p-2">Incredible sites built with NotionBear</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Browse through examples of live Notion websites, built with NotionBear</p>
           </div>
 
@@ -80,10 +80,10 @@ export default function showcases() {
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://pxweb.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/65c20db81cf1396c0cfe158a_pxweb.png" alt="PreviewX" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">PreviewX</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-400 border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
