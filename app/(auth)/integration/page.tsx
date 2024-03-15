@@ -98,6 +98,34 @@ export default function ResetPassword() {
 
 
           <div className="space-y-8 bg-gray-100 p-8">
+
+          <div className="space-y-6" name="Container">
+      <div className="space-y-4" name="Integration details">
+        <div className="flex items-center space-x-4" name="Logo and name">
+          <div className="w-20 h-20 rounded-full overflow-hidden" name="Icon">
+            <img src="https://framerusercontent.com/images/FS1of0gxF0A6UP7GmCpIBKQM.png" alt="" className="w-full h-full object-contain"/>
+          </div>
+          <div className="space-y-2" name="Name">
+            <h1 className="text-2xl font-bold text-gray-800">Arcade</h1>
+            <p className="text-md text-gray-600">By GitBook</p>
+          </div>
+        </div>
+        <div className="text-gray-800" name="Description">
+          <p>Embed interactive product demos in your documentation and turn all users into power users.</p>
+        </div>
+        <div className="flex space-x-2 items-center" name="Install Button">
+          <a href="https://app.gitbook.com/integrations/arcade" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
+            <span>Install</span>
+            {/* SVG or icon for arrow here if needed */}
+          </a>
+        </div>
+      </div>
+      <div className="relative w-full h-64" name="Preview image">
+        <img src="https://framerusercontent.com/images/JwSD9igebl5YjP1p0XBssmuRU4.png" alt="" className="w-full h-full object-contain"/>
+      </div>
+    </div>
+
+
       {/* Integration Overview */}
       <div>
         <h3 className="text-xl font-bold">Overview</h3>
@@ -109,29 +137,6 @@ export default function ResetPassword() {
         <p>To install on a single space navigate to integrations in sub-navigation.</p>
       </div>
 
-      {/* Sign Up for Early Access */}
-      <div className="max-w-md mx-auto">
-        <img className="w-full h-56 object-cover rounded-lg shadow-md" src="https://framerusercontent.com/images/69Klgnt7gFobuPtLaa0Ushll2vk.svg" alt="Laptop showcasing sign-up form" />
-        <div className="text-center mt-4">
-          <h2 className="text-2xl font-semibold">Create, search, and manage your knowledge at scale. Effortlessly.</h2>
-          <a href="https://app.gitbook.com/join" className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Get started for free</a>
-        </div>
-      </div>
-
-      {/* Social Links and Copyright */}
-      <div className="text-center">
-        <div className="flex justify-center space-x-4">
-          <a href="https://github.com/GitbookIO" target="_blank" rel="noopener noreferrer">
-            <img src="/path/to/github-icon.svg" alt="GitHub" className="w-6 h-6" />
-          </a>
-          <a href="https://twitter.com/gitbookio" target="_blank" rel="noopener noreferrer">
-            <img src="/path/to/twitter-icon.svg" alt="Twitter" className="w-6 h-6" />
-          </a>
-          {/* Add more social links as needed */}
-        </div>
-        <p className="mt-4 text-sm text-gray-500">© 2024 Copyright GitBook INC. All rights reserved.</p>
-        <p className="text-sm text-gray-500">440 N Barranca Ave #7171, Covina, CA 91723, USA. EIN: 320502699</p>
-      </div>
     </div>
 
 
