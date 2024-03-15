@@ -21,7 +21,7 @@ export default function FeaturesBlocks() {
                 {/* Subscriptions & Private Community */}
                 <div className="col-span-4 md:col-span-1">
                     <div className="card h-full border shadow rounded">
-                        <div className="card-body p-4 text-start flex">
+                        <div className="card-body p-4 text-start flex h-full">
                             <div className="w-1/2">
                                 <div className="flex flex-col h-full">
                                     <h6 className="text-dark">SUBSCRIPTIONS &amp; PRIVATE COMMUNITY</h6>
@@ -41,7 +41,7 @@ export default function FeaturesBlocks() {
                 {/* AI Support */}
                 <div className="col-span-1 md:col-span-1">
                     <div className="card h-full border shadow rounded">
-                        <div className="card-body p-4 text-start flex">
+                        <div className="card-body p-4 text-start flex h-full">
                             <div className="w-full">
                                 <h6 className="text-dark">AI SUPPORT</h6>
                                 <img src="https://hustle-main.netlify.app/assets/images/contactusform.png" className="mx-auto my-3 w-full object-cover" alt="description" />
@@ -59,7 +59,7 @@ export default function FeaturesBlocks() {
                 {/* Simple Analytics */}
                 <div className="col-span-1 md:col-span-1">
                     <div className="card h-full border shadow rounded">
-                        <div className="card-body p-4 text-start flex">
+                        <div className="card-body p-4 text-start flex h-full">
                             <div className="w-full">
                                 <h6 className="text-dark">SIMPLE ANALYTICS</h6>
                                 <img src="https://hustle-main.netlify.app/assets/images/userdetail.webp" className="mb-4 my-3 w-full object-cover" alt="description" />
@@ -75,7 +75,7 @@ export default function FeaturesBlocks() {
                 {/* AI Designer */}
                 <div className="col-span-4 md:col-span-1">
                     <div className="card h-full border shadow rounded">
-                        <div className="card-body p-4 text-start flex">
+                        <div className="card-body p-4 text-start flex h-full">
                             <div className="w-full">
                                 <h6 className="text-dark">AI DESIGNER</h6>
                                 <div className="flex">
