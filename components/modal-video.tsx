@@ -52,7 +52,7 @@ export default function ModalVideo({
           </div>
 
 
-          <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg border border-4 border-gray-500" onClick={() => { setModalOpen(true) }}>
+          <button className="relative top-full flex items-center transform -translate-y-1/2 rounded-full font-medium group p-4 shadow-lg border border-4 border-gray-500 bg-gray-900 text-white m-auto" onClick={() => { setModalOpen(true) }}>
             <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
               <path d="M10 17l6-5-6-5z" />
@@ -99,7 +99,7 @@ export default function ModalVideo({
                         width="120"
                         height="35.4"
                         decoding="async"
-                        className="w-full h-auto p-2"
+                        className="w-full h-auto p-6"
                         src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/8f49a317-faff-4d7b-b378-a151042a1ce3/circle/w=294.4,quality=90"
                     />
                 </div>
@@ -135,7 +135,7 @@ export default function ModalVideo({
                         width="144"
                         height="72.50704225352112"
                         decoding="async"
-                        className="w-full h-auto p-2"
+                        className="w-full h-auto p-6"
                         src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/4f2d2e91-850a-49df-b099-c685aba7c766/browser-company/w=441.59999999999997,quality=90"
                     />
                 </div>
