@@ -10,7 +10,7 @@ export default function Banner() {
     <>
       {bannerOpen && (
         <div className="fixed bottom-0 left-0 ml-4 w-fit md:bottom-8 md:left-12 md:w-auto z-50">
-          <div className="bg-slate-800 text-slate-50 text-sm py-2 px-3 md:rounded shadow-lg flex justify-between">
+          <div className="bg-slate-800 text-slate-50 text-sm py-2 px-3 md:rounded shadow-lg flex justify-between mb-2">
 
           <button 
               type="button" 
