@@ -99,7 +99,7 @@ export default function ResetPassword() {
 
           <div className="space-y-8 bg-gray-100 p-8">
 
-          <div className="space-y-6" >
+          <div className="flex space-y-6" >
       <div className="space-y-4">
         <div className="flex items-center space-x-4" >
           <div className="w-20 h-20 rounded-full overflow-hidden" >
@@ -120,7 +120,7 @@ export default function ResetPassword() {
           </a>
         </div>
       </div>
-      <div className="relative w-full h-64" >
+      <div className="relative w-full" >
         <img src="https://framerusercontent.com/images/JwSD9igebl5YjP1p0XBssmuRU4.png" alt="" className="w-full h-full object-contain"/>
       </div>
     </div>
@@ -128,12 +128,12 @@ export default function ResetPassword() {
 
       {/* Integration Overview */}
       <div>
-        <h3 className="text-xl font-bold">Overview</h3>
+        <h3 className="h3 font-bold mt-4">Overview</h3>
         <p>Arcade lets you create interactive product demos in minutes. Turn all users into power users.</p>
         <p>This integration allows you to embed Arcade interactive demos into your GitBook documentation.</p>
-        <h3 className="text-xl font-bold">How it works</h3>
+        <h3 className="h3 font-bold mt-4">How it works</h3>
         <p>Embedding an Arcade flow in your documentation is simple - just paste an Arcade flow link.</p>
-        <h3 className="text-xl font-bold">Configure</h3>
+        <h3 className="h3 font-bold mt-4">Configure</h3>
         <p>To install on a single space navigate to integrations in sub-navigation.</p>
       </div>
 
