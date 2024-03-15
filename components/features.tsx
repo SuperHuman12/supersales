@@ -21,11 +21,10 @@ export default function Features() {
   }, []) 
 
   return (
-    <section className="relative">
+    <section className="text-white mt-4 mb-4 pt-4 pb-4 bg-gray-900">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
@@ -55,7 +54,7 @@ export default function Features() {
                     </svg>
                   </div>                  
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Notion to Helpdesk</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-black">Notion to Helpdesk</div>
                     <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-8"/> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-8"/></div>
                   </div>
                 </a>
@@ -71,7 +70,7 @@ export default function Features() {
                   </div>
 
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Notion to Blog</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-black">Notion to Blog</div>
                     <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-8"/> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-8"/></div>
                   </div>
                 </a>
@@ -88,7 +87,7 @@ export default function Features() {
                   </div>
 
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Notion to Catalog</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-black">Notion to Catalog</div>
                     <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-8"/> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-8"/></div>
                   </div>
                 </a>
@@ -105,7 +104,7 @@ export default function Features() {
                   </div>
 
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Notion to Company Wiki</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-black">Notion to Company Wiki</div>
                     <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-8"/> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-8"/></div>
                   </div>
                 </a>                
