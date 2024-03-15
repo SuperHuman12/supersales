@@ -78,7 +78,7 @@ export default function showcases() {
       <h2 className="text-start mt-2 font-bold">Ch David</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
-      <button className="bg-gray-600 border p-2 px-4 rounded my-2 text-white w-full mt-4">Private Template</button>
+      <button className="bg-gray-300 border p-2 px-4 rounded my-2 text-dark w-full mt-4">Private Template</button>
       </div>
     </a>
   </div>
@@ -100,7 +100,7 @@ export default function showcases() {
       <h2 className="text-start mt-2 font-bold">Steve Marks Voice</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
-      <button className="bg-gray-600 border p-2 px-4 rounded my-2 text-white w-full mt-4">Private Template</button>
+      <button className="bg-gray-300 border p-2 px-4 rounded my-2 text-dark w-full mt-4">Private Template</button>
       </div>
     </a>
   </div>
@@ -133,7 +133,7 @@ export default function showcases() {
       <h2 className="text-start mt-2 font-bold">Rizki Mulyawan</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
-      <button className="bg-gray-600 border p-2 px-4 rounded my-2 text-white w-full mt-4">Private Template</button>
+      <button className="bg-gray-300 border p-2 px-4 rounded my-2 text-dark w-full mt-4">Private Template</button>
       </div>
     </a>
   </div>
@@ -167,7 +167,7 @@ export default function showcases() {
       <h2 className="text-start mt-2 font-bold">StampFans.com</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
-      <button className="bg-gray-600 border p-2 px-4 rounded my-2 text-white w-full mt-4">Private Template</button>
+      <button className="bg-gray-300 border p-2 px-4 rounded my-2 text-dark w-full mt-4">Private Template</button>
 
       </div>
     </a>
