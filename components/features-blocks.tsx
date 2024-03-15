@@ -17,9 +17,9 @@ export default function FeaturesBlocks() {
 
 
           <div className="container my-5">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-4 mb-4">
+            <div className="flex md:grid-cols-2 gap-4 pb-4 mb-4">
                 {/* Subscriptions & Private Community */}
-                <div className="col-span-1 md:col-span-1">
+                <div className="col-span-4 md:col-span-1">
                     <div className="card h-full border shadow rounded">
                         <div className="card-body p-4 text-start flex">
                             <div className="w-1/2">
@@ -55,7 +55,7 @@ export default function FeaturesBlocks() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div className="flex md:grid-cols-2 gap-4 pb-4 mb-4">
                 {/* Simple Analytics */}
                 <div className="col-span-1 md:col-span-1">
                     <div className="card h-full border shadow rounded">
@@ -73,7 +73,7 @@ export default function FeaturesBlocks() {
                 </div>
 
                 {/* AI Designer */}
-                <div className="col-span-1 md:col-span-1">
+                <div className="col-span-4 md:col-span-1">
                     <div className="card h-full border shadow rounded">
                         <div className="card-body p-4 text-start flex">
                             <div className="w-full">
