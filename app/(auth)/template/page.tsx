@@ -27,7 +27,7 @@ export default function ResetPassword() {
             {/* 1st item */}
             <Link href="/template/remotejobs" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
               <div>
-                <div className="items-start space-x-2 mb-4">
+                <div className="items-start space-x-2 ">
                   <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
@@ -39,7 +39,7 @@ export default function ResetPassword() {
             {/* 2nd item */}
             <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
-                <div className="items-start space-x-2 mb-4">
+                <div className="items-start space-x-2 ">
                   <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
@@ -51,7 +51,7 @@ export default function ResetPassword() {
             {/* 3rd item */}
             <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
-                <div className="items-start space-x-2 mb-4">
+                <div className="items-start space-x-2 ">
                   <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
@@ -63,7 +63,7 @@ export default function ResetPassword() {
             {/* 4th item */}
             <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
-                <div className="items-start space-x-2 mb-4">
+                <div className="items-start space-x-2 ">
                   <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
@@ -75,7 +75,7 @@ export default function ResetPassword() {
             {/* 5th item */}
             <Link href="/integration/fathom" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
-                <div className="items-start space-x-2 mb-4">
+                <div className="items-start space-x-2 ">
                   <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
@@ -87,7 +87,7 @@ export default function ResetPassword() {
             {/* 6th item */}
             <Link href="/integration/figma" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
-                <div className="items-start space-x-2 mb-4">
+                <div className="items-start space-x-2 ">
                   <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
