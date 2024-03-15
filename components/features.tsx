@@ -55,7 +55,7 @@ export default function Features() {
                   </div>                  
                   <div>
                     <div className="h4 font-bold leading-snug tracking-tight mb-1 text-black">Notion to Helpdesk</div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-catalogue2.png" className="rounded-full w-auto h-8"/> and <img alt="Ana" src="./images/simpler-catalogue.png" className="rounded-full w-auto h-8"/></div>
+                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-catalogue2.png" className="rounded-full w-auto h-6"/> and <img alt="Ana" src="./images/simpler-catalogue.png" className="rounded-full w-auto h-6"/></div>
                   </div>
                 </a>
                 <a
@@ -71,7 +71,7 @@ export default function Features() {
 
                   <div>
                     <div className="h4 font-bold leading-snug tracking-tight mb-1 text-black">Notion to Blog</div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-blog.png" className="rounded-full w-auto h-8"/> and <img alt="Ana" src="./images/simpler-blog2.png" className="rounded-full w-auto h-8"/></div>
+                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-blog.png" className="rounded-full w-auto h-6"/> and <img alt="Ana" src="./images/simpler-blog2.png" className="rounded-full w-auto h-6"/></div>
                   </div>
                 </a>
                 <a
@@ -88,7 +88,7 @@ export default function Features() {
 
                   <div>
                     <div className="h4 font-bold leading-snug tracking-tight mb-1 text-black">Notion to Catalog</div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-helpdesk2.png" className="rounded-full w-auto h-8"/> and <img alt="Ana" src="./images/simpler-helpdesk.png" className="rounded-full w-auto h-8"/></div>
+                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-helpdesk2.png" className="rounded-full w-auto h-6"/> and <img alt="Ana" src="./images/simpler-helpdesk.png" className="rounded-full w-auto h-6"/></div>
                   </div>
                 </a>
                 <a
@@ -105,7 +105,7 @@ export default function Features() {
 
                   <div>
                     <div className="h4 font-bold leading-snug tracking-tight mb-1 text-black">Notion to Company Wiki</div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-8"/> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-8"/></div>
+                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-6"/> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-6"/></div>
                   </div>
                 </a>                
               </div>
