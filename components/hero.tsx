@@ -7,9 +7,7 @@ export default function Hero() {
     <section className="relative">
 
       {/* Illustration behind hero content */}
-      <div className="absolute bottom-0 pointer-events-none z-1 h-screen w-screen" aria-hidden="true">
-
-      <svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid-pattern" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)"><path d="M0 32V.5H32" fill="none" stroke="currentColor"></path></pattern></defs><rect width="100%" height="100%" fill="url(#grid-pattern)"></rect></svg>
+      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1" aria-hidden="true">
 
       </div>
 
