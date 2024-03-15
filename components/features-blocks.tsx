@@ -8,12 +8,6 @@ export default function FeaturesBlocks() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Really Easy To Use Website Builder</h2>
-            <p className="text-xl text-gray-600">Notion Bear is a powerful website builder for startups, solo-entrepreneurs and hackers. Try it for free.</p>
-          </div>
-
 
         <section className="py-8 mb-8">
             <div className="flex">
@@ -78,6 +72,13 @@ export default function FeaturesBlocks() {
             </div>
         </section>
 
+
+
+          {/* Section header */}
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+            <h2 className="h2 mb-4">Really Easy To Use Website Builder</h2>
+            <p className="text-xl text-gray-600">Notion Bear is a powerful website builder for startups, solo-entrepreneurs and hackers. Try it for free.</p>
+          </div>
 
 
 

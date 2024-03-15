@@ -131,7 +131,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src="../images/helpdesk.gif" width={500} height="462" alt="Features bg" />
+                      <Image className="md:max-w-none mx-auto rounded" src="./images/helpdesk.gif" width={500} height="462" alt="Features bg" />
                     </div>
                   </Transition>
                   {/* Item 2 */}
@@ -149,7 +149,7 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src="../images/blog.gif" width={500} height="462" alt="Features bg" />
+                      <Image className="md:max-w-none mx-auto rounded" src="/images/blog.gif" width={500} height="462" alt="Features bg" />
                     </div>
                   </Transition>
                   {/* Item 3 */}
