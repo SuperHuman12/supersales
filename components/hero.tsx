@@ -4,7 +4,7 @@ import Image from 'next/image' // Import the Image component from Next.js
 
 export default function Hero() {
   return (
-    <section className="relative">
+    <section>
 
       {/* Illustration behind hero content */}
       <div className="absolute bottom-0 pointer-events-none z-1 h-screen w-screen" aria-hidden="true" style={{ width: '-webkit-fill-available', opacity: 0.1 }}>
