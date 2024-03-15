@@ -152,6 +152,93 @@ export default function showcases() {
 
           </div>
 
+
+
+          <section className="bannermain bg-dark text-white" id="showcase_examples" style={{ backgroundImage: "url(/assets/images/powergrid.png)", backgroundSize: "contain" }}>
+            <br />
+            <span className="rounded-4 p-2 px-4 text-white bg-dark" style={{ color: "#333333" }}>SHOWCASE</span>
+            <br />
+            <h1 className="w-75 m-auto my-3 font-bold text-5xl md:text-6xl tracking-wider leading-tight text-center">
+                Incredible sites built with NotionBear
+            </h1>
+            <div className="text-center w-50 m-auto">
+                <h5 className="subheading">Customers demand instant solutions to their problems. Deliver instant help and make them happier while dealing with less conversations - without leaving Notion.</h5>
+            </div>
+
+            <div className="container mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 mb-4">
+                    <div className="col">
+                        <a className="card h-100 border-0 rounded-4" href="#">
+                            <img src="/assets/images/layouts/notionbear help.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
+                            <div className="card-body text-dark py-4">
+                                <h5 className="card-title text-start mb-4">
+                                    help.notionbear.com
+                                </h5>
+                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a className="card h-100 border-0 rounded-4" href="#">
+                            <img src="/assets/images/layouts/hustleai helpdesk.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
+                            <div className="card-body text-dark py-4">
+                                <h5 className="card-title text-start mb-4">
+                                    help.hustleai.co
+                                </h5>
+                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a className="card h-100 border-0 rounded-4" href="#">
+                            <img src="/assets/images/layouts/hustleai blog.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
+                            <div className="card-body text-dark py-4">
+                                <h5 className="card-title text-start mb-4">
+                                    blog.hustleai.co
+                                </h5>
+                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Blog</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a className="card h-100 border-0 rounded-4" href="#">
+                            <img src="/assets/images/layouts/querykitty calogue.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
+                            <div className="card-body text-dark py-4">
+                                <h5 className="card-title text-start mb-4">
+                                    docs.querykitty.com
+                                </h5>
+                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Catalog</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a className="card h-100 border-0 rounded-4" href="#">
+                            <img src="/assets/images/layouts/blockchaingrants calogue.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
+                            <div className="card-body text-dark py-4">
+                                <h5 className="card-title text-start mb-4">
+                                    blockchaingrants.com
+                                </h5>
+                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Catalog</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="col">
+                        <a className="card h-100 border-0 rounded-4" href="#">
+                            <img src="/assets/images/layouts/web3 blog.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
+                            <div className="card-body text-dark py-4">
+                                <h5 className="card-title text-start mb-4">
+                                    newsletter.web3summary.com
+                                </h5>
+                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Blog</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
         </div>
       </div>
     </section>
