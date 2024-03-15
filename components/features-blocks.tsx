@@ -14,11 +14,120 @@ export default function FeaturesBlocks() {
             <p className="text-xl text-gray-600">Notion Bear is a powerful website builder for startups, solo-entrepreneurs and hackers. Try it for free.</p>
           </div>
 
+
+          <div className="container my-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-4 mb-4">
+        <!-- Subscriptions & Private Community -->
+        <div className="col-span-1 md:col-span-1">
+            <div className="card h-full border shadow rounded">
+                <div className="card-body p-4 text-start flex">
+                    <div className="w-1/2">
+                        <div className="flex flex-col h-full">
+                            <h6 className="text-dark">SUBSCRIPTIONS &amp; PRIVATE COMMUNITY</h6>
+                            <div className="mt-auto">
+                                <h5 className="card-title text-3xl font-bold text-dark">Monetize your community.</h5>
+                                <p className="card-text text-secondary">We know the majority of you don't like dragging elements around for even the basic things.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-1/2">
+                        <img src="https://hustle-main.netlify.app/assets/images/complementarytoolchart.png" className="w-full h-full object-cover" alt="description">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Support -->
+        <div className="col-span-1 md:col-span-1">
+            <div className="card h-full border shadow rounded">
+                <div className="card-body p-4 text-start flex">
+                    <div className="w-full">
+                        <h6 className="text-dark">AI SUPPORT</h6>
+                        <img src="https://hustle-main.netlify.app/assets/images/contactusform.png" className="mx-auto my-3 w-full object-cover" alt="description">
+                        <div className="mb-2">
+                            <h5 className="card-title text-3xl font-bold text-dark">Too little time for support?</h5>
+                            <p className="card-text text-secondary">We know the majority of you don't like dragging elements around for even the basic things.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+        <!-- Simple Analytics -->
+        <div className="col-span-1 md:col-span-1">
+            <div className="card h-full border shadow rounded">
+                <div className="card-body p-4 text-start flex">
+                    <div className="w-full">
+                        <h6 className="text-dark">SIMPLE ANALYTICS</h6>
+                        <img src="https://hustle-main.netlify.app/assets/images/userdetail.webp" className="mb-4 my-3 w-full object-cover" alt="description">
+                        <div className="mb-2">
+                            <h5 className="card-title text-3xl font-bold text-dark">Unknown Traffic? Not so fast.</h5>
+                            <p className="card-text text-secondary">We know the majority of you don't like dragging elements around for even the basic things.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Designer -->
+        <div className="col-span-1 md:col-span-1">
+            <div className="card h-full border shadow rounded">
+                <div className="card-body p-4 text-start flex">
+                    <div className="w-full">
+                        <h6 className="text-dark">AI DESIGNER</h6>
+                        <div className="flex">
+                            <div className="w-1/2">
+                                <h5 className="card-title text-3xl font-bold text-dark">Do you suck at design? Call out our AI Designer.</h5>
+                                <p className="card-text text-secondary">We know the majority of you don't like dragging elements around for even the basic things.</p>
+                            </div>
+                            <div className="w-1/2">
+                                <img src="https://hustle-main.netlify.app/assets/images/customgptform.webp" className="w-full h-full object-cover" alt="description">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div className="container feature-row bg-dark text-white p-2 rounded-pill mb-2">
+        <div className="scroller p-0 flex items-center">
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Custom Domain</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Search</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Sitemap</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">RSS Feed</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Tags</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Lightning Fast</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Multiple Authors</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Related Posts</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Easy website editor</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">AI Support Chat</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Team features</span>
+            <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
+        </div>
+    </div>
+</div>
+
+
+
+
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
@@ -37,7 +146,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
@@ -55,7 +164,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
@@ -74,7 +183,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
@@ -93,7 +202,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
@@ -111,7 +220,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
