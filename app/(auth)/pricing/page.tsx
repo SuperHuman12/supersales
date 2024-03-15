@@ -12,24 +12,24 @@ export default function SignIn() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
           {/* Page header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1">Websites should be easy. Start for free.</h1>
           </div>
 
           {/* Form */}
-          <div className="max-w-sm mx-auto">
+          <div className="max-w-3xl m-auto">
 
-          <div className="mt-6 pt-6">
+          <div>
     <div className="w-full text-center ltr:mr-4 rtl:ml-4 md:block mb-8">
         <h3 className="text-3xl font-semibold mb-2">Pricing Tailored for Your Success</h3>
         <p className="mt-2 text-lg font-medium text-gray-400">Enjoy 2 months free with our annual plan.</p>
     </div>
     <div className="justify-center mb-4 w-100 my-5"><div className="w-100"></div></div>
     <div dir="ltr" data-orientation="horizontal" className="mt-8 mb-8 w-1/2 lg:mb-13 border rounded-full m-auto">
-        <div role="tablist" aria-orientation="horizontal" className="relative flex w-full rounded-3xl bg-neutral-200 font-semibold z-0 border-1 border-black"  data-orientation="horizontal">
-            <span id="tab-marker" className="absolute inset-y-0 left-0 -z-10 rounded-3xl border-2 bg-gray-900 w-1/2 h-14"></span>
+        <div role="tablist" aria-orientation="horizontal" className="relative flex w-full rounded-full bg-gray-100 font-semibold z-0 border-2 border-gray-600"  data-orientation="horizontal">
+            <span id="tab-marker" className="absolute inset-y-0 left-0 -z-10 rounded-full border-2 bg-gray-900 w-1/2 h-14"></span>
             <button className="w-1/2 text-md h-14 flex items-center justify-center uppercase text-white bg-primary-50" type="button" role="tab" aria-selected="true">
-                Yearly<span className="relative -top-0.5 rounded-lg bg-neutral-200 p-1 text-xs font-normal text-gray-900 ml-4">-20%</span>
+                Yearly<span className="relative -top-0.5 rounded-full bg-neutral-200 p-1 text-xs font-normal text-gray-900 ml-4 px-3">-20%</span>
             </button>
             <button className="w-1/2 text-md h-14 flex items-center justify-center uppercase" type="button" role="tab" aria-selected="false">Monthly</button>
         </div>
@@ -376,7 +376,6 @@ export default function SignIn() {
                 </div>
             </div>
         </article>
-        <button className="absolute top-0 right-0 p-4 rounded-lg w-full text-dark text-right">I'll do it later</button>
     </div>
 </div>
 
