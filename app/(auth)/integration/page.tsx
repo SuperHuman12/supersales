@@ -16,8 +16,8 @@ export default function ResetPassword() {
           </div>
 
           {/* Form */}
-          <div className="max-w-sm mx-auto">
-            <h2 className="h4 w-full mx-auto mb-4 font-thin">
+          <div>
+            <h2 className="h4 w-full mx-auto mb-4 font-semibold text-gray-600 pb-4">
               We believe NotionBear should work with all the tools and services you use every day. That‘s why we have integrations for issue trackers, diagrams, interactive code sandboxes and more.
             </h2>
           </div>
@@ -35,6 +35,7 @@ export default function ResetPassword() {
                   <span className="text-dark font-bold">Linear</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+              <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
             </div>
 
@@ -42,10 +43,11 @@ export default function ResetPassword() {
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
               <div className="flex items-center space-x-2 mb-4">
-                  <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-dark font-bold">Linear</span>
+                  <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/Yo5xVE0shfRCQvIwRDGU6KqIbzM.png" alt="" />
+                  <span className="text-dark font-bold">Slack</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+              <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
             </div>
 
@@ -53,10 +55,11 @@ export default function ResetPassword() {
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
               <div className="flex items-center space-x-2 mb-4">
-                  <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-dark font-bold">Linear</span>
+                  <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/FS1of0gxF0A6UP7GmCpIBKQM.png" alt="" />
+                  <span className="text-dark font-bold">Arcade</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+              <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
             </div>
 
@@ -64,10 +67,11 @@ export default function ResetPassword() {
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
               <div className="flex items-center space-x-2 mb-4">
-                  <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-dark font-bold">Linear</span>
+                  <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/m9aUcDVUAGUkouzars7JOPL4pzU.png" alt="" />
+                  <span className="text-dark font-bold">Discord</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+              <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
             </div>
 
@@ -75,10 +79,11 @@ export default function ResetPassword() {
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
               <div className="flex items-center space-x-2 mb-4">
-                  <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-dark font-bold">Linear</span>
+                  <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/DA65II8e2dwHkaDz1CqTV7Pra6k.png" alt="" />
+                  <span className="text-dark font-bold">Fathom</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+              <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
             </div>
 
@@ -86,10 +91,11 @@ export default function ResetPassword() {
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
               <div className="flex items-center space-x-2 mb-4">
-                  <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
-                  <span className="text-dark font-bold">Linear</span>
+                  <img className="w-10 h-10 rounded-full" src="https://framerusercontent.com/images/Dies87xzsIZvlFyRdxkVgDUnU.png" alt="" />
+                  <span className="text-dark font-bold">Figma</span>
               </div>
               <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+              <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
             </div>
 
