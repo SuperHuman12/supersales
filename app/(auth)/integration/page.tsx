@@ -11,25 +11,15 @@ export default function ResetPassword() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1 mb-4">Let's get you back up on your feet</h1>
-            <p className="text-xl text-gray-600">Enter the email address you used when you signed up for your account, and we'll email you a link to reset your password.</p>
+            <h1 className="h1 mb-4">NotionBear Integrations</h1>
+            <p className="text-xl text-gray-600">Integrate with your stack and extend functionality with powerful integrations built by us and our amazing community.</p>
           </div>
 
           {/* Form */}
           <div className="max-w-sm mx-auto">
-            <form>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="email">Email <span className="text-red-600">*</span></label>
-                  <input id="email" type="email" className="form-input w-full text-gray-800" placeholder="Enter your email address" required />
-                </div>
-              </div>
-              <div className="flex flex-wrap -mx-3 mt-6">
-                <div className="w-full px-3">
-                  <button className="btn text-white bg-orange-600 hover:bg-orange-700 w-full">Send reset link</button>
-                </div>
-              </div>
-            </form>
+            <h2>
+              We believe NotionBear should work with all the tools and services you use every day. That‘s why we have integrations for issue trackers, diagrams, interactive code sandboxes and more.
+            </h2>
           </div>
 
         </div>
