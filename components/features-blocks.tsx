@@ -15,6 +15,71 @@ export default function FeaturesBlocks() {
           </div>
 
 
+        <section className="py-8 mb-8">
+            <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
+                    <img
+                        alt="image"
+                        loading="lazy"
+                        width="132"
+                        height="53.855999999999995"
+                        decoding="async"
+                        className="w-full h-auto"
+                        src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                    />
+                </div>
+            </div>
+            <div className="text-start mt-6">
+                <h2 className="h2 font-bold mb-4">Your content lives in Notion</h2>
+                <p className="text-gray-700">Your work stays in a place you control and love, while Super handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
+            </div>
+            <div className="flex justify-start mt-6 w-full">
+                <div>
+                    <img
+                        alt="image"
+                        loading="lazy"
+                        decoding="async"
+                        className="w-full"
+                        src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
+                    />
+                </div>
+            </div>
+        </section>
+
+
+        <section className="py-8 mb-8">
+            <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
+                    <img
+                        alt="image"
+                        loading="lazy"
+                        width="132"
+                        height="53.855999999999995"
+                        decoding="async"
+                        className="w-full h-auto"
+                        src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                    />
+                </div>
+            </div>
+            <div className="text-start mt-6">
+                <h2 className="h2 font-bold mb-4">Customize to match your brand</h2>
+                <p className="text-gray-700">Your work stays in a place you control and love, while Super handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
+            </div>
+            <div className="flex justify-start mt-6 w-full">
+                <div>
+                    <img
+                        alt="image"
+                        loading="lazy"
+                        decoding="async"
+                        className="w-full"
+                        src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
+                    />
+                </div>
+            </div>
+        </section>
+
+
+
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
@@ -132,69 +197,6 @@ export default function FeaturesBlocks() {
           </div>
 
 
-
-        <section className="py-8 mb-8">
-            <div className="flex">
-                <div className="w-36 md:w-48 mt-6">
-                    <img
-                        alt="image"
-                        loading="lazy"
-                        width="132"
-                        height="53.855999999999995"
-                        decoding="async"
-                        className="w-full h-auto"
-                        src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
-                    />
-                </div>
-            </div>
-            <div className="text-start mt-6">
-                <h2 className="h2 font-bold mb-4">Your content lives in Notion</h2>
-                <p className="text-gray-700">Your work stays in a place you control and love, while Super handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
-            </div>
-            <div className="flex justify-start mt-6 w-full">
-                <div>
-                    <img
-                        alt="image"
-                        loading="lazy"
-                        decoding="async"
-                        className="w-full"
-                        src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
-                    />
-                </div>
-            </div>
-        </section>
-
-
-        <section className="py-8 mb-8">
-            <div className="flex">
-                <div className="w-36 md:w-48 mt-6">
-                    <img
-                        alt="image"
-                        loading="lazy"
-                        width="132"
-                        height="53.855999999999995"
-                        decoding="async"
-                        className="w-full h-auto"
-                        src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
-                    />
-                </div>
-            </div>
-            <div className="text-start mt-6">
-                <h2 className="h2 font-bold mb-4">Customize to match your brand</h2>
-                <p className="text-gray-700">Your work stays in a place you control and love, while Super handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
-            </div>
-            <div className="flex justify-start mt-6 w-full">
-                <div>
-                    <img
-                        alt="image"
-                        loading="lazy"
-                        decoding="async"
-                        className="w-full"
-                        src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
-                    />
-                </div>
-            </div>
-        </section>
 
 
 
