@@ -120,9 +120,13 @@ export default function ResetPassword() {
                 </div>
                 <div className="flex space-x-2 items-center" >
                   <a href="https://app.gitbook.com/integrations/arcade" className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-                    <span>Install</span>
+                    <span>Duplicate</span>
                     {/* SVG or icon for arrow here if needed */}
                   </a>
+                  <a href="https://app.gitbook.com/integrations/arcade" className="border text-dark font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
+                    <span>View Demo</span>
+                    {/* SVG or icon for arrow here if needed */}
+                  </a>                  
                 </div>
               </div>
               <div className="relative w-full" >
