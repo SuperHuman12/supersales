@@ -240,8 +240,8 @@ export default function FeaturesBlocks() {
 
 
           <section>
-            <div className="flex items-center justify-center">
-                <div className="w-36 md:w-48">
+            <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
                     <img
                         alt="image"
                         loading="lazy"
@@ -253,11 +253,11 @@ export default function FeaturesBlocks() {
                     />
                 </div>
             </div>
-            <div className="text-center">
+            <div className="text-start mt-6">
                 <h2 className="text-xl md:text-2xl font-bold mb-4">Your content lives in Notion</h2>
                 <p className="text-gray-700">Your work stays in a place you control and love, while Super handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-start mt-6">
                 <div className="w-full md:w-3/4 lg:w-2/3">
                     <img
                         alt="image"
