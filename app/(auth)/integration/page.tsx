@@ -105,7 +105,7 @@ export default function ResetPassword() {
 
           <div className="space-y-8 bg-gray-100 p-8">
 
-          <a href="/integration"><small> ← Back to Integrations</small></a>
+          <a href="/integration"><h2> ← Back to Integrations</h2></a>
 
 
             <div className="flex space-y-6" >
