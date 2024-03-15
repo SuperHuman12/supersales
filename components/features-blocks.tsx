@@ -16,113 +16,6 @@ export default function FeaturesBlocks() {
 
 
 
-          <div className="container my-5">
-            <div className="flex md:grid-cols-2 gap-4 pb-4 mb-4">
-                {/* Subscriptions & Private Community */}
-                <div className="col-span-4 md:col-span-1">
-                    <div className="card h-full border shadow rounded">
-                        <div className="card-body p-4 text-start flex h-full">
-                            <div className="w-1/2">
-                                <div className="flex flex-col h-full">
-                                    <h6 className="text-dark">SUBSCRIPTIONS &amp; PRIVATE COMMUNITY</h6>
-                                    <div className="mt-auto">
-                                        <h5 className="card-title text-3xl font-bold text-dark">Monetize your community.</h5>
-                                        <p className="card-text text-secondary">We know the majority of you don't like dragging elements around for even the basic things.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="w-1/2">
-                                <img src="https://hustle-main.netlify.app/assets/images/complementarytoolchart.png" className="w-full h-full object-cover" alt="description" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* AI Support */}
-                <div className="col-span-1 md:col-span-1">
-                    <div className="card h-full border shadow rounded">
-                        <div className="card-body p-4 text-start flex h-full">
-                            <div className="w-full">
-                                <h6 className="text-dark">AI SUPPORT</h6>
-                                <img src="https://hustle-main.netlify.app/assets/images/contactusform.png" className="mx-auto my-3 w-full object-cover" alt="description" />
-                                <div className="mb-2">
-                                    <h5 className="card-title text-3xl font-bold text-dark">Too little time for support?</h5>
-                                    <p className="card-text text-secondary">We know the majority of you don't like dragging elements around for even the basic things.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="flex md:grid-cols-2 gap-4 pb-4 mb-4">
-                {/* Simple Analytics */}
-                <div className="col-span-1 md:col-span-1">
-                    <div className="card h-full border shadow rounded">
-                        <div className="card-body p-4 text-start flex h-full">
-                            <div className="w-full">
-                                <h6 className="text-dark">SIMPLE ANALYTICS</h6>
-                                <img src="https://hustle-main.netlify.app/assets/images/userdetail.webp" className="mb-4 my-3 w-full object-cover" alt="description" />
-                                <div className="mb-2">
-                                    <h5 className="card-title text-3xl font-bold text-dark">Unknown Traffic? Not so fast.</h5>
-                                    <p className="card-text text-secondary">We know the majority of you don't like dragging elements around for even the basic things.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* AI Designer */}
-                <div className="col-span-4 md:col-span-1">
-                    <div className="card h-full border shadow rounded">
-                        <div className="card-body p-4 text-start flex h-full">
-                            <div className="w-full">
-                                <h6 className="text-dark">AI DESIGNER</h6>
-                                <div className="flex">
-                                    <div className="w-1/2">
-                                        <h5 className="card-title text-3xl font-bold text-dark">Do you suck at design? Call out our AI Designer.</h5>
-                                        <p className="card-text text-secondary">We know the majority of you don't like dragging elements around for even the basic things.</p>
-                                    </div>
-                                    <div className="w-1/2">
-                                        <img src="https://hustle-main.netlify.app/assets/images/customgptform.webp" className="w-full h-full object-cover" alt="description" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="container feature-row bg-dark text-white p-2 rounded-pill mb-2">
-                <div className="scroller p-0 flex items-center">
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Custom Domain</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Search</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Sitemap</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">RSS Feed</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Tags</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Lightning Fast</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Multiple Authors</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Related Posts</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Easy website editor</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">AI Support Chat</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">Team features</span>
-                    <span className="mx-3 flex items-center gap-3 text-nowrap text-white scroller__item">•</span>
-                </div>
-            </div>
-        </div>
-
-
-
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
@@ -257,7 +150,104 @@ export default function FeaturesBlocks() {
                 <h2 className="text-xl md:text-2xl font-bold mb-4">Your content lives in Notion</h2>
                 <p className="text-gray-700">Your work stays in a place you control and love, while Super handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
             </div>
-            <div className="flex justify-start mt-6 w-screen">
+            <div className="flex justify-start mt-6 w-full">
+                <div>
+                    <img
+                        alt="image"
+                        loading="lazy"
+                        decoding="async"
+                        className="w-full"
+                        src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
+                    />
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
+                    <img
+                        alt="image"
+                        loading="lazy"
+                        width="132"
+                        height="53.855999999999995"
+                        decoding="async"
+                        className="w-full h-auto"
+                        src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                    />
+                </div>
+            </div>
+            <div className="text-start mt-6">
+                <h2 className="text-xl md:text-2xl font-bold mb-4">Your content lives in Notion</h2>
+                <p className="text-gray-700">Your work stays in a place you control and love, while Super handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
+            </div>
+            <div className="flex justify-start mt-6 w-full">
+                <div>
+                    <img
+                        alt="image"
+                        loading="lazy"
+                        decoding="async"
+                        className="w-full"
+                        src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
+                    />
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
+                    <img
+                        alt="image"
+                        loading="lazy"
+                        width="132"
+                        height="53.855999999999995"
+                        decoding="async"
+                        className="w-full h-auto"
+                        src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                    />
+                </div>
+            </div>
+            <div className="text-start mt-6">
+                <h2 className="text-xl md:text-2xl font-bold mb-4">Your content lives in Notion</h2>
+                <p className="text-gray-700">Your work stays in a place you control and love, while Super handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
+            </div>
+            <div className="flex justify-start mt-6 w-full">
+                <div>
+                    <img
+                        alt="image"
+                        loading="lazy"
+                        decoding="async"
+                        className="w-full"
+                        src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
+                    />
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
+                    <img
+                        alt="image"
+                        loading="lazy"
+                        width="132"
+                        height="53.855999999999995"
+                        decoding="async"
+                        className="w-full h-auto"
+                        src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                    />
+                </div>
+            </div>
+            <div className="text-start mt-6">
+                <h2 className="text-xl md:text-2xl font-bold mb-4">Your content lives in Notion</h2>
+                <p className="text-gray-700">Your work stays in a place you control and love, while Super handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
+            </div>
+            <div className="flex justify-start mt-6 w-full">
                 <div>
                     <img
                         alt="image"
