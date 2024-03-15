@@ -90,110 +90,110 @@ export default function showcases() {
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://ong.ph/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0771_brandbird%20(50)-min.jpg" alt="Ong Pe Hon" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Ong Pe Hon</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://buildinpublic.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076b_brandbird%20(48)-min.jpg" alt="Build In Public Cheatsheet" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Build In Public Cheatsheet</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="http://chdavid.com" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076d_brandbird.jpg" alt="Ch David" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Ch David</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://stevemarks.io/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076c_brandbird%20(54).jpg" alt="Steve Marks" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Steve Marks</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://stevemarksvoice.com/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0776_brandbird%20(53).jpg" alt="Steve Marks Voice" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Steve Marks Voice</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://fisayoosilaja.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c07d2_brandbird%20(59).jpg" alt="Fisayo Osilaja" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Fisayo Osilaja</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://soundmindcareers.com/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c07ff_brandbird%20(60).jpg" alt="SoundMind Careers" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">SoundMind Careers</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://rizkimulyawan.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0831_brandbird-min.jpeg" alt="Rizki Mulyawan" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Rizki Mulyawan</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://mailthis.co/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c6_brandbird%20(71).jpg" alt="MailThis.co" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">MailThis.co</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://georgebugianishvili.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c2_brandbird%20(77).jpg" alt="George Bugianishvili" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">George Bugianishvili</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://stampfans.com/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c3_brandbird%20(70).jpg" alt="StampFans.com" className="w-auto mx-auto px-4 mt-4" />
-      <div>
+      <div className="p-4">
       <h2 className="text-start mt-2 font-bold">StampFans.com</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
       </div>
     </a>
   </div>
