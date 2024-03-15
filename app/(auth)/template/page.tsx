@@ -27,8 +27,8 @@ export default function ResetPassword() {
             {/* 1st item */}
             <Link href="/template/remotejobs" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-                <div className="items-center space-x-2 mb-4">
-                  <img className="w-10 h-10" src="../images/remotejobs.png" alt="" />
+                <div className="items-start space-x-2 mb-4">
+                  <img className="w-full" src="../images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
                 <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
