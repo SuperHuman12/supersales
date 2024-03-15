@@ -1,11 +1,12 @@
+import Link from 'next/link';
+
+
 export const metadata = {
-  title: 'Sign Up - Simple',
+  title: 'Reset Password - Simple',
   description: 'Page description',
 }
 
-import Link from 'next/link'
-
-export default function SignUp() {
+export default function ResetPassword() {
   return (
     <section className="bg-gradient-to-b from-gray-100 to-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -13,70 +14,140 @@ export default function SignUp() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Welcome. We exist to make entrepreneurism easier.</h1>
+            <h1 className="h1 mb-4">Find your Template</h1>
+            <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
           </div>
 
-          {/* Form */}
-          <div className="max-w-sm mx-auto">
-            <form>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="name">Name <span className="text-red-600">*</span></label>
-                  <input id="name" type="text" className="form-input w-full text-gray-800" placeholder="Enter your name" required />
+
+
+
+          {/* Items */}
+          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+
+            {/* 1st item */}
+            <Link href="/integration/linear" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+              <div>
+                <div className="flex items-center space-x-2 mb-4">
+                  <img className="w-10 h-10" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
+                  <span className="text-dark font-bold">Linear</span>
                 </div>
+                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="email">Email <span className="text-red-600">*</span></label>
-                  <input id="email" type="email" className="form-input w-full text-gray-800" placeholder="Enter your email address" required />
+            </Link>
+
+            {/* 2nd item */}
+            <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+              <div>
+                <div className="flex items-center space-x-2 mb-4">
+                  <img className="w-10 h-10" src="https://framerusercontent.com/images/Yo5xVE0shfRCQvIwRDGU6KqIbzM.png" alt="" />
+                  <span className="text-dark font-bold">Slack</span>
                 </div>
+                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="password">Password <span className="text-red-600">*</span></label>
-                  <input id="password" type="password" className="form-input w-full text-gray-800" placeholder="Enter your password" required />
+            </Link>
+
+            {/* 3rd item */}
+            <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+              <div>
+                <div className="flex items-center space-x-2 mb-4">
+                  <img className="w-10 h-10" src="https://framerusercontent.com/images/FS1of0gxF0A6UP7GmCpIBKQM.png" alt="" />
+                  <span className="text-dark font-bold">Arcade</span>
                 </div>
+                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-              <div className="flex flex-wrap -mx-3 mt-6">
-                <div className="w-full px-3">
-                  <button className="btn text-white bg-orange-600 hover:bg-orange-700 w-full">Sign up</button>
+            </Link>
+
+            {/* 4th item */}
+            <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+              <div>
+                <div className="flex items-center space-x-2 mb-4">
+                  <img className="w-10 h-10" src="https://framerusercontent.com/images/m9aUcDVUAGUkouzars7JOPL4pzU.png" alt="" />
+                  <span className="text-dark font-bold">Discord</span>
                 </div>
+                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-              <div className="text-sm text-gray-500 text-center mt-3">
-                By creating an account, you agree to the <a className="underline" href="#0">terms & conditions</a>, and our <a className="underline" href="#0">privacy policy</a>.
-              </div>
-            </form>
-            <div className="flex items-center my-6">
-              <div className="border-t border-gray-300 grow mr-3" aria-hidden="true"></div>
-              <div className="text-gray-600 italic">Or</div>
-              <div className="border-t border-gray-300 grow ml-3" aria-hidden="true"></div>
-            </div>
-            <form>
-              <div className="flex flex-wrap -mx-3 mb-3">
-                <div className="w-full px-3">
-                  <button className="btn px-0 text-white bg-gray-900 hover:bg-gray-800 w-full relative flex items-center">
-                    <svg className="w-4 h-4 fill-current text-white opacity-75 shrink-0 mx-4" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M7.95 0C3.578 0 0 3.578 0 7.95c0 3.479 2.286 6.46 5.466 7.553.397.1.497-.199.497-.397v-1.392c-2.187.497-2.683-.993-2.683-.993-.398-.895-.895-1.193-.895-1.193-.696-.497.1-.497.1-.497.795.1 1.192.795 1.192.795.696 1.292 1.888.895 2.286.696.1-.497.298-.895.497-1.093-1.79-.2-3.578-.895-3.578-3.975 0-.895.298-1.59.795-2.087-.1-.2-.397-.994.1-2.087 0 0 .695-.2 2.186.795a6.408 6.408 0 011.987-.299c.696 0 1.392.1 1.988.299 1.49-.994 2.186-.795 2.186-.795.398 1.093.199 1.888.1 2.087.496.596.795 1.291.795 2.087 0 3.08-1.889 3.677-3.677 3.875.298.398.596.895.596 1.59v2.187c0 .198.1.497.596.397C13.714 14.41 16 11.43 16 7.95 15.9 3.578 12.323 0 7.95 0z" />
-                    </svg>
-                    <span className="flex-auto pl-16 pr-8 -ml-16">Continue with GitHub</span>
-                  </button>
+            </Link>
+
+            {/* 5th item */}
+            <Link href="/integration/fathom" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+              <div>
+                <div className="flex items-center space-x-2 mb-4">
+                  <img className="w-10 h-10" src="https://framerusercontent.com/images/DA65II8e2dwHkaDz1CqTV7Pra6k.png" alt="" />
+                  <span className="text-dark font-bold">Fathom</span>
                 </div>
+                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-              <div className="flex flex-wrap -mx-3">
-                <div className="w-full px-3">
-                  <button className="btn px-0 text-white bg-red-600 hover:bg-red-700 w-full relative flex items-center">
-                    <svg className="w-4 h-4 fill-current text-white opacity-75 shrink-0 mx-4" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" />
-                    </svg>
-                    <span className="flex-auto pl-16 pr-8 -ml-16">Continue with Google</span>
-                  </button>
+            </Link>
+
+            {/* 6th item */}
+            <Link href="/integration/figma" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+              <div>
+                <div className="flex items-center space-x-2 mb-4">
+                  <img className="w-10 h-10" src="https://framerusercontent.com/images/Dies87xzsIZvlFyRdxkVgDUnU.png" alt="" />
+                  <span className="text-dark font-bold">Figma</span>
                 </div>
+                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-            </form>
-            <div className="text-gray-600 text-center mt-6">
-              Already using Simple? <Link href="/signin" className="text-blue-600 hover:underline transition duration-150 ease-in-out">Sign in</Link>
-            </div>
+            </Link>
+
           </div>
+
+
+
+
+            {/* Integration Details */}
+
+          <div className="space-y-8 bg-gray-100 p-8">
+
+            <div className="flex space-y-6" >
+              <div className="space-y-4">
+                <div className="flex items-center space-x-4" >
+                  <div className="w-20 h-20 rounded-full overflow-hidden" >
+                    <img src="https://framerusercontent.com/images/FS1of0gxF0A6UP7GmCpIBKQM.png" alt="" className="w-full h-full object-contain" />
+                  </div>
+                  <div className="space-y-2" >
+                    <h1 className="text-2xl font-bold text-gray-800">Arcade</h1>
+                    <p className="text-md text-gray-600">By GitBook</p>
+                  </div>
+                </div>
+                <div className="text-gray-800" >
+                  <p>Embed interactive product demos in your documentation and turn all users into power users.</p>
+                </div>
+                <div className="flex space-x-2 items-center" >
+                  <a href="https://app.gitbook.com/integrations/arcade" className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
+                    <span>Install</span>
+                    {/* SVG or icon for arrow here if needed */}
+                  </a>
+                </div>
+              </div>
+              <div className="relative w-full" >
+                <img src="https://framerusercontent.com/images/JwSD9igebl5YjP1p0XBssmuRU4.png" alt="" className="w-full h-full object-contain" />
+              </div>
+            </div>
+
+
+            {/* Integration Overview */}
+            <div>
+              <h3 className="h3 font-bold mt-4 mb-4">Overview</h3>
+              <p>Arcade lets you create interactive product demos in minutes and turn all users into power users. Let users experience your product through interactive, guided demos. No more pausing and rewinding, users can progress at their own pace. This integration allow you to embed Arcade interactive demos into your GitBook documentation.</p>
+              <h3 className="h3 font-bold mt-4 mb-4">How it works</h3>
+              <p>Embedding an Arcade flow in your documentation is simple - just paste an Arcade flow link into the GitBook editor. The app will turn the link into an Arcade embed showing your recorded demo.</p>
+              <h3 className="h3 font-bold mt-4 mb-4">Configure</h3>
+              <p>To install on a single space navigate to integrations in sub-navigation. If you prefer to install the Arcade integration on multiple or all spaces, navigate to your organization settings and enable it from the integrations panel. This will give you access to the custom arcade block.</p>
+            </div>
+
+          </div>
+
+
+
+
+
 
         </div>
       </div>
