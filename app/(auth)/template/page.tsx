@@ -109,15 +109,15 @@ export default function ResetPassword() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-4" >
                   <div className="w-20 h-20 rounded-full overflow-hidden" >
-                    <img src="https://framerusercontent.com/images/FS1of0gxF0A6UP7GmCpIBKQM.png" alt="" className="w-full h-full object-contain" />
+                    <img src="../images/remotejobs.png" alt="" className="w-full h-full object-contain" />
                   </div>
                   <div className="space-y-2" >
-                    <h1 className="text-2xl font-bold text-gray-800">Arcade</h1>
-                    <p className="text-md text-gray-600">By GitBook</p>
+                    <h1 className="text-2xl font-bold text-gray-800">RemoteJobs</h1>
+                    <p className="text-md text-gray-600">By NotionBear</p>
                   </div>
                 </div>
                 <div className="text-gray-800" >
-                  <p>Embed interactive product demos in your documentation and turn all users into power users.</p>
+                  <p>Simple, powerful and flexible notion-powered job listing website site. Built on NotionBear.</p>
                 </div>
                 <div className="flex space-x-2 items-center" >
                   <a href="https://app.gitbook.com/integrations/arcade" className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
