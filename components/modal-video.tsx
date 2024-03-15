@@ -63,7 +63,7 @@ export default function ModalVideo({
 
 
         <div className="notion-callout__content">
-            <div className="flex flex-wrap -mx-4">
+            <div className="flex flex-row flex-wrap max-w-800 gap-8 mx-auto justify-center">
                 {/* Image 1 */}
                 <div className="w-full md:w-1/2 lg:w-1/5 px-4 mb-4">
                     <img
