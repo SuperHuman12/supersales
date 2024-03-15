@@ -22,77 +22,77 @@ export default function ResetPassword() {
 
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
-            <Link href="/template/remotejobs" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+            <Link href="/template/remotejobs" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
               <div>
                 <div className="items-start space-x-2 mb-4">
-                  <img className="w-full" src="../images/remotejobs.png" alt="" />
+                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
-                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template & Database</button>
+                <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
               </div>
             </Link>
 
             {/* 2nd item */}
-            <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <div>
-                <div className="items-center space-x-2 mb-4">
-                  <img className="w-10 h-10" src="https://framerusercontent.com/images/Yo5xVE0shfRCQvIwRDGU6KqIbzM.png" alt="" />
-                  <span className="text-dark font-bold">Slack</span>
+            <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+            <div>
+                <div className="items-start space-x-2 mb-4">
+                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
-                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
+                <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
               </div>
             </Link>
 
             {/* 3rd item */}
-            <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <div>
-                <div className="items-center space-x-2 mb-4">
-                  <img className="w-10 h-10" src="https://framerusercontent.com/images/FS1of0gxF0A6UP7GmCpIBKQM.png" alt="" />
-                  <span className="text-dark font-bold">Arcade</span>
+            <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+            <div>
+                <div className="items-start space-x-2 mb-4">
+                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
-                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
+                <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
               </div>
             </Link>
 
             {/* 4th item */}
-            <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <div>
-                <div className="items-center space-x-2 mb-4">
-                  <img className="w-10 h-10" src="https://framerusercontent.com/images/m9aUcDVUAGUkouzars7JOPL4pzU.png" alt="" />
-                  <span className="text-dark font-bold">Discord</span>
+            <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+            <div>
+                <div className="items-start space-x-2 mb-4">
+                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
-                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
+                <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
               </div>
             </Link>
 
             {/* 5th item */}
-            <Link href="/integration/fathom" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <div>
-                <div className="items-center space-x-2 mb-4">
-                  <img className="w-10 h-10" src="https://framerusercontent.com/images/DA65II8e2dwHkaDz1CqTV7Pra6k.png" alt="" />
-                  <span className="text-dark font-bold">Fathom</span>
+            <Link href="/integration/fathom" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+            <div>
+                <div className="items-start space-x-2 mb-4">
+                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
-                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
+                <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
               </div>
             </Link>
 
             {/* 6th item */}
-            <Link href="/integration/figma" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <div>
-                <div className="items-center space-x-2 mb-4">
-                  <img className="w-10 h-10" src="https://framerusercontent.com/images/Dies87xzsIZvlFyRdxkVgDUnU.png" alt="" />
-                  <span className="text-dark font-bold">Figma</span>
+            <Link href="/integration/figma" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+            <div>
+                <div className="items-start space-x-2 mb-4">
+                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
-                <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
+                <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
               </div>
             </Link>
 
