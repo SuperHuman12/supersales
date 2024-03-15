@@ -27,7 +27,7 @@ export default function Newsletter() {
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 text-white mb-2">Ready to Embrace Simplicity?</h3>
-                <p className="text-gray-300 text-lg mb-6">Join the NotionBear AI and discover the easiest way to manage your website.</p>
+                <p className="text-xl text-gray-600 mb-4">Join the NotionBear AI and discover the easiest way to manage your website.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
