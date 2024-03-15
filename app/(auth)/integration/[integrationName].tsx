@@ -1,9 +1,11 @@
-import { useParams } from 'react-router-dom';
+import { useRouter } from 'next/router';
 
 function IntegrationDetail() {
-  let { integrationName } = useParams();
+  const router = useRouter();
+  const { integrationName } = router.query;
 
-  // You can then use this integrationName to fetch or display the relevant integration details
+  // Use integrationName to fetch or display integration details
+
   return (
     <div>
       <h1>Integration: {integrationName}</h1>
@@ -54,3 +56,12 @@ function IntegrationDetail() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,6 @@
+import Link from 'next/link';
+
+
 export const metadata = {
   title: 'Reset Password - Simple',
   description: 'Page description',
@@ -22,7 +25,7 @@ export default function ResetPassword() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+            <Link href="/integration/linear" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
@@ -31,10 +34,10 @@ export default function ResetPassword() {
                 <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
                 <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-            </div>
+            </Link>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+            <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/Yo5xVE0shfRCQvIwRDGU6KqIbzM.png" alt="" />
@@ -43,10 +46,10 @@ export default function ResetPassword() {
                 <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
                 <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-            </div>
+            </Link>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+            <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/FS1of0gxF0A6UP7GmCpIBKQM.png" alt="" />
@@ -55,10 +58,10 @@ export default function ResetPassword() {
                 <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
                 <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-            </div>
+            </Link>
 
             {/* 4th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+            <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/m9aUcDVUAGUkouzars7JOPL4pzU.png" alt="" />
@@ -67,10 +70,10 @@ export default function ResetPassword() {
                 <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
                 <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-            </div>
+            </Link>
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+            <Link href="/integration/fathom" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/DA65II8e2dwHkaDz1CqTV7Pra6k.png" alt="" />
@@ -79,10 +82,10 @@ export default function ResetPassword() {
                 <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
                 <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-            </div>
+            </Link>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+            <Link href="/integration/figma" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
                 <div className="flex items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/Dies87xzsIZvlFyRdxkVgDUnU.png" alt="" />
@@ -91,7 +94,7 @@ export default function ResetPassword() {
                 <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
                 <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
               </div>
-            </div>
+            </Link>
 
           </div>
 
