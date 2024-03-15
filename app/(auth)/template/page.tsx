@@ -27,19 +27,19 @@ export default function ResetPassword() {
             {/* 1st item */}
             <Link href="/template/remotejobs" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-                <div className="flex items-center space-x-2 mb-4">
-                  <img className="w-10 h-10" src="https://framerusercontent.com/images/l4nnn6kmtzSkPgFoWWlwzYFzEA.png" alt="" />
+                <div className="items-center space-x-2 mb-4">
+                  <img className="w-10 h-10" src="../images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
                 <p className="text-gray-600 text-center">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Install</button>
+                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template & Database</button>
               </div>
             </Link>
 
             {/* 2nd item */}
             <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-                <div className="flex items-center space-x-2 mb-4">
+                <div className="items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/Yo5xVE0shfRCQvIwRDGU6KqIbzM.png" alt="" />
                   <span className="text-dark font-bold">Slack</span>
                 </div>
@@ -51,7 +51,7 @@ export default function ResetPassword() {
             {/* 3rd item */}
             <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-                <div className="flex items-center space-x-2 mb-4">
+                <div className="items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/FS1of0gxF0A6UP7GmCpIBKQM.png" alt="" />
                   <span className="text-dark font-bold">Arcade</span>
                 </div>
@@ -63,7 +63,7 @@ export default function ResetPassword() {
             {/* 4th item */}
             <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-                <div className="flex items-center space-x-2 mb-4">
+                <div className="items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/m9aUcDVUAGUkouzars7JOPL4pzU.png" alt="" />
                   <span className="text-dark font-bold">Discord</span>
                 </div>
@@ -75,7 +75,7 @@ export default function ResetPassword() {
             {/* 5th item */}
             <Link href="/integration/fathom" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-                <div className="flex items-center space-x-2 mb-4">
+                <div className="items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/DA65II8e2dwHkaDz1CqTV7Pra6k.png" alt="" />
                   <span className="text-dark font-bold">Fathom</span>
                 </div>
@@ -87,7 +87,7 @@ export default function ResetPassword() {
             {/* 6th item */}
             <Link href="/integration/figma" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
               <div>
-                <div className="flex items-center space-x-2 mb-4">
+                <div className="items-center space-x-2 mb-4">
                   <img className="w-10 h-10" src="https://framerusercontent.com/images/Dies87xzsIZvlFyRdxkVgDUnU.png" alt="" />
                   <span className="text-dark font-bold">Figma</span>
                 </div>
