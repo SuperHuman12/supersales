@@ -87,7 +87,7 @@ export default function FeaturesBlocks() {
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2 bg-gray-900 rounded-full" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -106,7 +106,7 @@ export default function FeaturesBlocks() {
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2 bg-gray-900 rounded-full" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2" transform="translate(19.429 20.571)">
@@ -124,7 +124,7 @@ export default function FeaturesBlocks() {
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2 bg-gray-900 rounded-full" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -143,7 +143,7 @@ export default function FeaturesBlocks() {
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2 bg-gray-900 rounded-full" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -162,7 +162,7 @@ export default function FeaturesBlocks() {
 
             {/* 5th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2 bg-gray-900 rounded-full" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -180,7 +180,7 @@ export default function FeaturesBlocks() {
 
             {/* 6th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-16 h-16 p-1 -mt-1 mb-2 bg-gray-900 rounded-full" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2" strokeLinecap="square">
