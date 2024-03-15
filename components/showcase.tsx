@@ -4,92 +4,6 @@ import showcaseImage from '@/public/images/showcase.jpg'
 export default function showcases() {
   return (
 
-<div>
-
-
-<section className="bannermain bg-gray-900 text-white" id="showcase_examples" style={{ backgroundImage: "url(/assets/images/powergrid.png)", backgroundSize: "contain" }}>
-            <br />
-            <span className="rounded-4 p-2 px-4 text-white bg-dark" style={{ color: "#333333" }}>SHOWCASE</span>
-            <br />
-            <h1 className="w-75 m-auto my-3 font-bold text-5xl md:text-6xl tracking-wider leading-tight text-center">
-                Incredible sites built with NotionBear
-            </h1>
-            <div className="text-center w-50 m-auto">
-                <h5 className="subheading">Customers demand instant solutions to their problems. Deliver instant help and make them happier while dealing with less conversations - without leaving Notion.</h5>
-            </div>
-
-            <div className="container mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 mb-4">
-                    <div className="col">
-                        <a className="card h-100 border-0 rounded-4" href="#">
-                            <img src="/assets/images/layouts/notionbear help.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
-                            <div className="card-body text-dark py-4">
-                                <h5 className="card-title text-start mb-4">
-                                    help.notionbear.com
-                                </h5>
-                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col">
-                        <a className="card h-100 border-0 rounded-4" href="#">
-                            <img src="/assets/images/layouts/hustleai helpdesk.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
-                            <div className="card-body text-dark py-4">
-                                <h5 className="card-title text-start mb-4">
-                                    help.hustleai.co
-                                </h5>
-                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col">
-                        <a className="card h-100 border-0 rounded-4" href="#">
-                            <img src="/assets/images/layouts/hustleai blog.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
-                            <div className="card-body text-dark py-4">
-                                <h5 className="card-title text-start mb-4">
-                                    blog.hustleai.co
-                                </h5>
-                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Blog</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col">
-                        <a className="card h-100 border-0 rounded-4" href="#">
-                            <img src="/assets/images/layouts/querykitty calogue.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
-                            <div className="card-body text-dark py-4">
-                                <h5 className="card-title text-start mb-4">
-                                    docs.querykitty.com
-                                </h5>
-                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Catalog</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col">
-                        <a className="card h-100 border-0 rounded-4" href="#">
-                            <img src="/assets/images/layouts/blockchaingrants calogue.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
-                            <div className="card-body text-dark py-4">
-                                <h5 className="card-title text-start mb-4">
-                                    blockchaingrants.com
-                                </h5>
-                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Catalog</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="col">
-                        <a className="card h-100 border-0 rounded-4" href="#">
-                            <img src="/assets/images/layouts/web3 blog.png" className="card-img-top bg-secondary p-0 img-fluid" alt="description" />
-                            <div className="card-body text-dark py-4">
-                                <h5 className="card-title text-start mb-4">
-                                    newsletter.web3summary.com
-                                </h5>
-                                <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Blog</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
 
     <section className="relative">
 
@@ -166,97 +80,121 @@ export default function showcases() {
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://pxweb.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/65c20db81cf1396c0cfe158a_pxweb.png" alt="PreviewX" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">PreviewX</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
-      <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      <div>
+      <h2 className="text-start mt-2 font-bold">PreviewX</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
+      <span className="bg-gray-400 border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://ong.ph/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0771_brandbird%20(50)-min.jpg" alt="Ong Pe Hon" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">Ong Pe Hon</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">Ong Pe Hon</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://buildinpublic.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076b_brandbird%20(48)-min.jpg" alt="Build In Public Cheatsheet" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">Build In Public Cheatsheet</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">Build In Public Cheatsheet</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="http://chdavid.com" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076d_brandbird.jpg" alt="Ch David" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">Ch David</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">Ch David</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://stevemarks.io/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076c_brandbird%20(54).jpg" alt="Steve Marks" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">Steve Marks</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">Steve Marks</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://stevemarksvoice.com/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0776_brandbird%20(53).jpg" alt="Steve Marks Voice" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">Steve Marks Voice</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">Steve Marks Voice</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://fisayoosilaja.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c07d2_brandbird%20(59).jpg" alt="Fisayo Osilaja" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">Fisayo Osilaja</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">Fisayo Osilaja</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://soundmindcareers.com/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c07ff_brandbird%20(60).jpg" alt="SoundMind Careers" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">SoundMind Careers</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">SoundMind Careers</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://rizkimulyawan.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0831_brandbird-min.jpeg" alt="Rizki Mulyawan" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">Rizki Mulyawan</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">Rizki Mulyawan</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://mailthis.co/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c6_brandbird%20(71).jpg" alt="MailThis.co" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">MailThis.co</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">MailThis.co</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://georgebugianishvili.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c2_brandbird%20(77).jpg" alt="George Bugianishvili" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">George Bugianishvili</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">George Bugianishvili</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
   <div role="listitem" className="mb-4 border rounded p-2">
     <a href="https://stampfans.com/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c3_brandbird%20(70).jpg" alt="StampFans.com" className="w-auto mx-auto px-4 mt-4" />
-      <h2 className="text-center mt-2">StampFans.com</h2>
-      <h5 className="card-title text-start mb-4">help.notionbear.com</h5>
+      <div>
+      <h2 className="text-start mt-2 font-bold">StampFans.com</h2>
+      <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
       <span className="bg-dark text-white border p-2 px-4 rounded-pill my-2">Helpdesk</span>
+      </div>
     </a>
   </div>
 </div>
@@ -267,11 +205,6 @@ export default function showcases() {
         </div>
       </div>
     </section>
-
-
-
-    </div>
-
 
 
   )
