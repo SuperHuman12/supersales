@@ -73,11 +73,11 @@ export default function Testimonials() {
           </div>
 
           {/* Testimonials */}
-          <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
+          <div className="max-w-3xl mx-auto mt-20 aos-init aos-animate max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none" data-aos="zoom-y-out">
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
 
               {/* Testimonial */}
-              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+              <div className="text-center px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
@@ -95,7 +95,7 @@ export default function Testimonials() {
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
 
               {/* Testimonial */}
-              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+              <div className="text-center px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
@@ -113,7 +113,7 @@ export default function Testimonials() {
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
 
               {/* Testimonial */}
-              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+              <div className="text-center px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
@@ -131,26 +131,7 @@ export default function Testimonials() {
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
 
               {/* Testimonial */}
-              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
-                <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
-                  <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
-                </div>
-                <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
-                </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
-                <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
-                </div>
-              </div>
-
-            </div>
-
-
-            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Testimonial */}
-              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+              <div className="text-center px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
@@ -169,7 +150,26 @@ export default function Testimonials() {
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
 
               {/* Testimonial */}
-              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+              <div className="text-center px-12 py-8 pt-12 mx-4 md:mx-0">
+                <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
+                  <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
+                </div>
+                <blockquote className="text-xl font-medium mb-4">
+                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                </blockquote>
+                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <div className="text-gray-600">
+                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+
+              {/* Testimonial */}
+              <div className="text-center px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
