@@ -38,7 +38,7 @@ export default function ResetPassword() {
       </div>
 
       <div className="mt-8">
-        <ul className="space-y-8">
+        <ul className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
           <li className="flex flex-col items-center">
             <div className="relative">
               <img src="https://unicorn-cdn.b-cdn.net/f4c11501-66cc-4a9c-9694-8f231129469a/become-a-partner.png" alt="Become a partner" className="w-40 h-40"/>
@@ -73,57 +73,6 @@ export default function ResetPassword() {
 
 
           </div>
-
-
-
-
-            {/* Integration Details */}
-
-          <div className="space-y-8 bg-gray-100 p-8">
-
-          <a href="/templates"><h2> ← Back to Templates</h2></a>
-
-            <div className="flex space-y-6" >
-              <div className="space-y-4">
-                <div className="flex items-center space-x-4" >
-                  <div className="space-y-2" >
-                    <h1 className="text-2xl font-bold text-gray-800">RemoteJobs</h1>
-                    <p className="text-md text-gray-600">By NotionBear</p>
-                  </div>
-                </div>
-                <div className="text-gray-800" >
-                  <p>Simple, powerful and flexible notion-powered job listing website site. Built on NotionBear.</p>
-                </div>
-                <div className="flex space-x-2 items-center" >
-                  <a href="https://app.gitbook.com/integrations/arcade" className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-                    <span>Duplicate</span>
-                    {/* SVG or icon for arrow here if needed */}
-                  </a>
-                  <a href="https://app.gitbook.com/integrations/arcade" className="border text-dark font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-                    <span>View Demo</span>
-                    {/* SVG or icon for arrow here if needed */}
-                  </a>                  
-                </div>
-              </div>
-              <div className="relative w-full" >
-                <img src="../images/remotejobs.png" alt="" className="w-full h-full object-contain" />
-              </div>
-            </div>
-
-
-            {/* Integration Overview */}
-            <div>
-              <h3 className="h3 font-bold mt-4 mb-4">Overview</h3>
-              <p>Arcade lets you create interactive product demos in minutes and turn all users into power users. Let users experience your product through interactive, guided demos. No more pausing and rewinding, users can progress at their own pace. This integration allow you to embed Arcade interactive demos into your GitBook documentation.</p>
-              <h3 className="h3 font-bold mt-4 mb-4">How it works</h3>
-              <p>Embedding an Arcade flow in your documentation is simple - just paste an Arcade flow link into the GitBook editor. The app will turn the link into an Arcade embed showing your recorded demo.</p>
-              <h3 className="h3 font-bold mt-4 mb-4">Configure</h3>
-              <p>To install on a single space navigate to integrations in sub-navigation. If you prefer to install the Arcade integration on multiple or all spaces, navigate to your organization settings and enable it from the integrations panel. This will give you access to the custom arcade block.</p>
-            </div>
-
-          </div>
-
-
 
 
 
