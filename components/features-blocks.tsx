@@ -32,7 +32,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full"
+                  className="w-full shadow-md border border-2 rounded border-gray-600"
                   src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
                 />
               </div>
@@ -64,7 +64,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full"
+                  className="w-full shadow-md border border-2 rounded border-gray-600"
                   src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
                 />
               </div>
