@@ -184,7 +184,7 @@ export default function ResetPassword() {
 
 
 
-
+<div>
           <div className="max-w-md mx-auto text-center">
       <h2 className="text-4xl font-bold text-white">We are interested in your growth</h2>
       <p className="text-white mt-4">Every partner gets our full support because <strong>our</strong> growth depends on <strong>your</strong> growth.</p>
@@ -214,6 +214,8 @@ export default function ResetPassword() {
         </li>
       </ul>
     </div>
+</div>
+
 
 
     <div className="py-20 bg-white relative">
