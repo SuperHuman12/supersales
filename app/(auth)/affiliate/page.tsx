@@ -115,34 +115,32 @@ export default function ResetPassword() {
 
 
 
-    <div className="container mx-auto px-4 py-8 large-header">
-      <div className="flex flex-wrap">
+    <div className="flex mx-auto px-4 py-8">
         <div className="w-full lg:w-1/2">
           <h2 className="text-2xl font-bold text-accent">An essential collection of banners</h2>
           <p>We prepared designs for you to download and use right away — no extra work. Missing a format? Just ask and we will make unique design files just for you. Free of charge.</p>
         </div>
         <div className="w-full lg:w-1/2">
-          <img src="https://unicorn-cdn.b-cdn.net/3b687e30-49bc-449c-a14b-e0ba8bee1962/banners-free-pack.png" alt="Banners free pack" className="mx-auto"/>
+          <img src="https://unicorn-cdn.b-cdn.net/3b687e30-49bc-449c-a14b-e0ba8bee1962/banners-free-pack.png" alt="Banners free pack" className="mx-auto w-1/2"/>
         </div>
-      </div>
     </div>
 
 
-    <div className="container mx-auto px-4 py-8">
-      <div className="text-center">
+    <div className="flex mx-auto px-4 py-8">
+      <div className="w-full lg:w-1/2">
         <h2 className="text-2xl font-bold">You’re a freelancer or an agency</h2>
         <p>Demonstrate your industry knowledge by recommending Unicorn Platform to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
       </div>
-      <img src="https://unicorn-cdn.b-cdn.net/1236c021-4a34-48ea-9bbe-9940811c9794/design-agency.png" alt="Design agency" className="mx-auto"/>
+      <img src="https://unicorn-cdn.b-cdn.net/1236c021-4a34-48ea-9bbe-9940811c9794/design-agency.png" alt="Design agency" className="w-full lg:w-1/2"/>
     </div>
 
 
-    <div className="container mx-auto px-4 py-8">
-      <div className="text-center">
+    <div className="flex mx-auto px-4 py-8">
+      <div className="w-full lg:w-1/2">
         <h2 className="text-2xl font-bold">You have an audience</h2>
         <p>Have an X.com account that is followed by marketers? Or a website about web design? Monetize your audience by recommending them a great tool. Use our affiliate program link alongside with your existing monetization. Boost your earnings!</p>
       </div>
-      <img src="https://unicorn-cdn.b-cdn.net/1239feb7-1d79-4971-9412-eecdb199a3f4/influencer.png" alt="Influencer" className="mx-auto"/>
+      <img src="https://unicorn-cdn.b-cdn.net/1239feb7-1d79-4971-9412-eecdb199a3f4/influencer.png" alt="Influencer" className="w-full lg:w-1/2"/>
     </div>
 
 
