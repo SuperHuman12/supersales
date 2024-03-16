@@ -152,14 +152,14 @@ export default function SignIn() {
                 <div className="mt-4 border-2 border-gray-200 p-4 shadow-lg rounded grid w-full mx-3">
                     <div className="text-left w-full">
                         <h6 className="opacity-75">NotionBear AI Pro</h6>
-                        <h3 className="h3 font-bold p-2 px-0 mb-4">$5 / Month</h3>
+                        <h3 className="h3 font-bold p-2 px-0 mb-4">$10 / Month</h3>
                     </div>
                     <div className="w-full m-auto"><a className="bg-gray-900 text-white px-4 w-full rounded-lg p-2">+ Add</a></div>
                 </div>
                 <div className="mt-4 border-2 border-gray-200 p-4 shadow-lg rounded grid w-full mx-3">
                     <div className="text-left w-full">
                         <h6 className="opacity-75">Remove Branding AddOn</h6>
-                        <h3 className="h3 font-bold p-2 px-0 mb-4">$5 / month</h3>
+                        <h3 className="h3 font-bold p-2 px-0 mb-4">$40 / month</h3>
                     </div>
                     <div className="w-full m-auto" ><a className="bg-gray-900 text-white px-4 w-full rounded-lg p-2">+ Add</a></div>
                 </div>
