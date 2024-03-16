@@ -186,30 +186,30 @@ export default function ResetPassword() {
 
 <div>
           <div className="max-w-md mx-auto text-center">
-      <h2 className="text-4xl font-bold text-white">We are interested in your growth</h2>
-      <p className="text-white mt-4">Every partner gets our full support because <strong>our</strong> growth depends on <strong>your</strong> growth.</p>
+      <h2 className="text-4xl font-bold ">We are interested in your growth</h2>
+      <p className=" mt-4">Every partner gets our full support because <strong>our</strong> growth depends on <strong>your</strong> growth.</p>
     </div>
     <div className="mt-8">
       <ul className="flex flex-wrap justify-center">
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
             <img src="https://unicorn-cdn.b-cdn.net/fad43479-bdd8-4a8b-b42a-e25dcebbcba4/objects-cube-3.png" alt="Free coaching" className="mx-auto w-8 h-8"/>
-            <h3 className="text-lg font-semibold mt-2 text-white">Free coaching</h3>
-            <p className="text-white mt-1">Struggling with growing your blog or agency? Let us consult you. Our team has experts in the niche.</p>
+            <h3 className="text-lg font-semibold mt-2 ">Free coaching</h3>
+            <p className=" mt-1">Struggling with growing your blog or agency? Let us consult you. Our team has experts in the niche.</p>
           </div>
         </li>
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
             <img src="https://unicorn-cdn.b-cdn.net/a2e48e58-4751-488b-8540-ae2446bff0d0/objects-cube-4.png" alt="Personal dashboard" className="mx-auto w-8 h-8"/>
-            <h3 className="text-lg font-semibold mt-2 text-white">Personal dashboard</h3>
-            <p className="text-white mt-1">Track every campaign, URL click, and dollar you earn. Easy and convenient.</p>
+            <h3 className="text-lg font-semibold mt-2 ">Personal dashboard</h3>
+            <p className=" mt-1">Track every campaign, URL click, and dollar you earn. Easy and convenient.</p>
           </div>
         </li>
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
             <img src="https://unicorn-cdn.b-cdn.net/f613cf48-dc2f-4d7b-abf5-5d55c3fa6f0f/objects-cube-6.png" alt="Have our designer for $0" className="mx-auto w-8 h-8"/>
-            <h3 className="text-lg font-semibold mt-2 text-white">Have our designer for $0</h3>
-            <p className="text-white mt-1">Not satisfied with our media kit? Just ask! Our design crew will prepare exclusive images and videos.</p>
+            <h3 className="text-lg font-semibold mt-2 ">Have our designer for $0</h3>
+            <p className=" mt-1">Not satisfied with our media kit? Just ask! Our design crew will prepare exclusive images and videos.</p>
           </div>
         </li>
       </ul>
@@ -265,8 +265,8 @@ export default function ResetPassword() {
 
 <div className="bg-blue-500 py-20">
     <div className="max-w-md mx-auto text-center">
-        <h2 className="text-3xl font-semibold text-white">Start earning cash by referring customers to Unicorn Platform</h2>
-        <p className="mt-4 text-white">Quick payouts to Wise, Paypal or your local bank. Premium support and cross-promotions from us.</p>
+        <h2 className="text-3xl font-semibold ">Start earning cash by referring customers to Unicorn Platform</h2>
+        <p className="mt-4 ">Quick payouts to Wise, Paypal or your local bank. Premium support and cross-promotions from us.</p>
         
         <div className="mt-8">
             <a href="https://partner.unicornplatform.com/" target="_blank" className="inline-block bg-white text-blue-500 font-semibold py-2 px-4 rounded hover:bg-gray-100">Become our partner</a>
