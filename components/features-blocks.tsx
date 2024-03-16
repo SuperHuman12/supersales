@@ -152,7 +152,7 @@ export default function FeaturesBlocks() {
                         loading="lazy"
                         decoding="async"
                         className="w-full"
-                        src="../images/aipowered.png"
+                        src="../images/customcode.png"
                     />
               <div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Custom Code</h4>
@@ -167,7 +167,7 @@ export default function FeaturesBlocks() {
                         loading="lazy"
                         decoding="async"
                         className="w-full"
-                        src="../images/aipowered.png"
+                        src="../images/analytics.png"
                     />
               <div>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Full Analytics</h4>
