@@ -164,6 +164,59 @@ export default function SignIn() {
                     <div className="w-full m-auto" ><a className="bg-gray-900 text-white px-4 w-full rounded-lg p-2">+ Add</a></div>
                 </div>
             </div>
+
+            <section className="shadow-undefined">
+  <div className="layout-large variant-normal">
+    <div>
+      <div>
+        <header>
+          <div>
+            Notion AI
+            <div className="text-purple-500">Now with Q&A</div>
+          </div>
+          <p>
+            <span className="font-bold">Add to your workspace for $8 / member / month</span> billed annually or $10 / member / month billed monthly.
+          </p>
+        </header>
+        <div>
+          <div>
+            <p className="font-semibold">Includes unlimited use of</p>
+            <ul>
+              <li>
+                <div className="text-purple-600">
+                  <strong>Q&A.</strong> Get instant answers to your questions.
+                </div>
+              </li>
+              <li>
+                <div className="text-purple-600">
+                  <strong>Autofill.</strong> Pull insights from hundreds of pages at once.
+                </div>
+              </li>
+              <li>
+                <div className="text-purple-600">
+                  <strong>Writer.</strong> Brainstorm new ideas and first drafts.
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <a href="/signup" className="no-underline text-white bg-blue-500 p-2 mr-2">Get started</a>
+            <a href="/pricing#faq" className="no-underline text-blue-500 p-2">Read AI FAQ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <picture>
+      <source srcSet="/front-static/pages/pricing/ai-l.png" media="(min-width: 1280px)" />
+      <source srcSet="/front-static/pages/pricing/ai-m.png" media="(min-width: 1080px)" />
+      <source srcSet="/front-static/pages/pricing/ai-s.png" media="(min-width: 600px)" />
+      <img src="/front-static/pages/pricing/ai-xs.png" alt="AI feature image" />
+    </picture>
+  </div>
+</section>
+
+
+            
         </article>
     </div>
 </div>
