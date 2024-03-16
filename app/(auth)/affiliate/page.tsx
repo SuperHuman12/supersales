@@ -148,46 +148,46 @@ export default function ResetPassword() {
 
 
 
-    <div class="pt-12 pb-16 relative z-10 bg-white">
-  <div class="max-w-lg mx-auto text-center mb-12">
-    <h2 class="text-3xl font-semibold mb-4">Make Passive Income!</h2>
+    <div className="pt-12 pb-16 relative z-10 bg-white">
+  <div className="max-w-lg mx-auto text-center mb-12">
+    <h2 className="text-3xl font-semibold mb-4">Make Passive Income!</h2>
     <p>Just imagine this amount of cash coming into your bank account every single month. *Calculations are based on the Startup plan.</p>
   </div>
-  <div class="container mx-auto">
-    <ul class="flex flex-wrap justify-center">
-      <li class="w-1/3 px-2 mb-4">
-        <div class="bg-gray-100 p-4 rounded-lg shadow">
-          <div class="mb-4">
-            <img src="https://unicorn-cdn.b-cdn.net/cfff0d95-5a57-4fa0-9d26-0df3689a78ea/$191-a-month.png" alt="20 people = $191/m" class="mx-auto" loading="lazy" />
+  <div className="container mx-auto">
+    <ul className="flex flex-wrap justify-center">
+      <li className="w-1/3 px-2 mb-4">
+        <div className="bg-gray-100 p-4 rounded-lg shadow">
+          <div className="mb-4">
+            <img src="https://unicorn-cdn.b-cdn.net/cfff0d95-5a57-4fa0-9d26-0df3689a78ea/$191-a-month.png" alt="20 people = $191/m" className="mx-auto" loading="lazy" />
           </div>
-          <div class="text-center">
+          <div className="text-center">
             20 people = $191/m
           </div>
         </div>
       </li>
-      <li class="w-1/3 px-2 mb-4">
-        <div class="bg-gray-100 p-4 rounded-lg shadow">
-          <div class="mb-4">
-            <img src="https://unicorn-cdn.b-cdn.net/417b2251-1927-42cd-aa17-693ea3ed3c5e/$957-a-month.png" alt="100 people = $957/m" class="mx-auto" loading="lazy" />
+      <li className="w-1/3 px-2 mb-4">
+        <div className="bg-gray-100 p-4 rounded-lg shadow">
+          <div className="mb-4">
+            <img src="https://unicorn-cdn.b-cdn.net/417b2251-1927-42cd-aa17-693ea3ed3c5e/$957-a-month.png" alt="100 people = $957/m" className="mx-auto" loading="lazy" />
           </div>
-          <div class="text-center">
+          <div className="text-center">
             100 people = $957/m
           </div>
         </div>
       </li>
-      <li class="w-1/3 px-2 mb-4">
-        <div class="bg-gray-100 p-4 rounded-lg shadow">
-          <div class="mb-4">
-            <img src="https://unicorn-cdn.b-cdn.net/b4d37552-91be-489d-aff3-5f46c83ba9ac/$4785-a-month.png" alt="500 people = $4785/m" class="mx-auto" loading="lazy" />
+      <li className="w-1/3 px-2 mb-4">
+        <div className="bg-gray-100 p-4 rounded-lg shadow">
+          <div className="mb-4">
+            <img src="https://unicorn-cdn.b-cdn.net/b4d37552-91be-489d-aff3-5f46c83ba9ac/$4785-a-month.png" alt="500 people = $4785/m" className="mx-auto" loading="lazy" />
           </div>
-          <div class="text-center">
+          <div className="text-center">
             500 people = $4785/m
           </div>
         </div>
       </li>
     </ul>
-    <div class="text-center mt-8">
-      <a href="https://partner.unicornplatform.com/" target="_self" class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition-colors">Start to earn money</a>
+    <div className="text-center mt-8">
+      <a href="https://partner.unicornplatform.com/" target="_self" className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition-colors">Start to earn money</a>
     </div>
   </div>
 </div>
