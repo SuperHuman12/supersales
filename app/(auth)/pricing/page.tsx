@@ -13,7 +13,8 @@ export default function SignIn() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="h1">Websites should be easy. Start for free.</h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 aos-init aos-animate">Pricing</h1>
+            <p className="text-xl text-gray-600 mb-8 aos-init aos-animate" data-aos="zoom-y-out" data-aos-delay="150"><b className="text-gray-900">Simple. Predictable. Built for you.</b>.</p>
           </div>
 
           {/* Form */}
@@ -27,7 +28,7 @@ export default function SignIn() {
     <div dir="ltr" data-orientation="horizontal" className="mt-8 mb-8 w-1/2 lg:mb-13 border rounded-full m-auto">
         <div role="tablist" aria-orientation="horizontal" className="relative flex w-full rounded-full bg-gray-100 font-semibold z-0 border-2 border-gray-600"  data-orientation="horizontal">
             <span id="tab-marker" className="absolute inset-y-0 left-0 -z-10 rounded-full border-2 bg-gray-900 w-1/2 h-14"></span>
-            <button className="w-1/2 text-md h-14 flex items-center justify-center uppercase text-white bg-primary-50" type="button" role="tab" aria-selected="true">
+            <button className="w-1/2 text-md h-14 flex items-center justify-center uppercase text-dark bg-orange-600 rounded-full border-2 border-dark" type="button" role="tab" aria-selected="true">
                 Yearly<span className="relative -top-0.5 rounded-full bg-neutral-200 p-1 text-xs font-normal text-gray-900 ml-4 px-3">-20%</span>
             </button>
             <button className="w-1/2 text-md h-14 flex items-center justify-center uppercase" type="button" role="tab" aria-selected="false">Monthly</button>
