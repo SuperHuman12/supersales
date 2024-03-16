@@ -46,7 +46,7 @@ export default function ResetPassword() {
                         {/* SVG icon */}
                       </div>
                     </div>
-                    <div className="mt-4 text-center">Join Unicorn Platform's affiliate program, grab your unique link and share it.</div>
+                    <div className="mt-4 text-center">Join NotionBear's affiliate program, grab your unique link and share it.</div>
                   </li>
                   <li className="flex flex-col items-center">
                     <div className="relative">
@@ -122,7 +122,7 @@ export default function ResetPassword() {
           <img src="https://unicorn-cdn.b-cdn.net/1236c021-4a34-48ea-9bbe-9940811c9794/design-agency.png" alt="Design agency" className="w-full lg:w-1/2 p-8" />
             <div className="w-full lg:w-1/2 p-8">
               <h2 className="h2 font-bold mb-8">You’re a freelancer or an agency</h2>
-              <p>Demonstrate your industry knowledge by recommending Unicorn Platform to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
+              <p>Demonstrate your industry knowledge by recommending NotionBear to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
             </div>
           </div>
 
@@ -147,7 +147,7 @@ export default function ResetPassword() {
               <ul className="flex flex-wrap justify-center">
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
-                    <div className="mb-4 p-4">
+                    <div className="text-center mb-4 p-4">
                     
                     <span className="h4">🐻 BEAR</span>
                     <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
@@ -161,7 +161,7 @@ export default function ResetPassword() {
                 </li>
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
-                    <div className="mb-4 p-4">
+                    <div className="text-center mb-4 p-4">
                     <span className="h4">🐴 HORSE</span>
                     <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
                     <p>per month</p>
@@ -173,7 +173,7 @@ export default function ResetPassword() {
                 </li>
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
-                    <div className="mb-4 p-4">
+                    <div className="text-center mb-4 p-4">
                     <span className="h4">🦄 UNICORN</span>
                     <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
                     <p>per month</p>
@@ -192,7 +192,7 @@ export default function ResetPassword() {
 
 
 
-<div>
+<div className="mt-8 mb-8">
           <div className="max-w-md mx-auto text-center">
       <h2 className="text-4xl font-bold ">We are interested in your growth</h2>
       <p className=" mt-4">Every partner gets our full support because <strong>our</strong> growth depends on <strong>your</strong> growth.</p>
@@ -202,21 +202,21 @@ export default function ResetPassword() {
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
             <img src="../images/🧑_🏫.png" alt="Free coaching" className="mx-auto h-20"/>
-            <h3 className="text-lg font-semibold mt-2 ">Free coaching</h3>
+            <h3 className="h4 font-semibold mt-2 ">Free coaching</h3>
             <p className=" mt-1">Struggling with growing your blog or agency? Let us consult you. Our team has experts in the niche.</p>
           </div>
         </li>
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
             <img src="../images/💻.png" alt="Personal dashboard" className="mx-auto h-20"/>
-            <h3 className="text-lg font-semibold mt-2 ">Personal dashboard</h3>
+            <h3 className="h4 font-semibold mt-2 ">Personal dashboard</h3>
             <p className=" mt-1">Track every campaign, URL click, and dollar you earn. Easy and convenient.</p>
           </div>
         </li>
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
             <img src="../images/🧑_🎨.png" alt="Have our designer for $0" className="mx-auto h-20"/>
-            <h3 className="text-lg font-semibold mt-2 ">Have our designer for $0</h3>
+            <h3 className="h4 font-semibold mt-2 ">Have our designer for $0</h3>
             <p className=" mt-1">Not satisfied with our media kit? Just ask! Our design crew will prepare exclusive images and videos.</p>
           </div>
         </li>
@@ -235,15 +235,15 @@ export default function ResetPassword() {
         <div className="mt-8">
             <div className="space-y-6">
                 <div>
-                    <h3 className="font-semibold text-lg">Who is Unicorn Platform for?</h3>
-                    <p>Unicorn Platform is a landing page builder for startup founders. Our users can quickly create a beautiful website for a mobile or desktop app, for a SaaS product, for a plugin, an open-source project, a SMM tool etc.</p>
-                    <p>If your audience are tech guys, Unicorn Platform is for them. They will be more willing to use a tailored tool for startups rather than generic old-fashioned Wix or Wordpress.</p>
+                    <h3 className="font-semibold text-lg">Who is NotionBear for?</h3>
+                    <p>NotionBear is a landing page builder for startup founders. Our users can quickly create a beautiful website for a mobile or desktop app, for a SaaS product, for a plugin, an open-source project, a SMM tool etc.</p>
+                    <p>If your audience are tech guys, NotionBear is for them. They will be more willing to use a tailored tool for startups rather than generic old-fashioned Wix or Wordpress.</p>
                 </div>
 
                 <div>
                     <h3 className="font-semibold text-lg">Why promote you while I can promote some other website builder?</h3>
                     <p>The key advantage is the approach. We are building a landing page generator for startups only. That means, we pay all the attention to startups-only demands. In particular, we will provide not-so-popular integrations, specific components and templates.</p>
-                    <p>This is why startup founders love Unicorn Platform more than other tools.</p>
+                    <p>This is why startup founders love NotionBear more than other tools.</p>
                     <p>Why believe me? Just A/B test it yourself. Put a Wix affiliate link for a month, measure your earnings. Then put our link. Compare. Pick the winner.</p>
                 </div>
 
@@ -273,7 +273,7 @@ export default function ResetPassword() {
 
 <div className="bg-gray-900 text-white border border-4 py-20 rounded">
     <div className="max-w-md mx-auto text-center">
-        <h2 className="text-3xl font-semibold ">Start earning cash by referring customers to Unicorn Platform</h2>
+        <h2 className="text-3xl font-semibold ">Start earning cash by referring customers to NotionBear</h2>
         <p className="mt-4 text-gray-400">Quick payouts to Wise, Paypal or your local bank. Premium support and cross-promotions from us.</p>
         
         <div className="mt-8">
