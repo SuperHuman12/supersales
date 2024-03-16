@@ -14,8 +14,8 @@ export default function ResetPassword() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1 mb-4">Find your Template</h1>
-            <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
+            <h1 className="h1 mb-4">Earn <b className="text-orange-600">$957 per month</b>* promoting an award-winning landing page builder</h1>
+            <p className="text-xl text-gray-600">For every paid client you refer to NotionBear, you will be paid 33% of the recurring commission. Forever.</p>
           </div>
 
 
