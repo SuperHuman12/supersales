@@ -46,56 +46,56 @@ export default function SignIn() {
     <div >
         <article className="overflow-hidden rounded-lg border-2 pb-5 bg-primary-50">
             <div className="border-b-2 border-dashed px-7 py-6 md:pt-7">
-                <h5 className="font-cal leading-[100%] md:!leading-h1 text-[40px] md:text-5xl lg:text-[50px] xl:text-6xl text-primary-700 flex items-end gap-2 md:min-h-[48px] md:items-center lg:min-h-[50px] xl:min-h-[60px]">
+                <h5 className="h2 flex gap-2">
                     <span><div className="font-bold">$50</div></span><span className=":top-2 relative text-3xl leading-8 text-neutral-500 lg:top-3">/Yearly</span>
                 </h5>
                 <div className="flex grow flex-col gap-2 md:flex-row md:items-end mt-6 mb-4"><button className="bg-gray-900 text-white w-full p-4 rounded-lg text-center">Upgrade</button></div>
                 <p className="text-md max-w-[482px] pt-6 text-gray-500 md:pt-4">We work better in teams. Extend your workflows with round-robin and collective events and make advanced routing forms.</p>
                 <ul className="flex gap-4">
                     <div className="p-4">
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
                             <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Unlimited articles &amp; collections</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Unlimited languages</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>5 Help Centers</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Custom Domain / SSL</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Private Help Center</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Password Protection</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Guest Accounts</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
@@ -103,43 +103,43 @@ export default function SignIn() {
                         </li>
                     </div>
                     <div className="p-4">
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Advanced Customization</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Article Suggester</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Advanced Article Search</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Content Rating</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Auto Sync</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
                             <span>Remove 'Powered by' badge</span>
                         </li>
-                        <li className="text-md flex items-start gap-2 leading-[32px]">
+                        <li className="text-md flex items-start gap-2 leading-[32px] mb-2">
                             <figure className="min-w-6 flex min-h-[32px] items-center text-green-600 bg-gray-200 text-white rounded-full">
 <svg width="28px" height="28px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="#060419" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                             </figure>
