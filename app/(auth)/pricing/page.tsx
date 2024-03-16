@@ -47,7 +47,7 @@ export default function SignIn() {
         <article className="overflow-hidden rounded-lg border-2 pb-5 bg-primary-50">
             <div className="border-b-2 border-dashed px-7 py-6 md:pt-7">
                 <h5 className="h2 flex gap-2">
-                    <span><div className="font-bold">$50</div></span><span className=":top-2 relative text-3xl leading-8 text-neutral-500 lg:top-3">/Yearly</span>
+                    <span><div className="font-bold">$50</div></span><span className=":top-2 relative text-3xl leading-8 text-neutral-500 lg:top-3">/ Yearly</span>
                 </h5>
                 <div className="flex grow flex-col gap-2 md:flex-row md:items-end mt-6 mb-4"><button className="bg-gray-900 text-white w-full p-4 rounded-lg text-center">Upgrade</button></div>
                 <p className="text-md max-w-[482px] pt-6 text-gray-500 md:pt-4">We work better in teams. Extend your workflows with round-robin and collective events and make advanced routing forms.</p>
@@ -152,7 +152,7 @@ export default function SignIn() {
                 <div className="mt-4 border-2 border-gray-200 p-4 shadow-lg rounded grid w-full mx-3">
                     <div className="text-left w-full">
                         <h6 className="opacity-75">NotionBear AI Pro</h6>
-                        <h3 className="h3 font-bold p-2 px-0 mb-4">$5 / month</h3>
+                        <h3 className="h3 font-bold p-2 px-0 mb-4">$5 / Month</h3>
                     </div>
                     <div className="w-full m-auto"><a className="bg-gray-900 text-white px-4 w-full rounded-lg p-2">+ Add</a></div>
                 </div>
