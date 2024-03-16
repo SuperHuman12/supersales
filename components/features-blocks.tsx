@@ -91,7 +91,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-20 mb-2"
+                  className="h-20 mb-2"
                   src="../images/aipowered.png"
                 />
                 <div>
@@ -106,7 +106,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-20 mb-2"
+                  className="h-20 mb-2"
                   src="../images/moneypaid.png"
                 />
                 <div>
@@ -121,7 +121,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-20 mb-2"
+                  className="h-20 mb-2"
                   src="../images/handsup.png"
                 />
                 <div>
@@ -136,7 +136,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-20 mb-2"
+                  className="h-20 mb-2"
                   src="../images/uicomponents.png"
                 />
                 <div>
@@ -151,7 +151,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-20 mb-2"
+                  className="h-20 mb-2"
                   src="../images/customcode.png"
                 />
                 <div>
@@ -166,7 +166,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-20 mb-2"
+                  className="h-20 mb-2"
                   src="../images/analytics.png"
                 />
                 <div>
