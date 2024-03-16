@@ -82,9 +82,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2">
                 {/* SVG icon */}
-                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" className="text-blue-200 fill-current">
-                  {/* SVG content */}
-                </svg>
+                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#E9F1FF" className="fill-bg-light" cx="20" cy="20" r="20"></circle><g fill-rule="nonzero"><path d="M23.723 18.901a.287.287 0 0 0-.26-.166h-3.398l3.354-5.295a.287.287 0 0 0-.242-.44h-4.589a.287.287 0 0 0-.256.159l-4.302 8.603a.286.286 0 0 0 .257.414h2.949l-3.214 7.632a.287.287 0 0 0 .484.296l9.177-10.897a.287.287 0 0 0 .04-.306z" fill="#4D61FC" className="fill-main"></path><path d="M26.973 18.901a.287.287 0 0 0-.26-.166h-3.398l3.354-5.295a.287.287 0 0 0-.242-.44h-4.589a.287.287 0 0 0-.256.159l-4.302 8.603a.286.286 0 0 0 .257.414h2.949l-3.214 7.632a.287.287 0 0 0 .484.296l9.177-10.897a.287.287 0 0 0 .04-.306z" stroke="#E9F1FF" className="stroke-light fill-secondary" fill="#00396B"></path></g></g></svg>
                 <h2 className="text-xl font-semibold">33%</h2>
                 <span className="text-base text-gray-600">your commission</span>
               </a>
@@ -92,9 +90,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2">
                 {/* SVG icon */}
-                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" className="text-blue-200 fill-current">
-                  {/* SVG content */}
-                </svg>
+                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#E9F1FF" className="fill-bg-light" cx="20" cy="20" r="20"></circle><path fill="#4D61FC" className="fill-main" d="M13 13h6v6h-6zM21 13h6v6h-6zM13 21h6v6h-6z"></path><path fill="#00396B" className="fill-secondary" d="M21 21h6v6h-6z"></path></g></svg>
                 <h2 className="text-xl font-semibold">60 days</h2>
                 <span className="text-base text-gray-600">cookie period</span>
               </a>
@@ -102,9 +98,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2">
                 {/* SVG icon */}
-                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" className="text-blue-200 fill-current">
-                  {/* SVG content */}
-                </svg>
+                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#E9F1FF" className="fill-bg-light" cx="20" cy="20" r="20"></circle><path fill="#4D61FC" className="fill-main" d="M20 13l7 8.235H13z"></path><path stroke="#E9F1FF" className="stroke-light fill-secondary" fill="#00396B" d="M20 17.588L28 27H12z"></path></g></svg>
                 <h2 className="text-xl font-semibold">10%</h2>
                 <span className="text-base text-gray-600">2nd tier commission</span>
               </a>
@@ -117,19 +111,17 @@ export default function ResetPassword() {
 
           <div className="flex mx-auto px-4 py-8">
             <div className="w-full lg:w-1/2">
-              <h2 className="text-2xl font-bold text-accent">An essential collection of banners</h2>
+              <h2 className="h2 font-bold text-accent">An essential collection of banners</h2>
               <p>We prepared designs for you to download and use right away — no extra work. Missing a format? Just ask and we will make unique design files just for you. Free of charge.</p>
             </div>
-            <div className="w-full lg:w-1/2">
-              <img src="https://unicorn-cdn.b-cdn.net/3b687e30-49bc-449c-a14b-e0ba8bee1962/banners-free-pack.png" alt="Banners free pack" className="mx-auto w-1/2" />
-            </div>
+            <img src="https://unicorn-cdn.b-cdn.net/3b687e30-49bc-449c-a14b-e0ba8bee1962/banners-free-pack.png" alt="Banners free pack" className="w-full lg:w-1/2" />
           </div>
 
 
           <div className="flex mx-auto px-4 py-8">
           <img src="https://unicorn-cdn.b-cdn.net/1236c021-4a34-48ea-9bbe-9940811c9794/design-agency.png" alt="Design agency" className="w-full lg:w-1/2" />
             <div className="w-full lg:w-1/2">
-              <h2 className="text-2xl font-bold">You’re a freelancer or an agency</h2>
+              <h2 className="h2 font-bold">You’re a freelancer or an agency</h2>
               <p>Demonstrate your industry knowledge by recommending Unicorn Platform to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
             </div>
           </div>
@@ -137,7 +129,7 @@ export default function ResetPassword() {
 
           <div className="flex mx-auto px-4 py-8">
             <div className="w-full lg:w-1/2">
-              <h2 className="text-2xl font-bold">You have an audience</h2>
+              <h2 className="h2 font-bold">You have an audience</h2>
               <p>Have an X.com account that is followed by marketers? Or a website about web design? Monetize your audience by recommending them a great tool. Use our affiliate program link alongside with your existing monetization. Boost your earnings!</p>
             </div>
             <img src="https://unicorn-cdn.b-cdn.net/1239feb7-1d79-4971-9412-eecdb199a3f4/influencer.png" alt="Influencer" className="w-full lg:w-1/2" />
@@ -155,7 +147,7 @@ export default function ResetPassword() {
               <ul className="flex flex-wrap justify-center">
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
-                    <div className="mb-4">
+                    <div className="mb-4 p-4">
                       <img src="https://unicorn-cdn.b-cdn.net/cfff0d95-5a57-4fa0-9d26-0df3689a78ea/$191-a-month.png" alt="20 people = $191/m" className="mx-auto" loading="lazy" />
                     </div>
                     <div className="text-center">
@@ -165,7 +157,7 @@ export default function ResetPassword() {
                 </li>
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
-                    <div className="mb-4">
+                    <div className="mb-4 p-4">
                       <img src="https://unicorn-cdn.b-cdn.net/417b2251-1927-42cd-aa17-693ea3ed3c5e/$957-a-month.png" alt="100 people = $957/m" className="mx-auto" loading="lazy" />
                     </div>
                     <div className="text-center">
@@ -175,7 +167,7 @@ export default function ResetPassword() {
                 </li>
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
-                    <div className="mb-4">
+                    <div className="mb-4 p-4">
                       <img src="https://unicorn-cdn.b-cdn.net/b4d37552-91be-489d-aff3-5f46c83ba9ac/$4785-a-month.png" alt="500 people = $4785/m" className="mx-auto" loading="lazy" />
                     </div>
                     <div className="text-center">
