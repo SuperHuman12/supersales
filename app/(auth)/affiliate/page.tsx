@@ -67,7 +67,7 @@ export default function ResetPassword() {
               </div>
 
               <div className="mt-8 text-center">
-                <a href="https://partner.unicornplatform.com/" target="_self" className="px-6 py-2 text-white bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Become our Partner</a>
+                <a href="https://partner.unicornplatform.com/" target="_self" className="px-6 py-2 text-white bg-gray-600 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Become our Partner</a>
               </div>
             </div>
 
@@ -121,7 +121,7 @@ export default function ResetPassword() {
           <div className="flex mx-auto px-4 py-8">
           <img src="https://unicorn-cdn.b-cdn.net/1236c021-4a34-48ea-9bbe-9940811c9794/design-agency.png" alt="Design agency" className="w-full lg:w-1/2" />
             <div className="w-full lg:w-1/2">
-              <h2 className="h2 font-bold">You’re a freelancer or an agency</h2>
+              <h2 className="h2 font-bold mb-8">You’re a freelancer or an agency</h2>
               <p>Demonstrate your industry knowledge by recommending Unicorn Platform to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
             </div>
           </div>
@@ -129,7 +129,7 @@ export default function ResetPassword() {
 
           <div className="flex mx-auto px-4 py-8">
             <div className="w-full lg:w-1/2">
-              <h2 className="h2 font-bold">You have an audience</h2>
+              <h2 className="h2 font-bold mb-8">You have an audience</h2>
               <p>Have an X.com account that is followed by marketers? Or a website about web design? Monetize your audience by recommending them a great tool. Use our affiliate program link alongside with your existing monetization. Boost your earnings!</p>
             </div>
             <img src="https://unicorn-cdn.b-cdn.net/1239feb7-1d79-4971-9412-eecdb199a3f4/influencer.png" alt="Influencer" className="w-full lg:w-1/2" />
@@ -148,7 +148,7 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="mb-4 p-4">
-                      <img src="https://unicorn-cdn.b-cdn.net/cfff0d95-5a57-4fa0-9d26-0df3689a78ea/$191-a-month.png" alt="20 people = $191/m" className="mx-auto" loading="lazy" />
+                      <img src="https://unicorn-cdn.b-cdn.net/cfff0d95-5a57-4fa0-9d26-0df3689a78ea/$191-a-month.png" alt="20 people = $191/m" className="mx-auto p-8" loading="lazy" />
                     </div>
                     <div className="text-center">
                       20 people = $191/m
@@ -158,7 +158,7 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="mb-4 p-4">
-                      <img src="https://unicorn-cdn.b-cdn.net/417b2251-1927-42cd-aa17-693ea3ed3c5e/$957-a-month.png" alt="100 people = $957/m" className="mx-auto" loading="lazy" />
+                      <img src="https://unicorn-cdn.b-cdn.net/417b2251-1927-42cd-aa17-693ea3ed3c5e/$957-a-month.png" alt="100 people = $957/m" className="mx-auto p-8" loading="lazy" />
                     </div>
                     <div className="text-center">
                       100 people = $957/m
@@ -168,7 +168,7 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="mb-4 p-4">
-                      <img src="https://unicorn-cdn.b-cdn.net/b4d37552-91be-489d-aff3-5f46c83ba9ac/$4785-a-month.png" alt="500 people = $4785/m" className="mx-auto" loading="lazy" />
+                      <img src="https://unicorn-cdn.b-cdn.net/b4d37552-91be-489d-aff3-5f46c83ba9ac/$4785-a-month.png" alt="500 people = $4785/m" className="mx-auto p-8" loading="lazy" />
                     </div>
                     <div className="text-center">
                       500 people = $4785/m
@@ -177,7 +177,7 @@ export default function ResetPassword() {
                 </li>
               </ul>
               <div className="text-center mt-8">
-                <a href="https://partner.unicornplatform.com/" target="_self" className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition-colors">Start to earn money</a>
+                <a href="https://partner.unicornplatform.com/" target="_self" className="bg-gray-500 text-white font-bold py-2 px-4 rounded hover:bg-gray-700 transition-colors">Start to earn money</a>
               </div>
             </div>
           </div>
