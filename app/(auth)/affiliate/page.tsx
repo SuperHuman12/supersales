@@ -18,83 +18,59 @@ export default function ResetPassword() {
             <p className="text-xl text-gray-600">For every paid client you refer to NotionBear, you will be paid 33% of the recurring commission. Forever.</p>
           </div>
 
+          <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Sign Up</a></div>
+
 
 
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
+          <div className="max-w-sm mx-auto items-start md:max-w-2xl lg:max-w-none">
 
-            {/* 1st item */}
-            <Link href="/template/remotejobs" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-              <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
-              </div>
-            </Link>
 
-            {/* 2nd item */}
-            <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-            <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
-              </div>
-            </Link>
+          <div className="py-12 bg-gray-50">
+      <div className="max-w-md mx-auto">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold leading-tight" style={{ lineHeight: '1.2em', fontSize: '1.2em' }}>How it works</h2>
+          <div className="mt-4 text-gray-600">
+            <p>You can start earning money in 30 minutes.</p>
+          </div>
+        </div>
+      </div>
 
-            {/* 3rd item */}
-            <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-            <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
+      <div className="mt-8">
+        <ul className="space-y-8">
+          <li className="flex flex-col items-center">
+            <div className="relative">
+              <img src="https://unicorn-cdn.b-cdn.net/f4c11501-66cc-4a9c-9694-8f231129469a/become-a-partner.png" alt="Become a partner" className="w-40 h-40"/>
+              <div className="absolute -right-4 -bottom-4">
+                {/* SVG icon */}
               </div>
-            </Link>
+            </div>
+            <div className="mt-4 text-center">Join Unicorn Platform's affiliate program, grab your unique link and share it.</div>
+          </li>
+          <li className="flex flex-col items-center">
+            <div className="relative">
+              <img src="https://unicorn-cdn.b-cdn.net/ec5d5e0b-4494-44ba-98f0-33ad508a15f7/earn-money.png" alt="Earn money" className="w-40 h-40"/>
+              <div className="absolute -right-4 -bottom-4">
+                {/* SVG icon */}
+              </div>
+            </div>
+            <div className="mt-4 text-center">Someone clicks your link and upgrades to a paid plan. You earn 33% of all their payments.</div>
+          </li>
+          <li className="flex flex-col items-center">
+            <div className="relative">
+              <img src="https://unicorn-cdn.b-cdn.net/5746b5d4-8e1e-43dd-af51-1a0ab1713d07/cash-out-in-one-click.png" alt="Cash out in one click" className="w-40 h-40"/>
+            </div>
+            <div className="mt-4 text-center">Check in anytime to view referrals. Cash out in one click (Bank, Paypal, Wise).</div>
+          </li>
+        </ul>
+      </div>
 
-            {/* 4th item */}
-            <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-            <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
-              </div>
-            </Link>
+      <div className="mt-8 text-center">
+        <a href="https://partner.unicornplatform.com/" target="_self" className="px-6 py-2 text-white bg-blue-600 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Become our Partner</a>
+      </div>
+    </div>
 
-            {/* 5th item */}
-            <Link href="/integration/fathom" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-            <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
-              </div>
-            </Link>
-
-            {/* 6th item */}
-            <Link href="/integration/figma" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-            <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
-              </div>
-            </Link>
 
           </div>
 
