@@ -24,11 +24,11 @@ export default function SignIn() {
         <p className="mt-2 text-lg font-medium text-gray-400">Enjoy 2 months free with our annual plan.</p>
     </div>
     <div className="justify-center mb-4 w-100 my-5"><div className="w-100"></div></div>
-    <div dir="ltr" data-orientation="horizontal" className="mt-8 mb-8 w-1/2 lg:mb-13 border rounded-full m-auto">
+    <div dir="ltr" data-orientation="horizontal" className="mt-8 mb-8 w-1/2 lg:mb-13 border rounded-full m-auto border-gray-600">
         <div role="tablist" aria-orientation="horizontal" className="relative flex w-full rounded-full bg-gray-100 font-semibold z-0 border-1 border-gray-600"  data-orientation="horizontal">
             <span id="tab-marker" className="absolute inset-y-0 left-0 -z-10 rounded-full border-2 bg-gray-900 w-1/2 h-14"></span>
             <button className="w-1/2 text-md h-14 flex items-center justify-center uppercase text-dark bg-orange-600 rounded-full border-2 border-dark" type="button" role="tab" aria-selected="true">
-                Yearly<span className="relative -top-0.5 rounded-full bg-neutral-200 p-1 text-xs font-normal text-gray-900 ml-4 px-3">-20%</span>
+                Yearly<span className="relative -top-0.5 rounded-full bg-white p-1 text-xs font-normal text-gray-900 ml-4 px-3">-20%</span>
             </button>
             <button className="w-1/2 text-md h-14 flex items-center justify-center uppercase" type="button" role="tab" aria-selected="false">Monthly</button>
         </div>
@@ -44,7 +44,7 @@ export default function SignIn() {
         </select>
     </div>
     <div >
-        <article className="overflow-hidden rounded-lg border-2 pb-5 bg-primary-50">
+        <article className="overflow-hidden rounded-lg border-2 pb-5 shadow-md">
             <div className="border-b-2 border-dashed px-7 py-6 md:pt-7">
                 <h5 className="h2 flex gap-2">
                     <span><div className="font-bold">$50</div></span><span className=":top-2 relative text-3xl leading-8 text-neutral-500 lg:top-3">/ Yearly</span>
