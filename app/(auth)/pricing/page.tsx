@@ -21,7 +21,6 @@ export default function SignIn() {
 
           <div>
     <div className="w-full text-center ltr:mr-4 rtl:ml-4 md:block mb-8">
-        <h3 className="text-3xl font-semibold mb-2">Pricing Tailored for Your Success</h3>
         <p className="mt-2 text-lg font-medium text-gray-400">Enjoy 2 months free with our annual plan.</p>
     </div>
     <div className="justify-center mb-4 w-100 my-5"><div className="w-100"></div></div>
@@ -50,7 +49,7 @@ export default function SignIn() {
                 <h5 className="font-cal leading-[100%] md:!leading-h1 text-[40px] md:text-5xl lg:text-[50px] xl:text-6xl text-primary-700 flex items-end gap-2 md:min-h-[48px] md:items-center lg:min-h-[50px] xl:min-h-[60px]">
                     <span><div>$50</div></span><span className=":top-2 relative text-3xl leading-8 text-neutral-500 lg:top-3">/Yearly</span>
                 </h5>
-                <div className="flex grow flex-col gap-2 md:flex-row md:items-end mt-6 mb-4"><button className="btn-primary w-full p-4 rounded-lg text-center">Upgrade</button></div>
+                <div className="flex grow flex-col gap-2 md:flex-row md:items-end mt-6 mb-4"><button className="bg-gray-900 text-white w-full p-4 rounded-lg text-center">Upgrade</button></div>
                 <p className="text-md max-w-[482px] pt-6 text-gray-500 md:pt-4">We work better in teams. Extend your workflows with round-robin and collective events and make advanced routing forms.</p>
                 <ul className="flex gap-4">
                     <div className="p-4">
@@ -365,14 +364,14 @@ export default function SignIn() {
                         <h6 className="opacity-75">NotionBear AI Pro</h6>
                         <h3 className="font-bold text-lg p-2 px-0">$5 / month</h3>
                     </div>
-                    <div className="w-full m-auto"><a className="btn btn-primary w-full rounded-lg p-2">+ Add</a></div>
+                    <div className="w-full m-auto"><a className="bg-gray-900 text-white px-4 w-full rounded-lg p-2">+ Add</a></div>
                 </div>
                 <div className="mt-4 border-2 border-gray-200 p-4 shadow-lg rounded grid w-full mx-3">
                     <div className="text-left w-full">
                         <h6 className="opacity-75">Remove Branding AddOn</h6>
                         <h3 className="font-bold text-lg p-2 px-0">$5 / month</h3>
                     </div>
-                    <div className="w-full m-auto" ><a className="btn btn-primary w-full rounded-lg p-2">+ Add</a></div>
+                    <div className="w-full m-auto" ><a className="bg-gray-900 text-white px-4 w-full rounded-lg p-2">+ Add</a></div>
                 </div>
             </div>
         </article>
