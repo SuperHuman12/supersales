@@ -67,7 +67,7 @@ export default function ResetPassword() {
               </div>
 
               <div className="mt-8 text-center">
-                <a href="https://partner.unicornplatform.com/" target="_self" className="px-6 py-2 text-white bg-gray-600 rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Become our Partner</a>
+                <a href="https://partner.unicornplatform.com/" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our Partner</a>
               </div>
             </div>
 
@@ -83,7 +83,7 @@ export default function ResetPassword() {
               <a href="." className="flex flex-col items-center space-y-2">
                 {/* SVG icon */}
                 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#E9F1FF" className="fill-bg-light" cx="20" cy="20" r="20"></circle><g fill-rule="nonzero"><path d="M23.723 18.901a.287.287 0 0 0-.26-.166h-3.398l3.354-5.295a.287.287 0 0 0-.242-.44h-4.589a.287.287 0 0 0-.256.159l-4.302 8.603a.286.286 0 0 0 .257.414h2.949l-3.214 7.632a.287.287 0 0 0 .484.296l9.177-10.897a.287.287 0 0 0 .04-.306z" fill="#4D61FC" className="fill-main"></path><path d="M26.973 18.901a.287.287 0 0 0-.26-.166h-3.398l3.354-5.295a.287.287 0 0 0-.242-.44h-4.589a.287.287 0 0 0-.256.159l-4.302 8.603a.286.286 0 0 0 .257.414h2.949l-3.214 7.632a.287.287 0 0 0 .484.296l9.177-10.897a.287.287 0 0 0 .04-.306z" stroke="#E9F1FF" className="stroke-light fill-secondary" fill="#00396B"></path></g></g></svg>
-                <h2 className="text-xl font-semibold">33%</h2>
+                <h2 className="h2 font-semibold">33%</h2>
                 <span className="text-base text-gray-600">your commission</span>
               </a>
 
@@ -91,7 +91,7 @@ export default function ResetPassword() {
               <a href="." className="flex flex-col items-center space-y-2">
                 {/* SVG icon */}
                 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#E9F1FF" className="fill-bg-light" cx="20" cy="20" r="20"></circle><path fill="#4D61FC" className="fill-main" d="M13 13h6v6h-6zM21 13h6v6h-6zM13 21h6v6h-6z"></path><path fill="#00396B" className="fill-secondary" d="M21 21h6v6h-6z"></path></g></svg>
-                <h2 className="text-xl font-semibold">60 days</h2>
+                <h2 className="h2 font-semibold">60 days</h2>
                 <span className="text-base text-gray-600">cookie period</span>
               </a>
 
@@ -99,7 +99,7 @@ export default function ResetPassword() {
               <a href="." className="flex flex-col items-center space-y-2">
                 {/* SVG icon */}
                 <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#E9F1FF" className="fill-bg-light" cx="20" cy="20" r="20"></circle><path fill="#4D61FC" className="fill-main" d="M20 13l7 8.235H13z"></path><path stroke="#E9F1FF" className="stroke-light fill-secondary" fill="#00396B" d="M20 17.588L28 27H12z"></path></g></svg>
-                <h2 className="text-xl font-semibold">10%</h2>
+                <h2 className="h2 font-semibold">10%</h2>
                 <span className="text-base text-gray-600">2nd tier commission</span>
               </a>
             </div>
@@ -177,7 +177,7 @@ export default function ResetPassword() {
                 </li>
               </ul>
               <div className="text-center mt-8">
-                <a href="https://partner.unicornplatform.com/" target="_self" className="bg-gray-500 text-white font-bold py-2 px-4 rounded hover:bg-gray-700 transition-colors">Start to earn money</a>
+                <a href="https://partner.unicornplatform.com/" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Start to earn money</a>
               </div>
             </div>
           </div>
