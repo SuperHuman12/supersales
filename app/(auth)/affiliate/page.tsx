@@ -41,7 +41,7 @@ export default function ResetPassword() {
                 <ul className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
                   <li className="flex flex-col items-center">
                     <div className="relative">
-                      <img src="../images/Group 8770.png" alt="Become a partner" className="h-40" />
+                      <img src="../images/Group 8770.png" alt="Become a partner" className="h-40 p-4" />
                       <div className="absolute -right-4 -bottom-4">
                         {/* SVG icon */}
                       </div>
@@ -50,7 +50,7 @@ export default function ResetPassword() {
                   </li>
                   <li className="flex flex-col items-center">
                     <div className="relative">
-                      <img src="../images/Group 8771 (1).png" alt="Earn money" className="h-40" />
+                      <img src="../images/Group 8771 (1).png" alt="Earn money" className="h-40 p-4" />
                       <div className="absolute -right-4 -bottom-4">
                         {/* SVG icon */}
                       </div>
@@ -59,7 +59,7 @@ export default function ResetPassword() {
                   </li>
                   <li className="flex flex-col items-center">
                     <div className="relative">
-                      <img src="../images/Group 8772.png" alt="Cash out in one click" className="h-40" />
+                      <img src="../images/Group 8772.png" alt="Cash out in one click" className="h-40 p-4" />
                     </div>
                     <div className="mt-4 text-center">Check in anytime to view referrals. Cash out in one click (Bank, Paypal, Wise).</div>
                   </li>
@@ -82,7 +82,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2 px-8 border p-6 rounded">
                 {/* SVG icon */}
-                <img src="../images/🤑.png" alt="Cash out in one click" className="h-40" />
+                <img src="../images/🤑.png" alt="Cash out in one click" className="h-10" />
                 <h2 className="h2 font-semibold">33%</h2>
                 <span className="text-base text-gray-600">your commission</span>
               </a>
@@ -90,7 +90,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2 px-8 border p-6 rounded">
                 {/* SVG icon */}
-                <img src="../images/🍪.png" alt="Cash out in one click" className="h-40" />
+                <img src="../images/🍪.png" alt="Cash out in one click" className="h-10" />
                 <h2 className="h2 font-semibold">60 days</h2>
                 <span className="text-base text-gray-600">cookie period</span>
               </a>
@@ -98,7 +98,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2 px-8 border p-6 rounded">
                 {/* SVG icon */}
-                <img src="../images/partyblow.png" alt="Cash out in one click" className="h-40" />
+                <img src="../images/partyblow.png" alt="Cash out in one click" className="h-10" />
                 <h2 className="h2 font-semibold">10%</h2>
                 <span className="text-base text-gray-600">2nd tier commission</span>
               </a>
@@ -148,7 +148,11 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="mb-4 p-4">
-                      <img src="https://unicorn-cdn.b-cdn.net/cfff0d95-5a57-4fa0-9d26-0df3689a78ea/$191-a-month.png" alt="20 people = $191/m" className="mx-auto p-8" loading="lazy" />
+                    
+                    <span className="h4">🐻 BEAR</span>
+                    <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
+                    <p>per month</p>
+
                     </div>
                     <div className="text-center">
                       20 people = $191/m
@@ -158,7 +162,9 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="mb-4 p-4">
-                      <img src="https://unicorn-cdn.b-cdn.net/417b2251-1927-42cd-aa17-693ea3ed3c5e/$957-a-month.png" alt="100 people = $957/m" className="mx-auto p-8" loading="lazy" />
+                    <span className="h4">🐻 BEAR</span>
+                    <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
+                    <p>per month</p>
                     </div>
                     <div className="text-center">
                       100 people = $957/m
@@ -168,7 +174,9 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="mb-4 p-4">
-                      <img src="https://unicorn-cdn.b-cdn.net/b4d37552-91be-489d-aff3-5f46c83ba9ac/$4785-a-month.png" alt="500 people = $4785/m" className="mx-auto p-8" loading="lazy" />
+                    <span className="h4">🐻 BEAR</span>
+                    <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
+                    <p>per month</p>
                     </div>
                     <div className="text-center">
                       500 people = $4785/m
@@ -193,21 +201,21 @@ export default function ResetPassword() {
       <ul className="flex flex-wrap justify-center">
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
-            <img src="../images/🧑_🏫.png" alt="Free coaching" className="mx-auto w-8 h-8"/>
+            <img src="../images/🧑_🏫.png" alt="Free coaching" className="mx-auto h-20"/>
             <h3 className="text-lg font-semibold mt-2 ">Free coaching</h3>
             <p className=" mt-1">Struggling with growing your blog or agency? Let us consult you. Our team has experts in the niche.</p>
           </div>
         </li>
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
-            <img src="../images/💻.png" alt="Personal dashboard" className="mx-auto w-8 h-8"/>
+            <img src="../images/💻.png" alt="Personal dashboard" className="mx-auto h-20"/>
             <h3 className="text-lg font-semibold mt-2 ">Personal dashboard</h3>
             <p className=" mt-1">Track every campaign, URL click, and dollar you earn. Easy and convenient.</p>
           </div>
         </li>
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
-            <img src="../images/🧑_🎨.png" alt="Have our designer for $0" className="mx-auto w-8 h-8"/>
+            <img src="../images/🧑_🎨.png" alt="Have our designer for $0" className="mx-auto h-20"/>
             <h3 className="text-lg font-semibold mt-2 ">Have our designer for $0</h3>
             <p className=" mt-1">Not satisfied with our media kit? Just ask! Our design crew will prepare exclusive images and videos.</p>
           </div>

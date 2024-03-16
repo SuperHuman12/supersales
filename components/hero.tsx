@@ -20,7 +20,7 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Create websites that scale on  <span className="bg-clip-text text-transparent text-orange">Notion.</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Create websites that scale on  <span className="bg-clip-text text-transparent text-orange-600">Notion.</span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
               <b className="text-gray-900">AI Website builder</b> that helps to quickly create websites without design or development skills for <b className="text-gray-900">SaaS, Apps, Directories, Blogs, Helpdesks</b>.
