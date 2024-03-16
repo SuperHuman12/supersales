@@ -162,7 +162,7 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="mb-4 p-4">
-                    <span className="h4">🐻 BEAR</span>
+                    <span className="h4">🐴 HORSE</span>
                     <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
                     <p>per month</p>
                     </div>
@@ -174,7 +174,7 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="mb-4 p-4">
-                    <span className="h4">🐻 BEAR</span>
+                    <span className="h4">🦄 UNICORN</span>
                     <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
                     <p>per month</p>
                     </div>
