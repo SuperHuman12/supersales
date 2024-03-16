@@ -165,56 +165,41 @@ export default function SignIn() {
                 </div>
             </div>
 
-            <section className="shadow-undefined">
-  <div className="layout-large variant-normal">
-    <div>
-      <div>
-        <header>
-          <div>
-            Notion AI
-            <div className="text-purple-500">Now with Q&A</div>
-          </div>
-          <p>
-            <span className="font-bold">Add to your workspace for $8 / member / month</span> billed annually or $10 / member / month billed monthly.
-          </p>
-        </header>
-        <div>
-          <div>
+            <section className="shadow-[var(--shadow-undefined)] p-8">
+      <div className="layout-large variant-normal">
+        <div className="flex flex-col items-center text-center">
+          <header>
+            <div className="text-purple-500 flex items-center justify-center mb-4">
+              <span className="text-lg font-bold">Notion AI</span>
+              {/* Assuming there's an SVG or an icon component for the sparkles */}
+              <div className="ml-2">Now with Q&A</div>
+            </div>
+            <p className="font-bold">
+              Add to your workspace for $8 / member / month billed annually or $10 / member / month billed monthly.
+            </p>
+          </header>
+          <div className="mt-6">
             <p className="font-semibold">Includes unlimited use of</p>
-            <ul>
-              <li>
-                <div className="text-purple-600">
-                  <strong>Q&A.</strong> Get instant answers to your questions.
-                </div>
-              </li>
-              <li>
-                <div className="text-purple-600">
-                  <strong>Autofill.</strong> Pull insights from hundreds of pages at once.
-                </div>
-              </li>
-              <li>
-                <div className="text-purple-600">
-                  <strong>Writer.</strong> Brainstorm new ideas and first drafts.
-                </div>
-              </li>
+            <ul className="list-disc">
+              <li className="text-purple-600"><strong>Q&A.</strong> Get instant answers to your questions.</li>
+              <li className="text-purple-600"><strong>Autofill.</strong> Pull insights from hundreds of pages at once.</li>
+              <li className="text-purple-600"><strong>Writer.</strong> Brainstorm new ideas and first drafts.</li>
             </ul>
           </div>
-          <div>
-            <a href="/signup" className="no-underline text-white bg-blue-500 p-2 mr-2">Get started</a>
-            <a href="/pricing#faq" className="no-underline text-blue-500 p-2">Read AI FAQ</a>
+          <div className="flex space-x-4 mt-4">
+            <a href="/signup" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors">Get started</a>
+            <a href="/pricing#faq" className="text-blue-500 py-2 px-4 rounded hover:text-blue-600 transition-colors">Read AI FAQ</a>
           </div>
         </div>
       </div>
-    </div>
-    <picture>
-      <source srcSet="/front-static/pages/pricing/ai-l.png" media="(min-width: 1280px)" />
-      <source srcSet="/front-static/pages/pricing/ai-m.png" media="(min-width: 1080px)" />
-      <source srcSet="/front-static/pages/pricing/ai-s.png" media="(min-width: 600px)" />
-      <img src="/front-static/pages/pricing/ai-xs.png" alt="AI feature image" />
-    </picture>
-  </div>
-</section>
-
+      {/* Image can be adjusted for responsiveness using Tailwind's breakpoints */}
+      <picture className="mt-6">
+        <source srcSet="/front-static/pages/pricing/ai-l.png" media="(min-width: 1280px)" />
+        <source srcSet="/front-static/pages/pricing/ai-m.png" media="(min-width: 1080px)" />
+        <source srcSet="/front-static/pages/pricing/ai-s.png" media="(min-width: 600px)" />
+        <img src="/front-static/pages/pricing/ai-xs.png" alt="Notion AI Features" />
+      </picture>
+    </section>
 
             
         </article>
