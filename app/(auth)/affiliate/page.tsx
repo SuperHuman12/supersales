@@ -41,7 +41,7 @@ export default function ResetPassword() {
                 <ul className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
                   <li className="flex flex-col items-center">
                     <div className="relative">
-                      <img src="https://unicorn-cdn.b-cdn.net/f4c11501-66cc-4a9c-9694-8f231129469a/become-a-partner.png" alt="Become a partner" className="w-40 h-40" />
+                      <img src="../images/Group 8770.png" alt="Become a partner" className="w-40 h-40" />
                       <div className="absolute -right-4 -bottom-4">
                         {/* SVG icon */}
                       </div>
@@ -50,7 +50,7 @@ export default function ResetPassword() {
                   </li>
                   <li className="flex flex-col items-center">
                     <div className="relative">
-                      <img src="https://unicorn-cdn.b-cdn.net/ec5d5e0b-4494-44ba-98f0-33ad508a15f7/earn-money.png" alt="Earn money" className="w-40 h-40" />
+                      <img src="../images/Group 8771 (1).png" alt="Earn money" className="w-40 h-40" />
                       <div className="absolute -right-4 -bottom-4">
                         {/* SVG icon */}
                       </div>
@@ -59,7 +59,7 @@ export default function ResetPassword() {
                   </li>
                   <li className="flex flex-col items-center">
                     <div className="relative">
-                      <img src="https://unicorn-cdn.b-cdn.net/5746b5d4-8e1e-43dd-af51-1a0ab1713d07/cash-out-in-one-click.png" alt="Cash out in one click" className="w-40 h-40" />
+                      <img src="../images/Group 8772.png" alt="Cash out in one click" className="w-40 h-40" />
                     </div>
                     <div className="mt-4 text-center">Check in anytime to view referrals. Cash out in one click (Bank, Paypal, Wise).</div>
                   </li>
@@ -82,7 +82,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2 px-8 border p-6 rounded">
                 {/* SVG icon */}
-                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#E9F1FF" className="fill-bg-light" cx="20" cy="20" r="20"></circle><g fill-rule="nonzero"><path d="M23.723 18.901a.287.287 0 0 0-.26-.166h-3.398l3.354-5.295a.287.287 0 0 0-.242-.44h-4.589a.287.287 0 0 0-.256.159l-4.302 8.603a.286.286 0 0 0 .257.414h2.949l-3.214 7.632a.287.287 0 0 0 .484.296l9.177-10.897a.287.287 0 0 0 .04-.306z" fill="#4D61FC" className="fill-main"></path><path d="M26.973 18.901a.287.287 0 0 0-.26-.166h-3.398l3.354-5.295a.287.287 0 0 0-.242-.44h-4.589a.287.287 0 0 0-.256.159l-4.302 8.603a.286.286 0 0 0 .257.414h2.949l-3.214 7.632a.287.287 0 0 0 .484.296l9.177-10.897a.287.287 0 0 0 .04-.306z" stroke="#E9F1FF" className="stroke-light fill-secondary" fill="#00396B"></path></g></g></svg>
+                <img src="../images/🍪.png" alt="Cash out in one click" className="w-40 h-40" />
                 <h2 className="h2 font-semibold">33%</h2>
                 <span className="text-base text-gray-600">your commission</span>
               </a>
@@ -90,7 +90,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2 px-8 border p-6 rounded">
                 {/* SVG icon */}
-                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#E9F1FF" className="fill-bg-light" cx="20" cy="20" r="20"></circle><path fill="#4D61FC" className="fill-main" d="M13 13h6v6h-6zM21 13h6v6h-6zM13 21h6v6h-6z"></path><path fill="#00396B" className="fill-secondary" d="M21 21h6v6h-6z"></path></g></svg>
+                <img src="../images/💻.png" alt="Cash out in one click" className="w-40 h-40" />
                 <h2 className="h2 font-semibold">60 days</h2>
                 <span className="text-base text-gray-600">cookie period</span>
               </a>
@@ -98,7 +98,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2 px-8 border p-6 rounded">
                 {/* SVG icon */}
-                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#E9F1FF" className="fill-bg-light" cx="20" cy="20" r="20"></circle><path fill="#4D61FC" className="fill-main" d="M20 13l7 8.235H13z"></path><path stroke="#E9F1FF" className="stroke-light fill-secondary" fill="#00396B" d="M20 17.588L28 27H12z"></path></g></svg>
+                <img src="../images/partyblow.png" alt="Cash out in one click" className="w-40 h-40" />
                 <h2 className="h2 font-semibold">10%</h2>
                 <span className="text-base text-gray-600">2nd tier commission</span>
               </a>
