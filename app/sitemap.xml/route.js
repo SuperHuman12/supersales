@@ -4,9 +4,21 @@ const URL = "https://notionbear.com";
 
 async function loadIntegrations() {
     try {
-        const file = await readFile(process.cwd() + '/public/data/integrations.json', 'utf8');
-        const data = JSON.parse(file);
-        return data.integrations;
+        const integrationsFile = await readFile(process.cwd() + '/public/data/integrations.json', 'utf8');
+        const integrationsData = JSON.parse(integrationsFile);
+
+        const templatesFile = await readFile(process.cwd() + '/public/data/TemplatesFile/templatelist.json', 'utf8');
+        const templatesData = JSON.parse(templatesFile);
+
+        return [
+            ...integrationsData.integrations,
+            ...templatesData.templates
+        ];
+
+
+        
+
+
     } catch (error) {
         console.error("Failed to load integrations", error);
         return [];

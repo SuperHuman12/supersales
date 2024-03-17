@@ -2,11 +2,9 @@ import React from 'react';
 import { readFile } from 'fs/promises';
 import {renderContent} from '../../../utils/helper';
 
-
-
 const loadContent = async (slug: string) => {
   try {
-    const file = await readFile(process.cwd() + `public/data/integrationFile/${slug}.json`, 'utf8');
+    const file = await readFile(process.cwd() + `/public/data/TemplatesFile/${slug}.json`, 'utf8');
     const data = JSON.parse(file);
     return data;
   } catch (error) {
@@ -14,7 +12,6 @@ const loadContent = async (slug: string) => {
     return null;
   }
 };
-
 
 
 
