@@ -5,6 +5,9 @@ import type { StaticImageData } from 'next/image'
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image'
 
+import notionbear_character  from '../public/images/notionbear-character-hero-2.png';
+
+
 interface ModalVideoProps {
   thumb: StaticImageData
   thumbWidth: number
@@ -33,7 +36,10 @@ export default function ModalVideo({
       {/* Video thumbnail */}
       <div>
         <div className="justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
-        <Image className="md:max-w-none mx-auto rounded" src="./images/notionbear-character-hero-2.png" width={750} height="462" alt="Features bg" />
+        <Image className="md:max-w-none mx-auto rounded" 
+          src={notionbear_character}
+         width={750} height={462}
+          alt="Features bg" />
 
           <div className="banner-bottom-wrapper">
 

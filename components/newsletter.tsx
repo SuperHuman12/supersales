@@ -1,5 +1,5 @@
 import Image from 'next/image' // Import the Image component from Next.js
-
+import notionfooterImage from '@/public/images/notionfooter.png';
 
 export default function Newsletter() {
   return (
@@ -14,11 +14,11 @@ export default function Newsletter() {
             <div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" aria-hidden="true">
 
               <Image
-        src="../images/notionfooter.png" 
-        alt="Logo" 
-        width={400} 
-        className="block" 
-      />
+            src={notionfooterImage} 
+            alt="Logo" 
+            width={400} 
+            className="block" 
+          />
 
             </div>
 

@@ -8,7 +8,7 @@ function IntegrationDetail() {
 
   return (
     <div>
-      <h1>Integration: {integrationName}</h1>
+      <h1>  Integration: {integrationName}</h1>
       {/* Integration details here */}
 
             {/* Integration Details */}
@@ -57,6 +57,7 @@ function IntegrationDetail() {
   );
 }
 
+export default IntegrationDetail;
 
 
 
