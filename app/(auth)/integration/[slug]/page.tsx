@@ -44,7 +44,7 @@ const Page: React.FC = () => {
   const [filterBySlug, setFilterBySlug] = useState<FilterBySlugType | null>(null);
   const [postPageView, setPostPageView] = useState<any[]>([]);
   const pathname = usePathname();
-  const [searchParams]:any = useSearchParams();
+  const [searchParams]: any = useSearchParams();
 
   useEffect(() => {
     const slug = pathname.split('/').pop();
@@ -86,12 +86,12 @@ const Page: React.FC = () => {
           </div>
           <div className="flex">
             <div className="flex mr-1 space-x-2 items-center">
-            <a href={filterBySlug?.product?.callToAction?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-  <span>{filterBySlug?.product?.callToAction?.text}</span>
-</a>
-
+              <a href={filterBySlug?.product?.callToAction?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
+                <span>{filterBySlug?.product?.callToAction?.text}</span>
+              </a>
             </div>
-          </div>
+            </div>
+
         </div>
       </div>
       <div>
