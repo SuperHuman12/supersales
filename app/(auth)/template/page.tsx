@@ -28,7 +28,7 @@ export default async function Template() {
         
           <div className="flex ">
           {templates.map((template:any, index:number) => (
-              <Link key={index} href={"template/"+template.id} >
+              <Link key={index} href={"/template/"+template.id} >
                 <div
                 style={{width: '400px'}}
                 className="cursor-pointer   m-2 relative flex items-center p-6 bg-white rounded shadow-xl h-full border">

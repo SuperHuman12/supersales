@@ -26,7 +26,7 @@ const Integration = async () => {
           </div>
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {integrations.map((integration:any, index:number) => (
-              <Link key={index} href={"integration/"+integration.id} >
+              <Link key={index} href={"/integration/"+integration.id} >
               <div className="cursor-pointer relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
                   <div>
                     <div className="flex items-center space-x-2 mb-4">
