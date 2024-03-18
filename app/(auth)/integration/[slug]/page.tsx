@@ -6,17 +6,11 @@ const Page = async ({ params }: { params: { slug: string } }) => {
   const content = await _loadFromJson(false);
   const filterBySlug = content.filter((item: any) => item.id === slug)[0];
   const _postPageView =  _transformDataToPostPageView(filterBySlug);
-
-
-
-  console.log('filterBySlug', filterBySlug);
   
-
-
   if (!filterBySlug) {
     return <div>Loading...</div>;
   }
-
+  
   return (
     <div className="space-y-8 mt-24 mb-16 ml-16 mr-16 bg-gray-100 p-8">
       <div className="flex space-y-6">
