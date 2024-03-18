@@ -8,32 +8,37 @@ interface CallToAction {
   text: string;
 }
 
+interface CallToAction {
+  text: string;
+  link: string;
+}
+
 interface Product {
   logo: string;
   name: string;
   provider: string;
   description: string;
   callToAction: CallToAction;
-  ViewDemo?: CallToAction;
+}
+
+interface ContentSection {
+  content: string;
+}
+
+interface Proof {
+  screenshot: string;
+  youtubevideo: string;
 }
 
 interface FilterBySlugType {
-  product: Product;
   id: string;
-  overview?: {
-    content: string;
-  };
-  howItWorks?: {
-    content: string;
-  };
-  configuration?: {
-    content: string;
-  };
-  proof?: {
-    screenshot?: string;
-    youtubevideo?: string;
-  };
+  product: Product;
+  overview: ContentSection;
+  howItWorks: ContentSection;
+  configuration: ContentSection;
+  proof: Proof;
 }
+
 
 const Page: React.FC = () => {
   const [filterBySlug, setFilterBySlug] = useState<FilterBySlugType | null>(null);
