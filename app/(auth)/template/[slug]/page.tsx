@@ -28,7 +28,7 @@ const Page = async ({ params }: { params: { slug: string } }) => {
           <div className="text-gray-800">
             <p>{filterBySlug?.product?.description}</p>
           </div>
-          <div className="flex">
+          {/* <div className="flex">
           <div className="flex mr-1 space-x-2 items-center">
             <a href={filterBySlug?.product?.callToCopy?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
               <span>{filterBySlug?.product?.callToCopy?.text}</span>
@@ -39,7 +39,7 @@ const Page = async ({ params }: { params: { slug: string } }) => {
               <span>{filterBySlug?.product?.ViewDemo?.text}</span>
             </a>
           </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

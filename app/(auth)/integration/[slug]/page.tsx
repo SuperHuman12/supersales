@@ -86,9 +86,9 @@ const Page: React.FC = () => {
           </div>
           <div className="flex">
             <div className="flex mr-1 space-x-2 items-center">
-              {/* <a href={filterBySlug?.product?.callToAction?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
+              <a href={filterBySlug?.product?.callToAction?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
                 <span>{filterBySlug?.product?.callToAction?.text}</span>
-              </a> */}
+              </a>
             </div>
             </div>
 
