@@ -52,7 +52,7 @@ const Page: React.FC = () => {
 
     if (slug) {
       const fetchData = async () => {
-        const content = await _loadFromJson(false);
+        const content = await _loadFromJson();
         const filteredContent = content.find((item: { id: string }) => item.id === slug) as FilterBySlugType;
         if (filteredContent) {
           setFilterBySlug(filteredContent);
