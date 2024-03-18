@@ -1,5 +1,10 @@
 import Image from 'next/image';
-import { readFile } from 'fs/promises';
+
+import  integrationData from '../../public/integration_data.json';
+import templateData from '../../public/template_data.json';
+
+
+
 
 const renderContent = (item: any, index: number) => {
     switch (item.type) {
@@ -43,20 +48,15 @@ const renderContent = (item: any, index: number) => {
 
 
 
-const _loadFromJson = async (template:boolean=true) => {
-  try {
-    let file:any=null;
-    template?
-     file = await readFile(process.cwd() + '/public/template_data.json', 'utf8')
-    :file = await readFile(process.cwd() + '/public/integration_data.json', 'utf8');
-    const data = JSON.parse(file);
-    return template?data.template_library:data.integration_library;
-  } catch (error) {
-    console.error("Failed to load templates", error);
-    return [];
-  }
-}
-
+  const _loadFromJson = async (template: boolean = true) => {
+    try {
+      // Directly return the imported data based on the `template` flag
+      return template ? templateData?.template_library : integrationData.integration_library;
+    } catch (error) {
+      console.error("Failed to load templates", error);
+      return [];
+    }
+  };
 
 function _transformDataToPostPageView(dataObject:any) {
   let postPageView = [];

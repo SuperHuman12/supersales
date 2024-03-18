@@ -1,21 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 import { _loadFromJson } from '@/app/utils/helper';
-
-
-
-
 export const metadata = {
   title: 'Notion Bear Integrations',
   description: 'Integrate with your stack and extend functionality with powerful integrations built by us and our amazing community.',
 }
-
 const Integration = async () => {
   const integrations = await _loadFromJson(false);
-
-  
-  
-
   return (
     <section className="bg-gradient-to-b from-gray-100 to-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -41,7 +32,6 @@ const Integration = async () => {
                 </div>
               </Link>
             ))}
-            
           </div>
         </div>
       </div>
