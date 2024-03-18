@@ -1,0 +1,54 @@
+{
+  "integration_library": [
+    {
+      "id": "arcade",
+      "product": {
+        "name": "Arcade",
+        "provider": "GitBook",
+        "description": "Embed interactive product demos in your documentation and turn all users into power users.",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-arcade-gitbook"
+        }
+      },
+      "overview": {
+        "content": "Arcade lets you create interactive product demos in minutes and turn all users into power users. Let users experience your product through interactive, guided demos. No more pausing and rewinding, users can progress at their own pace. This integration allows you to embed Arcade interactive demos into your GitBook documentation."
+      },
+      "howItWorks": {
+        "content": "Embedding an Arcade flow in your documentation is simple - just paste an Arcade flow link into the GitBook editor. The app will turn the link into an Arcade embed showing your recorded demo."
+      },
+      "configuration": {
+        "content": "To install on a single space, navigate to integrations in sub-navigation. If you prefer to install the Arcade integration on multiple or all spaces, navigate to your organization settings and enable it from the integrations panel. This will give you access to the custom arcade block."
+      },
+      "proof": {
+        "screenshot": "https://example.com/screenshot-arcade-gitbook",
+        "youtubevideo": "https://youtube.com/watch?v=example-arcade-gitbook"
+      }
+    },
+    {
+      "id": "slack",
+      "product": {
+        "name": "Slack",
+        "provider": "Slack",
+        "description": "Integrate interactive product demos directly into your Slack channels to enhance team collaboration and product understanding.",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-slack-slack"
+        }
+      },
+      "overview": {
+        "content": "Slack enables you to integrate interactive demos into your Slack channels, allowing your team to explore and understand your product's features directly from Slack. No need to switch between apps or pause and rewind; team members can interact with the demos at their own pace, fostering better understanding and collaboration."
+      },
+      "howItWorks": {
+        "content": "To add an Slack demo to your Slack channel, simply share an Slack flow link in the channel. Slack will automatically recognize and embed the interactive demo, making it accessible for your team to view and interact with directly within the Slack interface."
+      },
+      "configuration": {
+        "content": "To get started, navigate to the Slack App Directory and search for the Slack app. Once found, add it to your workspace. You can then share Slack demos in any channel by pasting the demo link, enhancing your team's collaboration and product knowledge."
+      },
+      "proof": {
+        "screenshot": "https://example.com/screenshot-slack",
+        "youtubevideo": "https://youtube.com/watch?v=example-slack"
+      }
+    }
+  ]
+}
