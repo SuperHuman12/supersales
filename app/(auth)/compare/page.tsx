@@ -17,7 +17,7 @@ export default function ResetPassword() {
           {/* Page header */}
           <div className="max-w-xl mx-auto text-center pb-12 md:pb-20">
 
-          <Image src={CompareHero} unoptimized alt="Logo" width={200} height={200}  className="w-100 rounded p-8 mb-8"/>
+          <Image src={CompareHero} unoptimized alt="Logo"  height={200}  className="w-100 rounded p-8 mb-8"/>
 
 
             <h1 className="h1 mb-4">Tired of <b>Webflow</b>? <br/> Say hi to NotionBear</h1>
@@ -106,9 +106,9 @@ export default function ResetPassword() {
     </div>
 </div>
 </div>
-<div className='max-w-xl mx-auto text-center pb-12 md:pb-20'>
-      <h1 className="h1 mb-4">Tired of <b>Webflow</b>? <br/> Say hi to NotionBear</h1>
-      <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
+<div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
+      <h1 className="h1 mb-4">Get so much more than task management with Notion.</h1>
+      <p className="text-xl text-gray-600">Notion has everything you need, from task tracking to templates to documentation. Get comfortable — you won’t be leaving all that often.</p>
 
 
       <div className="max-w-xl mx-auto p-4">
@@ -140,6 +140,53 @@ export default function ResetPassword() {
 
 </div>
 
+<div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
+      <h1 className="h1 mb-4">Notion is rated the best on G2</h1>
+      <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
+
+
+          {/* Items */}
+          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-4 lg:grid-cols-4 items-start md:max-w-2xl lg:max-w-none">
+            {/* 1st item */}
+            <Link href="/template/remotejobs" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+              <div>
+                <div className="items-start space-x-2 ">
+                <h1 className="h1 mb-4">86%</h1>
+                  <span className="text-dark font-bold">Ease of Use</span>
+                </div>
+              </div>
+            </Link>
+
+            {/* 2nd item */}
+            <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+            <div>
+                <div className="items-start space-x-2 ">
+                <h1 className="h1 mb-4">90%</h1>
+                  <span className="text-dark font-bold">Ease of Admin</span>
+                </div>
+              </div>
+            </Link>
+            {/* 3rd item */}
+            <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+            <div>
+                <div className="items-start space-x-2 ">
+                <h1 className="h1 mb-4">91%</h1>
+                  <span className="text-dark font-bold">Meets requirements</span>
+                </div>
+              </div>
+            </Link>
+            {/* 4th item */}
+            <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+            <div>
+                <div className="items-start space-x-2 ">
+                <h1 className="h1 mb-4">86%</h1>
+                  <span className="text-dark font-bold">Ease of Setup</span>
+                </div>
+              </div>
+            </Link>
+          </div>
+
+</div>
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
