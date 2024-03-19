@@ -14,6 +14,16 @@ export default function Pricing() {
 
     return (
         <section className="bg-gradient-to-b from-gray-100 to-white">
+
+<div className="absolute bottom-0 pointer-events-none z-1 h-screen w-screen" aria-hidden="true" style={{ width: '-webkit-fill-available', opacity: 0.1 }}>
+    <svg className=" h-full w-full" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <pattern id="grid-pattern" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)"><path d="M0 32V.5H32" fill="none" stroke="currentColor"></path></pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#grid-pattern)"></rect>
+    </svg>
+</div>
+            
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
                 <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
@@ -56,7 +66,7 @@ export default function Pricing() {
                             </div>
                             <div className="mb-4">
                                 <label className="block text-sm font-medium text-gray-700">Number of Users Every Month</label>
-                                <select className="border-1 rounded mt-2 w-full p-4 font-bold h3" id="num-of-views">
+                                <select className="relative bg-white border-1 rounded mt-2 w-full p-4 font-bold h3" id="num-of-views">
                                     <option value="3000">3K Users</option>
                                     <option value="10000">10K Users</option>
                                     <option value="50000">50K Users</option>
@@ -68,7 +78,7 @@ export default function Pricing() {
                                 <article className="overflow-hidden rounded-lg border-2 pb-5 shadow-md">
                                 {activeTab === 'Yearly' ? (
                                 <>
-                                    <div className="border-b-2 border-dashed px-7 py-6 md:pt-7">
+                                    <div className="relative bg-white border-b-2 border-dashed px-7 py-6 md:pt-7">
                                     <h5 className="h2 flex gap-2">
                                         <span><div className="font-bold">$50</div></span><span className="relative text-3xl leading-8 text-neutral-500">/ Yearly</span>
                                     </h5>
@@ -177,7 +187,7 @@ export default function Pricing() {
                                 </>
                                 ) : (
                                 <>
-                                    <div className="border-b-2 border-dashed px-7 py-6 md:pt-7">
+                                    <div className="relative bg-white border-b-2 border-dashed px-7 py-6 md:pt-7">
                                     <h5 className="h2 flex gap-2">
                                         <span><div className="font-bold">$5</div></span><span className="relative text-3xl leading-8 text-neutral-500">/ Monthly</span>
                                     </h5>
