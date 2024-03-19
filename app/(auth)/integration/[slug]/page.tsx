@@ -78,7 +78,7 @@ const Page: React.FC = () => {
 
       <div className="grid grid-cols-1 gap-y-8 gap-x-12 lg:grid-cols-2 xl:gap-x-16">
         <div>
-          <Link href="#" className='mb-4'>← Back to Templates</Link>
+          <Link href="#" className='mb-4'>← Back to Integrations</Link>
           <div className="mb-4">
             <h1 className="text-3xl font-bold text-gray-800 mt-8">{filterBySlug?.product?.name}</h1>
             <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
