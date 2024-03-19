@@ -20,7 +20,7 @@ export default function ResetPassword() {
             <Image src={CompareHero} unoptimized alt="Logo" className="w-100 rounded p-8 mb-8" />
 
 
-            <h1 className="h1 mb-4">Tired of <b>Webflow</b>? <br /> Say hi to NotionBear</h1>
+            <h1 className="h1 mb-4">Tired of <b className="dyanmictext">Webflow</b>? <br /> Say hi to NotionBear</h1>
             <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
             <button className="text-white bg-gray-900 rounded w-fit p-2 mt-4 px-4">Get Started</button>
           </div>
@@ -124,7 +124,7 @@ export default function ResetPassword() {
                   <thead>
                     <tr>
                       <th className="px-4 py-2">Features</th>
-                      <th className="px-4 py-2 text-center">Webflow</th>
+                      <th className="px-4 py-2 text-center"><span className="dyanmictext">Webflow</span></th>
                       <th className="px-4 py-2 text-center">NotionBear</th>
                     </tr>
                   </thead>
