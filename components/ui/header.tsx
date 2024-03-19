@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-
+import Image from 'next/image';
 import Link from 'next/link'
-import Logo from './logo'
+import Logo from '@/public/images/logonew-black.png'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
 
@@ -29,7 +29,7 @@ export default function Header() {
 
           {/* Site branding */}
           <div className="shrink-0 mr-4">
-            <Logo />
+          <Image src={Logo} alt="Logo" width={200} height={200} />
           </div>
 
           {/* Desktop navigation */}
