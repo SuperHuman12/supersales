@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation'; // Adjusted imports for Next.js 13
 import { _loadFromJson, _transformDataToPostPageView, renderContent } from '../../../utils/helper';
+import Image from 'next/image'
+
 
 interface CallToAction {
   link: string;

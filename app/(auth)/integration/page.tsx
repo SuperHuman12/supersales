@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image'
+
 import { _loadFromJson } from '@/app/utils/helper';
 export const metadata = {
   title: 'Notion Bear Integrations',
