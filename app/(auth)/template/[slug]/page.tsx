@@ -73,10 +73,10 @@ const Page: React.FC = () => {
   }
 
   return (
-    <div className="space-y-8 mt-24 mb-16 ml-16 mr-16 bg-gray-100 p-8">
+    <div className="space-y-8 mt-24 mb-16 ml-16 mr-16 p-8">
       <div className="grid grid-cols-1 gap-y-8 gap-x-12 lg:grid-cols-2 xl:gap-x-16">
         <div>
-          <Link href="#" className='mb-4'>Back to Templates</Link>
+          <Link href="#" className='mb-4'>← Back to Templates</Link>
           <div className="mb-4">
             <h1 className="text-2xl font-bold text-gray-800">{filterBySlug?.product?.name}</h1>
             <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
@@ -84,7 +84,7 @@ const Page: React.FC = () => {
           <div className="text-gray-800">
             <p>{filterBySlug?.product?.description}</p>
           </div>
-          <div className="flex mt-4">
+          <div className="flex mt-4 gap-4">
             <div className="flex mr-1 space-x-2 items-center">
               <a href={filterBySlug?.product?.callToCopy?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
                 <span>{filterBySlug?.product?.callToCopy?.text}</span>
