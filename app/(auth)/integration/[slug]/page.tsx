@@ -3,14 +3,16 @@ import React, { useEffect, useState } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation'; // Adjusted imports for Next.js 13
 import { _loadFromJson, _transformDataToPostPageView, renderContent } from '../../../utils/helper';
 import Image from 'next/image'
+import Link from 'next/link';
 
 
-interface CallToAction {
+
+interface callToCopy {
   link: string;
   text: string;
 }
 
-interface CallToAction {
+interface callToCopy {
   text: string;
   link: string;
 }
@@ -20,7 +22,7 @@ interface Product {
   name: string;
   provider: string;
   description: string;
-  callToAction: CallToAction;
+  callToCopy: callToCopy;
 }
 
 interface ContentSection {
@@ -71,35 +73,57 @@ const Page: React.FC = () => {
   }
 
   return (
-    <div className="space-y-8 mt-24 mb-16 ml-16 mr-16 bg-gray-100 p-8">
-      <div className="flex space-y-6">
-        <div className="space-y-4">
-          <div className="flex items-center space-x-4">
-            <div className="w-20 h-20 rounded-full overflow-hidden">
-              <img src={filterBySlug?.product?.logo} alt="" className="w-full h-full object-contain" />
-            </div>
-            <div className="space-y-2">
-              <h1 className="text-2xl font-bold text-gray-800">{filterBySlug?.product?.name}</h1>
-              <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
-            </div>
+    <div className="space-y-8 mt-24 mb-16 ml-16 mr-16 p-8">
+
+
+      <div className="grid grid-cols-1 gap-y-8 gap-x-12 lg:grid-cols-2 xl:gap-x-16">
+        <div>
+          <Link href="#" className='mb-4'>← Back to Templates</Link>
+          <div className="mb-4">
+            <h1 className="text-3xl font-bold text-gray-800 mt-8">{filterBySlug?.product?.name}</h1>
+            <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
           </div>
           <div className="text-gray-800">
             <p>{filterBySlug?.product?.description}</p>
           </div>
-          <div className="flex">
+          <div className="flex mt-4 gap-4">
             <div className="flex mr-1 space-x-2 items-center">
-              <a href={filterBySlug?.product?.callToAction?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-                <span>{filterBySlug?.product?.callToAction?.text}</span>
+              <a href={filterBySlug?.product?.callToCopy?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
+                <span>Install</span>
               </a>
             </div>
-            </div>
-
+          </div>
         </div>
+
+        <Image alt="Logo" loading="lazy" width="2640" height="1708" decoding="async" data-nimg="1" className="h-full w-full rounded-2xl border border-gray-200 object-cover shadow-xl" src="{filterBySlug?.proof?.screenshot?.link}"></Image>
+
+
       </div>
-      <div>
-        {postPageView?.map((item, index) => renderContent(item, index))}
+
+
+      <div className="mb-4">
+            <h1 className="text-2xl font-bold text-gray-800">Overview</h1>
+            <p className="text-md text-gray-600">{filterBySlug?.overview?.content}</p>
       </div>
+
+      <div className="mb-4">
+            <h1 className="text-2xl font-bold text-gray-800">How it Works</h1>
+            <p className="text-md text-gray-600">{filterBySlug?.howItWorks?.content}</p>
+      </div>
+
+      <div className="mb-4">
+            <h1 className="text-2xl font-bold text-gray-800">Configuration</h1>
+            <p className="text-md text-gray-600">{filterBySlug?.configuration?.content}</p>
+      </div>
+
+
     </div>
+
+
+
+
+
+
   );
 };
 
