@@ -17,7 +17,7 @@ export default function ResetPassword() {
           {/* 🔴 Page header */}
           <div className="max-w-xl mx-auto text-center pb-12 md:pb-20">
 
-            <Image src={CompareHero} unoptimized alt="Logo" className="w-100 rounded p-8 mb-8" />
+            <Image src={CompareHero} unoptimized alt="Logo" className="w-100 rounded p-8 mb-8 dyanmictext" />
 
 
             <h1 className="h1 mb-4">Tired of <b className="dyanmictext">Webflow</b>? <br /> Say hi to NotionBear</h1>
