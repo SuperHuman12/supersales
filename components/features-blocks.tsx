@@ -92,7 +92,7 @@ export default function FeaturesBlocks() {
                   loading="lazy"
                   decoding="async"
                   className="h-20 mb-2"
-                  src="../images/aipowered.png"
+                  src="/images/aipowered.png"
                 />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">AI-Powered</h4>
@@ -107,7 +107,7 @@ export default function FeaturesBlocks() {
                   loading="lazy"
                   decoding="async"
                   className="h-20 mb-2"
-                  src="../images/moneypaid.png"
+                  src="/images/moneypaid.png"
                 />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Accept Payments</h4>
@@ -122,7 +122,7 @@ export default function FeaturesBlocks() {
                   loading="lazy"
                   decoding="async"
                   className="h-20 mb-2"
-                  src="../images/handsup.png"
+                  src="/images/handsup.png"
                 />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">100% No Code</h4>
@@ -137,7 +137,7 @@ export default function FeaturesBlocks() {
                   loading="lazy"
                   decoding="async"
                   className="h-20 mb-2"
-                  src="../images/uicomponents.png"
+                  src="/images/uicomponents.png"
                 />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">UI & UX-Ready</h4>
@@ -152,7 +152,7 @@ export default function FeaturesBlocks() {
                   loading="lazy"
                   decoding="async"
                   className="h-20 mb-2"
-                  src="../images/customcode.png"
+                  src="/images/customcode.png"
                 />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Custom Code</h4>
@@ -167,7 +167,7 @@ export default function FeaturesBlocks() {
                   loading="lazy"
                   decoding="async"
                   className="h-20 mb-2"
-                  src="../images/analytics.png"
+                  src="/images/analytics.png"
                 />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Full Analytics</h4>

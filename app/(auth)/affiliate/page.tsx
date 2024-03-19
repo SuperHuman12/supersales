@@ -41,7 +41,7 @@ export default function ResetPassword() {
                 <ul className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
                   <li className="flex flex-col items-center">
                     <div className="relative">
-                      <img src="../images/Group 8770.png" alt="Become a partner" className="h-40 p-4" />
+                      <img src="/images/Group 8770.png" alt="Become a partner" className="h-40 p-4" />
                       <div className="absolute -right-4 -bottom-4">
                         {/* SVG icon */}
                       </div>
@@ -50,7 +50,7 @@ export default function ResetPassword() {
                   </li>
                   <li className="flex flex-col items-center">
                     <div className="relative">
-                      <img src="../images/Group 8771 (1).png" alt="Earn money" className="h-40 p-4" />
+                      <img src="/images/Group 8771 (1).png" alt="Earn money" className="h-40 p-4" />
                       <div className="absolute -right-4 -bottom-4">
                         {/* SVG icon */}
                       </div>
@@ -59,7 +59,7 @@ export default function ResetPassword() {
                   </li>
                   <li className="flex flex-col items-center">
                     <div className="relative">
-                      <img src="../images/Group 8772.png" alt="Cash out in one click" className="h-40 p-4" />
+                      <img src="/images/Group 8772.png" alt="Cash out in one click" className="h-40 p-4" />
                     </div>
                     <div className="mt-4 text-center">Check in anytime to view referrals. Cash out in one click (Bank, Paypal, Wise).</div>
                   </li>
@@ -82,7 +82,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2 px-8 border p-6 rounded">
                 {/* SVG icon */}
-                <img src="../images/🤑.png" alt="Cash out in one click" className="h-10" />
+                <img src="/images/🤑.png" alt="Cash out in one click" className="h-10" />
                 <h2 className="h2 font-semibold">33%</h2>
                 <span className="text-base text-gray-600">your commission</span>
               </a>
@@ -90,7 +90,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2 px-8 border p-6 rounded">
                 {/* SVG icon */}
-                <img src="../images/🍪.png" alt="Cash out in one click" className="h-10" />
+                <img src="/images/🍪.png" alt="Cash out in one click" className="h-10" />
                 <h2 className="h2 font-semibold">60 days</h2>
                 <span className="text-base text-gray-600">cookie period</span>
               </a>
@@ -98,7 +98,7 @@ export default function ResetPassword() {
               {/* Affiliate Detail Item */}
               <a href="." className="flex flex-col items-center space-y-2 px-8 border p-6 rounded">
                 {/* SVG icon */}
-                <img src="../images/partyblow.png" alt="Cash out in one click" className="h-10" />
+                <img src="/images/partyblow.png" alt="Cash out in one click" className="h-10" />
                 <h2 className="h2 font-semibold">10%</h2>
                 <span className="text-base text-gray-600">2nd tier commission</span>
               </a>
@@ -201,21 +201,21 @@ export default function ResetPassword() {
       <ul className="flex flex-wrap justify-center">
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
-            <img src="../images/🧑_🏫.png" alt="Free coaching" className="mx-auto h-20"/>
+            <img src="/images/🧑_🏫.png" alt="Free coaching" className="mx-auto h-20"/>
             <h3 className="h4 font-semibold mt-2 ">Free coaching</h3>
             <p className=" mt-1">Struggling with growing your blog or agency? Let us consult you. Our team has experts in the niche.</p>
           </div>
         </li>
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
-            <img src="../images/💻.png" alt="Personal dashboard" className="mx-auto h-20"/>
+            <img src="/images/💻.png" alt="Personal dashboard" className="mx-auto h-20"/>
             <h3 className="h4 font-semibold mt-2 ">Personal dashboard</h3>
             <p className=" mt-1">Track every campaign, URL click, and dollar you earn. Easy and convenient.</p>
           </div>
         </li>
         <li className="w-full md:w-1/3 px-4 py-2">
           <div className="text-center">
-            <img src="../images/🧑_🎨.png" alt="Have our designer for $0" className="mx-auto h-20"/>
+            <img src="/images/🧑_🎨.png" alt="Have our designer for $0" className="mx-auto h-20"/>
             <h3 className="h4 font-semibold mt-2 ">Have our designer for $0</h3>
             <p className=" mt-1">Not satisfied with our media kit? Just ask! Our design crew will prepare exclusive images and videos.</p>
           </div>

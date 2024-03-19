@@ -28,7 +28,7 @@ export default function ResetPassword() {
             <Link href="/template/remotejobs" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
               <div>
                 <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <img className="w-full rounded" src="/images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
                 <p className="text-gray-600">Attract your audience by creating a blog.</p>
@@ -40,7 +40,7 @@ export default function ResetPassword() {
             <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
                 <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <img className="w-full rounded" src="/images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
                 <p className="text-gray-600">Attract your audience by creating a blog.</p>
@@ -52,7 +52,7 @@ export default function ResetPassword() {
             <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
                 <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <img className="w-full rounded" src="/images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
                 <p className="text-gray-600">Attract your audience by creating a blog.</p>
@@ -64,7 +64,7 @@ export default function ResetPassword() {
             <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
                 <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <img className="w-full rounded" src="/images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
                 <p className="text-gray-600">Attract your audience by creating a blog.</p>
@@ -76,7 +76,7 @@ export default function ResetPassword() {
             <Link href="/integration/fathom" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
                 <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <img className="w-full rounded" src="/images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
                 <p className="text-gray-600">Attract your audience by creating a blog.</p>
@@ -88,7 +88,7 @@ export default function ResetPassword() {
             <Link href="/integration/figma" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
                 <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                  <img className="w-full rounded" src="/images/remotejobs.png" alt="" />
                   <span className="text-dark font-bold">Remote Jobs</span>
                 </div>
                 <p className="text-gray-600">Attract your audience by creating a blog.</p>
@@ -130,7 +130,7 @@ export default function ResetPassword() {
                 </div>
               </div>
               <div className="relative w-full" >
-                <img src="../images/remotejobs.png" alt="" className="w-full h-full object-contain" />
+                <img src="/images/remotejobs.png" alt="" className="w-full h-full object-contain" />
               </div>
             </div>
 
