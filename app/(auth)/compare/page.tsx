@@ -114,7 +114,7 @@ export default function ResetPassword() {
 
 
           <div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
-            <h1 className="h1 mb-4">Get so much more than task management with NotionBear.</h1>
+            <h1 className="h1 mb-4">Get so much more than website builder with NotionBear.</h1>
             <p className="text-xl text-gray-600">NotionBear has everything you need, from task tracking to templates to documentation. Get comfortable — you won’t be leaving all that often.</p>
 
 
@@ -131,65 +131,64 @@ export default function ResetPassword() {
                   <tbody>
                     <tr>
                       <td className="border px-4 py-2">Project management</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
                       <td className="border px-4 py-2">Issue tracking</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
                       <td className="border px-4 py-2">Unlimited automations</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
                       <td className="border px-4 py-2">AI answers</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>                    
                     <tr>
                       <td className="border px-4 py-2">Databases</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
                       <td className="border px-4 py-2">Project management</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
                       <td className="border px-4 py-2">Docs</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
                       <td className="border px-4 py-2">Collaboration</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
                       <td className="border px-4 py-2">Mobile</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
                       <td className="border px-4 py-2">Enterprise admin</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
                       <td className="border px-4 py-2">Integrations</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
                       <td className="border px-4 py-2">Templates</td>
-                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center"><span className="dyanmictext">✓</span></td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>                    
-                    {/* Add more features as needed */}
                   </tbody>
                 </table>
               </div>

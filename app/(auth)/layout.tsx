@@ -1,4 +1,6 @@
 import Footer from "@/components/ui/footer"
+import Newsletter from "@/components/newsletter"
+
 import Image from 'next/image'
 
 export default function AuthLayout({
@@ -14,6 +16,7 @@ export default function AuthLayout({
 
 </main>
 
+<Newsletter />
 <Footer />
   </>
   )
