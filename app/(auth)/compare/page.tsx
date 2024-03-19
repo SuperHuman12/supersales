@@ -208,20 +208,13 @@ export default function ResetPassword() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-4" >
                   <div className="space-y-2" >
-                    <h1 className="text-2xl font-bold text-gray-800">RemoteJobs</h1>
-                    <p className="text-md text-gray-600">By NotionBear</p>
+                    <h1 className="text-2xl font-bold text-gray-800">Customize your task management workflow to suit your needs</h1>
+                    <p className="text-md text-gray-600">ClickUp is what you use if you only need to monitor task progress. To avoid paying for ClickUp and be empowered to create something uniquely suited to you, try Notion for free.</p>
                   </div>
-                </div>
-                <div className="text-gray-800" >
-                  <p>Simple, powerful and flexible notion-powered job listing website site. Built on NotionBear.</p>
                 </div>
                 <div className="flex space-x-2 items-center" >
                   <a href="https://app.gitbook.com/integrations/arcade" className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-                    <span>Duplicate</span>
-                    {/* SVG or icon for arrow here if needed */}
-                  </a>
-                  <a href="https://app.gitbook.com/integrations/arcade" className="border text-dark font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-                    <span>View Demo</span>
+                    <span>Sign Up</span>
                     {/* SVG or icon for arrow here if needed */}
                   </a>
                 </div>
@@ -233,51 +226,37 @@ export default function ResetPassword() {
 
 
             <div className="flex space-y-6" >
+            <div className="relative w-full" >
+                <img src="../images/remotejobs.png" alt="" className="w-full h-full object-contain" />
+              </div>
               <div className="space-y-4">
                 <div className="flex items-center space-x-4" >
                   <div className="space-y-2" >
-                    <h1 className="text-2xl font-bold text-gray-800">RemoteJobs</h1>
-                    <p className="text-md text-gray-600">By NotionBear</p>
+                    <h1 className="text-2xl font-bold text-gray-800">Customize your task management workflow to suit your needs</h1>
+                    <p className="text-md text-gray-600">ClickUp is what you use if you only need to monitor task progress. To avoid paying for ClickUp and be empowered to create something uniquely suited to you, try Notion for free.</p>
                   </div>
-                </div>
-                <div className="text-gray-800" >
-                  <p>Simple, powerful and flexible notion-powered job listing website site. Built on NotionBear.</p>
                 </div>
                 <div className="flex space-x-2 items-center" >
                   <a href="https://app.gitbook.com/integrations/arcade" className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-                    <span>Duplicate</span>
-                    {/* SVG or icon for arrow here if needed */}
-                  </a>
-                  <a href="https://app.gitbook.com/integrations/arcade" className="border text-dark font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-                    <span>View Demo</span>
+                    <span>Sign Up</span>
                     {/* SVG or icon for arrow here if needed */}
                   </a>
                 </div>
-              </div>
-              <div className="relative w-full" >
-                <img src="../images/remotejobs.png" alt="" className="w-full h-full object-contain" />
               </div>
             </div>
 
 
             <div className="flex space-y-6" >
-              <div className="space-y-4">
+            <div className="space-y-4">
                 <div className="flex items-center space-x-4" >
                   <div className="space-y-2" >
-                    <h1 className="text-2xl font-bold text-gray-800">RemoteJobs</h1>
-                    <p className="text-md text-gray-600">By NotionBear</p>
+                    <h1 className="text-2xl font-bold text-gray-800">Customize your task management workflow to suit your needs</h1>
+                    <p className="text-md text-gray-600">ClickUp is what you use if you only need to monitor task progress. To avoid paying for ClickUp and be empowered to create something uniquely suited to you, try Notion for free.</p>
                   </div>
-                </div>
-                <div className="text-gray-800" >
-                  <p>Simple, powerful and flexible notion-powered job listing website site. Built on NotionBear.</p>
                 </div>
                 <div className="flex space-x-2 items-center" >
                   <a href="https://app.gitbook.com/integrations/arcade" className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-                    <span>Duplicate</span>
-                    {/* SVG or icon for arrow here if needed */}
-                  </a>
-                  <a href="https://app.gitbook.com/integrations/arcade" className="border text-dark font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-                    <span>View Demo</span>
+                    <span>Sign Up</span>
                     {/* SVG or icon for arrow here if needed */}
                   </a>
                 </div>
