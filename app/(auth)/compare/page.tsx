@@ -124,68 +124,68 @@ export default function ResetPassword() {
                   <thead>
                     <tr>
                       <th className="px-4 py-2">Features</th>
-                      <th className="px-4 py-2">Webflow</th>
-                      <th className="px-4 py-2">NotionBear</th>
+                      <th className="px-4 py-2 text-center">Webflow</th>
+                      <th className="px-4 py-2 text-center">NotionBear</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Project management</td>
+                      <td className="border px-4 py-2">Project management</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>                    
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2">Issue tracking</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                       <td className="border px-4 py-2 text-center">✓</td>
                     </tr>                    
@@ -398,11 +398,13 @@ export default function ResetPassword() {
           <section className='max-w-3xl m-auto text-center space-y-4'>
 
             <h1 className="h1 mb-4">Get Ready-To-Execute businesses , not just templates.</h1>
-            <p className="text-xl text-gray-600">NotionBear has thousands of templates for different uses from project management to meeting agendas, team wikis, and CRMs. Using these templates makes getting setup and up-to-speed easier than ever.</p>
+            <p className="text-xl text-gray-600 mb-8">NotionBear has thousands of templates for different uses from project management to meeting agendas, team wikis, and CRMs. Using these templates makes getting setup and up-to-speed easier than ever.</p>
+
+            <button className="text-white bg-gray-900 rounded w-fit p-2 mt-4 px-4">View all Templates</button>
 
 
             {/* Items */}
-            <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
+            <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none mt-9">
               {/* 1st item */}
               <Link href="/template/remotejobs" className="relative flex flex-col text-start items-center p-6 bg-white rounded shadow-xl h-full border">
                 <div>
