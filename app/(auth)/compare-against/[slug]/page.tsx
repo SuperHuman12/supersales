@@ -16,9 +16,7 @@ export default function ResetPassword() {
 
           {/* 🔴 Page header */}
           <div className="max-w-xl mx-auto text-center pb-12 md:pb-20">
-
             <Image src={CompareHero} unoptimized alt="Logo" className="w-100 rounded p-8 mb-8 dyanmictext" />
-
 
             <h1 className="h1 mb-4">Tired of <b className="dyanmictext">Webflow</b>? <br /> Say hi to NotionBear</h1>
             <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
@@ -335,6 +333,167 @@ export default function ResetPassword() {
 
 
           </section>
+
+
+
+
+
+
+          <div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
+            <h1 className="h1 mb-4">Pricing, side-by-side</h1>
+            <p className="text-xl text-gray-600">You can also try Notion for free. See all pricing plans.</p>
+          </div>
+
+          <div className="relative mx-auto mt-8 max-w-3xl flex gap-4">
+              <div className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white w-full">
+                  <div className="p-6 md:px-10 md:py-9">
+                      <div className="flex items-center justify-center"><h1 className="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">Webflow</h1></div>
+
+                      <p className="mt-2 mb-8 space-y-2 text-xl font-normal text-gray-600 text-center"><span className="block">Difficult to manage. </span></p>
+
+                      <div className="mt-2 flex items-end justify-center mb-8">
+                          <p className="text-xl font-bold text-gray-500">$</p>
+                          <p className="text-7xl font-bold text-gray-900">39</p>
+                          <p className="text-lg font-bold text-gray-600">/ month</p>
+                      </div>
+
+                      <div className="">
+                          <ul className="space-y-3 text-base font-medium text-gray-900 md:col-span-6 xl:pl-2">
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Unlimited Blog Sites
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Unlimited Custom Domains
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Advanced Analytics
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Excellent SEO
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Collect Emails
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Free SSL
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Comments
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Localization
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Programmatic SEO
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white w-full">
+                  <div className="p-6 md:px-10 md:py-9">
+                      <div className="flex items-center justify-center"><h1 className="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">NotionBear</h1></div>
+
+                      <p className="mt-2 mb-8 space-y-2 text-xl font-normal text-gray-600 text-center"><span className="block">Use Notion CMS </span></p>
+
+                      <div className="mt-2 flex items-end justify-center mb-8">
+                          <p className="text-xl font-bold text-gray-500">$</p>
+                          <p className="text-7xl font-bold text-gray-900">39</p>
+                          <p className="text-lg font-bold text-gray-600">/ month</p>
+                      </div>
+
+                      <div className="">
+                          <ul className="space-y-3 text-base font-medium text-gray-900 md:col-span-6 xl:pl-2">
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Unlimited Blog Sites
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Unlimited Custom Domains
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Advanced Analytics
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Excellent SEO
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Collect Emails
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Free SSL
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Comments
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Localization
+                              </li>
+                              <li className="flex items-center">
+                                  <svg className="mr-2.5 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                  </svg>
+                                  Programmatic SEO
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          
+
+
 
           {/* 🔴  Crux of what our testimonials*/}
 
