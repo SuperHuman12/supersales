@@ -1,4 +1,9 @@
+import Image from 'next/image'
 import Link from 'next/link';
+import CompareHero from '@/public/images/logonew-black.png'
+
+
+
 export const metadata = {
   title: 'Reset Password - Simple',
   description: 'Page description',
@@ -11,7 +16,10 @@ export default function ResetPassword() {
 
           {/* Page header */}
           <div className="max-w-xl mx-auto text-center pb-12 md:pb-20">
-          <img className="w-100 rounded p-8 mb-8" src="../images/heroimage.png" alt="" />
+
+          <Image src={CompareHero} unoptimized alt="Logo" width={200} height={200}  className="w-100 rounded p-8 mb-8"/>
+
+
             <h1 className="h1 mb-4">Tired of <b>Webflow</b>? <br/> Say hi to NotionBear</h1>
             <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
             <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Get Started</button>
