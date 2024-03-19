@@ -14,7 +14,7 @@ export default function ResetPassword() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-20 md:pb-20">
 
-          {/* Page header */}
+          {/* 🔴 Page header */}
           <div className="max-w-xl mx-auto text-center pb-12 md:pb-20">
 
             <Image src={CompareHero} unoptimized alt="Logo" className="w-100 rounded p-8 mb-8" />
@@ -24,6 +24,9 @@ export default function ResetPassword() {
             <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
             <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Get Started</button>
           </div>
+
+          {/* 🔴 Trusted by Teams */}
+
           <div>
             <p className="text-center">Trusted by teams</p>
             <div className="flex flex-row flex-wrap max-w-800 gap-4 mx-auto justify-center flex items-center p-6">
@@ -106,6 +109,10 @@ export default function ResetPassword() {
               </div>
             </div>
           </div>
+
+          {/* 🔴 Comparision Table (Dynamic) */}
+
+
           <div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
             <h1 className="h1 mb-4">Get so much more than task management with Notion.</h1>
             <p className="text-xl text-gray-600">Notion has everything you need, from task tracking to templates to documentation. Get comfortable — you won’t be leaving all that often.</p>
@@ -139,6 +146,10 @@ export default function ResetPassword() {
             </div>
 
           </div>
+
+
+          {/* 🔴 Rating Crux G2 */}
+
 
           <div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
             <h1 className="h1 mb-4">Notion is rated the best on G2</h1>
@@ -187,6 +198,9 @@ export default function ResetPassword() {
             </div>
 
           </div>
+
+
+          {/* 🔴 Features of NotionBear */}
 
 
           <section>
@@ -277,136 +291,142 @@ export default function ResetPassword() {
 
           </section>
 
-<section>
+          {/* 🔴  Crux of what our testimonials*/}
 
-          <div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
-            <h1 className="h1 mb-4">More work gets done with Notion.</h1>
-            <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
+
+          <section>
+
+            <div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
+              <h1 className="h1 mb-4">More work gets done with Notion.</h1>
+              <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
+
+
+              {/* Items */}
+              <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-4 lg:grid-cols-4 items-start md:max-w-2xl lg:max-w-none">
+                {/* 1st item */}
+                <Link href="#0" className="relative flex flex-col items-center p-6 bg-white rounded h-full">
+                  <div>
+                    <div className="items-start space-x-2 ">
+                      <h1 className="h1 mb-4 text-gray-500">86%</h1>
+                      <span className="text-dark font-bold">of users save time with Notion</span>
+                    </div>
+                  </div>
+                </Link>
+
+                {/* 2nd item */}
+                <Link href="#0" className="relative flex flex-col items-center p-6 bg-white rounded h-full">
+                  <div>
+                    <div>
+                      <h1 className="h1 mb-4 text-gray-500">90%</h1>
+                      <span className="text-dark font-bold">of users replaced 2+ tools</span>
+                    </div>
+                  </div>
+                </Link>
+                {/* 3rd item */}
+                <Link href="#0" className="relative flex flex-col items-center p-6 bg-white rounded h-full">
+                  <div>
+                    <div>
+                      <h1 className="h1 mb-4 text-gray-500">91%</h1>
+                      <span className="text-dark font-bold">faster project completion</span>
+                    </div>
+                  </div>
+                </Link>
+                {/* 4th item */}
+                <Link href="#0" className="relative flex flex-col items-center p-6 bg-white rounded h-full">
+                  <div>
+                    <div>
+                      <h1 className="h1 mb-4 text-gray-500">86%</h1>
+                      <span className="text-dark font-bold">less emails sent and received</span>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+
+            </div>
+          </section>
+
+
+          {/* 🔴 Our Business Templates */}
+
+
+          <section>
+
+            <h1 className="h1 mb-4">Get Ready-To-Execute businesses , not just templates.</h1>
+            <p className="text-xl text-gray-600">Notion has thousands of templates for different uses from project management to meeting agendas, team wikis, and CRMs. Using these templates makes getting setup and up-to-speed easier than ever.</p>
 
 
             {/* Items */}
-            <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-4 lg:grid-cols-4 items-start md:max-w-2xl lg:max-w-none">
+            <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
               {/* 1st item */}
-              <Link href="#0" className="relative flex flex-col items-center p-6 bg-white rounded h-full">
+              <Link href="/template/remotejobs" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
                 <div>
                   <div className="items-start space-x-2 ">
-                    <h1 className="h1 mb-4 text-gray-500">86%</h1>
-                    <span className="text-dark font-bold">of users save time with Notion</span>
+                    <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                    <span className="text-dark font-bold">Remote Jobs</span>
                   </div>
+                  <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                  <button className="text-white bg-gray-900 rounded w-fit p-2 mt-4 px-4">Clone Template</button>
                 </div>
               </Link>
 
               {/* 2nd item */}
-              <Link href="#0" className="relative flex flex-col items-center p-6 bg-white rounded h-full">
+              <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
                 <div>
-                  <div>
-                    <h1 className="h1 mb-4 text-gray-500">90%</h1>
-                    <span className="text-dark font-bold">of users replaced 2+ tools</span>
+                  <div className="items-start space-x-2 ">
+                    <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                    <span className="text-dark font-bold">Remote Jobs</span>
                   </div>
+                  <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                  <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
                 </div>
               </Link>
               {/* 3rd item */}
-              <Link href="#0" className="relative flex flex-col items-center p-6 bg-white rounded h-full">
+              <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
                 <div>
-                  <div>
-                    <h1 className="h1 mb-4 text-gray-500">91%</h1>
-                    <span className="text-dark font-bold">faster project completion</span>
+                  <div className="items-start space-x-2 ">
+                    <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                    <span className="text-dark font-bold">Remote Jobs</span>
                   </div>
+                  <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                  <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
                 </div>
               </Link>
               {/* 4th item */}
-              <Link href="#0" className="relative flex flex-col items-center p-6 bg-white rounded h-full">
+              <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
                 <div>
-                  <div>
-                    <h1 className="h1 mb-4 text-gray-500">86%</h1>
-                    <span className="text-dark font-bold">less emails sent and received</span>
+                  <div className="items-start space-x-2 ">
+                    <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                    <span className="text-dark font-bold">Remote Jobs</span>
                   </div>
+                  <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                  <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
+                </div>
+              </Link>
+              {/* 5th item */}
+              <Link href="/integration/fathom" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+                <div>
+                  <div className="items-start space-x-2 ">
+                    <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                    <span className="text-dark font-bold">Remote Jobs</span>
+                  </div>
+                  <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                  <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
+                </div>
+              </Link>
+              {/* 6th item */}
+              <Link href="/integration/figma" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
+                <div>
+                  <div className="items-start space-x-2 ">
+                    <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
+                    <span className="text-dark font-bold">Remote Jobs</span>
+                  </div>
+                  <p className="text-gray-600">Attract your audience by creating a blog.</p>
+                  <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
                 </div>
               </Link>
             </div>
 
-          </div>
-</section>          
-
-
-<section>
-
-            <h1 className="h1 mb-4">More work gets done with Notion.</h1>
-            <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
-
-
-          {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
-            {/* 1st item */}
-            <Link href="/template/remotejobs" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-              <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-fit p-2 mt-4 px-4">Clone Template</button>
-              </div>
-            </Link>
-
-            {/* 2nd item */}
-            <Link href="/integration/slack" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-              <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
-              </div>
-            </Link>
-            {/* 3rd item */}
-            <Link href="/integration/arcade" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-              <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
-              </div>
-            </Link>
-            {/* 4th item */}
-            <Link href="/integration/discord" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-              <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
-              </div>
-            </Link>
-            {/* 5th item */}
-            <Link href="/integration/fathom" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-              <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
-              </div>
-            </Link>
-            {/* 6th item */}
-            <Link href="/integration/figma" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-              <div>
-                <div className="items-start space-x-2 ">
-                  <img className="w-full rounded" src="../images/remotejobs.png" alt="" />
-                  <span className="text-dark font-bold">Remote Jobs</span>
-                </div>
-                <p className="text-gray-600">Attract your audience by creating a blog.</p>
-                <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">Clone Template</button>
-              </div>
-            </Link>
-          </div>
-
-</section>
+          </section>
 
 
 
