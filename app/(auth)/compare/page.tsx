@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link';
-import CompareHero from '@/public/images/logonew-black.png'
+import CompareHero from '@/public/images/heroimage.png'
 
 
 
@@ -106,16 +106,14 @@ export default function ResetPassword() {
     </div>
 </div>
 </div>
-<div>
+<div className='max-w-xl mx-auto text-center pb-12 md:pb-20'>
       <h1 className="h1 mb-4">Tired of <b>Webflow</b>? <br/> Say hi to NotionBear</h1>
       <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
 
 
-      <div className="max-w-4xl mx-auto p-4">
-      <h2 className="text-xl font-bold text-center mb-4">Here’s what Jira does compared to Notion</h2>
-      <p className="text-center mb-4">While Jira’s great for issue tracking, Notion lets you connect all your business operations and monitoring in one workspace.</p>
+      <div className="max-w-xl mx-auto p-4">
       <div className="overflow-x-auto">
-        <table className="table-auto w-full text-left text-sm">
+        <table className="table-auto w-full text-left text-sm bg-gray-200 rounded">
           <thead>
             <tr>
               <th className="px-4 py-2">Features</th>
