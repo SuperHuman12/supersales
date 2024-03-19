@@ -134,7 +134,7 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Image className="md:max-w-none mx-auto rounded"
                        src={helpdeskImage} 
-                       
+                       unoptimized
                        width={500} 
                        height={462} alt="Features bg" />
                     </div>
