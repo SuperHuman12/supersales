@@ -80,7 +80,7 @@ const Page: React.FC = () => {
         <div>
           <Link href="#" className='mb-4'>← Back to Integrations</Link>
           <div className="flex gap-4 mb-4">
-            <Image alt="Logo" loading="lazy" width="2640" height="1708" decoding="async" data-nimg="1" className="h-full w-full rounded-2xl border border-gray-200 object-cover shadow-xl" src="{filterBySlug?.product?.logo}"></Image>
+            <Image alt="Logo" loading="lazy" width="100" height="100" decoding="async" data-nimg="1" className="h-full w-full rounded-2xl border border-gray-200 object-cover shadow-xl" src="{filterBySlug?.product?.logo}"></Image>
             <div>
             <h1 className="text-3xl font-bold text-gray-800 mt-8">{filterBySlug?.product?.name}</h1>
             <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
