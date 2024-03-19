@@ -400,7 +400,7 @@ export default function ResetPassword() {
             <h1 className="h1 mb-4">Get Ready-To-Execute businesses , not just templates.</h1>
             <p className="text-xl text-gray-600 mb-8">NotionBear has thousands of templates for different uses from project management to meeting agendas, team wikis, and CRMs. Using these templates makes getting setup and up-to-speed easier than ever.</p>
 
-            <button className="text-white bg-gray-900 rounded w-fit p-2 mt-4 px-4">View all Templates</button>
+            <button className="text-dark border rounded w-fit p-2 mt-4 px-4 bg-gray-200">View all Templates</button>
 
 
             {/* Items */}
