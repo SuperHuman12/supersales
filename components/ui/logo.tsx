@@ -8,6 +8,7 @@ export default function Logo() {
       {/* Use the Image component for optimized images */}
       <Image
         src={logonew_black} 
+        unoptimized
         alt="Logo" 
         width={200}
         height={200}

@@ -15,7 +15,7 @@ const renderContent = (item: any, index: number) => {
       case 'image':
         return (
         <div key={index} className="flex justify-center">
-          <Image width={1000} height={1000} src={item.url} alt={item.alt} className="max-w-full h-auto rounded-lg shadow-md" />
+          <Image width={1000} height={1000} src={item.url} unoptimized alt={item.alt} className="max-w-full h-auto rounded-lg shadow-md" />
         </div>
         );  case 'bold':
         return <strong key={index} className="font-semibold">{item.text}</strong>;

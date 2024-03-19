@@ -38,6 +38,7 @@ export default async function Template() {
                         width={100}
                         height={100}
                         src={template?.product?.logo} 
+                        unoptimized
                         alt={template?.product?.name} />
 
                       <span className="text-dark font-bold">{template?.product?.name}</span>

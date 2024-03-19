@@ -39,6 +39,7 @@ export default function ModalVideo({
         <Image className="md:max-w-none mx-auto rounded" 
           src={notionbear_character}
          width={750} height={462}
+         unoptimized
           alt="Features bg" />
 
           <div className="banner-bottom-wrapper">

@@ -79,7 +79,7 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} width={50} height={50} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
@@ -97,7 +97,7 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} width={50} height={50} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
@@ -115,7 +115,7 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} width={50} height={50} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
@@ -133,26 +133,7 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} width={50} height={50} alt="Testimonial 01" />
-                </div>
-                <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
-                </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
-                <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
-                </div>
-              </div>
-
-            </div>
-
-
-            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Testimonial */}
-              <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
-                <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} width={50} height={50} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
@@ -171,7 +152,26 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} width={50} height={50} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
+                </div>
+                <blockquote className="text-xl font-medium mb-4">
+                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                </blockquote>
+                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <div className="text-gray-600">
+                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+
+              {/* Testimonial */}
+              <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
+                <div className="mb-4">
+                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
