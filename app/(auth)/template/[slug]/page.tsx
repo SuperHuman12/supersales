@@ -103,6 +103,11 @@ const Page: React.FC = () => {
 
       </div>
 
+
+      <div className="mb-4">
+            <h1 className="text-2xl font-bold text-gray-800">?Overview</h1>
+            <p className="text-md text-gray-600">{filterBySlug?.overview?.content}</p>
+          </div>
       <div>
         {postPageView.map((item: any, index: number) => renderContent(item, index))}
       </div>
