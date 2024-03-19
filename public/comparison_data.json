@@ -6,108 +6,264 @@
         "logo": "https://via.placeholder.com/100",
         "name": "Webflow",
         "provider": "NotionBear",
-        "description": "Embed interactive product demos in your documentation and turn all users into power users."
+        "description": "Tagline why NotionBear is better than Webflow."
       },
-
-      "comparison": [
+      "comparison_table": [
         {
           "feature": "Project management",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         },
         {
           "feature": "Issue tracking",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         },
         {
           "feature": "Unlimited automations",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         },
         {
           "feature": "AI answers",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         },
         {
           "feature": "Databases",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         },
         {
           "feature": "Docs",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         },
         {
           "feature": "Collaboration",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         },
         {
           "feature": "Mobile",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         },
         {
           "feature": "Enterprise admin",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         },
         {
           "feature": "Integrations",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         },
         {
           "feature": "Templates",
-          "Webflow": true,
-          "Notion": true
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
         }
-      ],
-
-
-      
-      
-      "table": {
-        "content": "Arcade lets you create interactive product demos in minutes and turn all users into power users. Let users experience your product through interactive, guided demos. No more pausing and rewinding, users can progress at their own pace. This integration allows you to embed Arcade interactive demos into your GitBook documentation."
-      },
-      "howItWorks": {
-        "content": "Embedding an Arcade flow in your documentation is simple - just paste an Arcade flow link into the GitBook editor. The app will turn the link into an Arcade embed showing your recorded demo."
-      },
-      "configuration": {
-        "content": "To install on a single space, navigate to integrations in sub-navigation. If you prefer to install the Arcade integration on multiple or all spaces, navigate to your organization settings and enable it from the integrations panel. This will give you access to the custom arcade block."
-      },
-      "proof": {
-        "hero": "https://example.com/screenshot-arcade-gitbook"
-      }
+      ]
     },
     {
-      "id": "slack",
+      "id": "wix",
       "product": {
         "logo": "https://via.placeholder.com/100",
-        "name": "Slack",
-        "provider": "Slack",
-        "description": "Integrate interactive product demos directly into your Slack channels to enhance team collaboration and product understanding.",
-        "callToAction": {
-          "text": "Install",
-          "link": "https://example.com/install-slack-slack"
+        "name": "Wix",
+        "provider": "NotionBear",
+        "description": "Why NotionBear is a versatile alternative to Wix for dynamic website creation."
+      },
+      "comparison_table": [
+        {
+          "feature": "Project management",
+          "feature_value": {
+            "Wix": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Issue tracking",
+          "feature_value": {
+            "Wix": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Unlimited automations",
+          "feature_value": {
+            "Wix": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "AI answers",
+          "feature_value": {
+            "Wix": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Databases",
+          "feature_value": {
+            "Wix": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Docs",
+          "feature_value": {
+            "Wix": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Collaboration",
+          "feature_value": {
+            "Wix": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Mobile",
+          "feature_value": {
+            "Wix": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Enterprise admin",
+          "feature_value": {
+            "Wix": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Integrations",
+          "feature_value": {
+            "Wix": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Templates",
+          "feature_value": {
+            "Wix": true,
+            "Notion": true
+          }
         }
+      ]
+    },
+    {
+      "id": "wordpress",
+      "product": {
+        "logo": "https://via.placeholder.com/100",
+        "name": "WordPress",
+        "provider": "NotionBear",
+        "description": "Exploring how NotionBear offers a streamlined, user-friendly alternative to WordPress."
       },
-      "overview": {
-        "content": "Slack enables you to integrate interactive demos into your Slack channels, allowing your team to explore and understand your product's features directly from Slack. No need to switch between apps or pause and rewind; team members can interact with the demos at their own pace, fostering better understanding and collaboration."
-      },
-      "howItWorks": {
-        "content": "To add an Slack demo to your Slack channel, simply share an Slack flow link in the channel. Slack will automatically recognize and embed the interactive demo, making it accessible for your team to view and interact with directly within the Slack interface."
-      },
-      "configuration": {
-        "content": "To get started, navigate to the Slack App Directory and search for the Slack app. Once found, add it to your workspace. You can then share Slack demos in any channel by pasting the demo link, enhancing your team's collaboration and product knowledge."
-      },
-      "proof": {
-        "screenshot": "https://example.com/screenshot-slack",
-        "youtubevideo": "https://youtube.com/watch?v=example-slack"
-      }
+      "comparison_table": [
+        {
+          "feature": "Project management",
+          "feature_value": {
+            "WordPress": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Issue tracking",
+          "feature_value": {
+            "WordPress": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Unlimited automations",
+          "feature_value": {
+            "WordPress": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "AI answers",
+          "feature_value": {
+            "WordPress": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Databases",
+          "feature_value": {
+            "WordPress": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Docs",
+          "feature_value": {
+            "WordPress": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Collaboration",
+          "feature_value": {
+            "WordPress": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Mobile",
+          "feature_value": {
+            "WordPress": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Enterprise admin",
+          "feature_value": {
+            "WordPress": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Integrations",
+          "feature_value": {
+            "WordPress": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Templates",
+          "feature_value": {
+            "WordPress": true,
+            "Notion": true
+          }
+        }
+      ]
     }
+    
   ]
 }
