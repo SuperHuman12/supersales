@@ -112,12 +112,12 @@ const Page: React.FC = () => {
       </div>
 
       <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-800">Overview</h1>
+            <h1 className="text-2xl font-bold text-gray-800">How it Works</h1>
             <p className="text-md text-gray-600">{filterBySlug?.howItWorks?.content}</p>
       </div>
 
       <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-800">Overview</h1>
+            <h1 className="text-2xl font-bold text-gray-800">Configuration</h1>
             <p className="text-md text-gray-600">{filterBySlug?.configuration?.content}</p>
       </div>
 
