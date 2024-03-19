@@ -35,6 +35,7 @@ const Integration = async () => {
             ))}
           </div>
         </div>
+        
       </div>
     </section>
   );
