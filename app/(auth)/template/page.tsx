@@ -33,8 +33,8 @@ export default async function Template() {
                 style={{width: '400px'}}
                 className="cursor-pointer   m-2 relative flex items-center p-6 bg-white rounded shadow-xl h-full border">
                   <div>
-                    <div className="items-start space-x-2">
-                      <Image className="w-full rounded"
+                    <div className="items-start">
+                      <Image className="w-full rounded mb-4"
                         width={100}
                         height={100}
                         src={template?.product?.logo} 
