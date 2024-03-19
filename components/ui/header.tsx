@@ -29,7 +29,7 @@ export default function Header() {
 
           {/* Site branding */}
           <div className="shrink-0 mr-4">
-          <Image src={Logo} alt="Logo" width={200} height={200} />
+          <Image src={Logo} unoptimized alt="Logo" width={200} height={200} />
           </div>
 
           {/* Desktop navigation */}
