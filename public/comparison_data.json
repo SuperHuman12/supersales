@@ -6,7 +6,8 @@
         "logo": "https://via.placeholder.com/100",
         "name": "Webflow",
         "provider": "NotionBear",
-        "description": "Tagline why NotionBear is better than Webflow."
+        "description": "Tagline why NotionBear is better than Webflow.",
+        "heroimage": "https://via.placeholder.com/400"
       },
       "comparison_table": [
         {
@@ -94,7 +95,9 @@
         "logo": "https://via.placeholder.com/100",
         "name": "Wix",
         "provider": "NotionBear",
-        "description": "Why NotionBear is a versatile alternative to Wix for dynamic website creation."
+        "description": "Why NotionBear is a versatile alternative to Wix for dynamic website creation.",
+        "heroimage": "https://via.placeholder.com/400"
+
       },
       "comparison_table": [
         {
@@ -182,7 +185,8 @@
         "logo": "https://via.placeholder.com/100",
         "name": "WordPress",
         "provider": "NotionBear",
-        "description": "Exploring how NotionBear offers a streamlined, user-friendly alternative to WordPress."
+        "description": "Exploring how NotionBear offers a streamlined, user-friendly alternative to WordPress.",
+        "heroimage": "https://via.placeholder.com/400"
       },
       "comparison_table": [
         {
