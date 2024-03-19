@@ -1,4 +1,4 @@
-import Logo from '@/components/ui/logo'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
-              <Logo/>
+            <Image src="../../public/images/logonew-black.png" alt="description" width={500} height={300} />
               <p className="text-sm text-gray-600 mt-4 mb-4">Notion Bear is an easy-to-use website builder for busy founders. Lead by <a href="https://twitter.com/absurdfounder">@absurdfounder</a>.</p>
             </div>
             <div className="text-sm text-gray-600">
