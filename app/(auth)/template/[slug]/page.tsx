@@ -74,11 +74,13 @@ const Page: React.FC = () => {
 
   return (
     <div className="space-y-8 mt-24 mb-16 ml-16 mr-16 p-8">
+
+
       <div className="grid grid-cols-1 gap-y-8 gap-x-12 lg:grid-cols-2 xl:gap-x-16">
         <div>
           <Link href="#" className='mb-4'>← Back to Templates</Link>
           <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-800">{filterBySlug?.product?.name}</h1>
+            <h1 className="text-3xl font-bold text-gray-800 mt-8">{filterBySlug?.product?.name}</h1>
             <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
           </div>
           <div className="text-gray-800">
@@ -105,12 +107,21 @@ const Page: React.FC = () => {
 
 
       <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-800">?Overview</h1>
+            <h1 className="text-2xl font-bold text-gray-800">Overview</h1>
             <p className="text-md text-gray-600">{filterBySlug?.overview?.content}</p>
-          </div>
-      <div>
-        {postPageView.map((item: any, index: number) => renderContent(item, index))}
       </div>
+
+      <div className="mb-4">
+            <h1 className="text-2xl font-bold text-gray-800">Overview</h1>
+            <p className="text-md text-gray-600">{filterBySlug?.howItWorks?.content}</p>
+      </div>
+
+      <div className="mb-4">
+            <h1 className="text-2xl font-bold text-gray-800">Overview</h1>
+            <p className="text-md text-gray-600">{filterBySlug?.configuration?.content}</p>
+      </div>
+
+
     </div>
   );
 };
