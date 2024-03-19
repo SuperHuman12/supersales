@@ -100,7 +100,7 @@ const Page: React.FC = () => {
           </div>
         </div>
 
-        <Image alt="Logo" loading="lazy" width="2640" height="1708" decoding="async" data-nimg="1" className="h-full w-full rounded-2xl border border-gray-200 object-cover shadow-xl" src="{filterBySlug?.proof?.screenshot?.link}"></Image>
+        <Image alt="Logo" loading="lazy" width="2640" height="1708" decoding="async" data-nimg="1" className="h-full w-full rounded-2xl border border-gray-200 object-cover shadow-xl" unoptimized src="{filterBySlug?.proof?.screenshot?.link}"></Image>
 
 
       </div>
