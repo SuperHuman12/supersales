@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation'; // Adjusted imports for Next.js 13
 import { _loadFromJson, _transformDataToPostPageView, renderContent } from '../../../utils/helper';
 import Image from 'next/image'
+import Link from 'next/link';
+
 
 interface CallToCopy {
   text: string;
@@ -73,7 +75,8 @@ const Page: React.FC = () => {
   return (
     <div className="space-y-8 mt-24 mb-16 ml-16 mr-16 bg-gray-100 p-8">
       <div className="grid grid-cols-1 gap-y-8 gap-x-12 lg:grid-cols-2 xl:gap-x-16">
-        <div className="flex items-center">
+        <Link href="0#" className="font-bold"> Back to Template </Link>
+        <div>
           <div className="mb-4">
             <h1 className="text-2xl font-bold text-gray-800">{filterBySlug?.product?.name}</h1>
             <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
@@ -93,9 +96,6 @@ const Page: React.FC = () => {
               </a>
             </div>
           </div>
-        </div>
-        <div>
-          <Image alt="Logo" loading="lazy" width="2640" height="1708" decoding="async" data-nimg="1" className="h-full w-full rounded-2xl border border-gray-200 object-cover shadow-xl" src="{filterBySlug?.proof?.screenshot?.link}"></Image>
         </div>
 
       </div>
