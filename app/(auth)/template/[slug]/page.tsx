@@ -73,32 +73,31 @@ const Page: React.FC = () => {
   return (
     <div className="space-y-8 mt-24 mb-16 ml-16 mr-16 bg-gray-100 p-8">
       <div className="flex space-y-6">
-        <div className="space-y-4">
-          <div className="flex items-center space-x-4">
-            <div className="w-20 h-20 rounded-full overflow-hidden">
-              <img src={filterBySlug.product?.logo} alt="" className="w-full h-full object-contain" />
-            </div>
-            <div className="space-y-2">
-              <h1 className="text-2xl font-bold text-gray-800">{filterBySlug?.product?.name}</h1>
-              <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
-            </div>
+        <div className="flex items-center space-x-4">
+          <div className="space-y-2">
+            <h1 className="text-2xl font-bold text-gray-800">{filterBySlug?.product?.name}</h1>
+            <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
           </div>
           <div className="text-gray-800">
             <p>{filterBySlug?.product?.description}</p>
           </div>
           <div className="flex">
-          <div className="flex mr-1 space-x-2 items-center">
-            <a href={filterBySlug?.product?.callToCopy?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-              <span>{filterBySlug?.product?.callToCopy?.text}</span>
-            </a>
-          </div>
-          <div className="flex space-x-2 items-center">
-            <a href={filterBySlug?.product?.ViewDemo?.link} className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
-              <span>{filterBySlug?.product?.ViewDemo?.text}</span>
-            </a>
-          </div>
+            <div className="flex mr-1 space-x-2 items-center">
+              <a href={filterBySlug?.product?.callToCopy?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
+                <span>{filterBySlug?.product?.callToCopy?.text}</span>
+              </a>
+            </div>
+            <div className="flex space-x-2 items-center">
+              <a href={filterBySlug?.product?.ViewDemo?.link} className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
+                <span>{filterBySlug?.product?.ViewDemo?.text}</span>
+              </a>
+            </div>
           </div>
         </div>
+        <div>
+          <Image alt="Logo" loading="lazy" width="2640" height="1708" decoding="async" data-nimg="1" className="w-100 rounded p-8 mb-8 dyanmictext" src="{filterBySlug?.proof?.screenshot?.link}"></Image>
+        </div>
+
       </div>
 
       <div>
