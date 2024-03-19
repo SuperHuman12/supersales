@@ -79,9 +79,12 @@ const Page: React.FC = () => {
       <div className="grid grid-cols-1 gap-y-8 gap-x-12 lg:grid-cols-2 xl:gap-x-16">
         <div>
           <Link href="#" className='mb-4'>← Back to Integrations</Link>
-          <div className="mb-4">
+          <div className="flex gap-4 mb-4">
+            <Image alt="Logo" loading="lazy" width="2640" height="1708" decoding="async" data-nimg="1" className="h-full w-full rounded-2xl border border-gray-200 object-cover shadow-xl" src="{filterBySlug?.product?.logo}"></Image>
+            <div>
             <h1 className="text-3xl font-bold text-gray-800 mt-8">{filterBySlug?.product?.name}</h1>
             <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
+            </div>
           </div>
           <div className="text-gray-800">
             <p>{filterBySlug?.product?.description}</p>
