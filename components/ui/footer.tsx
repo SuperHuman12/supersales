@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Logo from '@/public/images/logonew-black.png'
 
 export default function Footer() {
   return (
@@ -11,7 +12,7 @@ export default function Footer() {
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
-            <Image src="../../public/images/logonew-black.png" unoptimized alt="description" width={500} height={300} />
+            <Image src={Logo} unoptimized alt="Logo" width={200} height={200} />
               <p className="text-sm text-gray-600 mt-4 mb-4">Notion Bear is an easy-to-use website builder for busy founders. Lead by <a href="https://twitter.com/absurdfounder">@absurdfounder</a>.</p>
             </div>
             <div className="text-sm text-gray-600">
