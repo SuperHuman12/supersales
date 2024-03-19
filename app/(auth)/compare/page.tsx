@@ -114,8 +114,8 @@ export default function ResetPassword() {
 
 
           <div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
-            <h1 className="h1 mb-4">Get so much more than task management with Notion.</h1>
-            <p className="text-xl text-gray-600">Notion has everything you need, from task tracking to templates to documentation. Get comfortable — you won’t be leaving all that often.</p>
+            <h1 className="h1 mb-4">Get so much more than task management with NotionBear.</h1>
+            <p className="text-xl text-gray-600">NotionBear has everything you need, from task tracking to templates to documentation. Get comfortable — you won’t be leaving all that often.</p>
 
 
             <div className="max-w-xl mx-auto p-4">
@@ -124,21 +124,71 @@ export default function ResetPassword() {
                   <thead>
                     <tr>
                       <th className="px-4 py-2">Features</th>
-                      <th className="px-4 py-2">Jira</th>
-                      <th className="px-4 py-2">Notion</th>
+                      <th className="px-4 py-2">Webflow</th>
+                      <th className="px-4 py-2">NotionBear</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="border px-4 py-2">Project management</td>
-                      <td className="border px-4 py-2">✓</td>
-                      <td className="border px-4 py-2">✓</td>
+                      <td className="border px-4 py-2 text-center">Project management</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
                     <tr>
-                      <td className="border px-4 py-2">Issue tracking</td>
-                      <td className="border px-4 py-2">✓</td>
-                      <td className="border px-4 py-2">✓</td>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
                     </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                    </tr>                    
+                    <tr>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-4 py-2 text-center">Issue tracking</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                      <td className="border px-4 py-2 text-center">✓</td>
+                    </tr>                    
                     {/* Add more features as needed */}
                   </tbody>
                 </table>
@@ -151,8 +201,8 @@ export default function ResetPassword() {
           {/* 🔴 Rating Crux G2 */}
 
 
-          <div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
-            <h1 className="h1 mb-4">Notion is rated the best on G2</h1>
+          <div className='max-w-3xl mx-auto text-center py-20 pb-12 md:pb-20'>
+            <h1 className="h1 mb-4">NotionBear is rated the best on G2</h1>
             <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
 
 
@@ -161,7 +211,7 @@ export default function ResetPassword() {
               {/* 1st item */}
               <Link href="#0" className="relative flex flex-col items-center p-6 bg-white rounded h-full">
                 <div>
-                  <div className="items-start space-x-2 ">
+                  <div className="">
                     <h1 className="h1 mb-4 text-gray-500">86%</h1>
                     <span className="text-dark font-bold">Ease of Use</span>
                   </div>
@@ -211,7 +261,7 @@ export default function ResetPassword() {
                       <div className="space-y-2">
                           <h1 className="mt-4 text-2xl font-bold text-gray-900 sm:text-3xl">Customize your task management workflow to suit your needs</h1>
                           <p className="mt-2 text-base font-normal text-gray-700 lg:text-lg">
-                              ClickUp is what you use if you only need to monitor task progress. To avoid paying for ClickUp and be empowered to create something uniquely suited to you, try Notion for free.
+                              Webflow is what you use if you only need to monitor task progress. To avoid paying for Webflow and be empowered to create something uniquely suited to you, try NotionBear for free.
                           </p>
                       </div>
                   </div>
@@ -232,7 +282,7 @@ export default function ResetPassword() {
                       <div className="space-y-2">
                           <h1 className="mt-4 text-2xl font-bold text-gray-900 sm:text-3xl">Customize your task management workflow to suit your needs</h1>
                           <p className="mt-2 text-base font-normal text-gray-700 lg:text-lg">
-                              ClickUp is what you use if you only need to monitor task progress. To avoid paying for ClickUp and be empowered to create something uniquely suited to you, try Notion for free.
+                              Webflow is what you use if you only need to monitor task progress. To avoid paying for Webflow and be empowered to create something uniquely suited to you, try NotionBear for free.
                           </p>
                       </div>
                   </div>
@@ -250,7 +300,7 @@ export default function ResetPassword() {
                       <div className="space-y-2">
                           <h1 className="mt-4 text-2xl font-bold text-gray-900 sm:text-3xl">Customize your task management workflow to suit your needs</h1>
                           <p className="mt-2 text-base font-normal text-gray-700 lg:text-lg">
-                              ClickUp is what you use if you only need to monitor task progress. To avoid paying for ClickUp and be empowered to create something uniquely suited to you, try Notion for free.
+                              Webflow is what you use if you only need to monitor task progress. To avoid paying for Webflow and be empowered to create something uniquely suited to you, try NotionBear for free.
                           </p>
                       </div>
                   </div>
@@ -271,7 +321,7 @@ export default function ResetPassword() {
                       <div className="space-y-2">
                           <h1 className="mt-4 text-2xl font-bold text-gray-900 sm:text-3xl">Customize your task management workflow to suit your needs</h1>
                           <p className="mt-2 text-base font-normal text-gray-700 lg:text-lg">
-                              ClickUp is what you use if you only need to monitor task progress. To avoid paying for ClickUp and be empowered to create something uniquely suited to you, try Notion for free.
+                              Webflow is what you use if you only need to monitor task progress. To avoid paying for Webflow and be empowered to create something uniquely suited to you, try NotionBear for free.
                           </p>
                       </div>
                   </div>
@@ -292,8 +342,8 @@ export default function ResetPassword() {
 
           <section>
 
-            <div className='max-w-xl mx-auto text-center py-20 pb-12 md:pb-20'>
-              <h1 className="h1 mb-4">More work gets done with Notion.</h1>
+            <div className='max-w-3xl mx-auto text-center py-20 pb-12 md:pb-20'>
+              <h1 className="h1 mb-4">More work gets done with NotionBear.</h1>
               <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
 
 
@@ -302,9 +352,9 @@ export default function ResetPassword() {
                 {/* 1st item */}
                 <Link href="#0" className="relative flex flex-col items-center p-6 bg-white rounded h-full">
                   <div>
-                    <div className="items-start space-x-2 ">
+                    <div className="">
                       <h1 className="h1 mb-4 text-gray-500">86%</h1>
-                      <span className="text-dark font-bold">of users save time with Notion</span>
+                      <span className="text-dark font-bold">of users save time with NotionBear</span>
                     </div>
                   </div>
                 </Link>
@@ -345,10 +395,10 @@ export default function ResetPassword() {
           {/* 🔴 Our Business Templates */}
 
 
-          <section>
+          <section className='max-w-3xl m-auto text-center space-y-4'>
 
             <h1 className="h1 mb-4">Get Ready-To-Execute businesses , not just templates.</h1>
-            <p className="text-xl text-gray-600">Notion has thousands of templates for different uses from project management to meeting agendas, team wikis, and CRMs. Using these templates makes getting setup and up-to-speed easier than ever.</p>
+            <p className="text-xl text-gray-600">NotionBear has thousands of templates for different uses from project management to meeting agendas, team wikis, and CRMs. Using these templates makes getting setup and up-to-speed easier than ever.</p>
 
 
             {/* Items */}
