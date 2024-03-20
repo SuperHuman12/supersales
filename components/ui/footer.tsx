@@ -3,6 +3,8 @@ import Logo from '@/public/images/logonew-black.png'
 
 export default function Footer() {
   return (
+    <>
+ 
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
@@ -12,7 +14,7 @@ export default function Footer() {
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
-            <Image src={Logo} unoptimized alt="Logo" width={200} height={200} />
+            <Image src={Logo} loading='eager'  alt="Logo" width={200} height={200} />
               <p className="text-sm text-gray-600 mt-4 mb-4">Notion Bear is an easy-to-use website builder for busy founders. Lead by <a href="https://twitter.com/absurdfounder">@absurdfounder</a>.</p>
             </div>
             <div className="text-sm text-gray-600">
@@ -47,28 +49,28 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="/compare-against/[slug]" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Wix</a>
+                <a href="/compare-against/webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Wix</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/[slug]" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Webflow</a>
+                <a href="/compare-against/webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Webflow</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/[slug]" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with WordPress</a>
+                <a href="/compare-against/webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with WordPress</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/[slug]" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Unbounce</a>
+                <a href="/compare-against/webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Unbounce</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/[slug]" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Zendesk</a>
+                <a href="/compare-against/webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Zendesk</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/[slug]" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Intercom</a>
+                <a href="/compare-against/webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Intercom</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/[slug]" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Ghost</a>
+                <a href="/compare-against/webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Ghost</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/[slug]" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Framer</a>
+                <a href="/compare-against/webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Framer</a>
               </li>              
             </ul>
           </div>
@@ -170,5 +172,6 @@ export default function Footer() {
 
       </div>
     </footer>
+    </>
   )
 }

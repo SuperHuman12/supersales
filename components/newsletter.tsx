@@ -4,22 +4,24 @@ import notionfooterImage from '@/public/images/notionfooter.png';
 export default function Newsletter() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="pb-12 md:pb-20">
 
           {/* CTA box */}
-          <div className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden" data-aos="zoom-y-out">
+          <div className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden" 
+          >
 
             {/* Background illustration */}
-            <div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" aria-hidden="true">
+            <div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" >
 
-              <Image
-            src={notionfooterImage} 
-            unoptimized
-            alt="Logo" 
-            width={400} 
-            className="block" 
-          />
+             
+
+            <Image alt="Logo" 
+              width={400} 
+              className="block" 
+              src={notionfooterImage} />
+
+
 
             </div>
 

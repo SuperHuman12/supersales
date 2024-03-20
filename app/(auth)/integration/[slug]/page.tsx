@@ -1,18 +1,15 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation'; // Adjusted imports for Next.js 13
-import { _loadFromJson, _transformDataToPostPageView, renderContent } from '../../../utils/helper';
+import { usePathname, useSearchParams } from 'next/navigation'; 
+import { _loadFromJson, _transformDataToPostPageView } from '../../../utils/helper';
 import Image from 'next/image'
 import Link from 'next/link';
+import MoveBack from '@/components/MoveBack';
+import Loading from '@/components/Loading';
 
 
 
-interface callToCopy {
-  link: string;
-  text: string;
-}
-
-interface callToCopy {
+interface callToAction {
   text: string;
   link: string;
 }
@@ -22,7 +19,7 @@ interface Product {
   name: string;
   provider: string;
   description: string;
-  callToCopy: callToCopy;
+  callToAction: callToAction;
 }
 
 interface ContentSection {
@@ -65,12 +62,14 @@ const Page: React.FC = () => {
       };
       fetchData();
     }
-  }, [pathname, searchParams]); // Reacting to changes in pathname and searchParams
+  }, [pathname, searchParams]);
 
 
   if (!filterBySlug) {
-    return <div>Loading...</div>;
+    return <Loading/>;
   }
+
+
 
   return (
     <div className="space-y-8 mt-24 mb-16 ml-16 mr-16 p-8">
@@ -78,12 +77,16 @@ const Page: React.FC = () => {
 
       <div className="grid grid-cols-1 gap-y-8 gap-x-12 lg:grid-cols-2 xl:gap-x-16">
         <div>
-          <Link href="#" className='mb-4'>← Back to Integrations</Link>
+          <MoveBack />
           <div className="flex gap-4 mb-4">
-            <Image alt="Logo" loading="lazy" width="10" height="10" decoding="async" data-nimg="1" className=" rounded-2xl border border-gray-200 object-cover shadow-xl w-20 h-20 mt-6" unoptimized src="{filterBySlug?.product?.logo}"></Image>
+            <Image alt="Logo"
+              height={100}
+              width={100}
+              className=" rounded-2xl border border-gray-200 object-cover shadow-xl w-20 h-20 mt-6"
+              src={filterBySlug?.product?.logo} />
             <div>
-            <h1 className="text-3xl font-bold text-gray-800 mt-8">{filterBySlug?.product?.name}</h1>
-            <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
+              <h1 className="text-3xl font-bold text-gray-800 mt-8">{filterBySlug?.product?.name}</h1>
+              <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
             </div>
           </div>
           <div className="text-gray-800">
@@ -91,40 +94,44 @@ const Page: React.FC = () => {
           </div>
           <div className="flex mt-4 gap-4">
             <div className="flex mr-1 space-x-2 items-center">
-              <a href={filterBySlug?.product?.callToCopy?.link} className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
+              <Link href={filterBySlug?.product?.callToAction?.link}
+                className="bg-gray-900 hover:bg-gray-700 text-white cursor-pointer font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
                 <span>Install</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
 
-        <Image alt="Logo" loading="lazy" width="2640" height="1708" decoding="async" data-nimg="1" className="h-full w-full rounded-2xl border border-gray-200 object-cover shadow-xl" unoptimized src="{filterBySlug?.proof?.screenshot?.link}"></Image>
 
+        <Image
+          src={filterBySlug?.proof?.screenshot}
+          alt={filterBySlug?.product?.name}
+          width={400}
+          className="h-1/2 w-full rounded-2xl border border-gray-200 object-cover shadow-xl"
+          height={450}
+          quality="90"
 
+        />
       </div>
 
 
       <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-800">Overview</h1>
-            <p className="text-md text-gray-600">{filterBySlug?.overview?.content}</p>
+        <h1 className="text-2xl font-bold text-gray-800">Overview</h1>
+        <p className="text-md text-gray-600">{filterBySlug?.overview?.content}</p>
       </div>
 
       <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-800">How it Works</h1>
-            <p className="text-md text-gray-600">{filterBySlug?.howItWorks?.content}</p>
+        <h1 className="text-2xl font-bold text-gray-800">How it Works</h1>
+        <p className="text-md text-gray-600">{filterBySlug?.howItWorks?.content}</p>
       </div>
 
       <div className="mb-4">
-            <h1 className="text-2xl font-bold text-gray-800">Configuration</h1>
-            <p className="text-md text-gray-600">{filterBySlug?.configuration?.content}</p>
+        <h1 className="text-2xl font-bold text-gray-800">Configuration</h1>
+        <p className="text-md text-gray-600">{filterBySlug?.configuration?.content}</p>
       </div>
 
 
     </div>
-
-
-
-
 
 
   );

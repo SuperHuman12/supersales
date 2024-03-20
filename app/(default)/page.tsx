@@ -9,7 +9,6 @@ import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 import Showcases from '@/components/showcase'
 import Newsletter from '@/components/newsletter'
-import Image from 'next/image'
 
 
 export default function Home() {

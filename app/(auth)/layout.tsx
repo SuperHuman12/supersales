@@ -14,8 +14,8 @@ export default function AuthLayout({
 
 {children}
 
-</main>
 
+</main>
 <Newsletter />
 <Footer />
   </>

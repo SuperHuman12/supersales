@@ -2,8 +2,12 @@ import Image from 'next/image';
 
 import integrationData from '../../public/integration_data.json';
 import templateData from '../../public/template_data.json';
+import comparisonData from '../../public/comparison_data.json';
 
 
+  const goBack = () => {
+    window.history.back();
+  };
 
 
 const renderContent = (item: any, index: number) => {
@@ -50,8 +54,17 @@ const renderContent = (item: any, index: number) => {
 
 const _loadFromJson = async (template: boolean = true) => {
   try {
-    // Directly return the imported data based on the `template` flag
     return template ? templateData?.template_library : integrationData.integration_library;
+  } catch (error) {
+    console.error("Failed to load templates", error);
+    return [];
+  }
+};
+
+
+const _loadFromJsonComparison = async () => {
+  try {
+    return comparisonData.comparision_library;
   } catch (error) {
     console.error("Failed to load templates", error);
     return [];
@@ -104,4 +117,4 @@ function _transformDataToPostPageView(dataObject: any) {
 
 
 
-export { renderContent, _loadFromJson, _transformDataToPostPageView }
+export { renderContent,_loadFromJsonComparison ,_loadFromJson, goBack,_transformDataToPostPageView }

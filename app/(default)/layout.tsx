@@ -6,6 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 import Footer from '@/components/ui/footer'
+import Newsletter from '@/components/newsletter'
 
 export default function DefaultLayout({
   children,
@@ -29,7 +30,6 @@ export default function DefaultLayout({
         {children}
 
       </main>
-
       <Footer />
     </>
   )

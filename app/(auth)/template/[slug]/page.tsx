@@ -4,6 +4,8 @@ import { usePathname, useSearchParams } from 'next/navigation'; // Adjusted impo
 import { _loadFromJson, _transformDataToPostPageView, renderContent } from '../../../utils/helper';
 import Image from 'next/image'
 import Link from 'next/link';
+import MoveBack from '@/components/MoveBack';
+import Loading from '@/components/Loading';
 
 
 interface CallToCopy {
@@ -69,7 +71,7 @@ const Page: React.FC = () => {
 
 
   if (!filterBySlug) {
-    return <div>Loading...</div>;
+    return <Loading/>;;
   }
 
   return (
@@ -78,7 +80,8 @@ const Page: React.FC = () => {
 
       <div className="grid grid-cols-1 gap-y-8 gap-x-12 lg:grid-cols-2 xl:gap-x-16">
         <div>
-          <Link href="#" className='mb-4'>← Back to Templates</Link>
+        <MoveBack/>
+
           <div className="mb-4">
             <h1 className="text-3xl font-bold text-gray-800 mt-8">{filterBySlug?.product?.name}</h1>
             <p className="text-md text-gray-600">{filterBySlug?.product?.provider}</p>
@@ -93,14 +96,22 @@ const Page: React.FC = () => {
               </a>
             </div>
             <div className="flex space-x-2 items-center">
-              <a href={filterBySlug?.product?.ViewDemo?.link} className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
+              <Link href={filterBySlug?.product?.ViewDemo?.link} className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank">
                 <span>{filterBySlug?.product?.ViewDemo?.text}</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
 
-        <Image alt="Logo" loading="lazy" width="2640" height="1708" decoding="async" data-nimg="1" className="h-full w-full rounded-2xl border border-gray-200 object-cover shadow-xl" unoptimized src="{filterBySlug?.proof?.screenshot?.link}"></Image>
+        <Image
+            src={filterBySlug?.proof?.screenshot}
+            alt={filterBySlug?.product?.name}
+            width={400}
+            className="h-1/2 w-full rounded-2xl border border-gray-200 object-cover shadow-xl"  
+            height={450}
+            quality="90"
+          
+          />
 
 
       </div>

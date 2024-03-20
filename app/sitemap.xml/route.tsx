@@ -1,5 +1,5 @@
 // Assuming _loadFromJson is imported from a utility module
-import { _loadFromJson } from "../utils/helper";
+import { _loadFromJson, _loadFromJsonComparison } from "../utils/helper";
 
 const URL = "https://notionbear.com";
 
@@ -18,10 +18,15 @@ async function loadIntegrations(): Promise<IntegrationOrTemplate[]> {
     const templatesFile = await _loadFromJson()
       .then((items: any[]): IntegrationOrTemplate[] => 
         items.map(item => ({ ...item, type: 'template' })));
+
+    const comparison = await _loadFromJsonComparison()
+        .then((items: any[]): IntegrationOrTemplate[] => 
+          items.map(item => ({ ...item, type: 'compare-against' })));
     
     return [
       ...integrationsFile,
-      ...templatesFile
+      ...templatesFile,
+      ...comparison
     ];
   } catch (error) {
     console.error("Failed to load integrations", error);
