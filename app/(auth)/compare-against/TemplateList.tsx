@@ -13,7 +13,7 @@ const TemplateLibrary = () => {
           <Link key={index} href={template.product.callToCopy.link} className="relative flex flex-col text-start items-center p-6 bg-white rounded shadow-xl h-full border">
             <div>
               <div>
-                <img className="w-full rounded" src={template.product.logo} alt={template.product.name} />
+                <img className="w-full rounded mb-4" src={template.product.logo} alt={template.product.name} />
                 <span className="text-dark font-bold">{template.product.name}</span>
               </div>
               <p className="text-gray-600">{template.product.description}</p>

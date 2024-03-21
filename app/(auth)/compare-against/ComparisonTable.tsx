@@ -20,7 +20,7 @@ const ComparisonTable = ({ id }:{id:any}) => {
               <thead>
                 <tr>
                   <th className="px-4 py-2">Features</th>
-                  <th className="px-4 py-2 text-center">Webflow</th>
+                  <th className="px-4 py-2 text-center dynamictext">Webflow</th>
                   <th className="px-4 py-2 text-center">NotionBear</th>
                 </tr>
               </thead>

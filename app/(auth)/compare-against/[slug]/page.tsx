@@ -101,7 +101,7 @@ export default function ComparisonAgainst() {
             width={400}
             height={300}
             loading='eager'
-            className="w-100 rounded p-8 mb-8 dyanmictext" />
+            className="w-100 rounded p-8 mb-8 dyanmictext m-auto" />
 
 
             <h1 className="h1 mb-4">Tired of <b className="dyanmictext">{filterBySlug?.product?.name}</b>? <br /> Say hi to NotionBear</h1>

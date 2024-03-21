@@ -20,14 +20,14 @@
         {
           "feature": "Issue tracking",
           "feature_value": {
-            "Item": true,
+            "Item": false,
             "Notion": true
           }
         },
         {
           "feature": "Unlimited automations",
           "feature_value": {
-            "Item": true,
+            "Item": false,
             "Notion": true
           }
         },
@@ -62,14 +62,14 @@
         {
           "feature": "Mobile",
           "feature_value": {
-            "Item": true,
+            "Item": false,
             "Notion": true
           }
         },
         {
           "feature": "Enterprise admin",
           "feature_value": {
-            "Item": true,
+            "Item": false,
             "Notion": true
           }
         },
