@@ -1,7 +1,7 @@
 {
   "comparision_library": [
     {
-      "id": "webflow",
+      "id": "notionbear-vs-webflow",
       "product": {
         "logo": "https://via.placeholder.com/100",
         "name": "Webflow",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "id": "wix",
+      "id": "notionbear-vs-wix",
       "product": {
         "logo": "https://via.placeholder.com/100",
         "name": "Wix",
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "id": "wordpress",
+      "id": "notionbear-vs-wordpress",
       "product": {
         "logo": "https://via.placeholder.com/100",
         "name": "WordPress",

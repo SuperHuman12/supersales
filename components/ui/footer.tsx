@@ -49,28 +49,28 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="/compare-against/wix" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Wix</a>
+                <a href="/compare-against/notionbear-vs-wix" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Wix</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Webflow</a>
+                <a href="/compare-against/notionbear-vs-webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Webflow</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/wordpress" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with WordPress</a>
+                <a href="/compare-against/notionbear-vs-wordpress" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with WordPress</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/unbounce" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Unbounce</a>
+                <a href="/compare-against/notionbear-vs-unbounce" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Unbounce</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/zendesk" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Zendesk</a>
+                <a href="/compare-against/notionbear-vs-zendesk" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Zendesk</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/intercom" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Intercom</a>
+                <a href="/compare-against/notionbear-vs-intercom" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Intercom</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/ghost" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Ghost</a>
+                <a href="/compare-against/notionbear-vs-ghost" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Ghost</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/framer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Framer</a>
+                <a href="/compare-against/notionbear-vs-framer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Framer</a>
               </li>              
             </ul>
           </div>
