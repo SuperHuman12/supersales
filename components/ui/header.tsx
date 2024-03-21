@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Image from 'next/image';
-import Link from 'next/link'
+import Link from 'next/link';
 import Logo from '@/public/images/logonew-black.png'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
@@ -28,9 +28,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
 
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
+          <Link href="#" className="shrink-0 mr-4">
           <Image src={Logo} unoptimized alt="Logo" width={200} height={200} />
-          </div>
+          </Link>
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
