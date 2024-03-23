@@ -55,7 +55,7 @@ export default function FeaturesBlocks() {
               </div>
             </div>
             <div className="text-start mt-6 w-1/2">
-              <h2 className="h2 font-bold mb-4">Customize to match your brand</h2>
+              <h2 className="h2 font-bold mb-4">Customize to your brand</h2>
               <p className="text-gray-700">Your work stays in a place you control and love, while NotionBear handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
             </div>
             <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
