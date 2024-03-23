@@ -5,11 +5,11 @@ import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import FeaturesBg from '@/public/images/features-bg.png'
 import FeaturesElement from '@/public/images/features-element.png'
-import helpdeskImage  from '@/public/images/helpdesk.gif';
+import helpdeskImage from '@/public/images/helpdesk.gif';
 import catalogImage from '@/public/images/catalog.gif';
 
 export default function Features() {
-  
+
   const [tab, setTab] = useState<number>(1)
 
   const tabs = useRef<HTMLDivElement>(null)
@@ -20,7 +20,7 @@ export default function Features() {
 
   useEffect(() => {
     heightFix()
-  }, []) 
+  }, [])
 
   return (
     <section className="relative text-white mt-4 mb-4 pb-4 bg-gray-900">
@@ -46,7 +46,7 @@ export default function Features() {
               {/* Tabs buttons */}
               <div className="grid gap-2 mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 bg-gray-200 border border-dashed shadow-md border-gray-200 hover:shadow-lg text-gray-900 ${tab !== 1 ? 'bg-gray-100 text-white shadow-md border-gray-200 hover:shadow-lg' : 'border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 bg-gray-200 border border-dashed shadow-md border-gray-200 hover:shadow-lg text-gray-900 ${tab !== 1 ? 'bg-gray-100 shadow-md border-gray-200 hover:shadow-lg' : 'border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
@@ -54,14 +54,13 @@ export default function Features() {
                     <svg className="w-3 h-3" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
                     </svg>
-                  </div>                  
+                  </div>
                   <div>
                     <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to Helpdesk</div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-catalogue2.png" className="rounded-full w-auto h-6"/> and <img alt="Ana" src="./images/simpler-catalogue.png" className="rounded-full w-auto h-6"/></div>
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 bg-gray-200 border border-dashed shadow-md border-gray-200 hover:shadow-lg text-gray-900 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 bg-gray-200 border border-dashed shadow-md border-gray-200 hover:shadow-lg text-gray-900 ${tab !== 2 ? 'bg-gray-100 shadow-md border-gray-200 hover:shadow-lg' : 'border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
@@ -73,11 +72,10 @@ export default function Features() {
 
                   <div>
                     <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to Blog</div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-blog.png" className="rounded-full w-auto h-6"/> and <img alt="Ana" src="./images/simpler-blog2.png" className="rounded-full w-auto h-6"/></div>
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 bg-gray-200 border border-dashed shadow-md border-gray-200 hover:shadow-lg text-gray-900 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 bg-gray-200 border border-dashed shadow-md border-gray-200 hover:shadow-lg text-gray-900 ${tab !== 3 ? 'bg-gray-100 shadow-md border-gray-200 hover:shadow-lg' : 'border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
@@ -90,11 +88,11 @@ export default function Features() {
 
                   <div>
                     <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to Catalog</div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-helpdesk2.png" className="rounded-full w-auto h-6"/> and <img alt="Ana" src="./images/simpler-helpdesk.png" className="rounded-full w-auto h-6"/></div>
+                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-helpdesk2.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/simpler-helpdesk.png" className="rounded-full w-auto h-6" /></div>
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 bg-gray-200 border border-dashed shadow-md border-gray-200 hover:shadow-lg text-gray-900 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 bg-gray-200 border border-dashed shadow-md border-gray-200 hover:shadow-lg text-gray-900 ${tab !== 3 ? 'bg-gray-100 shadow-md border-gray-200 hover:shadow-lg' : 'border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >
@@ -107,14 +105,14 @@ export default function Features() {
 
                   <div>
                     <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to Company Wiki</div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-6"/> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-6"/></div>
+                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-6" /></div>
                   </div>
-                </a>                
+                </a>
               </div>
             </div>
 
             {/* Tabs items */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 grid gap-4 mb-8 md:mb-0 md:order-1">
+            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 grid gap-4 mb-8 md:mb-0 md:order-1 m-auto w-full">
               <div className="transition-all">
                 <div className="relative flex flex-col text-center lg:text-right" data-aos="zoom-y-out" ref={tabs}>
                   {/* Item 1 */}
@@ -129,14 +127,14 @@ export default function Features() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
-                    unmount={false}                     
+                    unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
                       <Image className="md:max-w-none mx-auto rounded"
-                       src={helpdeskImage} 
-                       unoptimized
-                       width={500} 
-                       height={462} alt="Features bg" />
+                        src={helpdeskImage}
+                        unoptimized
+                        width={500}
+                        height={462} alt="Features bg" />
                     </div>
                   </Transition>
                   {/* Item 2 */}
@@ -151,11 +149,12 @@ export default function Features() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
-                    unmount={false}                     
+                    unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
                       <Image className="md:max-w-none mx-auto rounded" src="/images/blog.gif" unoptimized width={500} height="462" alt="Features bg" />
                     </div>
+                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-blog.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/simpler-blog2.png" className="rounded-full w-auto h-6" /></div>
                   </Transition>
                   {/* Item 3 */}
                   <Transition
@@ -169,16 +168,42 @@ export default function Features() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
-                    unmount={false}                     
+                    unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
                       <Image className="md:max-w-none mx-auto rounded"
-                       src={catalogImage} width={500} height={462} 
-                       unoptimized
-                       alt="Features bg" />
+                        src={catalogImage} width={500} height={462}
+                        unoptimized
+                        alt="Features bg" />
                       <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} unoptimized width={500} height="44" alt="Element" style={{ top: '30%' }} />
                     </div>
+                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-catalogue2.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/simpler-catalogue.png" className="rounded-full w-auto h-6" /></div>
                   </Transition>
+
+                  <Transition
+  show={tab === 4}
+  appear={true}
+  className="w-full"
+  enter="transition ease-in-out duration-700 transform order-first"
+  enterFrom="opacity-0 translate-y-16"
+  enterTo="opacity-100 translate-y-0"
+  leave="transition ease-in-out duration-300 transform absolute"
+  leaveFrom="opacity-100 translate-y-0"
+  leaveTo="opacity-0 -translate-y-16"
+  beforeEnter={() => heightFix()}
+  unmount={false}
+>
+  <div className="relative inline-flex flex-col">
+    <Image className="md:max-w-none mx-auto rounded"
+      src={"/path/to/your/fourth-tab-image.gif"} // Update this path
+      width={500}
+      height={462}
+      unoptimized
+      alt="Fourth tab gif" />
+    <p className="text-gray-600 mt-4">A simpler alternative to ...</p> {/* This is where you include your statement or any dynamic content */}
+  </div>
+</Transition>
+
                 </div>
               </div>
             </div>
@@ -188,8 +213,8 @@ export default function Features() {
         </div>
       </div>
 
-<br/>
-<br/>
+      <br />
+      <br />
 
     </section>
   )
