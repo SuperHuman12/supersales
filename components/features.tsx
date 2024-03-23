@@ -88,7 +88,6 @@ export default function Features() {
 
                   <div>
                     <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to Catalog</div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-helpdesk2.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/simpler-helpdesk.png" className="rounded-full w-auto h-6" /></div>
                   </div>
                 </a>
                 <a
@@ -105,7 +104,6 @@ export default function Features() {
 
                   <div>
                     <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to Company Wiki</div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-6" /></div>
                   </div>
                 </a>
               </div>
@@ -153,8 +151,8 @@ export default function Features() {
                   >
                     <div className="relative inline-flex flex-col">
                       <Image className="md:max-w-none mx-auto rounded" src="/images/blog.gif" unoptimized width={500} height="462" alt="Features bg" />
+                      <div className="text-gray-600 flex gap-2 justify-center mt-4">A simpler alternative to <img alt="Ana" src="./images/simpler-blog.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/simpler-blog2.png" className="rounded-full w-auto h-6" /></div>
                     </div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-blog.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/simpler-blog2.png" className="rounded-full w-auto h-6" /></div>
                   </Transition>
                   {/* Item 3 */}
                   <Transition
@@ -176,33 +174,33 @@ export default function Features() {
                         unoptimized
                         alt="Features bg" />
                       <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} unoptimized width={500} height="44" alt="Element" style={{ top: '30%' }} />
+                      <div className="text-gray-600 flex gap-2 justify-center mt-4">A simpler alternative to <img alt="Ana" src="./images/simpler-catalogue2.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/simpler-catalogue.png" className="rounded-full w-auto h-6" /></div>
                     </div>
-                    <div className="text-gray-600 flex gap-2">A simpler alternative to <img alt="Ana" src="./images/simpler-catalogue2.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/simpler-catalogue.png" className="rounded-full w-auto h-6" /></div>
                   </Transition>
 
                   <Transition
-  show={tab === 4}
-  appear={true}
-  className="w-full"
-  enter="transition ease-in-out duration-700 transform order-first"
-  enterFrom="opacity-0 translate-y-16"
-  enterTo="opacity-100 translate-y-0"
-  leave="transition ease-in-out duration-300 transform absolute"
-  leaveFrom="opacity-100 translate-y-0"
-  leaveTo="opacity-0 -translate-y-16"
-  beforeEnter={() => heightFix()}
-  unmount={false}
->
-  <div className="relative inline-flex flex-col">
-    <Image className="md:max-w-none mx-auto rounded"
-      src={"/path/to/your/fourth-tab-image.gif"} // Update this path
-      width={500}
-      height={462}
-      unoptimized
-      alt="Fourth tab gif" />
-    <p className="text-gray-600 mt-4">A simpler alternative to ...</p> {/* This is where you include your statement or any dynamic content */}
-  </div>
-</Transition>
+                    show={tab === 4}
+                    appear={true}
+                    className="w-full"
+                    enter="transition ease-in-out duration-700 transform order-first"
+                    enterFrom="opacity-0 translate-y-16"
+                    enterTo="opacity-100 translate-y-0"
+                    leave="transition ease-in-out duration-300 transform absolute"
+                    leaveFrom="opacity-100 translate-y-0"
+                    leaveTo="opacity-0 -translate-y-16"
+                    beforeEnter={() => heightFix()}
+                    unmount={false}
+                  >
+                    <div className="relative inline-flex flex-col">
+                      <Image className="md:max-w-none mx-auto rounded"
+                        src={"/path/to/your/fourth-tab-image.gif"} // Update this path
+                        width={500}
+                        height={462}
+                        unoptimized
+                        alt="Fourth tab gif" />
+                      <div className="text-gray-600 flex gap-2 justify-center mt-4">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-6" /> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-6" /></div>
+                    </div>
+                  </Transition>
 
                 </div>
               </div>
