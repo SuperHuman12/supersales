@@ -33,7 +33,7 @@ export default function ResetPassword() {
                 <div className="text-center">
                   <h2 className="h2 font-bold leading-tight">How it works</h2>
                   <div className="mt-4 text-gray-600">
-                    <p>You can start earning money in 30 minutes.</p>
+                    <p className="text-md mt-4 mb-4 text-gray-800">You can start earning money in 30 minutes.</p>
                   </div>
                 </div>
               </div>
@@ -114,7 +114,7 @@ export default function ResetPassword() {
             <div className="w-full lg:w-1/2 p-8">
               <h2 className="h2 font-bold text-accent">An essential collection of banners</h2>
               <br />
-              <p>We prepared designs for you to download and use right away — no extra work. Missing a format? Just ask and we will make unique design files just for you. Free of charge.</p>
+              <p className="text-md mt-4 mb-4 text-gray-800">We prepared designs for you to download and use right away — no extra work. Missing a format? Just ask and we will make unique design files just for you. Free of charge.</p>
             </div>
             <img src="https://unicorn-cdn.b-cdn.net/3b687e30-49bc-449c-a14b-e0ba8bee1962/banners-free-pack.png" alt="Banners free pack" className="w-full lg:w-1/2 p-8" />
           </div>
@@ -124,7 +124,7 @@ export default function ResetPassword() {
             <img src="https://unicorn-cdn.b-cdn.net/1236c021-4a34-48ea-9bbe-9940811c9794/design-agency.png" alt="Design agency" className="w-full lg:w-1/2 p-8" />
             <div className="w-full lg:w-1/2 p-8">
               <h2 className="h2 font-bold mb-8">You’re a freelancer or an agency</h2>
-              <p>Demonstrate your industry knowledge by recommending NotionBear to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
+              <p className="text-md mt-4 mb-4 text-gray-800">Demonstrate your industry knowledge by recommending NotionBear to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
             </div>
           </div>
 
@@ -132,7 +132,7 @@ export default function ResetPassword() {
           <div className="flex mx-auto px-4 py-8 mt-8">
             <div className="w-full lg:w-1/2 p-8">
               <h2 className="h2 font-bold mb-8">You have an audience</h2>
-              <p>Have an X.com account that is followed by marketers? Or a website about web design? Monetize your audience by recommending them a great tool. Use our affiliate program link alongside with your existing monetization. Boost your earnings!</p>
+              <p className="text-md mt-4 mb-4 text-gray-800">Have an X.com account that is followed by marketers? Or a website about web design? Monetize your audience by recommending them a great tool. Use our affiliate program link alongside with your existing monetization. Boost your earnings!</p>
             </div>
             <img src="https://unicorn-cdn.b-cdn.net/1239feb7-1d79-4971-9412-eecdb199a3f4/influencer.png" alt="Influencer" className="w-full lg:w-1/2 p-8" />
           </div>
@@ -143,7 +143,7 @@ export default function ResetPassword() {
           <div className="pt-12 pb-16 relative z-10 bg-white">
             <div className="max-w-lg mx-auto text-center mb-12">
               <h2 className="h2 font-semibold mb-4 mt-8">Make Passive Income!</h2>
-              <p>Just imagine this amount of cash coming into your bank account every single month. *Calculations are based on the Startup plan.</p>
+              <p className="text-md mt-4 mb-4 text-gray-800">Just imagine this amount of cash coming into your bank account every single month. *Calculations are based on the Startup plan.</p>
             </div>
             <div className="container mx-auto">
               <ul className="flex flex-wrap justify-center">
@@ -153,7 +153,7 @@ export default function ResetPassword() {
 
                       <span className="h4">🐻 BEAR</span>
                       <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
-                      <p>per month</p>
+                      <p className="text-md mt-4 mb-4 text-gray-800">per month</p>
 
                     </div>
                     <div className="text-center">
@@ -166,7 +166,7 @@ export default function ResetPassword() {
                     <div className="text-center mb-4 p-4">
                       <span className="h4">🐴 HORSE</span>
                       <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
-                      <p>per month</p>
+                      <p className="text-md mt-4 mb-4 text-gray-800">per month</p>
                     </div>
                     <div className="text-center">
                       100 people = $957/m
@@ -178,7 +178,7 @@ export default function ResetPassword() {
                     <div className="text-center mb-4 p-4">
                       <span className="h4">🦄 UNICORN</span>
                       <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
-                      <p>per month</p>
+                      <p className="text-md mt-4 mb-4 text-gray-800">per month</p>
                     </div>
                     <div className="text-center">
                       500 people = $4785/m
@@ -229,29 +229,29 @@ export default function ResetPassword() {
 
 
           <div className="py-20 bg-white relative">
-            <div className="max-w-3xl mx-auto">
+            <div className="max-w-6xl mx-auto">
               <div className="text-center">
                 <h2 className="text-3xl font-semibold">Questions?</h2>
               </div>
 
               <div className="mt-8">
                 <div className="space-y-6">
-                  <div>
+                  <div className='p-8 border rounded-md border-gray-600'>
                     <h3 className="font-semibold text-lg">Who is NotionBear for?</h3>
                     <br />
-                    <p>NotionBear is a quick business builder for startup founders. Our users can quickly create a beautiful web apps, blogs, and helpdesks for a mobile or desktop, for a SaaS product, for a plugin, an open-source project, a SMM tool etc.</p>
-                    <p>If your audience are tech guys, NotionBear is for them. They will be more willing to use a tailored tool for startups rather than generic old-fashioned Webflow or Wordpress.</p>
+                    <p className="text-md mt-4 mb-4 text-gray-800">NotionBear is a quick business builder for startup founders. Our users can quickly create a beautiful web apps, blogs, and helpdesks for a mobile or desktop, for a SaaS product, for a plugin, an open-source project, a SMM tool etc.</p>
+                    <p className="text-md mt-4 mb-4 text-gray-800">If your audience are tech guys, NotionBear is for them. They will be more willing to use a tailored tool for startups rather than generic old-fashioned Webflow or Wordpress.</p>
                   </div>
 
-                  <div>
+                  <div className='p-8 border rounded-md border-gray-600'>
                     <h3 className="font-semibold text-lg">Why promote you while I can promote some other website builder?</h3>
                     <br />
-                    <p>The key advantage is the approach. We are building a landing page generator for startups only. That means, we pay all the attention to startups-only demands. In particular, we will provide not-so-popular integrations, specific components and templates.</p>
-                    <p>This is why startup founders love NotionBear more than other tools.</p>
-                    <p>Why believe me? Just A/B test it yourself. Put a Wix affiliate link for a month, measure your earnings. Then put our link. Compare. Pick the winner.</p>
+                    <p className="text-md mt-4 mb-4 text-gray-800">The key advantage is the approach. We are building a landing page generator for startups only. That means, we pay all the attention to startups-only demands. In particular, we will provide not-so-popular integrations, specific components and templates.</p>
+                    <p className="text-md mt-4 mb-4 text-gray-800">This is why startup founders love NotionBear more than other tools.</p>
+                    <p className="text-md mt-4 mb-4 text-gray-800">Why believe me? Just A/B test it yourself. Put a Wix affiliate link for a month, measure your earnings. Then put our link. Compare. Pick the winner.</p>
                   </div>
 
-                  <div>
+                  <div className='p-8 border rounded-md border-gray-600'>
                     <h3 className="font-semibold text-lg">What is the minimum payout amount?</h3>
                     <br />
                     <ul>
@@ -266,10 +266,10 @@ export default function ResetPassword() {
                     </ul>
                   </div>
 
-                  <div>
+                  <div className='p-8 border rounded-md border-gray-600'>
                     <h3 className="font-semibold text-lg">Can I have multiple affiliate offers on the same page?</h3>
                     <br />
-                    <p>Yes. Nothing stops your from selling let's say an analytics tool or a social media scheduler alongside with a landing page builder. Take the maximum out of your resource!</p>
+                    <p className="text-md mt-4 mb-4 text-gray-800">Yes. Nothing stops your from selling let's say an analytics tool or a social media scheduler alongside with a landing page builder. Take the maximum out of your resource!</p>
                   </div>
                 </div>
               </div>
