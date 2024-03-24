@@ -89,7 +89,7 @@ export default function FeaturesBlocks() {
                 />
               </div>
             </div>
-            <div className="text-start mt-6 w-1/2">
+            <div className="text-start mt-6 w-full md:w-1/2">
               <h2 className="h2 font-bold mb-4">Your content lives in Notion</h2>
               <p className="text-gray-700">
                 Your work stays in a place you control and love, while NotionBear handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building
@@ -126,7 +126,7 @@ export default function FeaturesBlocks() {
                 />
               </div>
             </div>
-            <div className="text-start mt-6 w-1/2">
+            <div className="text-start mt-6 w-full md:w-1/2">
               <h2 className="h2 font-bold mb-4">Customize to your brand</h2>
               <p className="text-gray-700">
                 Style the look and feel of your site with no-code themes and designer templates. Everything can be customized inside NotionBear without code to make you proud of the unique site you share with the world. Add
@@ -163,7 +163,7 @@ export default function FeaturesBlocks() {
                 />
               </div>
             </div>
-            <div className="text-start mt-6 w-1/2">
+            <div className="text-start mt-6 w-full md:w-1/2">
               <h2 className="h2 font-bold mb-4">World-class Performance</h2>
               <p className="text-gray-700">
                 Pages load instantly anywhere in the world giving your site visitors a pleasant and snappy experience—they’ll never close the page for taking too long to load. On average NotionBear sites perform better than any
@@ -200,7 +200,7 @@ export default function FeaturesBlocks() {
                 />
               </div>
             </div>
-            <div className="text-start mt-6 w-1/2">
+            <div className="text-start mt-6 w-full md:w-1/2">
               <h2 className="h2 font-bold mb-4">Optimized for SEO</h2>
               <p className="text-gray-700">
                 Social sharing cards are automatically created from page content and your site’s HTML is optimized to use best practices for search engines. NotionBear sites are automatically built with the ability to rank high in
