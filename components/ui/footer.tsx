@@ -21,7 +21,7 @@ export default function Footer() {
               <p className="text-sm text-gray-600 mt-4 mb-4">Notion Bear is an easy-to-use website builder for busy founders. Lead by <a href="https://twitter.com/absurdfounder">@absurdfounder</a>.</p>
             </Link>
             <div className="text-sm text-gray-600">
-              <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</a> · <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
+              <a href="/tos" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</a> · <a href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
             </div>
           </div>
 
@@ -30,13 +30,16 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Product</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">NotionBear Builder</a>
+                <a href="https://app.notionbear.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">NotionBear Builder</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Showcase</a>
+                <a href="/showcase" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Showcase</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Changelog</a>
+                <a href="https://notionbear.com/blog" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
+              </li>
+              <li className="mb-2">
+                <a href="https://notionbear.com/changelog" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Changelog</a>
               </li>
               <li className="mb-2">
                 <a href="/integration" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</a>
@@ -83,28 +86,22 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Changelog</a>
-              </li>
-              <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Join on Telegram</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Whitelable</a>
+                <a href="mailto:hey@vaibhavkalra.com?subject=NotionBear%20Whitelable%20Program&body=Hi%2C%20I%20have%20a%20query%20regarding%20NotionBear%20Whitelable%20Program" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Whitelable</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Media Kit</a>
+                <a href="https://drive.google.com/drive/u/2/folders/13TfS2QV-VHg5Snw6rVbgmoVVRXTeiDHA" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Media Kit</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Email Us</a>
+                <a href="mailto:hey@vaibhavkalra.com?subject=Hi%2C%20I%20have%20a%20query%20regarding%20NotionBear" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Email Us</a>
               </li>
               <li className="mb-2">
                 <a href="/affiliate" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Affiliate Program</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Helpcenter</a>
+                <a href="https://notionbear.com/help" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Helpcenter</a>
               </li>                                          
             </ul>
           </div>
