@@ -107,7 +107,7 @@
     {
       "id": "Formspree",
       "product": {
-        "logo": "https://framerusercontent.com/images/Dies87xzsIZvlFyRdxkVgDUnU.png",
+        "logo": "https://framerusercontent.com/images/2apJ8byRbIeR25LAoZZ6FgxfmtY.png",
         "name": "Formspree",
         "provider": "Formspree",
         "description": "A simple Formspree integration to collect user signups directly in your published GitBook sites.        ",
@@ -181,6 +181,110 @@
         "screenshot": "https://framerusercontent.com/images/FWbeZsKePcGOIWqR7lXk82KD0.png",
         "youtubevideo": "https://youtube.com/watch?v=example-slack"
       }
-    }                                 
+    },
+    {
+      "id": "Heap",
+      "product": {
+        "logo": "https://framerusercontent.com/images/I9xJOEOlwIwbB8Q96kt9qLvZ0.png",
+        "name": "Heap",
+        "provider": "Heap",
+        "description": "Plug your GitBook site to your Heap Analytics instance.        ",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-slack-slack"
+        }
+      },
+      "overview": {
+        "content": "This integration allows to add the Heap Analytics tracker on your published GitBook site.        "
+      },
+      "howItWorks": {
+        "content": "The integration injects the Heap Analytics script on your page, using the configured environment ID, so that you can get analytics information from your GitBook site directly inside of Heap."
+      },
+      "configuration": {
+        "content": "Install the integration on the GitBook space of your choice.  Locate the Heap environment ID you want to use, which is available in Heap's dashboard under "Account > Install":  * choose "Install Heap myself", then "Web" and "Code"  * locate the line showing `heap.load("some ID here")`  * copy the ID and paste it in the GitBook integration's configuration screen  "
+      },
+      "proof": {
+        "screenshot": "https://framerusercontent.com/images/30whb0hKPg2FaC4t36ad7ZMMLxM.jpg",
+        "youtubevideo": "https://youtube.com/watch?v=example-slack"
+      }
+    },
+    {
+      "id": "Hotjar",
+      "product": {
+        "logo": "https://framerusercontent.com/images/cVYWHSTm7adkAawKC6g1CKUo.png",
+        "name": "Hotjar",
+        "provider": "Hotjar",
+        "description": "Plug your GitBook site to your Hotjar installation.        ",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-slack-slack"
+        }
+      },
+      "overview": {
+        "content": "This integration allows to add the Hotjar tracker on your published GitBook site. "
+      },
+      "howItWorks": {
+        "content": "The integration injects the Hotjar Analytics script on your page, using the configured environment ID, so that you can get analytics information from your GitBook site directly inside of Heap."
+      },
+      "configuration": {
+        "content": "Install the integration on the GitBook space of your choice. Locate the Hotjar site ID you want to use, which is available in Hotjar's Organization & sites section "
+      },
+      "proof": {
+        "screenshot": "https://framerusercontent.com/images/ek7rYNyc2CptW1J56CoqshZENcU.jpg",
+        "youtubevideo": "https://youtube.com/watch?v=example-slack"
+      }
+    }, 
+    {
+      "id": "Guideflow",
+      "product": {
+        "logo": "https://framerusercontent.com/images/I9xJOEOlwIwbB8Q96kt9qLvZ0.png",
+        "name": "Guideflow",
+        "provider": "Guideflow",
+        "description": "Add interactive demos & guides to your documentation and boost user adoption.        ",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-slack-slack"
+        }
+      },
+      "overview": {
+        "content": "Create interactive demos, interactive tours or interactive guides with Guideflow to supercharge your sales, boost your website conversion, onboard your customers, train your team in seconds or upgrade your customer support. Guideflow is the easiest & the most advanced platform to capture, customize & share interactive demos in seconds. Capture your screen, app or website in a few clicks, customize your guideflow, share it into your Gitbook space & get deep analytics to optimize your process. This integration allows you to embed Guideflow's interactive product demos or guides directly into your Gitbook documentation."
+      },
+      "howItWorks": {
+        "content": "Create an account on Guideflow (it's free), capture your first demo or guide, and make it public! Then, just copy the public link of your interactive demo or guide and past it into your Gitbook documentation! Gitbook will automatically convert the link to an embedded interactive demo.  Magical, isn't it?"
+      },
+      "configuration": {
+        "content": "GitBook admins can enable the Guideflow integration by navigating to organization settings. The integration can be enabled on single or multiple spaces available publicly.        "
+      },
+      "proof": {
+        "screenshot": "https://framerusercontent.com/images/FWbeZsKePcGOIWqR7lXk82KD0.png",
+        "youtubevideo": "https://youtube.com/watch?v=example-slack"
+      }
+    },
+    {
+      "id": "Guideflow",
+      "product": {
+        "logo": "https://framerusercontent.com/images/I9xJOEOlwIwbB8Q96kt9qLvZ0.png",
+        "name": "Guideflow",
+        "provider": "Guideflow",
+        "description": "Add interactive demos & guides to your documentation and boost user adoption.        ",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-slack-slack"
+        }
+      },
+      "overview": {
+        "content": "Create interactive demos, interactive tours or interactive guides with Guideflow to supercharge your sales, boost your website conversion, onboard your customers, train your team in seconds or upgrade your customer support. Guideflow is the easiest & the most advanced platform to capture, customize & share interactive demos in seconds. Capture your screen, app or website in a few clicks, customize your guideflow, share it into your Gitbook space & get deep analytics to optimize your process. This integration allows you to embed Guideflow's interactive product demos or guides directly into your Gitbook documentation."
+      },
+      "howItWorks": {
+        "content": "Create an account on Guideflow (it's free), capture your first demo or guide, and make it public! Then, just copy the public link of your interactive demo or guide and past it into your Gitbook documentation! Gitbook will automatically convert the link to an embedded interactive demo.  Magical, isn't it?"
+      },
+      "configuration": {
+        "content": "GitBook admins can enable the Guideflow integration by navigating to organization settings. The integration can be enabled on single or multiple spaces available publicly.        "
+      },
+      "proof": {
+        "screenshot": "https://framerusercontent.com/images/FWbeZsKePcGOIWqR7lXk82KD0.png",
+        "youtubevideo": "https://youtube.com/watch?v=example-slack"
+      }
+    }                                                                    
   ]
 }
