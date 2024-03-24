@@ -49,7 +49,7 @@ export default function Header() {
                 <Link href="/template" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Templates</Link>
               </li>
               <li>
-                <Link href="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Showcase</Link>
+                <Link href="/showcase" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Showcase</Link>
               </li>
 
               <li>
