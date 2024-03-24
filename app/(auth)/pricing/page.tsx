@@ -209,22 +209,20 @@ export default function Pricing() {
                                                     <button className="bg-gray-900 text-white w-full p-4 rounded-lg text-center">Upgrade</button>
                                                 </div>
 
+
                                                 <div className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white">
                                                     <div className="p-6 md:px-10 md:py-4 justify-center bg-gray-200">
                                                         <div className="relative flex items-center">
-                                                            <div className="flex h-5 items-center"><input type="checkbox" id="addon" name="addon" className="h-5 w-5 rounded border-gray-300 text-gray-900 focus:ring-gray-900" aria-label="Sub-directory blogs addon" /></div>
+                                                            <div className="flex h-5 items-center"><input type="checkbox" id="addon" checked name="addon" className="h-5 w-5 rounded border-gray-300 text-gray-900 focus:ring-gray-900" aria-label="Sub-directory blogs addon" /></div>
                                                             <div className="ml-3 text-base">
-                                                                <label className="font-normal text-gray-900">
-                                                                    <span className="mr-3 inline-flex items-center rounded-md bg-gray-900 px-2.5 py-0.5 text-sm font-medium uppercase text-white">Add-on</span>
-                                                                    <span>
-                                                                        Blog on a <strong>sub-folder</strong> like 
-                                                                        <a target="_blank" href="https://testimonial.to/resources" className="underline" rel="noopener"><strong>testimonial.to/blog</strong></a>.
-                                                                    </span>
-                                                                </label>
+                                                                <label className="font-normal text-gray-900"><span className="mr-3 inline-flex items-center rounded-md bg-gray-900 px-2.5 py-0.5 text-sm font-medium uppercase text-white">Free Design Services</span><span>limited time only.</span></label>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
+                                                
+
 
 
 
