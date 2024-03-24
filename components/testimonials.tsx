@@ -214,23 +214,22 @@ export default function Testimonials() {
             />
         </div>
         <div className="prose-sm text-gray-600 sm:prose sm:w-2/3 prose-indigo">
-            <p>
+            <p className='my-2'>
                 Hey 👋 <br className="block sm:hidden" />
                 I’m Vaibhav, the founder of NotionBear.
             </p>
-            <p>
+            <p className='my-2'>
                 There are already a couple of website builders and knowledge base softwares out there to help you post and manage content. And while most of them are certainly doing a good job,
                 <strong>are they actually making use of the best content management system in the world?</strong>
             </p>
-            <p>
-                I have been using <strong>Notion</strong> for a few years now. It's an amazing tool for storing and organizing all of my company's knowledge and writings. After a while, I realized that I need something that I can
-                expose to my customers. I didn't want to leave Notion. Furthermore, it should feel similiar to tools such as Intercom or Zendesk when it comes to support or webflow and framer if your building catalogs with 1000s of documents. <br />
+            <p className='my-2'>
+                I have been using <strong>Notion</strong> for a few years now. It's an amazing tool for storing and organizing all of my company's knowledge and writings. It should feel similiar to tools such as Intercom or Zendesk when it comes to support or webflow and framer if your building catalogs with 1000s of documents. <br />
                 <br />
                 Since I couldn't find the right solution – <strong>I built NotionBear</strong>. Sure, you can publish your Notion page on its own but it might come across as unprofessional. The messy Notion url, distracting links pointing to
                 Notion and the lack of customizability are just a few disadvantages...
             </p>
-            <p><strong>NotionBear is solving all of this. It is for businesses who need an easy way to create a reliable knowledge site powered by Notion. </strong></p>
-            <p>— Vaibhav, Founder</p>
+            <p className='my-2'><strong>NotionBear is solving all of this. It is for businesses who need an easy way to create a reliable knowledge site powered by Notion. </strong></p>
+            <p className='my-2'>— Vaibhav, Founder</p>
         </div>
     </div>
 </div>
