@@ -56,7 +56,7 @@ export default function FeaturesBlocks() {
             </div>
             <div className="text-start mt-6 w-1/2">
               <h2 className="h2 font-bold mb-4">Customize to your brand</h2>
-              <p className="text-gray-700">Your work stays in a place you control and love, while NotionBear handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.</p>
+              <p className="text-gray-700">Style the look and feel of your site with no-code themes and designer templates. Everything can be customized inside NotionBear without code to make you proud of the unique site you share with the world. Add custom-code only if you want to.</p>
             </div>
             <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
               <div className="p-8">
@@ -70,6 +70,72 @@ export default function FeaturesBlocks() {
               </div>
             </div>
           </section>
+
+
+          <section className="py-8 mb-8">
+            <div className="flex">
+              <div className="w-36 md:w-48 mt-6">
+                <img
+                  alt="image"
+                  loading="lazy"
+                  width="132"
+                  height="53.855999999999995"
+                  decoding="async"
+                  className="w-full h-auto"
+                  src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                />
+              </div>
+            </div>
+            <div className="text-start mt-6 w-1/2">
+              <h2 className="h2 font-bold mb-4">World-class Performance</h2>
+              <p className="text-gray-700">Style the look and feel of your site with no-code themes and designer templates. Everything can be customized inside NotionBear without code to make you proud of the unique site you share with the world. Add custom-code only if you want to.</p>
+            </div>
+            <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
+              <div className="p-8">
+                <img
+                  alt="image"
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full shadow-md border border-2 rounded border-gray-600"
+                  src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
+                />
+              </div>
+            </div>
+          </section>
+
+
+
+          <section className="py-8 mb-8">
+            <div className="flex">
+              <div className="w-36 md:w-48 mt-6">
+                <img
+                  alt="image"
+                  loading="lazy"
+                  width="132"
+                  height="53.855999999999995"
+                  decoding="async"
+                  className="w-full h-auto"
+                  src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                />
+              </div>
+            </div>
+            <div className="text-start mt-6 w-1/2">
+              <h2 className="h2 font-bold mb-4">Optimized for SEO</h2>
+              <p className="text-gray-700">Style the look and feel of your site with no-code themes and designer templates. Everything can be customized inside NotionBear without code to make you proud of the unique site you share with the world. Add custom-code only if you want to.</p>
+            </div>
+            <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
+              <div className="p-8">
+                <img
+                  alt="image"
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full shadow-md border border-2 rounded border-gray-600"
+                  src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
+                />
+              </div>
+            </div>
+          </section>
+
 
 
 

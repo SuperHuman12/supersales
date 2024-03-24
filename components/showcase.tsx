@@ -31,6 +31,10 @@ export default function showcases() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4 p-2">Incredible sites built with NotionBear</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Browse through examples of live Notion websites, built with NotionBear</p>
+
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300"><div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Ask our Designer for Help</a></div><div><a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/template">View all Templates</a></div></div>
+
+
           </div>
 
 
@@ -44,7 +48,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">PreviewX</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4">Clone Template</button>
       </div>
     </a>
@@ -55,7 +59,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Ong Pe Hon</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4">Clone Template</button>
       </div>
     </a>
@@ -66,7 +70,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Build In Public Cheatsheet</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4">Clone Template</button>
       </div>
     </a>
@@ -77,7 +81,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Ch David</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="border p-2 px-4 rounded my-2 text-dark w-full mt-4">Private Template</button>
       </div>
     </a>
@@ -88,7 +92,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Steve Marks</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4">Clone Template</button>
       </div>
     </a>
@@ -99,7 +103,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Steve Marks Voice</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="border p-2 px-4 rounded my-2 text-dark w-full mt-4">Private Template</button>
       </div>
     </a>
@@ -110,7 +114,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Fisayo Osilaja</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4">Clone Template</button>
       </div>
     </a>
@@ -121,7 +125,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">SoundMind Careers</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4">Clone Template</button>
       </div>
     </a>
@@ -132,7 +136,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">Rizki Mulyawan</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="border p-2 px-4 rounded my-2 text-dark w-full mt-4">Private Template</button>
       </div>
     </a>
@@ -143,7 +147,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">MailThis.co</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4">Clone Template</button>
       </div>
     </a>
@@ -154,7 +158,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">George Bugianishvili</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4">Clone Template</button>
 
       </div>
@@ -166,7 +170,7 @@ export default function showcases() {
       <div className="p-4">
       <h2 className="text-start mt-2 font-bold">StampFans.com</h2>
       <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
-      <span className="bg-gray-200 border p-2 px-4 rounded my-2">Helpdesk</span>
+      <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
       <button className="border p-2 px-4 rounded my-2 text-dark w-full mt-4">Private Template</button>
 
       </div>
