@@ -80,7 +80,7 @@ export default function Pricing() {
                                         <>
                                             <div className="relative bg-white border-b-2 border-dashed px-7 py-6 md:pt-7">
                                                 <h5 className="h2 flex gap-2">
-                                                    <span><div className="font-bold">$50</div></span><span className="relative text-3xl leading-8 text-neutral-500">/ Yearly</span>
+                                                    <span><div className="font-bold">$50</div></span><span className="relative text-3xl leading-8 text-neutral-500 m-auto" style={{ marginLeft: '0' }}>/ Yearly</span>
                                                 </h5>
                                                 <div className="flex grow flex-col gap-2 md:flex-row md:items-end mt-6 mb-4">
                                                     <button className="bg-gray-900 text-white w-full p-4 rounded-lg text-center">Upgrade</button>
@@ -189,11 +189,31 @@ export default function Pricing() {
                                         <>
                                             <div className="relative bg-white border-b-2 border-dashed px-7 py-6 md:pt-7">
                                                 <h5 className="h2 flex gap-2">
-                                                    <span><div className="font-bold">$5</div></span><span className="relative text-3xl leading-8 text-neutral-500">/ Monthly</span>
+                                                    <span><div className="font-bold">$5</div></span><span className="relative text-3xl leading-8 text-neutral-500 m-auto" style={{ marginLeft: '0' }}>/ Monthly</span>
                                                 </h5>
                                                 <div className="flex grow flex-col gap-2 md:flex-row md:items-end mt-6 mb-4">
                                                     <button className="bg-gray-900 text-white w-full p-4 rounded-lg text-center">Upgrade</button>
                                                 </div>
+
+                                                <div className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white">
+                                                    <div className="p-6 md:px-10 md:py-4">
+                                                        <div className="relative flex items-center">
+                                                            <div className="flex h-5 items-center"><input type="checkbox" id="addon" name="addon" className="h-5 w-5 rounded border-gray-300 text-gray-900 focus:ring-gray-900" aria-label="Sub-directory blogs addon" /></div>
+                                                            <div className="ml-3 text-base">
+                                                                <label for="addon" className="font-normal text-gray-900">
+                                                                    <span className="mr-3 inline-flex items-center rounded-md bg-gray-900 px-2.5 py-0.5 text-sm font-medium uppercase text-white">Add-on</span>
+                                                                    <span>
+                                                                        Blog on a <strong>sub-folder</strong> like
+                                                                        <a target="_blank" href="https://testimonial.to/resources" className="underline" rel="noopener"><strong>testimonial.to/blog</strong></a>.<!-- -->
+                                                                    </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
                                                 <p className="text-md max-w-[482px] pt-6 text-gray-500 md:pt-4">Ideal for temporary projects with the flexibility of monthly planning.</p>
                                                 <ul className="flex gap-4">
                                                     <div className="p-4">

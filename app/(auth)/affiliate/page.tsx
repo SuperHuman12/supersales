@@ -148,7 +148,7 @@ export default function ResetPassword() {
             <div className="container mx-auto">
               <ul className="flex flex-wrap justify-center">
                 <li className="w-1/3 px-2 mb-4">
-                  <div className="bg-gray-100 p-4 rounded-lg shadow">
+                  <div className="bg-gray-100 p-4 rounded-lg shadow border-gray-600 border">
                     <div className="text-center mb-4 p-4">
 
                       <span className="h4">🐻 BEAR</span>
@@ -162,7 +162,7 @@ export default function ResetPassword() {
                   </div>
                 </li>
                 <li className="w-1/3 px-2 mb-4">
-                  <div className="bg-gray-100 p-4 rounded-lg shadow">
+                  <div className="bg-gray-100 p-4 rounded-lg shadow border-gray-600 border">
                     <div className="text-center mb-4 p-4">
                       <span className="h4">🐴 HORSE</span>
                       <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
@@ -174,7 +174,7 @@ export default function ResetPassword() {
                   </div>
                 </li>
                 <li className="w-1/3 px-2 mb-4">
-                  <div className="bg-gray-100 p-4 rounded-lg shadow">
+                  <div className="bg-gray-100 p-4 rounded-lg shadow border-gray-600 border">
                     <div className="text-center mb-4 p-4">
                       <span className="h4">🦄 UNICORN</span>
                       <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
@@ -237,14 +237,14 @@ export default function ResetPassword() {
               <div className="mt-8">
                 <div className="space-y-6">
                   <div className='p-8 border rounded-md border-gray-600'>
-                    <h3 className="font-semibold text-lg">Who is NotionBear for?</h3>
+                    <h3 className="font-bold text-xl">Who is NotionBear for?</h3>
                     <br />
                     <p className="text-md mt-4 mb-4 text-gray-800">NotionBear is a quick business builder for startup founders. Our users can quickly create a beautiful web apps, blogs, and helpdesks for a mobile or desktop, for a SaaS product, for a plugin, an open-source project, a SMM tool etc.</p>
                     <p className="text-md mt-4 mb-4 text-gray-800">If your audience are tech guys, NotionBear is for them. They will be more willing to use a tailored tool for startups rather than generic old-fashioned Webflow or Wordpress.</p>
                   </div>
 
                   <div className='p-8 border rounded-md border-gray-600'>
-                    <h3 className="font-semibold text-lg">Why promote you while I can promote some other website builder?</h3>
+                    <h3 className="font-bold text-xl">Why promote you while I can promote some other website builder?</h3>
                     <br />
                     <p className="text-md mt-4 mb-4 text-gray-800">The key advantage is the approach. We are building a landing page generator for startups only. That means, we pay all the attention to startups-only demands. In particular, we will provide not-so-popular integrations, specific components and templates.</p>
                     <p className="text-md mt-4 mb-4 text-gray-800">This is why startup founders love NotionBear more than other tools.</p>
@@ -252,7 +252,7 @@ export default function ResetPassword() {
                   </div>
 
                   <div className='p-8 border rounded-md border-gray-600'>
-                    <h3 className="font-semibold text-lg">What is the minimum payout amount?</h3>
+                    <h3 className="font-bold text-xl">What is the minimum payout amount?</h3>
                     <br />
                     <ul>
                       <li>Wise with min. payout of $200</li>
@@ -267,7 +267,7 @@ export default function ResetPassword() {
                   </div>
 
                   <div className='p-8 border rounded-md border-gray-600'>
-                    <h3 className="font-semibold text-lg">Can I have multiple affiliate offers on the same page?</h3>
+                    <h3 className="font-bold text-xl">Can I have multiple affiliate offers on the same page?</h3>
                     <br />
                     <p className="text-md mt-4 mb-4 text-gray-800">Yes. Nothing stops your from selling let's say an analytics tool or a social media scheduler alongside with a landing page builder. Take the maximum out of your resource!</p>
                   </div>
@@ -279,7 +279,7 @@ export default function ResetPassword() {
 
           <div className="bg-gray-200 border border-gray-600 border-2 border-dashed py-20 rounded-md">
             <div className="max-w-md mx-auto text-center">
-              <h2 className="text-3xl font-semibold ">Start earning cash by referring customers to NotionBear</h2>
+              <h2 className="h2 font-bold">Start earning cash by referring customers to NotionBear</h2>
               <br />
               <p className="mt-4 text-gray-400">Quick payouts to Wise, Paypal or your local bank. Premium support and cross-promotions from us.</p>
 
