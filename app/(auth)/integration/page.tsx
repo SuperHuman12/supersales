@@ -16,6 +16,11 @@ const Integration = async () => {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h1 className="h1 mb-4">NotionBear Integrations</h1>
             <p className="text-xl text-gray-600">Integrate with your stack and extend functionality with powerful integrations built by us and our amazing community.</p>
+
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center aos-init aos-animate mt-6">
+              <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Missing Integration? Ask for Help</a></div>
+          </div>
+
           </div>
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {integrations.map((integration:any, index:number) => (
