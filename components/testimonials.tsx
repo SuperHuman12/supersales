@@ -203,12 +203,13 @@ export default function Testimonials() {
         I want you to launch real businesses on and spend less time on support and website development.
     </h3>
     <div className="grid items-start pt-6 mx-auto gap-8 md:flex md:items-start justify-center">
-        <div className="float-right w-1/3 mb-6 ml-6 sm:float-none sm:ml-12 sm:mb-0 p-8 m-auto">
+        <div className="float-right w-1/3 mb-6 ml-6 sm:float-none sm:ml-12 sm:mb-0 ">
             <img
                 src="https://dazzling-cat.netlify.app/image 1469.png"
                 width="600"
                 height="905"
                 className="rounded-md"
+                style={{ filter: 'grayscale(1)', opacity: 0.85 }}
             />
         </div>
         <div className="prose-sm text-gray-600 sm:prose sm:w-2/3 prose-indigo">
