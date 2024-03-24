@@ -107,7 +107,7 @@ const Page: React.FC = () => {
           src={filterBySlug?.proof?.screenshot}
           alt={filterBySlug?.product?.name}
           width={400}
-          className="h-1/2 w-full rounded-2xl border border-gray-200 object-cover shadow-xl"
+          className=" w-full rounded-2xl border border-gray-600 object-cover shadow-xl"
           height={450}
           quality="90"
 
