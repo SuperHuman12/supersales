@@ -228,6 +228,7 @@ export default function Testimonials() {
                 Notion and the lack of customizability are just a few disadvantages...
             </p>
             <p className='my-2'><strong className="text-gray-900">NotionBear is solving all of this. It is for businesses who need an easy way to create a reliable knowledge site powered by Notion. </strong></p>
+            <br/> <br/>
             <p className='my-2'>— Vaibhav, Founder</p>
         </div>
     </div>

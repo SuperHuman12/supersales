@@ -16,7 +16,7 @@ export default function ResetPassword() {
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-4">
             <h1 className="h1 mb-4">Earn <b className="text-orange-600">$972 per month</b>* promoting an award-winning notion backed web app builder</h1>
-            <p className="text-xl text-gray-600">For every paid client you refer to NotionBear, you will be paid 33% of the recurring commission. For 2 years.</p>
+            <p className="text-xl text-gray-600">For every paid client you refer to NotionBear, you will be paid 33% of the recurring commission. Forever.</p>
           </div>
 
           <div className="m-auto text-center"><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Sign Up</a></div>
@@ -116,7 +116,7 @@ export default function ResetPassword() {
               <br />
               <p className="text-md mt-4 mb-4 text-gray-800">We prepared designs for you to download and use right away — no extra work. Missing a format? Just ask and we will make unique design files just for you. Free of charge.</p>
             </div>
-            <img src="https://unicorn-cdn.b-cdn.net/3b687e30-49bc-449c-a14b-e0ba8bee1962/banners-free-pack.png" alt="Banners free pack" className="w-full lg:w-1/2 p-8" />
+            <img src="https://dazzling-cat.netlify.app/nb-assets.png" alt="Banners free pack" className="w-full lg:w-1/2 p-8" />
           </div>
 
 
