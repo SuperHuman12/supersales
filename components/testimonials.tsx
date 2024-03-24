@@ -82,7 +82,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “Webflow allows us to reallocate the budget we've saved on maintaining our site to properly promote our offerings—taking dormakaba to the next level.“
+                  “Utilizing NotionBear, we've been able to reallocate funds previously spent on our website's upkeep towards enhancing our marketing efforts, propelling dormakaba forward.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -100,7 +100,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “Without a centralized design approach, the global HR company was dealing with an inconsistent brand presence. The team upgraded from self-serve to Webflow Enterprise to uplevel team collaboration, scale global web initiatives, and elevate their brand.“
+                  “Getting to build and manage my company helpdesk using notion as a content provider is really slick, it has got our writers focus on what is important.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -118,11 +118,11 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Instead of hoping front-end developers can execute on his big ideas, Kinetic Studio’s Hunter Thompson uses Webflow to control his entire vision, from executing design to setting up hosting and domains, publishing sites, and optimizing SEO.“
+                  “ I've been trying to find a blogging solution that not only is easy to work with but also is SEO ready, notionbear is worth every penny.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
+                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@ Dropbox</a>
                 </div>
               </div>
 
@@ -136,26 +136,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Since migrating to Webflow, the recruitment marketing agency has bypassed the need to outsource web development, attracted bigger clients, and introduced a new revenue stream.“
-                </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
-                <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
-                </div>
-              </div>
-
-            </div>
-
-
-            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Testimonial */}
-              <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
-                <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
-                </div>
-                <blockquote className="text-xl font-medium mb-4">
-                  “ With limited resources and no in-house developers, the Funsize team can tap into the power of Webflow to push creative boundaries and exceed client expectations—delivering better work, faster.“
+                  “ Since migrating to NotionBear, our recruitment marketing agency has bypassed the need to outsource web development, attracted bigger clients, and introduced a new revenue stream.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -174,7 +155,26 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Adding Webflow to their toolkit enabled the team at Barrel to significantly streamline their development and review processes with clients — all while empowering designers to do their best work.“
+                  “ With limited resources and no in-house developers, our team can easily manage our blog, helpdesk and company wiki faster.“
+                </blockquote>
+                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <div className="text-gray-600">
+                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+
+              {/* Testimonial */}
+              <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
+                <div className="mb-4">
+                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
+                </div>
+                <blockquote className="text-xl font-medium mb-4">
+                  “ Adding NotionBear to our set of tools has significantly streamlined development and review processes within our team — all while empowering designers to do their best work.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">

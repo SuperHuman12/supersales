@@ -86,7 +86,7 @@ export default function FeaturesBlocks() {
                   height="53.855999999999995"
                   decoding="async"
                   className="w-full h-auto"
-                  src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/444d7471-d417-4b40-addf-7e7cf08a8d3d/seo.svg"
+                  src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/4efb5e71-4c1d-4b80-8d4a-142623e2dd16/edit.svg"
                 />
               </div>
             </div>
@@ -152,6 +152,10 @@ export default function FeaturesBlocks() {
               <p className="text-xl text-gray-600">Notion Bear is a powerful website builder for startups, solo-entrepreneurs and hackers. Try it for free.</p>
             </div>
 
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6 justify-center" data-aos="zoom-y-out" data-aos-delay="300">
+    <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
+    <div><a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">View all features</a></div>
+</div>
 
 
             {/* Items */}
@@ -249,10 +253,6 @@ export default function FeaturesBlocks() {
 
             </div>
 
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
-    <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
-    <div><a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">View all features</a></div>
-</div>
 
 
           </section>
