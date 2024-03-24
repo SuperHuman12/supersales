@@ -201,7 +201,7 @@
         "content": "The integration injects the Heap Analytics script on your page, using the configured environment ID, so that you can get analytics information from your GitBook site directly inside of Heap."
       },
       "configuration": {
-        "content": "Install the integration on the GitBook space of your choice.  Locate the Heap environment ID you want to use, which is available in Heap's dashboard under "Account > Install":  * choose "Install Heap myself", then "Web" and "Code"  * locate the line showing `heap.load("some ID here")`  * copy the ID and paste it in the GitBook integration's configuration screen  "
+        "content": "Install the integration on the GitBook space of your choice.  Locate the Heap environment ID you want to use, which is available in Heap's dashboard under Account > Install :  * choose Install Heap myself, then Web and Code  * locate the line showing `heap.load(some ID here)`  * copy the ID and paste it in the GitBook integration's configuration screen  "
       },
       "proof": {
         "screenshot": "https://framerusercontent.com/images/30whb0hKPg2FaC4t36ad7ZMMLxM.jpg",
