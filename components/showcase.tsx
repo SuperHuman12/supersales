@@ -40,7 +40,7 @@ export default function showcases() {
 
 
           {/* showcases */}
-          <div className="mx-auto mt-20" data-aos="zoom-y-out">
+          <div className="mx-auto mt-8" data-aos="zoom-y-out">
 
 <div role="list" className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
   <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
