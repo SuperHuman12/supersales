@@ -42,7 +42,7 @@ export default function showcases() {
           <div className="mx-auto mt-20" data-aos="zoom-y-out">
 
 <div role="list" className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://pxweb.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/65c20db81cf1396c0cfe158a_pxweb.png" alt="PreviewX" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -53,7 +53,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://ong.ph/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0771_brandbird%20(50)-min.jpg" alt="Ong Pe Hon" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -64,7 +64,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://buildinpublic.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076b_brandbird%20(48)-min.jpg" alt="Build In Public Cheatsheet" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -75,7 +75,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="http://chdavid.com" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076d_brandbird.jpg" alt="Ch David" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -86,7 +86,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://stevemarks.io/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076c_brandbird%20(54).jpg" alt="Steve Marks" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -97,7 +97,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://stevemarksvoice.com/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0776_brandbird%20(53).jpg" alt="Steve Marks Voice" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -108,7 +108,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://fisayoosilaja.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c07d2_brandbird%20(59).jpg" alt="Fisayo Osilaja" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -119,7 +119,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://soundmindcareers.com/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c07ff_brandbird%20(60).jpg" alt="SoundMind Careers" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -130,7 +130,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://rizkimulyawan.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0831_brandbird-min.jpeg" alt="Rizki Mulyawan" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -141,7 +141,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://mailthis.co/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c6_brandbird%20(71).jpg" alt="MailThis.co" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -152,7 +152,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://georgebugianishvili.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c2_brandbird%20(77).jpg" alt="George Bugianishvili" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
@@ -164,7 +164,7 @@ export default function showcases() {
       </div>
     </a>
   </div>
-  <div role="listitem" className="mb-4 border rounded p-2">
+  <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
     <a href="https://stampfans.com/" target="_blank" className="block" rel="noopener noreferrer">
       <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c08c3_brandbird%20(70).jpg" alt="StampFans.com" className="w-auto mx-auto px-4 mt-4" />
       <div className="p-4">
