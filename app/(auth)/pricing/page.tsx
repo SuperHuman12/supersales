@@ -87,7 +87,7 @@ export default function Pricing() {
                                                 </div>
 
                                                 <div className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white">
-                                                    <div className="p-6 md:px-10 md:py-4 justify-center">
+                                                    <div className="p-6 md:px-10 md:py-4 justify-center bg-gray-200">
                                                         <div className="relative flex items-center">
                                                             <div className="flex h-5 items-center"><input type="checkbox" id="addon" checked name="addon" className="h-5 w-5 rounded border-gray-300 text-gray-900 focus:ring-gray-900" aria-label="Sub-directory blogs addon" /></div>
                                                             <div className="ml-3 text-base">
@@ -97,6 +97,7 @@ export default function Pricing() {
                                                         </div>
                                                     </div>
                                                 </div>
+                                                
                                                 
                                                 <p className="text-md max-w-[482px] pt-6 text-gray-500 md:pt-4">Extend your workflows with round-robin and collective events and make advanced routing forms.</p>
                                                 <ul className="flex gap-4">
@@ -209,7 +210,7 @@ export default function Pricing() {
                                                 </div>
 
                                                 <div className="relative overflow-hidden rounded-2xl border border-gray-200 bg-white">
-                                                    <div className="p-6 md:px-10 md:py-4 justify-center">
+                                                    <div className="p-6 md:px-10 md:py-4 justify-center bg-gray-200">
                                                         <div className="relative flex items-center">
                                                             <div className="flex h-5 items-center"><input type="checkbox" id="addon" name="addon" className="h-5 w-5 rounded border-gray-300 text-gray-900 focus:ring-gray-900" aria-label="Sub-directory blogs addon" /></div>
                                                             <div className="ml-3 text-base">
