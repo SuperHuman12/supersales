@@ -195,16 +195,14 @@ export default function Testimonials() {
 
 
 
-      <div className="px-6 pt-16 mb-10 md:pt-20">
-    <h2 className="mb-1 font-semibold leading-6 tracking-wide text-center text-purple-600 uppercase">
+      <div className="px-6 pt-16 mb-10 md:pt-20 max-w-6xl mx-auto px-4 sm:px-6">
+    <h2 className="mb-1 font-semibold leading-6 tracking-wide text-center text-orange-600 uppercase">
         About NotionBear
     </h2>
     <h3 className="pb-8 text-2xl font-black text-center text-gray-900 sm:text-4xl tracking-snug sm:leading-15 md:leading-20">
-        I want you to deal with less support and
-        <br className="hidden sm:block" />
-        make your knowledge base work for you
+        I want you to launch real businesses on and spend less time on support and website development.
     </h3>
-    <div className="flex-row-reverse items-start max-w-4xl pt-6 mx-auto sm:flex">
+    <div className="flex-row-reverse items-start pt-6 mx-auto sm:flex">
         <div className="float-right w-1/3 mb-6 ml-6 sm:float-none sm:ml-12 sm:mb-0">
             <img
                 src="https://dazzling-cat.netlify.app/image%20873%20(1).png"
@@ -220,15 +218,15 @@ export default function Testimonials() {
             </p>
             <p className='my-2'>
                 There are already a couple of website builders and knowledge base softwares out there to help you post and manage content. And while most of them are certainly doing a good job,
-                <strong>are they actually making use of the best content management system in the world?</strong>
+                <strong className="text-gray-900">are they actually making use of the best content management system in the world?</strong>
             </p>
             <p className='my-2'>
-                I have been using <strong>Notion</strong> for a few years now. It's an amazing tool for storing and organizing all of my company's knowledge and writings. It should feel similiar to tools such as Intercom or Zendesk when it comes to support or webflow and framer if your building catalogs with 1000s of documents. <br />
+                I have been using <strong className="text-gray-900">Notion</strong> for a few years now. It's an amazing tool for storing and organizing all of my company's knowledge and writings. It should feel similiar to tools such as Intercom or Zendesk when it comes to support or webflow and framer if your building catalogs with 1000s of documents. <br />
                 <br />
-                Since I couldn't find the right solution – <strong>I built NotionBear</strong>. Sure, you can publish your Notion page on its own but it might come across as unprofessional. The messy Notion url, distracting links pointing to
+                Since I couldn't find the right solution – <strong className="text-gray-900">I built NotionBear</strong>. Sure, you can publish your Notion page on its own but it might come across as unprofessional. The messy Notion url, distracting links pointing to
                 Notion and the lack of customizability are just a few disadvantages...
             </p>
-            <p className='my-2'><strong>NotionBear is solving all of this. It is for businesses who need an easy way to create a reliable knowledge site powered by Notion. </strong></p>
+            <p className='my-2'><strong className="text-gray-900">NotionBear is solving all of this. It is for businesses who need an easy way to create a reliable knowledge site powered by Notion. </strong></p>
             <p className='my-2'>— Vaibhav, Founder</p>
         </div>
     </div>
