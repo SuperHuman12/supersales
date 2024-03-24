@@ -228,7 +228,7 @@ export default function ResetPassword() {
 
 
     <div className="py-20 bg-white relative">
-    <div className="max-w-md mx-auto">
+    <div className="max-w-3xl mx-auto">
         <div className="text-center">
             <h2 className="text-3xl font-semibold">Questions?</h2>
         </div>

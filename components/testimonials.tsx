@@ -195,7 +195,7 @@ export default function Testimonials() {
 
 
 
-      <div className="px-6 pt-16 mb-10 md:pt-20 max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="px-6 pt-16 mb-10 md:pt-20 max-w-6xl mx-auto px-4 sm:px-6 pb-12">
     <h2 className="mb-1 font-semibold leading-6 tracking-wide text-center text-orange-600 uppercase">
         About NotionBear
     </h2>
