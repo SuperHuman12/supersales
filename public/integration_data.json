@@ -290,8 +290,8 @@
       "id": "Lucid",
       "product": {
         "logo": "https://framerusercontent.com/images/atHDM5krB5QGJNCVQHHVHSNckBw.png?scale-down-to=512",
-        "name": "Jira",
-        "provider": "Jira",
+        "name": "Lucid",
+        "provider": "Lucid",
         "description": "Embed Lucid projects directly into GitBook.        ",
         "callToAction": {
           "text": "Install",
@@ -313,37 +313,11 @@
       }
     },
     {
-      "id": "Jira",
-      "product": {
-        "logo": "https://framerusercontent.com/images/ZvVsvsOfnrJGkvfPX9b6hZ7OM.png",
-        "name": "Jira",
-        "provider": "Jira",
-        "description": "Embed Jira issues directly in your GitBook documentation. ",
-        "callToAction": {
-          "text": "Install",
-          "link": "https://example.com/install-slack-slack"
-        }
-      },
-      "overview": {
-        "content": "Plan, track, and manage your agile and software development projects in Jira. Customize your workflow, collaborate, and release great software. Embed Jira issues directly in your GitBook documentation.        "
-      },
-      "howItWorks": {
-        "content": "Embedding Jira issues in your documentation is simple - just paste a Jira link into the GitBook editor. The app will turn the link into an embed that show details of the Jira issue like the title, status, and assignee.        "
-      },
-      "configuration": {
-        "content": "Authorize the connection between Jira and GitBook. You can install the integration on single space directly from your sub-navigation panel by clicking on Integrations or enable it in multiple or all of your spaces by navigating to the integrations tab in the organization settings.        "
-      },
-      "proof": {
-        "screenshot": "https://framerusercontent.com/images/iOD7ihlakislXZzAYZhqHZDw.png",
-        "youtubevideo": "https://youtube.com/watch?v=example-slack"
-      }
-    },
-    {
       "id": "PostHog",
       "product": {
         "logo": "https://framerusercontent.com/images/2lFzVISZE800E4UHnCx1kOKwUbA.png",
-        "name": "Jira",
-        "provider": "Jira",
+        "name": "PostHog",
+        "provider": "PostHog",
         "description": "Plug your GitBook site to your PostHog installation.        ",
         "callToAction": {
           "text": "Install",
@@ -391,28 +365,28 @@
       }
     },
     {
-      "id": "Jira",
+      "id": "Sentry",
       "product": {
-        "logo": "https://framerusercontent.com/images/ZvVsvsOfnrJGkvfPX9b6hZ7OM.png",
-        "name": "Jira",
-        "provider": "Jira",
-        "description": "Embed Jira issues directly in your GitBook documentation. ",
+        "logo": "https://framerusercontent.com/images/4sAs4M68hd8JIysUI1Y8ckkwwZg.png?scale-down-to=512",
+        "name": "Sentry",
+        "provider": "Sentry",
+        "description": "Embed Sentry issues in your GitBook documentation.        ",
         "callToAction": {
           "text": "Install",
           "link": "https://example.com/install-slack-slack"
         }
       },
       "overview": {
-        "content": "Plan, track, and manage your agile and software development projects in Jira. Customize your workflow, collaborate, and release great software. Embed Jira issues directly in your GitBook documentation.        "
+        "content": "Sentry helps developers and organizations see what actually matters, solve errors and performance issues quicker, and learn continuously about their application health - from the frontend to the backend. This integration lets you embed Sentry issues into your GitBook documentation. It allows your reader to get a preview of the issues right from your documentation pages.   "
       },
       "howItWorks": {
-        "content": "Embedding Jira issues in your documentation is simple - just paste a Jira link into the GitBook editor. The app will turn the link into an embed that show details of the Jira issue like the title, status, and assignee.        "
+        "content": "Embedding Sentry in your documentation is simple - just paste a Sentry issue link (e.g https://try.sentry-demo.com/organizations/artistic-mudfish/issues/179907/) into the GitBook editor. The app will turn the link into an embed that show details of the Sentry issue like the title, status & culprit of issue etc.        "
       },
       "configuration": {
-        "content": "Authorize the connection between Jira and GitBook. You can install the integration on single space directly from your sub-navigation panel by clicking on Integrations or enable it in multiple or all of your spaces by navigating to the integrations tab in the organization settings.        "
+        "content": "You can install Sentry on a single space by clicking on the Integrations button or on multiple or all spaces by going into your organization settings.  To complete the installation you will need to provide a API Auth Token.  To generate an auth token follow the instructions here. Choose event:read scope and copy-paste the new generated token in the respective configuration in GitBook. "
       },
       "proof": {
-        "screenshot": "https://framerusercontent.com/images/iOD7ihlakislXZzAYZhqHZDw.png",
+        "screenshot": "https://framerusercontent.com/images/TVBHmJTGsShVU8J9GOQffCb6ljI.png",
         "youtubevideo": "https://youtube.com/watch?v=example-slack"
       }
     },
@@ -443,80 +417,80 @@
       }
     },
     {
-      "id": "Jira",
+      "id": "StoryLane",
       "product": {
-        "logo": "https://framerusercontent.com/images/ZvVsvsOfnrJGkvfPX9b6hZ7OM.png",
-        "name": "Jira",
-        "provider": "Jira",
-        "description": "Embed Jira issues directly in your GitBook documentation. ",
+        "logo": "https://framerusercontent.com/images/xCwUXxo1ce8nSz7QXKlS6kEdvb4.png",
+        "name": "StoryLane",
+        "provider": "StoryLane",
+        "description": "Help users master your product easily by embedding interactive product tours in your documentation.        ",
         "callToAction": {
           "text": "Install",
           "link": "https://example.com/install-slack-slack"
         }
       },
       "overview": {
-        "content": "Plan, track, and manage your agile and software development projects in Jira. Customize your workflow, collaborate, and release great software. Embed Jira issues directly in your GitBook documentation.        "
+        "content": "Forget videos. Now add interactive walkthroughs of your product to your documentation in minutes and make it easier for your customers to get to their aha moments, at their own pace. With Storylane’s product tours, you can give your customers a more hands-on experience of how your product functions and help them get started immediately. This integration allows you to embed Storylane’s interactive product tours into your Gitbook powered documentation. "
       },
       "howItWorks": {
-        "content": "Embedding Jira issues in your documentation is simple - just paste a Jira link into the GitBook editor. The app will turn the link into an embed that show details of the Jira issue like the title, status, and assignee.        "
+        "content": "Once you’ve published a product tour on Storylane, the simplest way to embed it in your documentation is to just copy the public share URL of the product tour and paste it. Gitbook will automatically convert the link to an embedded product tour.        "
       },
       "configuration": {
-        "content": "Authorize the connection between Jira and GitBook. You can install the integration on single space directly from your sub-navigation panel by clicking on Integrations or enable it in multiple or all of your spaces by navigating to the integrations tab in the organization settings.        "
+        "content": "The integration is simple two-step process. GitBook admins can enable the Storylane integration by, 1. Clicking on “Integrations” in the space sub-navigation. You’ll be redirected to the integrations library. 2. Here, select Storylane and then click on “Install” (bottom right corner) And you’re done! "
       },
       "proof": {
-        "screenshot": "https://framerusercontent.com/images/iOD7ihlakislXZzAYZhqHZDw.png",
+        "screenshot": "https://framerusercontent.com/images/ukGiwXcuGqICuQW4XYFSzKYjo8g.png",
         "youtubevideo": "https://youtube.com/watch?v=example-slack"
       }
     },
     {
-      "id": "Jira",
+      "id": "SupaDemo",
       "product": {
-        "logo": "https://framerusercontent.com/images/ZvVsvsOfnrJGkvfPX9b6hZ7OM.png",
-        "name": "Jira",
-        "provider": "Jira",
-        "description": "Embed Jira issues directly in your GitBook documentation. ",
+        "logo": "https://framerusercontent.com/images/hWrLXuzBYlgnmnUf2hiEti4s.png",
+        "name": "SupaDemo",
+        "provider": "SupaDemo",
+        "description": "Embed SupaDemo issues directly in your GitBook documentation. ",
         "callToAction": {
           "text": "Install",
           "link": "https://example.com/install-slack-slack"
         }
       },
       "overview": {
-        "content": "Plan, track, and manage your agile and software development projects in Jira. Customize your workflow, collaborate, and release great software. Embed Jira issues directly in your GitBook documentation.        "
+        "content": "With Supademo, you can easily make interactive product demos in just minutes. It helps turn all users into experts by allowing them to experience your product through interactive and guided demos. This integration allows you to embed Supademo interactive demos into your GitBook documentation. "
       },
       "howItWorks": {
-        "content": "Embedding Jira issues in your documentation is simple - just paste a Jira link into the GitBook editor. The app will turn the link into an embed that show details of the Jira issue like the title, status, and assignee.        "
+        "content": "Embedding a Supademo in your documentation is simple - just paste your Supademo link into the GitBook editor. The app will turn the link into a Supademo embed showing your recorded demo. "
       },
       "configuration": {
-        "content": "Authorize the connection between Jira and GitBook. You can install the integration on single space directly from your sub-navigation panel by clicking on Integrations or enable it in multiple or all of your spaces by navigating to the integrations tab in the organization settings.        "
+        "content": "To install on a single space navigate to integrations in sub-navigation. If you prefer to install the Supademo integration on multiple or all spaces, navigate to your organization settings and enable it from the integrations panel. This will give you access to the custom Supademo block."
       },
       "proof": {
-        "screenshot": "https://framerusercontent.com/images/iOD7ihlakislXZzAYZhqHZDw.png",
+        "screenshot": "https://framerusercontent.com/images/QHNspTdjaavByRrH9MCgjvo4WY.png",
         "youtubevideo": "https://youtube.com/watch?v=example-slack"
       }
     },
     {
-      "id": "Jira",
+      "id": "Toucan-Toco",
       "product": {
-        "logo": "https://framerusercontent.com/images/ZvVsvsOfnrJGkvfPX9b6hZ7OM.png",
-        "name": "Jira",
-        "provider": "Jira",
-        "description": "Embed Jira issues directly in your GitBook documentation. ",
+        "logo": "https://framerusercontent.com/images/Ga77rWvmvcRj4PWGIbdNWKPEYM.png",
+        "name": "Toucan Toco",
+        "provider": "Toucan Toco",
+        "description": "Embed Toucan's customer-facing analytics in your GitBook content.",
         "callToAction": {
           "text": "Install",
           "link": "https://example.com/install-slack-slack"
         }
       },
       "overview": {
-        "content": "Plan, track, and manage your agile and software development projects in Jira. Customize your workflow, collaborate, and release great software. Embed Jira issues directly in your GitBook documentation.        "
+        "content": "Toucan is a customer-facing analytics platform that empowers organizations to drive engagement with the best end user experience.        "
       },
       "howItWorks": {
-        "content": "Embedding Jira issues in your documentation is simple - just paste a Jira link into the GitBook editor. The app will turn the link into an embed that show details of the Jira issue like the title, status, and assignee.        "
+        "content": "Toucan for Embedded Analytics is a complete workflow to help you build and maintain analytics in your GitBook content. Once the integration is installed, simply paste a Toucan embed link anywhere in GitBook to transform it into a rich Toucan embed.        "
       },
       "configuration": {
-        "content": "Authorize the connection between Jira and GitBook. You can install the integration on single space directly from your sub-navigation panel by clicking on Integrations or enable it in multiple or all of your spaces by navigating to the integrations tab in the organization settings.        "
+        "content": "To install on a single space navigate to integrations in sub-navigation. If you prefer to install the Toucan integration on multiple or all spaces, navigate to your organization settings and enable it from the integrations panel.        "
       },
       "proof": {
-        "screenshot": "https://framerusercontent.com/images/iOD7ihlakislXZzAYZhqHZDw.png",
+        "screenshot": "https://framerusercontent.com/images/9HPqMQ8k7LR9LcTjfl8nnT0DH5w.png",
         "youtubevideo": "https://youtube.com/watch?v=example-slack"
       }
     }
