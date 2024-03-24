@@ -82,7 +82,7 @@ const Page: React.FC = () => {
             <Image alt="Logo"
               height={100}
               width={100}
-              className=" rounded-2xl border border-gray-200 object-cover shadow-xl w-20 h-20 mt-6"
+              className=" rounded-2xl object-cover w-20 h-20 mt-6 p-2"
               src={filterBySlug?.product?.logo} />
             <div>
               <h1 className="text-3xl font-bold text-gray-800 mt-8">{filterBySlug?.product?.name}</h1>

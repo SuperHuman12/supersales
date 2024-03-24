@@ -77,6 +77,110 @@
         "screenshot": "https://framerusercontent.com/images/YeDFZED8lBRWl5VaU9fva8PwXPM.png",
         "youtubevideo": "https://youtube.com/watch?v=example-slack"
       }
-    }    
+    },
+    {
+      "id": "figma",
+      "product": {
+        "logo": "https://framerusercontent.com/images/Dies87xzsIZvlFyRdxkVgDUnU.png",
+        "name": "Figma",
+        "provider": "Figma",
+        "description": "Embed Figma files and designs directly into GitBook pages.",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-slack-slack"
+        }
+      },
+      "overview": {
+        "content": "This integration embeds Figma artboards and files into GitBook documents, making it easy to find and view relevant design files whenever you need them. Never search through Figma, Slack, or emails to find design files again."
+      },
+      "howItWorks": {
+        "content": "Embedding Figma files into GitBook is simple - just paste a Figma link into the GitBook editor. The app will turn the link into an embed that shows the Figma file name along with an image snapshot of what the file looked like at the moment that you embedded it. When viewing an embed, click on the maximize button to preview the file in GitBook or on the file or artboard name to open it in Figma."
+      },
+      "configuration": {
+        "content": "GitBook admins can go to the integrations settings to connect your organization's Figma account to GitBook. Once enabled, the integration will work for all spaces where it's enabled in your organization. "
+      },
+      "proof": {
+        "screenshot": "https://framerusercontent.com/images/CLU1xN0NghWWs6cGzzm2YMotM8A.png",
+        "youtubevideo": "https://youtube.com/watch?v=example-slack"
+      }
+    },
+    {
+      "id": "Formspree",
+      "product": {
+        "logo": "https://framerusercontent.com/images/Dies87xzsIZvlFyRdxkVgDUnU.png",
+        "name": "Formspree",
+        "provider": "Formspree",
+        "description": "A simple Formspree integration to collect user signups directly in your published GitBook sites.        ",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-slack-slack"
+        }
+      },
+      "overview": {
+        "content": "The GitBook Formspree integration allows you to specify a form ID from your Formspree account to collect user signups.        "
+      },
+      "howItWorks": {
+        "content": "You can install the integration on a single space by clicking the integrations button in sub-navigation panel. If you prefer to install the Formspree integration on multiple on all spaces you can enable this through organization settings. From here you can specify different Formspree IDs for different spaces.        "
+      },
+      "configuration": {
+        "content": "GitBook admins can go to the integrations settings to connect your organization's Figma account to GitBook. Once enabled, the integration will work for all spaces where it's enabled in your organization. "
+      },
+      "proof": {
+        "screenshot": "https://framerusercontent.com/images/pUatWqAkCnCDA5WkYaNx0k00Fo0.png",
+        "youtubevideo": "https://youtube.com/watch?v=example-slack"
+      }
+    },
+    {
+      "id": "google-analytics",
+      "product": {
+        "logo": "https://framerusercontent.com/images/hCeODO0SYPhy7utYRTw2AmqUiU.png",
+        "name": "Google Analytics",
+        "provider": "Google Analytics",
+        "description": "Receive GitBook traffic insights directly in your Google Analytics dashboard.        ",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-slack-slack"
+        }
+      },
+      "overview": {
+        "content": "Google Analytics allows you to get a in-depth understanding of your customers across devices and platforms. The Google Analytics integration for GitBook allows you to track traffic in your published spaces from your Google Tags Manager dashboard, giving you a fuller picture of how your customer interacts across your sites and apps throughout their lifecycle.        "
+      },
+      "howItWorks": {
+        "content": "Automatic tracking in your documentation: Each of your connected GitBook spaces will fetch the Google Analytics tracking script and inject it into your public content.        "
+      },
+      "configuration": {
+        "content": "GitBook admins can enable the Google Analytics integration by navigating to organization settings.  The integration can be enabled on single or multiple spaces available publicly.        "
+      },
+      "proof": {
+        "screenshot": "https://framerusercontent.com/images/4vgn7bvtoXSFilUkbngh5ytjnU.png",
+        "youtubevideo": "https://youtube.com/watch?v=example-slack"
+      }
+    },
+    {
+      "id": "Guideflow",
+      "product": {
+        "logo": "https://framerusercontent.com/images/I9xJOEOlwIwbB8Q96kt9qLvZ0.png",
+        "name": "Guideflow",
+        "provider": "Guideflow",
+        "description": "Add interactive demos & guides to your documentation and boost user adoption.        ",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-slack-slack"
+        }
+      },
+      "overview": {
+        "content": "Create interactive demos, interactive tours or interactive guides with Guideflow to supercharge your sales, boost your website conversion, onboard your customers, train your team in seconds or upgrade your customer support. Guideflow is the easiest & the most advanced platform to capture, customize & share interactive demos in seconds. Capture your screen, app or website in a few clicks, customize your guideflow, share it into your Gitbook space & get deep analytics to optimize your process. This integration allows you to embed Guideflow's interactive product demos or guides directly into your Gitbook documentation."
+      },
+      "howItWorks": {
+        "content": "Create an account on Guideflow (it's free), capture your first demo or guide, and make it public! Then, just copy the public link of your interactive demo or guide and past it into your Gitbook documentation! Gitbook will automatically convert the link to an embedded interactive demo.  Magical, isn't it?"
+      },
+      "configuration": {
+        "content": "GitBook admins can enable the Guideflow integration by navigating to organization settings. The integration can be enabled on single or multiple spaces available publicly.        "
+      },
+      "proof": {
+        "screenshot": "https://framerusercontent.com/images/FWbeZsKePcGOIWqR7lXk82KD0.png",
+        "youtubevideo": "https://youtube.com/watch?v=example-slack"
+      }
+    }                                 
   ]
 }
