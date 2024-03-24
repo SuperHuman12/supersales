@@ -26,15 +26,13 @@ export default async function Template() {
             <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
           </div>
         
-          <div className="flex ">
+          <div className="max-w-3xl mx-auto mt-20 aos-init aos-animate max-w-sm grid gap-8 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none ">
           {templates.map((template:any, index:number) => (
-              <Link key={index} href={"/template/"+template.id} >
-                <div
-                style={{width: '400px'}}
-                className="cursor-pointer   m-2 relative flex items-center p-6 bg-white rounded shadow-xl h-full border">
+              <Link key={index} href={"/template/"+template.id}  className="cursor-pointer   m-2 relative flex items-center p-6 bg-white rounded shadow-xl h-full border">
+                <div>
                   <div>
                     <div className="items-start">
-                      <Image className="w-full rounded mb-4"
+                      <Image className="w-full rounded mb-4 border border-dashed"
                         width={100}
                         height={100}
                         src={template?.product?.logo} 
