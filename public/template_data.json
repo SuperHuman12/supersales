@@ -9,7 +9,7 @@
         "description": "Create a website for listing remote jobs for job applicants.",
         "callToCopy": {
           "text": "Deploy Template",
-          "link": "https://example.com/install-arcade-gitbook"
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
           "text": "View Demo",
@@ -17,17 +17,17 @@
         }
       },
       "overview": {
-        "content": "Arcade lets you create interactive product demos in minutes and turn all users into power users. Let users experience your product through interactive, guided demos. No more pausing and rewinding, users can progress at their own pace. This integration allows you to embed Arcade interactive demos into your GitBook documentation."
+        "content": "Arcade lets you create interactive product demos in minutes and turn all users into power users. Let users experience your product through interactive, guided demos. No more pausing and rewinding, users can progress at their own pace. This integration allows you to embed Arcade interactive demos into your notionbear documentation."
       },
       "howItWorks": {
-        "content": "Embedding an Arcade flow in your documentation is simple - just paste an Arcade flow link into the GitBook editor. The app will turn the link into an Arcade embed showing your recorded demo."
+        "content": "Embedding an Arcade flow in your documentation is simple - just paste an Arcade flow link into the notionbear editor. The app will turn the link into an Arcade embed showing your recorded demo."
       },
       "configuration": {
         "content": "To install on a single space, navigate to integrations in sub-navigation. If you prefer to install the Arcade integration on multiple or all spaces, navigate to your organization settings and enable it from the integrations panel. This will give you access to the custom arcade block."
       },
       "proof": {
         "screenshot": "https://dazzling-cat.netlify.app/jobwebsite.png",
-        "youtubevideo": "https://youtube.com/watch?v=example-arcade-gitbook"
+        "youtubevideo": "https://youtube.com/watch?v=example-arcade-notionbear"
       }
     },
     {
@@ -39,7 +39,7 @@
         "description": "Website for showing vetted talent for companies to hire.",
         "callToCopy": {
           "text": "Deploy Template",
-          "link": "https://example.com/install-arcade-gitbook"
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
           "text": "View Demo",
@@ -69,7 +69,7 @@
         "description": "Website for showing vetted talent for companies to hire.",
         "callToCopy": {
           "text": "Deploy Template",
-          "link": "https://example.com/install-arcade-gitbook"
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
           "text": "View Demo",
@@ -99,7 +99,7 @@
         "description": "Website for showing vetted talent for companies to hire.",
         "callToCopy": {
           "text": "Deploy Template",
-          "link": "https://example.com/install-arcade-gitbook"
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
           "text": "View Demo",
