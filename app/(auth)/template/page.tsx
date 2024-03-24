@@ -45,7 +45,7 @@ export default async function Template() {
                     </div>
                     <p className="text-gray-600">{template?.product?.description}</p>
                     <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">
-                      {template?.callToCopy?.text || "Clone Template" }
+                      {template?.callToCopy?.text || "Create Website" }
                     </button>
                   </div>
                 </div>

@@ -82,7 +82,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                  “Webflow allows us to reallocate the budget we've saved on maintaining our site to properly promote our offerings—taking dormakaba to the next level.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -100,7 +100,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                  “Without a centralized design approach, the global HR company was dealing with an inconsistent brand presence. The team upgraded from self-serve to Webflow Enterprise to uplevel team collaboration, scale global web initiatives, and elevate their brand.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -118,7 +118,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                  “ Instead of hoping front-end developers can execute on his big ideas, Kinetic Studio’s Hunter Thompson uses Webflow to control his entire vision, from executing design to setting up hosting and domains, publishing sites, and optimizing SEO.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -136,26 +136,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
-                </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
-                <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
-                </div>
-              </div>
-
-            </div>
-
-
-            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Testimonial */}
-              <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
-                <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
-                </div>
-                <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                  “ Since migrating to Webflow, the recruitment marketing agency has bypassed the need to outsource web development, attracted bigger clients, and introduced a new revenue stream.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -174,7 +155,26 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
+                  “ With limited resources and no in-house developers, the Funsize team can tap into the power of Webflow to push creative boundaries and exceed client expectations—delivering better work, faster.“
+                </blockquote>
+                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <div className="text-gray-600">
+                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+
+              {/* Testimonial */}
+              <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
+                <div className="mb-4">
+                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
+                </div>
+                <blockquote className="text-xl font-medium mb-4">
+                  “ Adding Webflow to their toolkit enabled the team at Barrel to significantly streamline their development and review processes with clients — all while empowering designers to do their best work.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
