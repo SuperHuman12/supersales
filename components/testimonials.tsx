@@ -73,7 +73,7 @@ export default function Testimonials() {
           </div>
 
           {/* Testimonials */}
-          <div className="max-w-3xl mx-auto mt-20 aos-init aos-animate max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none" data-aos="zoom-y-out">
+          <div className="max-w-3xl mx-auto mt-8 aos-init aos-animate max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none" data-aos="zoom-y-out">
             <div className="relative flex flex-col items-center bg-white rounded shadow-xl h-full border">
 
               {/* Testimonial */}
