@@ -3,54 +3,80 @@
     {
       "id": "arcade",
       "product": {
-        "logo": "https://via.placeholder.com/100",
+        "logo": "https://framerusercontent.com/images/FS1of0gxF0A6UP7GmCpIBKQM.png",
         "name": "Arcade",
         "provider": "GitBook",
-        "description": "Embed interactive product demos in your documentation and turn all users into power users.",
+        "description": "Embed interactive product demos in your documentation and turn all users into power users. ",
         "callToAction": {
           "text": "Install",
           "link": "https://example.com/install-arcade-gitbook"
         }
       },
       "overview": {
-        "content": "Arcade lets you create interactive product demos in minutes and turn all users into power users. Let users experience your product through interactive, guided demos. No more pausing and rewinding, users can progress at their own pace. This integration allows you to embed Arcade interactive demos into your GitBook documentation."
+        "content": "Arcade lets you create interactive product demos in minutes and turn all users into power users. Let users experience your product through interactive, guided demos. No more pausing and rewinding, users can progress at their own pace. This integration allow you to embed Arcade interactive demos into your GitBook documentation."
       },
       "howItWorks": {
         "content": "Embedding an Arcade flow in your documentation is simple - just paste an Arcade flow link into the GitBook editor. The app will turn the link into an Arcade embed showing your recorded demo."
       },
       "configuration": {
-        "content": "To install on a single space, navigate to integrations in sub-navigation. If you prefer to install the Arcade integration on multiple or all spaces, navigate to your organization settings and enable it from the integrations panel. This will give you access to the custom arcade block."
+        "content": "To install on a single space navigate to integrations in sub-navigation. If you prefer to install the Arcade integration on multiple or all spaces, navigate to your organization settings and enable it from the integrations panel. This will give you access to the custom arcade block."
       },
       "proof": {
-        "screenshot": "https://via.placeholder.com/600",
+        "screenshot": "https://framerusercontent.com/images/JwSD9igebl5YjP1p0XBssmuRU4.png",
         "youtubevideo": "https://youtube.com/watch?v=example-arcade-gitbook"
       }
     },
     {
-      "id": "slack",
+      "id": "discord",
       "product": {
-        "logo": "https://via.placeholder.com/100",
-        "name": "Slack",
-        "provider": "Slack",
-        "description": "Integrate interactive product demos directly into your Slack channels to enhance team collaboration and product understanding.",
+        "logo": "https://framerusercontent.com/images/m9aUcDVUAGUkouzars7JOPL4pzU.png",
+        "name": "Discord",
+        "provider": "Discord",
+        "description": "Notify a server channel in Discord with real-time events from GitBook.",
         "callToAction": {
           "text": "Install",
           "link": "https://example.com/install-slack-slack"
         }
       },
       "overview": {
-        "content": "Slack enables you to integrate interactive demos into your Slack channels, allowing your team to explore and understand your product's features directly from Slack. No need to switch between apps or pause and rewind; team members can interact with the demos at their own pace, fostering better understanding and collaboration."
+        "content": "The GitBook Discord integration brings the power of GitBook to your Discord Server. Your members have instant access to your GitBook knowledge base, without leaving the app."
       },
       "howItWorks": {
-        "content": "To add an Slack demo to your Slack channel, simply share an Slack flow link in the channel. Slack will automatically recognize and embed the interactive demo, making it accessible for your team to view and interact with directly within the Slack interface."
+        "content": "Get notified of what's important: Receive real-time Discord notifications when something important happens to your content on GitBook. For example, when your content is updated or published. Pick and choose what, where, and how you wish to be notified."
       },
       "configuration": {
-        "content": "To get started, navigate to the Slack App Directory and search for the Slack app. Once found, add it to your workspace. You can then share Slack demos in any channel by pasting the demo link, enhancing your team's collaboration and product knowledge."
+        "content": "You can install the integration on a single space by clicking the integrations button in sub-navigation panel. If you prefer to install the Discord integration on multiple on all spaces you can enable this through organization settings. To configure the integration you will have to authorize the connection between Discord and GitBook. You can also select the default server to post messages to.        "
       },
       "proof": {
-        "screenshot": "https://via.placeholder.com/600",
+        "screenshot": "https://framerusercontent.com/images/TG0d5w0jhfPMdJeURf3p9xlsRY.jpg",
         "youtubevideo": "https://youtube.com/watch?v=example-slack"
       }
-    }
+    },
+    {
+      "id": "fathom",
+      "product": {
+        "logo": "https://framerusercontent.com/images/DA65II8e2dwHkaDz1CqTV7Pra6k.png",
+        "name": "Discord",
+        "provider": "Discord",
+        "description": "Receive GitBook traffic insights directly in your Fathom dashboard.        ",
+        "callToAction": {
+          "text": "Install",
+          "link": "https://example.com/install-slack-slack"
+        }
+      },
+      "overview": {
+        "content": "Fathom Analytics is a no cookie analytics platform which you can enable with a single line of code. Gain valuable insights into your website or web application while being GDPR, CCPA, ePrivacy, PECR (and more) compliant.        "
+      },
+      "howItWorks": {
+        "content": "The GitBook Fathom Analytics integration allows you to track traffic in your published spaces from your Fathom dashboard. Automatic tracking in your documentation: Each of your connected GitBook spaces will fetch the light-weight Fathom tracking script and inject it in your public content."
+      },
+      "configuration": {
+        "content": "Analytics integrations can be configured only for spaces that are published. To enable the integration in a single space, click on Integrations button in the sub-navigation. Alternatively you can enable it for multiple or all published spaces by going into your organization settings. You will need your Site ID to finish the configuration."
+      },
+      "proof": {
+        "screenshot": "https://framerusercontent.com/images/YeDFZED8lBRWl5VaU9fva8PwXPM.png",
+        "youtubevideo": "https://youtube.com/watch?v=example-slack"
+      }
+    }    
   ]
 }

@@ -35,7 +35,7 @@ export default async function Template() {
 
 
         
-          <div className="max-w-3xl mx-auto mt-20 aos-init aos-animate max-w-sm grid md:grid-cols-1 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none gap-6 ">
+          <div className="max-w-3xl mx-auto aos-init aos-animate max-w-sm grid md:grid-cols-1 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none gap-6 ">
           {templates.map((template:any, index:number) => (
               <Link key={index} href={"/template/"+template.id}  className="cursor-pointer   m-2 relative flex items-center p-6 bg-white rounded shadow-xl h-full border mt-6">
                 <div>
