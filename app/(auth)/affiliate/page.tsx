@@ -15,8 +15,8 @@ export default function ResetPassword() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-4">
-            <h1 className="h1 mb-4">Earn <b className="text-orange-600">$957 per month</b>* promoting an award-winning landing page builder</h1>
-            <p className="text-xl text-gray-600">For every paid client you refer to NotionBear, you will be paid 33% of the recurring commission. Forever.</p>
+            <h1 className="h1 mb-4">Earn <b className="text-orange-600">$972 per month</b>* promoting an award-winning notion backed web app builder</h1>
+            <p className="text-xl text-gray-600">For every paid client you refer to NotionBear, you will be paid 33% of the recurring commission. For 2 years.</p>
           </div>
 
           <div className="m-auto text-center"><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Sign Up</a></div>
@@ -113,6 +113,7 @@ export default function ResetPassword() {
           <div className="flex mx-auto px-4 py-8 mt-8">
             <div className="w-full lg:w-1/2 p-8">
               <h2 className="h2 font-bold text-accent">An essential collection of banners</h2>
+              <br />
               <p>We prepared designs for you to download and use right away — no extra work. Missing a format? Just ask and we will make unique design files just for you. Free of charge.</p>
             </div>
             <img src="https://unicorn-cdn.b-cdn.net/3b687e30-49bc-449c-a14b-e0ba8bee1962/banners-free-pack.png" alt="Banners free pack" className="w-full lg:w-1/2 p-8" />
@@ -120,7 +121,7 @@ export default function ResetPassword() {
 
 
           <div className="flex mx-auto px-4 py-8 mt-8">
-          <img src="https://unicorn-cdn.b-cdn.net/1236c021-4a34-48ea-9bbe-9940811c9794/design-agency.png" alt="Design agency" className="w-full lg:w-1/2 p-8" />
+            <img src="https://unicorn-cdn.b-cdn.net/1236c021-4a34-48ea-9bbe-9940811c9794/design-agency.png" alt="Design agency" className="w-full lg:w-1/2 p-8" />
             <div className="w-full lg:w-1/2 p-8">
               <h2 className="h2 font-bold mb-8">You’re a freelancer or an agency</h2>
               <p>Demonstrate your industry knowledge by recommending NotionBear to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
@@ -149,10 +150,10 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="text-center mb-4 p-4">
-                    
-                    <span className="h4">🐻 BEAR</span>
-                    <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
-                    <p>per month</p>
+
+                      <span className="h4">🐻 BEAR</span>
+                      <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
+                      <p>per month</p>
 
                     </div>
                     <div className="text-center">
@@ -163,9 +164,9 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="text-center mb-4 p-4">
-                    <span className="h4">🐴 HORSE</span>
-                    <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
-                    <p>per month</p>
+                      <span className="h4">🐴 HORSE</span>
+                      <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
+                      <p>per month</p>
                     </div>
                     <div className="text-center">
                       100 people = $957/m
@@ -175,9 +176,9 @@ export default function ResetPassword() {
                 <li className="w-1/3 px-2 mb-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="text-center mb-4 p-4">
-                    <span className="h4">🦄 UNICORN</span>
-                    <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
-                    <p>per month</p>
+                      <span className="h4">🦄 UNICORN</span>
+                      <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
+                      <p>per month</p>
                     </div>
                     <div className="text-center">
                       500 people = $4785/m
@@ -193,95 +194,100 @@ export default function ResetPassword() {
 
 
 
-<div className="mt-8 mb-8">
-          <div className="max-w-md mx-auto text-center">
-      <h2 className="text-4xl font-bold ">We are interested in your growth</h2>
-      <p className=" mt-4">Every partner gets our full support because <strong>our</strong> growth depends on <strong>your</strong> growth.</p>
-    </div>
-    <div className="mt-8">
-      <ul className="flex flex-wrap justify-center">
-        <li className="w-full md:w-1/3 px-4 py-2">
-          <div className="text-center">
-            <img src="/images/🧑_🏫.png" alt="Free coaching" className="mx-auto h-20"/>
-            <h3 className="h4 font-semibold mt-2 ">Free coaching</h3>
-            <p className=" mt-1">Struggling with growing your blog or agency? Let us consult you. Our team has experts in the niche.</p>
+          <div className="mt-8 mb-8">
+            <div className="max-w-md mx-auto text-center">
+              <h2 className="text-4xl font-bold ">We are interested in your growth</h2>
+              <p className=" mt-4">Every partner gets our full support because <strong>our</strong> growth depends on <strong>your</strong> growth.</p>
+            </div>
+            <div className="mt-8">
+              <ul className="flex flex-wrap justify-center">
+                <li className="w-full md:w-1/3 px-4 py-2">
+                  <div className="text-center">
+                    <img src="/images/🧑_🏫.png" alt="Free coaching" className="mx-auto h-20" />
+                    <h3 className="h4 font-semibold mt-2 ">Free coaching</h3>
+                    <p className=" mt-1">Struggling with growing your blog or agency? Let us consult you. Our team has experts in the niche.</p>
+                  </div>
+                </li>
+                <li className="w-full md:w-1/3 px-4 py-2">
+                  <div className="text-center">
+                    <img src="/images/💻.png" alt="Personal dashboard" className="mx-auto h-20" />
+                    <h3 className="h4 font-semibold mt-2 ">Personal dashboard</h3>
+                    <p className=" mt-1">Track every campaign, URL click, and dollar you earn. Easy and convenient.</p>
+                  </div>
+                </li>
+                <li className="w-full md:w-1/3 px-4 py-2">
+                  <div className="text-center">
+                    <img src="/images/🧑_🎨.png" alt="Have our designer for $0" className="mx-auto h-20" />
+                    <h3 className="h4 font-semibold mt-2 ">Have our designer for $0</h3>
+                    <p className=" mt-1">Not satisfied with our media kit? Just ask! Our design crew will prepare exclusive images and videos.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-        </li>
-        <li className="w-full md:w-1/3 px-4 py-2">
-          <div className="text-center">
-            <img src="/images/💻.png" alt="Personal dashboard" className="mx-auto h-20"/>
-            <h3 className="h4 font-semibold mt-2 ">Personal dashboard</h3>
-            <p className=" mt-1">Track every campaign, URL click, and dollar you earn. Easy and convenient.</p>
-          </div>
-        </li>
-        <li className="w-full md:w-1/3 px-4 py-2">
-          <div className="text-center">
-            <img src="/images/🧑_🎨.png" alt="Have our designer for $0" className="mx-auto h-20"/>
-            <h3 className="h4 font-semibold mt-2 ">Have our designer for $0</h3>
-            <p className=" mt-1">Not satisfied with our media kit? Just ask! Our design crew will prepare exclusive images and videos.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-</div>
 
 
 
-    <div className="py-20 bg-white relative">
-    <div className="max-w-3xl mx-auto">
-        <div className="text-center">
-            <h2 className="text-3xl font-semibold">Questions?</h2>
-        </div>
+          <div className="py-20 bg-white relative">
+            <div className="max-w-3xl mx-auto">
+              <div className="text-center">
+                <h2 className="text-3xl font-semibold">Questions?</h2>
+              </div>
 
-        <div className="mt-8">
-            <div className="space-y-6">
-                <div>
+              <div className="mt-8">
+                <div className="space-y-6">
+                  <div>
                     <h3 className="font-semibold text-lg">Who is NotionBear for?</h3>
-                    <p>NotionBear is a landing page builder for startup founders. Our users can quickly create a beautiful website for a mobile or desktop app, for a SaaS product, for a plugin, an open-source project, a SMM tool etc.</p>
-                    <p>If your audience are tech guys, NotionBear is for them. They will be more willing to use a tailored tool for startups rather than generic old-fashioned Wix or Wordpress.</p>
-                </div>
+                    <br />
+                    <p>NotionBear is a quick business builder for startup founders. Our users can quickly create a beautiful web apps, blogs, and helpdesks for a mobile or desktop, for a SaaS product, for a plugin, an open-source project, a SMM tool etc.</p>
+                    <p>If your audience are tech guys, NotionBear is for them. They will be more willing to use a tailored tool for startups rather than generic old-fashioned Webflow or Wordpress.</p>
+                  </div>
 
-                <div>
+                  <div>
                     <h3 className="font-semibold text-lg">Why promote you while I can promote some other website builder?</h3>
+                    <br />
                     <p>The key advantage is the approach. We are building a landing page generator for startups only. That means, we pay all the attention to startups-only demands. In particular, we will provide not-so-popular integrations, specific components and templates.</p>
                     <p>This is why startup founders love NotionBear more than other tools.</p>
                     <p>Why believe me? Just A/B test it yourself. Put a Wix affiliate link for a month, measure your earnings. Then put our link. Compare. Pick the winner.</p>
-                </div>
+                  </div>
 
-                <div>
+                  <div>
                     <h3 className="font-semibold text-lg">What is the minimum payout amount?</h3>
+                    <br />
                     <ul>
-                        <li>Wise with min. payout of $200</li>
-                        <li>Paypal with min. payout of $50</li>
-                        <li>Bank (Australia) with min. payout of $50</li>
-                        <li>Bank (Canada) with min. payout of $50</li>
-                        <li>Bank (UK) with min. payout of $50</li>
-                        <li>Bank (US) with min. payout of $50</li>
-                        <li>Bank (international) with min. payout of $200</li>
-                        <li>Bank (IBAN) with min. payout of $200</li>
+                      <li>Wise with min. payout of $200</li>
+                      <li>Paypal with min. payout of $50</li>
+                      <li>Bank (Australia) with min. payout of $50</li>
+                      <li>Bank (Canada) with min. payout of $50</li>
+                      <li>Bank (UK) with min. payout of $50</li>
+                      <li>Bank (US) with min. payout of $50</li>
+                      <li>Bank (international) with min. payout of $200</li>
+                      <li>Bank (IBAN) with min. payout of $200</li>
                     </ul>
-                </div>
+                  </div>
 
-                <div>
+                  <div>
                     <h3 className="font-semibold text-lg">Can I have multiple affiliate offers on the same page?</h3>
+                    <br />
                     <p>Yes. Nothing stops your from selling let's say an analytics tool or a social media scheduler alongside with a landing page builder. Take the maximum out of your resource!</p>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-</div>
+          </div>
 
 
-<div className="bg-gray-900 text-white border border-4 py-20 rounded">
-    <div className="max-w-md mx-auto text-center">
-        <h2 className="text-3xl font-semibold ">Start earning cash by referring customers to NotionBear</h2>
-        <p className="mt-4 text-gray-400">Quick payouts to Wise, Paypal or your local bank. Premium support and cross-promotions from us.</p>
-        
-        <div className="mt-8">
-            <a href="https://partner.unicornplatform.com/" target="_blank" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our partner</a>
-        </div>
-    </div>
-</div>
+          <div className="bg-gray-200 border border-gray-600 border-2 border-dashed py-20 rounded-md">
+            <div className="max-w-md mx-auto text-center">
+              <h2 className="text-3xl font-semibold ">Start earning cash by referring customers to NotionBear</h2>
+              <br />
+              <p className="mt-4 text-gray-400">Quick payouts to Wise, Paypal or your local bank. Premium support and cross-promotions from us.</p>
+
+              <div className="mt-8">
+                <a href="https://partner.unicornplatform.com/" target="_blank" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our partner</a>
+              </div>
+            </div>
+          </div>
 
 
         </div>
