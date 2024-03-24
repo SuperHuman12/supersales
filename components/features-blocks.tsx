@@ -147,12 +147,12 @@ export default function FeaturesBlocks() {
 
           <section className="mt-2">
             {/* Section header */}
-            <div className="max-w-3xl mx-auto text-center py-12 md:pb-20">
+            <div className="max-w-3xl mx-auto text-center pt-12 ">
               <h2 className="h2 mb-4">Really Easy To Use Website Builder</h2>
               <p className="text-xl text-gray-600">Notion Bear is a powerful website builder for startups, solo-entrepreneurs and hackers. Try it for free.</p>
             </div>
 
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6 justify-center" data-aos="zoom-y-out" data-aos-delay="300">
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6 justify-center py-12" data-aos="zoom-y-out" data-aos-delay="300">
     <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
     <div><a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">View all features</a></div>
 </div>
