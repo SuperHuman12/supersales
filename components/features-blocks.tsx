@@ -78,19 +78,6 @@ export default function FeaturesBlocks() {
           <section className="py-12 mt-8 mb-8 flex">
 
             <div className="w-1/2">
-              <div className="flex">
-                <div className="w-36 md:w-48 mt-6">
-                  <img
-                    alt="image"
-                    loading="lazy"
-                    width="132"
-                    height="53.855999999999995"
-                    decoding="async"
-                    className="w-full h-auto"
-                    src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
-                  />
-                </div>
-              </div>
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">Your content lives in Notion</h2>
                 <p className="text-gray-700">
@@ -119,19 +106,6 @@ export default function FeaturesBlocks() {
           <section className="py-12 mt-8 mb-8 flex">
 
             <div className="w-1/2">
-              <div className="flex">
-                <div className="w-36 md:w-48 mt-6">
-                  <img
-                    alt="image"
-                    loading="lazy"
-                    width="132"
-                    height="53.855999999999995"
-                    decoding="async"
-                    className="w-full h-auto"
-                    src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/4efb5e71-4c1d-4b80-8d4a-142623e2dd16/edit.svg"
-                  />
-                </div>
-              </div>
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">Customize to your brand</h2>
                 <p className="text-gray-700">
@@ -159,19 +133,6 @@ export default function FeaturesBlocks() {
 
           <section className="py-12 mt-8 mb-8 flex">
             <div className="w-1/2">
-              <div className="flex">
-                <div className="w-36 md:w-48 mt-6">
-                  <img
-                    alt="image"
-                    loading="lazy"
-                    width="132"
-                    height="53.855999999999995"
-                    decoding="async"
-                    className="w-full h-auto"
-                    src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/4efb5e71-4c1d-4b80-8d4a-142623e2dd16/edit.svg"
-                  />
-                </div>
-              </div>
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">World-class Performance</h2>
                 <p className="text-gray-700">
@@ -199,19 +160,6 @@ export default function FeaturesBlocks() {
 
           <section className="py-12 mt-8 mb-8 flex">
             <div className="w-1/2">
-              <div className="flex">
-                <div className="w-36 md:w-48 mt-6">
-                  <img
-                    alt="image"
-                    loading="lazy"
-                    width="132"
-                    height="53.855999999999995"
-                    decoding="async"
-                    className="w-full h-auto"
-                    src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
-                  />
-                </div>
-              </div>
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">In built Analytics</h2>
                 <p className="text-gray-700">
@@ -239,19 +187,6 @@ export default function FeaturesBlocks() {
 
           <section className="py-12 mt-8 mb-8 flex">
             <div className="w-1/2">
-              <div className="flex">
-                <div className="w-36 md:w-48 mt-6">
-                  <img
-                    alt="image"
-                    loading="lazy"
-                    width="132"
-                    height="53.855999999999995"
-                    decoding="async"
-                    className="w-full h-auto"
-                    src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
-                  />
-                </div>
-              </div>
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">Optimized for SEO</h2>
                 <p className="text-gray-700">
@@ -270,7 +205,7 @@ export default function FeaturesBlocks() {
                   loading="lazy"
                   decoding="async"
                   className="w-full shadow-md rounded"
-                  src="https://dazzling-cat.netlify.app/analyticsseo.png"
+                  src="https://dazzling-cat.netlify.app/seograph.png"
                 />
               </div>
             </div>
