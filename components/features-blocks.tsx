@@ -76,6 +76,8 @@ export default function FeaturesBlocks() {
           </section>
 
           <section className="py-8 mb-8">
+
+            <div>
             <div className="flex">
               <div className="w-36 md:w-48 mt-6">
                 <img
@@ -99,6 +101,8 @@ export default function FeaturesBlocks() {
                 <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
               </div>
             </div>
+            </div>
+
             <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
               <div className="p-8">
                 <img
@@ -113,6 +117,8 @@ export default function FeaturesBlocks() {
           </section>
 
           <section className="py-8 mb-8">
+
+            <div>
             <div className="flex">
               <div className="w-36 md:w-48 mt-6">
                 <img
@@ -136,6 +142,8 @@ export default function FeaturesBlocks() {
                 <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
               </div>
             </div>
+            </div>
+
             <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
               <div className="p-8">
                 <img
@@ -150,6 +158,7 @@ export default function FeaturesBlocks() {
           </section>
 
           <section className="py-8 mb-8">
+            <div>
             <div className="flex">
               <div className="w-36 md:w-48 mt-6">
                 <img
@@ -173,6 +182,8 @@ export default function FeaturesBlocks() {
                 <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
               </div>
             </div>
+            </div>
+
             <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
               <div className="p-8">
                 <img
@@ -187,6 +198,7 @@ export default function FeaturesBlocks() {
           </section>
 
           <section className="py-8 mb-8">
+            <div>
             <div className="flex">
               <div className="w-36 md:w-48 mt-6">
                 <img
@@ -210,6 +222,8 @@ export default function FeaturesBlocks() {
                 <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
               </div>
             </div>
+            </div>
+
             <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
               <div className="p-8">
                 <img
@@ -224,6 +238,7 @@ export default function FeaturesBlocks() {
           </section>
 
           <section className="py-8 mb-8">
+            <div>
             <div className="flex">
               <div className="w-36 md:w-48 mt-6">
                 <img
@@ -246,6 +261,7 @@ export default function FeaturesBlocks() {
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
                 <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
               </div>
+            </div>
             </div>
             <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
               <div className="p-8">
