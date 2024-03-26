@@ -68,7 +68,7 @@ export default function ResetPassword() {
               </div>
 
               <div className="mt-8 text-center">
-                <a href="https://partner.unicornplatform.com/" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our Partner</a>
+                <a href="https://partner.notionbear.com/" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our Partner</a>
               </div>
             </div>
 
@@ -121,7 +121,7 @@ export default function ResetPassword() {
 
 
           <div className="flex mx-auto px-4 py-8 mt-8">
-            <img src="https://unicorn-cdn.b-cdn.net/1236c021-4a34-48ea-9bbe-9940811c9794/design-agency.png" alt="Design agency" className="w-full lg:w-1/2 p-8" />
+            <img src="https://dazzling-cat.netlify.app/freelancer-mockup.webp" alt="Design agency" className="w-full lg:w-1/2 p-8" />
             <div className="w-full lg:w-1/2 p-8">
               <h2 className="h2 font-bold mb-8">You’re a freelancer or an agency</h2>
               <p className="text-md mt-4 mb-4 text-gray-800">Demonstrate your industry knowledge by recommending NotionBear to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
@@ -134,7 +134,7 @@ export default function ResetPassword() {
               <h2 className="h2 font-bold mb-8">You have an audience</h2>
               <p className="text-md mt-4 mb-4 text-gray-800">Have an X.com account that is followed by marketers? Or a website about web design? Monetize your audience by recommending them a great tool. Use our affiliate program link alongside with your existing monetization. Boost your earnings!</p>
             </div>
-            <img src="https://unicorn-cdn.b-cdn.net/1239feb7-1d79-4971-9412-eecdb199a3f4/influencer.png" alt="Influencer" className="w-full lg:w-1/2 p-8" />
+            <img src="https://dazzling-cat.netlify.app/influencer-mockup.webp" alt="Influencer" className="w-full lg:w-1/2 p-8" />
           </div>
 
 
@@ -165,7 +165,7 @@ export default function ResetPassword() {
                   <div className="bg-gray-100 p-4 rounded-lg shadow border-gray-600 border">
                     <div className="text-center mb-4 p-4">
                       <span className="h4">🐴 HORSE</span>
-                      <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
+                      <h2 className="h2 mt-4">$<b className="font-bold">957</b></h2>
                       <p className="text-md mt-4 mb-4 text-gray-800">per month</p>
                     </div>
                     <div className="text-center">
@@ -177,7 +177,7 @@ export default function ResetPassword() {
                   <div className="bg-gray-100 p-4 rounded-lg shadow border-gray-600 border">
                     <div className="text-center mb-4 p-4">
                       <span className="h4">🦄 UNICORN</span>
-                      <h2 className="h2 mt-4">$<b className="font-bold">146</b></h2>
+                      <h2 className="h2 mt-4">$<b className="font-bold">4785</b></h2>
                       <p className="text-md mt-4 mb-4 text-gray-800">per month</p>
                     </div>
                     <div className="text-center">
@@ -187,7 +187,7 @@ export default function ResetPassword() {
                 </li>
               </ul>
               <div className="text-center mt-8">
-                <a href="https://partner.unicornplatform.com/" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Start to earn money</a>
+                <a href="https://partner.notionbear.com/" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Start to earn money</a>
               </div>
             </div>
           </div>
@@ -284,7 +284,7 @@ export default function ResetPassword() {
               <p className="mt-4 text-gray-400">Quick payouts to Wise, Paypal or your local bank. Premium support and cross-promotions from us.</p>
 
               <div className="mt-8">
-                <a href="https://partner.unicornplatform.com/" target="_blank" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our partner</a>
+                <a href="https://partner.notionbear.com/" target="_blank" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our partner</a>
               </div>
             </div>
           </div>

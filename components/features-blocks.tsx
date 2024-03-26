@@ -106,7 +106,7 @@ export default function FeaturesBlocks() {
                   loading="lazy"
                   decoding="async"
                   className="w-full shadow-md border border-2 rounded border-gray-600"
-                  src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
+                  src="https://dazzling-cat.netlify.app/write%20on%20notion.png"
                 />
               </div>
             </div>
@@ -143,7 +143,7 @@ export default function FeaturesBlocks() {
                   loading="lazy"
                   decoding="async"
                   className="w-full shadow-md border border-2 rounded border-gray-600"
-                  src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
+                  src="https://dazzling-cat.netlify.app/notion to website.png"
                 />
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function FeaturesBlocks() {
                   loading="lazy"
                   decoding="async"
                   className="w-full shadow-md border border-2 rounded border-gray-600"
-                  src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/d41acd65-b5b1-4482-8444-5d811bf9bbd1/notion/w=4416,quality=90"
+                  src="https://dazzling-cat.netlify.app/performancewebsite"
                 />
               </div>
             </div>
