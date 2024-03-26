@@ -118,7 +118,7 @@ export default function FeaturesBlocks() {
 
           <section className="py-8 mb-8 flex">
 
-            <div>
+            <div className="w-1/2">
               <div className="flex">
                 <div className="w-36 md:w-48 mt-6">
                   <img
@@ -158,7 +158,7 @@ export default function FeaturesBlocks() {
           </section>
 
           <section className="py-8 mb-8 flex">
-            <div>
+            <div className="w-1/2">
               <div className="flex">
                 <div className="w-36 md:w-48 mt-6">
                   <img
@@ -198,7 +198,7 @@ export default function FeaturesBlocks() {
           </section>
 
           <section className="py-8 mb-8 flex">
-            <div>
+            <div className="w-1/2">
               <div className="flex">
                 <div className="w-36 md:w-48 mt-6">
                   <img
@@ -238,7 +238,7 @@ export default function FeaturesBlocks() {
           </section>
 
           <section className="py-8 mb-8 flex">
-            <div>
+            <div className="w-1/2">
               <div className="flex">
                 <div className="w-36 md:w-48 mt-6">
                   <img
