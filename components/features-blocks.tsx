@@ -105,7 +105,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full shadow-md border border-2 rounded border-gray-600"
+                  className="w-full shadow-md rounded"
                   src="https://dazzling-cat.netlify.app/write%20on%20notion.png"
                 />
               </div>
@@ -142,7 +142,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full shadow-md border border-2 rounded border-gray-600"
+                  className="w-full shadow-md rounded"
                   src="https://dazzling-cat.netlify.app/notion to website.png"
                 />
               </div>
@@ -179,7 +179,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full shadow-md border border-2 rounded border-gray-600"
+                  className="w-full shadow-md rounded"
                   src="https://dazzling-cat.netlify.app/performancewebsite.png"
                 />
               </div>
@@ -216,7 +216,7 @@ export default function FeaturesBlocks() {
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full shadow-md border border-2 rounded border-gray-600"
+                  className="w-full shadow-md rounded"
                   src="https://dazzling-cat.netlify.app/analyticsseo.png"
                 />
               </div>
