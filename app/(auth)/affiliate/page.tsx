@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 
 export const metadata = {
-  title: 'Reset Password - Simple',
-  description: 'Page description',
+  title: 'Affiliate Program',
+  description: 'Join the NotionBear affiliate program to become our partner. Spread the website builder and earn money with us.',
 }
 
 export default function ResetPassword() {
@@ -111,18 +111,18 @@ export default function ResetPassword() {
 
 
           <div className="flex mx-auto px-4 py-8 mt-8">
-            <div className="w-full lg:w-1/2 p-8">
+            <div className="w-full lg:w-1/2 p-8 m-auto">
               <h2 className="h2 font-bold text-accent">An essential collection of banners</h2>
               <br />
               <p className="text-md mt-4 mb-4 text-gray-800">We prepared designs for you to download and use right away — no extra work. Missing a format? Just ask and we will make unique design files just for you. Free of charge.</p>
             </div>
-            <img src="https://dazzling-cat.netlify.app/nb-assets.png" alt="Banners free pack" className="w-full lg:w-1/2 p-8" />
+            <img src="https://dazzling-cat.netlify.app/nb-assets.png" alt="Banners free pack" className="w-full lg:w-1/2 p-8 m-auto" />
           </div>
 
 
           <div className="flex mx-auto px-4 py-8 mt-8">
-            <img src="https://dazzling-cat.netlify.app/freelancer-mockup.webp" alt="Design agency" className="w-full lg:w-1/2 p-8" />
-            <div className="w-full lg:w-1/2 p-8">
+            <img src="https://dazzling-cat.netlify.app/freelancer-mockup.webp" alt="Design agency" className="w-full lg:w-1/2 p-8 m-auto" />
+            <div className="w-full lg:w-1/2 p-8 m-auto">
               <h2 className="h2 font-bold mb-8">You’re a freelancer or an agency</h2>
               <p className="text-md mt-4 mb-4 text-gray-800">Demonstrate your industry knowledge by recommending NotionBear to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
             </div>
@@ -130,11 +130,11 @@ export default function ResetPassword() {
 
 
           <div className="flex mx-auto px-4 py-8 mt-8">
-            <div className="w-full lg:w-1/2 p-8">
+            <div className="w-full lg:w-1/2 p-8 m-auto">
               <h2 className="h2 font-bold mb-8">You have an audience</h2>
               <p className="text-md mt-4 mb-4 text-gray-800">Have an X.com account that is followed by marketers? Or a website about web design? Monetize your audience by recommending them a great tool. Use our affiliate program link alongside with your existing monetization. Boost your earnings!</p>
             </div>
-            <img src="https://dazzling-cat.netlify.app/influencer-mockup.webp" alt="Influencer" className="w-full lg:w-1/2 p-8" />
+            <img src="https://dazzling-cat.netlify.app/influencer-mockup.webp" alt="Influencer" className="w-full lg:w-1/2 p-8 m-auto" />
           </div>
 
 
