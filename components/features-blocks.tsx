@@ -75,35 +75,35 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-8 mb-8">
+          <section className="py-8 mb-8 flex">
 
-            <div>
-            <div className="flex">
-              <div className="w-36 md:w-48 mt-6">
-                <img
-                  alt="image"
-                  loading="lazy"
-                  width="132"
-                  height="53.855999999999995"
-                  decoding="async"
-                  className="w-full h-auto"
-                  src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
-                />
+            <div className="w-1/2">
+              <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
+                  <img
+                    alt="image"
+                    loading="lazy"
+                    width="132"
+                    height="53.855999999999995"
+                    decoding="async"
+                    className="w-full h-auto"
+                    src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                  />
+                </div>
+              </div>
+              <div className="text-start mt-6 w-full p-4">
+                <h2 className="h2 font-bold mb-4">Your content lives in Notion</h2>
+                <p className="text-gray-700">
+                  Your work stays in a place you control and love, while NotionBear handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building
+                  your brand without worrying about configurations, plugins, downtime, performance, or security.
+                </p>
+                <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
+                  <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
+                </div>
               </div>
             </div>
-            <div className="text-start mt-6 w-full md:w-1/2">
-              <h2 className="h2 font-bold mb-4">Your content lives in Notion</h2>
-              <p className="text-gray-700">
-                Your work stays in a place you control and love, while NotionBear handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building
-                your brand without worrying about configurations, plugins, downtime, performance, or security.
-              </p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
-                <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
-              </div>
-            </div>
-            </div>
 
-            <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
+            <div className="flex justify-start mt-6 w-1/2 bg-gray-200 p-8 rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -116,35 +116,35 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-8 mb-8">
+          <section className="py-8 mb-8 flex">
 
             <div>
-            <div className="flex">
-              <div className="w-36 md:w-48 mt-6">
-                <img
-                  alt="image"
-                  loading="lazy"
-                  width="132"
-                  height="53.855999999999995"
-                  decoding="async"
-                  className="w-full h-auto"
-                  src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/4efb5e71-4c1d-4b80-8d4a-142623e2dd16/edit.svg"
-                />
+              <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
+                  <img
+                    alt="image"
+                    loading="lazy"
+                    width="132"
+                    height="53.855999999999995"
+                    decoding="async"
+                    className="w-full h-auto"
+                    src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/4efb5e71-4c1d-4b80-8d4a-142623e2dd16/edit.svg"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="text-start mt-6 w-full md:w-1/2">
-              <h2 className="h2 font-bold mb-4">Customize to your brand</h2>
-              <p className="text-gray-700">
-                Style the look and feel of your site with no-code themes and designer templates. Everything can be customized inside NotionBear without code to make you proud of the unique site you share with the world. Add
-                custom-code only if you want to.
-              </p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
-                <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
+              <div className="text-start mt-6 w-full p-4">
+                <h2 className="h2 font-bold mb-4">Customize to your brand</h2>
+                <p className="text-gray-700">
+                  Style the look and feel of your site with no-code themes and designer templates. Everything can be customized inside NotionBear without code to make you proud of the unique site you share with the world. Add
+                  custom-code only if you want to.
+                </p>
+                <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
+                  <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
+                </div>
               </div>
-            </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
+            <div className="flex justify-start mt-6 w-1/2 bg-gray-200 p-8 rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -157,34 +157,34 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-8 mb-8">
+          <section className="py-8 mb-8 flex">
             <div>
-            <div className="flex">
-              <div className="w-36 md:w-48 mt-6">
-                <img
-                  alt="image"
-                  loading="lazy"
-                  width="132"
-                  height="53.855999999999995"
-                  decoding="async"
-                  className="w-full h-auto"
-                  src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/4efb5e71-4c1d-4b80-8d4a-142623e2dd16/edit.svg"
-                />
+              <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
+                  <img
+                    alt="image"
+                    loading="lazy"
+                    width="132"
+                    height="53.855999999999995"
+                    decoding="async"
+                    className="w-full h-auto"
+                    src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/4efb5e71-4c1d-4b80-8d4a-142623e2dd16/edit.svg"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="text-start mt-6 w-full md:w-1/2">
-              <h2 className="h2 font-bold mb-4">World-class Performance</h2>
-              <p className="text-gray-700">
-                Pages load instantly anywhere in the world giving your site visitors a pleasant and snappy experience—they’ll never close the page for taking too long to load. On average NotionBear sites perform better than any
-                industry leading website builder.
-              </p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
-                <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
+              <div className="text-start mt-6 w-full p-4">
+                <h2 className="h2 font-bold mb-4">World-class Performance</h2>
+                <p className="text-gray-700">
+                  Pages load instantly anywhere in the world giving your site visitors a pleasant and snappy experience—they’ll never close the page for taking too long to load. On average NotionBear sites perform better than any
+                  industry leading website builder.
+                </p>
+                <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
+                  <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
+                </div>
               </div>
-            </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
+            <div className="flex justify-start mt-6 w-1/2 bg-gray-200 p-8 rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -197,34 +197,34 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-8 mb-8">
+          <section className="py-8 mb-8 flex">
             <div>
-            <div className="flex">
-              <div className="w-36 md:w-48 mt-6">
-                <img
-                  alt="image"
-                  loading="lazy"
-                  width="132"
-                  height="53.855999999999995"
-                  decoding="async"
-                  className="w-full h-auto"
-                  src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
-                />
+              <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
+                  <img
+                    alt="image"
+                    loading="lazy"
+                    width="132"
+                    height="53.855999999999995"
+                    decoding="async"
+                    className="w-full h-auto"
+                    src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="text-start mt-6 w-full md:w-1/2">
-              <h2 className="h2 font-bold mb-4">In built Analytics</h2>
-              <p className="text-gray-700">
-                Social sharing cards are automatically created from page content and your site’s HTML is optimized to use best practices for search engines. NotionBear sites are automatically built with the ability to rank high in
-                search and look great when shared on social media.
-              </p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
-                <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
+              <div className="text-start mt-6 w-full p-4">
+                <h2 className="h2 font-bold mb-4">In built Analytics</h2>
+                <p className="text-gray-700">
+                  Social sharing cards are automatically created from page content and your site’s HTML is optimized to use best practices for search engines. NotionBear sites are automatically built with the ability to rank high in
+                  search and look great when shared on social media.
+                </p>
+                <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
+                  <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
+                </div>
               </div>
-            </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
+            <div className="flex justify-start mt-6 w-1/2 bg-gray-200 p-8 rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -237,33 +237,33 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-8 mb-8">
+          <section className="py-8 mb-8 flex">
             <div>
-            <div className="flex">
-              <div className="w-36 md:w-48 mt-6">
-                <img
-                  alt="image"
-                  loading="lazy"
-                  width="132"
-                  height="53.855999999999995"
-                  decoding="async"
-                  className="w-full h-auto"
-                  src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
-                />
+              <div className="flex">
+                <div className="w-36 md:w-48 mt-6">
+                  <img
+                    alt="image"
+                    loading="lazy"
+                    width="132"
+                    height="53.855999999999995"
+                    decoding="async"
+                    className="w-full h-auto"
+                    src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                  />
+                </div>
+              </div>
+              <div className="text-start mt-6 w-full p-4">
+                <h2 className="h2 font-bold mb-4">Optimized for SEO</h2>
+                <p className="text-gray-700">
+                  Social sharing cards are automatically created from page content and your site’s HTML is optimized to use best practices for search engines. NotionBear sites are automatically built with the ability to rank high in
+                  search and look great when shared on social media.
+                </p>
+                <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
+                  <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
+                </div>
               </div>
             </div>
-            <div className="text-start mt-6 w-full md:w-1/2">
-              <h2 className="h2 font-bold mb-4">Optimized for SEO</h2>
-              <p className="text-gray-700">
-                Social sharing cards are automatically created from page content and your site’s HTML is optimized to use best practices for search engines. NotionBear sites are automatically built with the ability to rank high in
-                search and look great when shared on social media.
-              </p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
-                <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
-              </div>
-            </div>
-            </div>
-            <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
+            <div className="flex justify-start mt-6 w-1/2 bg-gray-200 p-8 rounded">
               <div className="p-8">
                 <img
                   alt="image"
