@@ -103,7 +103,7 @@ export default function FeaturesBlocks() {
               </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-1/2 bg-gray-200 p-8 rounded">
+            <div className="flex justify-start mt-6 w-1/2 rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -144,7 +144,7 @@ export default function FeaturesBlocks() {
               </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-1/2 bg-gray-200 p-8 rounded">
+            <div className="flex justify-start mt-6 w-1/2 rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -184,7 +184,7 @@ export default function FeaturesBlocks() {
               </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-1/2 bg-gray-200 p-8 rounded">
+            <div className="flex justify-start mt-6 w-1/2 rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -224,7 +224,7 @@ export default function FeaturesBlocks() {
               </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-1/2 bg-gray-200 p-8 rounded">
+            <div className="flex justify-start mt-6 w-1/2 rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -263,7 +263,7 @@ export default function FeaturesBlocks() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-start mt-6 w-1/2 bg-gray-200 p-8 rounded">
+            <div className="flex justify-start mt-6 w-1/2 rounded">
               <div className="p-8">
                 <img
                   alt="image"
