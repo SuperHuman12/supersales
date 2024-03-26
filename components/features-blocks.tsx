@@ -201,6 +201,43 @@ export default function FeaturesBlocks() {
               </div>
             </div>
             <div className="text-start mt-6 w-full md:w-1/2">
+              <h2 className="h2 font-bold mb-4">In built Analytics</h2>
+              <p className="text-gray-700">
+                Social sharing cards are automatically created from page content and your site’s HTML is optimized to use best practices for search engines. NotionBear sites are automatically built with the ability to rank high in
+                search and look great when shared on social media.
+              </p>
+              <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
+                <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
+              </div>
+            </div>
+            <div className="flex justify-start mt-6 w-full bg-gray-200 p-8 rounded">
+              <div className="p-8">
+                <img
+                  alt="image"
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full shadow-md rounded"
+                  src="https://dazzling-cat.netlify.app/analyticsseo.png"
+                />
+              </div>
+            </div>
+          </section>
+
+          <section className="py-8 mb-8">
+            <div className="flex">
+              <div className="w-36 md:w-48 mt-6">
+                <img
+                  alt="image"
+                  loading="lazy"
+                  width="132"
+                  height="53.855999999999995"
+                  decoding="async"
+                  className="w-full h-auto"
+                  src="https://assets.super.so/186f4256-f467-4f79-8d6f-40defe12b9b4/images/c56e53c9-812d-4afc-b28b-c82bc3d50992/notion.svg"
+                />
+              </div>
+            </div>
+            <div className="text-start mt-6 w-full md:w-1/2">
               <h2 className="h2 font-bold mb-4">Optimized for SEO</h2>
               <p className="text-gray-700">
                 Social sharing cards are automatically created from page content and your site’s HTML is optimized to use best practices for search engines. NotionBear sites are automatically built with the ability to rank high in
@@ -222,6 +259,7 @@ export default function FeaturesBlocks() {
               </div>
             </div>
           </section>
+
         </div>
       </div>
 
