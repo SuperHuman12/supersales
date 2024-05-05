@@ -5,7 +5,7 @@ import type { StaticImageData } from 'next/image'
 import { Dialog, Transition } from '@headlessui/react'
 import Image from 'next/image'
 
-import notionbear_character  from '../public/images/notionbear-character-hero-2.png';
+import notionbear_character  from '../public/images/notionbear-herosec.png';
 
 
 interface ModalVideoProps {
