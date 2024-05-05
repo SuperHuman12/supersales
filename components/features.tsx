@@ -23,7 +23,7 @@ export default function Features() {
   }, [])
 
   return (
-    <section className="relative mt-4 mb-4 pb-4 bg-gray-200">
+    <section className="relative mt-4 mb-4 pb-4 bg-gray-200 rounded-4 border-4 border border-gray-600">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -46,28 +46,28 @@ export default function Features() {
               {/* Tabs buttons */}
               <div className="grid gap-4 mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 1 ? 'bg-white' : 'bg-gray-900 text-white'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 1 ? 'bg-orange-600' : 'bg-gray-900 text-white'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
 
                   <div>
-                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text text-transparent text-orange-600'>Helpdesk</span></div>
+                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text text-transparent text-white'>Helpdesk</span></div>
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 2 ? 'bg-white' : 'bg-gray-900 text-white'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 2 ? 'bg-orange-600' : 'bg-gray-900 text-white'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
 
 
                   <div>
-                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text text-transparent text-orange-600'>Blog</span></div>
+                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text text-transparent text-white'>Blog</span></div>
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 3 ? 'bg-white' : 'bg-gray-900 text-white'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 3 ? 'bg-orange-600' : 'bg-gray-900 text-white'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
@@ -75,17 +75,17 @@ export default function Features() {
 
 
                   <div>
-                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text text-transparent text-orange-600'>Catalog</span></div>
+                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text text-transparent text-white'>Catalog</span></div>
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 4 ? 'bg-white' : 'bg-gray-900 text-white'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 4 ? 'bg-orange-600' : 'bg-gray-900 text-white'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >
 
                   <div>
-                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to  <span className='bg-clip-text text-transparent text-orange-600'>Company Wiki</span></div>
+                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to  <span className='bg-clip-text text-transparent text-white'>Company Wiki</span></div>
                   </div>
                 </a>
               </div>
