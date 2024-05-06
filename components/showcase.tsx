@@ -44,8 +44,8 @@ export default function showcases() {
 
             <div role="list" className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
               <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-                <a href="https://pxweb.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
-                  <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/65c20db81cf1396c0cfe158a_pxweb.png" alt="PreviewX" className="w-auto mx-auto" />
+                <a href="https://catalog-xi.vercel.app" target="_blank" className="block" rel="noopener noreferrer">
+                  <img src="https://dazzling-cat.netlify.app/catalog-xi.vercel.app_.png" alt="PreviewX" className="w-auto mx-auto" />
                   <div className="p-4">
                     <h2 className="text-start mt-2 font-bold">PreviewX</h2>
                     <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
@@ -59,8 +59,8 @@ export default function showcases() {
                 </a>
               </div>
               <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-                <a href="https://ong.ph/" target="_blank" className="block" rel="noopener noreferrer">
-                  <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0771_brandbird%20(50)-min.jpg" alt="Ong Pe Hon" className="w-auto mx-auto" />
+                <a href="https://supportgroups.vercel.app" target="_blank" className="block" rel="noopener noreferrer">
+                  <img src="https://dazzling-cat.netlify.app/supportgroups.vercel.app_.png" alt="Ong Pe Hon" className="w-auto mx-auto" />
                   <div className="p-4">
                     <h2 className="text-start mt-2 font-bold">Ong Pe Hon</h2>
                     <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
@@ -74,8 +74,8 @@ export default function showcases() {
                 </a>
               </div>
               <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-                <a href="https://buildinpublic.simple.ink/" target="_blank" className="block" rel="noopener noreferrer">
-                  <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076b_brandbird%20(48)-min.jpg" alt="Build In Public Cheatsheet" className="w-auto mx-auto" />
+                <a href="https://agencydatahub.vercel.app" target="_blank" className="block" rel="noopener noreferrer">
+                  <img src="https://dazzling-cat.netlify.app/agencydatahub.vercel.app_.png" alt="Build In Public Cheatsheet" className="w-auto mx-auto" />
                   <div className="p-4">
                     <h2 className="text-start mt-2 font-bold">Build In Public Cheatsheet</h2>
                     <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
@@ -89,8 +89,8 @@ export default function showcases() {
                 </a>
               </div>
               <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-                <a href="http://chdavid.com" target="_blank" className="block" rel="noopener noreferrer">
-                  <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076d_brandbird.jpg" alt="Ch David" className="w-auto mx-auto" />
+                <a href="http://eventstown.vercel.app" target="_blank" className="block" rel="noopener noreferrer">
+                  <img src="https://dazzling-cat.netlify.app/eventstown.vercel.app_.png" alt="Ch David" className="w-auto mx-auto" />
                   <div className="p-4">
                     <h2 className="text-start mt-2 font-bold">Ch David</h2>
                     <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
@@ -104,8 +104,8 @@ export default function showcases() {
                 </a>
               </div>
               <div role="listitem" className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl h-full border">
-                <a href="https://stevemarks.io/" target="_blank" className="block" rel="noopener noreferrer">
-                  <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c076c_brandbird%20(54).jpg" alt="Steve Marks" className="w-auto mx-auto" />
+                <a href="https://workremotelyeverywhere.vercel.app" target="_blank" className="block" rel="noopener noreferrer">
+                  <img src="https://dazzling-cat.netlify.app/workremotelyeverywhere.vercel.app.png" alt="Steve Marks" className="w-auto mx-auto" />
                   <div className="p-4">
                     <h2 className="text-start mt-2 font-bold">Steve Marks</h2>
                     <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
