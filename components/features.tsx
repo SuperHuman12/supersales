@@ -46,28 +46,28 @@ export default function Features() {
               {/* Tabs buttons */}
               <div className="grid gap-4 mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 1 ? 'bg-orange-600' : 'bg-gray-900 text-white'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 1 ? 'bg-gray-200' : 'bg-gray-900 text-white'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
 
                   <div>
-                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text text-transparent text-white'>Helpdesk</span></div>
+                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text '>Helpdesk</span></div>
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 2 ? 'bg-orange-600' : 'bg-gray-900 text-white'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 2 ? 'bg-gray-200' : 'bg-gray-900 text-white'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
 
 
                   <div>
-                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text text-transparent text-white'>Blog</span></div>
+                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text '>Blog</span></div>
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 3 ? 'bg-orange-600' : 'bg-gray-900 text-white'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 3 ? 'bg-gray-200' : 'bg-gray-900 text-white'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
@@ -75,17 +75,17 @@ export default function Features() {
 
 
                   <div>
-                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text text-transparent text-white'>Catalog</span></div>
+                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to <span className='bg-clip-text '>Catalog</span></div>
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 4 ? 'bg-orange-600' : 'bg-gray-900 text-white'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out border border-dashed shadow-md border-gray-600 hover:shadow-lg text-gray-900 ${tab !== 4 ? 'bg-gray-200' : 'bg-gray-900 text-white'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4); }}
                 >
 
                   <div>
-                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to  <span className='bg-clip-text text-transparent text-white'>Company Wiki</span></div>
+                    <div className="h4 font-bold leading-snug tracking-tight mb-1">Notion to  <span className='bg-clip-text '>Company Wiki</span></div>
                   </div>
                 </a>
               </div>
