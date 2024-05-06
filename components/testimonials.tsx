@@ -100,7 +100,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “Getting to build and manage my company helpdesk using notion as a content provider is really slick, it has got our writers focus on what is important.“
+                  “Getting to build and manage my company helpdesk using notion as a content provider is really slick, it has got <b className="text-orange-700">our writers focus on what is important.</b>“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
