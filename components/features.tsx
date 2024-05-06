@@ -23,7 +23,7 @@ export default function Features() {
   }, [])
 
   return (
-    <section className="relative mt-4 mb-4 pb-4 bg-gray-200 rounded-4 border-4 border border-gray-600">
+    <section className="relative mt-4 mb-4 pb-4 bg-gray-900 rounded-4 border-4 border border-gray-600 text-white">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>

@@ -75,9 +75,9 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-12 mt-8 mb-8 flex">
+          <section className="py-12 mt-8 mb-8 md:flex sm:grid">
 
-            <div className="w-1/2">
+            <div className="md:w-1/2 sm:w-full">
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">Your content lives in Notion</h2>
                 <p className="text-gray-700">
@@ -90,7 +90,7 @@ export default function FeaturesBlocks() {
               </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-1/2 rounded">
+            <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -103,9 +103,9 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-12 mt-8 mb-8 flex">
+          <section className="py-12 mt-8 mb-8 md:flex sm:grid">
 
-            <div className="w-1/2">
+            <div className="md:w-1/2 sm:w-full">
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">Customize to your brand</h2>
                 <p className="text-gray-700">
@@ -118,7 +118,7 @@ export default function FeaturesBlocks() {
               </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-1/2 rounded">
+            <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -131,8 +131,8 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-12 mt-8 mb-8 flex">
-            <div className="w-1/2">
+          <section className="py-12 mt-8 mb-8 md:flex sm:grid">
+            <div className="md:w-1/2 sm:w-full">
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">World-class Performance</h2>
                 <p className="text-gray-700">
@@ -145,7 +145,7 @@ export default function FeaturesBlocks() {
               </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-1/2 rounded">
+            <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -158,8 +158,8 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-12 mt-8 mb-8 flex">
-            <div className="w-1/2">
+          <section className="py-12 mt-8 mb-8 md:flex sm:grid">
+            <div className="md:w-1/2 sm:w-full">
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">In built Analytics</h2>
                 <p className="text-gray-700">
@@ -172,7 +172,7 @@ export default function FeaturesBlocks() {
               </div>
             </div>
 
-            <div className="flex justify-start mt-6 w-1/2 rounded">
+            <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
               <div className="p-8">
                 <img
                   alt="image"
@@ -185,8 +185,8 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-12 mt-8 mb-8 flex">
-            <div className="w-1/2">
+          <section className="py-12 mt-8 mb-8 md:flex sm:grid">
+            <div className="md:w-1/2 sm:w-full">
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">Optimized for SEO</h2>
                 <p className="text-gray-700">
@@ -198,7 +198,7 @@ export default function FeaturesBlocks() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-start mt-6 w-1/2 rounded">
+            <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
               <div className="p-8">
                 <img
                   alt="image"
