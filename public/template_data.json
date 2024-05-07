@@ -1,6 +1,456 @@
 {
   "template_library": [
     {
+      "id": "blockchain-grants",
+      "product": {
+        "logo": "https://blockchain-grants-logo.netlify.app/logo.png",
+        "name": "Blockchain Grants",
+        "provider": "CryptoFund",
+        "description": "Secure funding for your blockchain projects through targeted grants.",
+        "callToCopy": {
+          "text": "Apply for Grant",
+          "link": "https://blockchain-grants.com/apply"
+        },
+        "ViewDemo": {
+          "text": "View Available Grants",
+          "link": "https://blockchain-grants.com"
+        }
+      },
+      "overview": {
+        "content": "Blockchain Grants provides financial support for innovative projects in the blockchain space. With our funding, developers and startups can propel their ideas into reality."
+      },
+      "howItWorks": {
+        "content": "Applying for a grant is straightforward. Simply fill out the application form on our website and submit your project proposal for review."
+      },
+      "configuration": {
+        "content": "Setup your profile and track your application status through our user-friendly dashboard."
+      },
+      "proof": {
+        "screenshot": "https://blockchain-grants-logo.netlify.app/application-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=blockchain-grants-intro"
+      }
+    },
+    {
+      "id": "work-remote",
+      "product": {
+        "logo": "https://work-remote-logo.netlify.app/logo.png",
+        "name": "Work Remote",
+        "provider": "RemoteCo",
+        "description": "A platform to find and list remote work opportunities.",
+        "callToCopy": {
+          "text": "Find Jobs",
+          "link": "https://workremote.com/jobs"
+        },
+        "ViewDemo": {
+          "text": "Browse Jobs",
+          "link": "https://workremote.com"
+        }
+      },
+      "overview": {
+        "content": "Work Remote connects talented individuals with top remote work opportunities worldwide."
+      },
+      "howItWorks": {
+        "content": "Search for jobs using our advanced filters, apply with your profile, and track your application status."
+      },
+      "configuration": {
+        "content": "Create your profile, upload your CV, and set up job alerts to stay informed about new opportunities."
+      },
+      "proof": {
+        "screenshot": "https://work-remote-logo.netlify.app/job-search-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=work-remote-demo"
+      }
+    },
+    {
+      "id": "agency-hub",
+      "product": {
+        "logo": "https://agency-hub-logo.netlify.app/logo.png",
+        "name": "Agency Hub",
+        "provider": "AgencySolutions",
+        "description": "A classifieds platform to connect businesses with the best agencies and for agencies to receive offers from potential clients.",
+        "callToCopy": {
+          "text": "Find Agencies",
+          "link": "https://agencyhub.com/find"
+        },
+        "ViewDemo": {
+          "text": "See How It Works",
+          "link": "https://agencyhub.com/demo"
+        }
+      },
+      "overview": {
+        "content": "Agency Hub is the premier marketplace for businesses seeking top-notch agencies and for agencies looking to expand their clientele. Whether you're a business seeking marketing, design, or IT services, or an agency looking to showcase your expertise, Agency Hub connects you to the right opportunities."
+      },
+      "howItWorks": {
+        "content": "Businesses can browse agency profiles, review portfolios, and submit requests for proposals (RFPs). Agencies can manage their profiles, receive direct offers, and respond to RFPs from potential clients."
+      },
+      "configuration": {
+        "content": "Set up your business or agency profile, specify the services you offer or need, and start connecting through our intuitive platform."
+      },
+      "proof": {
+        "screenshot": "https://agency-hub-logo.netlify.app/platform-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=agency-hub-intro"
+      }
+    },
+    {
+      "id": "support-groups-events",
+      "product": {
+        "logo": "https://support-groups-events-logo.netlify.app/logo.png",
+        "name": "Support Groups Events",
+        "provider": "HealthConnect",
+        "description": "Find and organize support group meetings for mental health, addiction recovery, and more.",
+        "callToCopy": {
+          "text": "Join an Event",
+          "link": "https://supportgroupsevents.com/join"
+        },
+        "ViewDemo": {
+          "text": "Upcoming Events",
+          "link": "https://supportgroupsevents.com/events"
+        }
+      },
+      "overview": {
+        "content": "Our platform connects individuals seeking support with a wide range of group events focused on various health issues."
+      },
+      "howItWorks": {
+        "content": "Browse events by topic or location, register online, and gain the support you need in a community setting."
+      },
+      "configuration": {
+        "content": "Create an account, set up event notifications, and manage your event participation through our user-friendly dashboard."
+      },
+      "proof": {
+        "screenshot": "https://support-groups-events-logo.netlify.app/events-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=support-groups-events-demo"
+      }
+    },
+    {
+      "id": "top-talent-hub",
+      "product": {
+        "logo": "https://top-talent-hub-logo.netlify.app/logo.png",
+        "name": "Top Talent Hub",
+        "provider": "TalentInc",
+        "description": "Connect with top professionals and industry leaders to grow your career.",
+        "callToCopy": {
+          "text": "Discover Talent",
+          "link": "https://toptalenthub.com/discover"
+        },
+        "ViewDemo": {
+          "text": "Browse Profiles",
+          "link": "https://toptalenthub.com/profiles"
+        }
+      },
+      "overview": {
+        "content": "Top Talent Hub is your gateway to meeting elite professionals and mentors in your field."
+      },
+      "howItWorks": {
+        "content": "Create your profile, showcase your achievements, and connect with industry leaders."
+      },
+      "configuration": {
+        "content": "Sign up, complete your profile, and start networking with other top-tier professionals."
+      },
+      "proof": {
+        "screenshot": "https://top-talent-hub-logo.netlify.app/networking-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=top-talent-hub-demo"
+      }
+    },
+    {
+      "id": "events-website",
+      "product": {
+        "logo": "https://events-website-logo.netlify.app/logo.png",
+        "name": "Events Website",
+        "provider": "Eventify",
+        "description": "A dynamic platform for hosting and managing all types of events online.",
+        "callToCopy": {
+          "text": "Host Your Event",
+          "link": "https://eventswebsite.com/host"
+        },
+        "ViewDemo": {
+          "text": "View Demo",
+          "link": "https://eventswebsite.com/demo"
+        }
+      },
+      "overview": {
+        "content": "From small workshops to large conferences, our platform provides all the tools you need to create, manage, and promote your events."
+      },
+      "howItWorks": {
+        "content": "Set up an event in minutes, customize your event page, and manage registrations and attendee communications."
+      },
+      "configuration": {
+        "content": "Register as an event organizer, choose your plan, and start creating your event."
+      },
+      "proof": {
+        "screenshot": "https://events-website-logo.netlify.app/event-setup-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=events-website-setup"
+      }
+    },
+    {
+      "id": "starter-story",
+      "product": {
+        "logo": "https://starter-story-logo.netlify.app/logo.png",
+        "name": "Starter Story",
+        "provider": "StartupJourney",
+        "description": "Learn from successful entrepreneurs and launch your startup using proven strategies.",
+        "callToCopy": {
+          "text": "Get Inspired",
+          "link": "https://starterstory.com/inspire"
+        },
+        "ViewDemo": {
+          "text": "Read Success Stories",
+          "link": "https://starterstory.com/stories"
+        }
+      },
+      "overview": {
+        "content": "Starter Story showcases detailed interviews with entrepreneurs who share their process, challenges, and lessons learned."
+      },
+      "howItWorks": {
+        "content": "Browse through our extensive collection of startup stories, find patterns and strategies that work, and apply them to your own business idea."
+      },
+      "configuration": {
+        "content": "Subscribe for full access, customize your interests, and get weekly insights delivered to your inbox."
+      },
+      "proof": {
+        "screenshot": "https://starter-story-logo.netlify.app/story-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=starter-story-interview"
+      }
+    },
+    {
+      "id": "apk-store",
+      "product": {
+        "logo": "https://apk-store-logo.netlify.app/logo.png",
+        "name": "APK Store",
+        "provider": "AndroidMarket",
+        "description": "A trusted platform for downloading Android apps and games.",
+        "callToCopy": {
+          "text": "Download Now",
+          "link": "https://apkstore.com/download"
+        },
+        "ViewDemo": {
+          "text": "Browse Apps",
+          "link": "https://apkstore.com/apps"
+        }
+      },
+      "overview": {
+        "content": "APK Store offers a wide range of free and paid Android applications, ensuring a safe and secure download experience."
+      },
+      "howItWorks": {
+        "content": "Search for the app you need, review the details and user comments, and download directly to your device."
+      },
+      "configuration": {
+        "content": "Create an account to keep track of your downloads and preferences."
+      },
+      "proof": {
+        "screenshot": "https://apk-store-logo.netlify.app/app-listing-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=apk-store-demo"
+      }
+    },
+    {
+      "id": "apk-store",
+      "product": {
+        "logo": "https://apk-store-logo.netlify.app/logo.png",
+        "name": "APK Store",
+        "provider": "AndroidMarket",
+        "description": "A trusted platform for downloading Android apps and games.",
+        "callToCopy": {
+          "text": "Download Now",
+          "link": "https://apkstore.com/download"
+        },
+        "ViewDemo": {
+          "text": "Browse Apps",
+          "link": "https://apkstore.com/apps"
+        }
+      },
+      "overview": {
+        "content": "APK Store offers a wide range of free and paid Android applications, ensuring a safe and secure download experience."
+      },
+      "howItWorks": {
+        "content": "Search for the app you need, review the details and user comments, and download directly to your device."
+      },
+      "configuration": {
+        "content": "Create an account to keep track of your downloads and preferences."
+      },
+      "proof": {
+        "screenshot": "https://apk-store-logo.netlify.app/app-listing-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=apk-store-demo"
+      }
+    },
+    {
+      "id": "vcsheet",
+      "product": {
+        "logo": "https://vcsheet-logo.netlify.app/logo.png",
+        "name": "VCSheet",
+        "provider": "InvestorTools",
+        "description": "Streamline your investment tracking and analysis with VCSheet.",
+        "callToCopy": {
+          "text": "Start Tracking",
+          "link": "https://vcsheet.com/track"
+        },
+        "ViewDemo": {
+          "text": "See Features",
+          "link": "https://vcsheet.com/features"
+        }
+      },
+      "overview": {
+        "content": "VCSheet offers venture capitalists and investors a powerful tool to manage their portfolios and gain insights into market trends."
+      },
+      "howItWorks": {
+        "content": "Input your investment data, use our analytics tools to assess performance, and generate reports to guide your future investment decisions."
+      },
+      "configuration": {
+        "content": "Register your firm, set up your portfolio, and integrate with your existing financial systems."
+      },
+      "proof": {
+        "screenshot": "https://vcsheet-logo.netlify.app/dashboard-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=vcsheet-demo"
+      }
+    },
+    {
+      "id": "real-estate-website",
+      "product": {
+        "logo": "https://real-estate-website-logo.netlify.app/logo.png",
+        "name": "Real Estate Website",
+        "provider": "PropertyPortal",
+        "description": "Buy, sell, or rent properties with ease using our comprehensive real estate platform.",
+        "callToCopy": {
+          "text": "Find Properties",
+          "link": "https://realestatewebsite.com/search"
+        },
+        "ViewDemo": {
+          "text": "Explore Listings",
+          "link": "https://realestatewebsite.com/listings"
+        }
+      },
+      "overview": {
+        "content": "Our website offers detailed property listings, virtual tours, and all the tools you need for a smooth real estate transaction."
+      },
+      "howItWorks": {
+        "content": "Search for properties based on location, price, and features. Use our comparison tool to evaluate options and make informed decisions."
+      },
+      "configuration": {
+        "content": "Register as a buyer, seller, or real estate agent. Customize your profile and preferences to optimize your experience."
+      },
+      "proof": {
+        "screenshot": "https://real-estate-website-logo.netlify.app/property-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=real-estate-website-tour"
+      }
+    },
+    {
+      "id": "discord-telegram-whatsapp-servers",
+      "product": {
+        "logo": "https://messaging-platforms-logo.netlify.app/logo.png",
+        "name": "Messaging Platforms Servers",
+        "provider": "ChatConnect",
+        "description": "Create and manage your own private servers on Discord, Telegram, and WhatsApp for business or personal use.",
+        "callToCopy": {
+          "text": "Set Up Server",
+          "link": "https://messagingplatforms.com/setup"
+        },
+        "ViewDemo": {
+          "text": "Server Examples",
+          "link": "https://messagingplatforms.com/examples"
+        }
+      },
+      "overview": {
+        "content": "Our service helps you set up and customize private servers for enhanced communication and collaboration."
+      },
+      "howItWorks": {
+        "content": "Choose your platform, customize your server settings, invite members, and manage permissions for optimal security and functionality."
+      },
+      "configuration": {
+        "content": "Follow our step-by-step guide to create your server, integrate bots for automation, and adjust settings according to your needs."
+      },
+      "proof": {
+        "screenshot": "https://messaging-platforms-logo.netlify.app/server-setup-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=messaging-platforms-setup"
+      }
+    },
+    {
+      "id": "saas-boilerplates",
+      "product": {
+        "logo": "https://saas-boilerplates-logo.netlify.app/logo.png",
+        "name": "SaaS Boilerplates",
+        "provider": "SaaSTech",
+        "description": "Jumpstart your SaaS application development with our ready-to-use code boilerplates.",
+        "callToCopy": {
+          "text": "Get Started",
+          "link": "https://saasboilerplates.com/start"
+        },
+        "ViewDemo": {
+          "text": "Code Examples",
+          "link": "https://saasboilerplates.com/examples"
+        }
+      },
+      "overview": {
+        "content": "Our boilerplates provide the foundational code necessary to build scalable and secure SaaS applications quickly."
+      },
+      "howItWorks": {
+        "content": "Select the boilerplate that fits your project, download it, and customize it to fit your specific needs."
+      },
+      "configuration": {
+        "content": "Access our comprehensive documentation to understand how to deploy and modify the boilerplates effectively."
+      },
+      "proof": {
+        "screenshot": "https://saas-boilerplates-logo.netlify.app/boilerplate-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=saas-boilerplates-demo"
+      }
+    },
+    {
+      "id": "mental-health-blogs",
+      "product": {
+        "logo": "https://mental-health-blogs-logo.netlify.app/logo.png",
+        "name": "Mental Health Blogs",
+        "provider": "MindfulBlogs",
+        "description": "Explore and contribute to our collection of blogs focusing on mental health awareness and well-being.",
+        "callToCopy": {
+          "text": "Read Blogs",
+          "link": "https://mentalhealthblogs.com/read"
+        },
+        "ViewDemo": {
+          "text": "Featured Posts",
+          "link": "https://mentalhealthblogs.com/featured"
+        }
+      },
+      "overview": {
+        "content": "Our platform offers a space for sharing personal stories, expert advice, and research on mental health to foster understanding and support."
+      },
+      "howItWorks": {
+        "content": "Browse our diverse range of topics, subscribe to categories of interest, and engage with the community through comments and shared experiences."
+      },
+      "configuration": {
+        "content": "Sign up for an account, customize your reading preferences, and if you're a writer, submit your own blog posts for review."
+      },
+      "proof": {
+        "screenshot": "https://mental-health-blogs-logo.netlify.app/blog-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=mental-health-blogs-intro"
+      }
+    },
+    {
+      "id": "product-hunt",
+      "product": {
+        "logo": "https://product-hunt-logo.netlify.app/logo.png",
+        "name": "Product Hunt",
+        "provider": "HuntTech",
+        "description": "Discover new products, upvote your favorites, and engage with creators and other enthusiasts.",
+        "callToCopy": {
+          "text": "Explore New Products",
+          "link": "https://producthunt.com/explore"
+        },
+        "ViewDemo": {
+          "text": "Today's Hunts",
+          "link": "https://producthunt.com/today"
+        }
+      },
+      "overview": {
+        "content": "Product Hunt surfaces the best new tech products, every day. It's a place for product-loving enthusiasts to share and geek out about the latest mobile apps, websites, hardware projects, and tech creations."
+      },
+      "howItWorks": {
+        "content": "Browse new listings, upvote products you like, and join discussions to connect with the product community."
+      },
+      "configuration": {
+        "content": "Create your profile, follow topics of interest, and stay updated with daily newsletters."
+      },
+      "proof": {
+        "screenshot": "https://product-hunt-logo.netlify.app/product-screenshot.png",
+        "youtubevideo": "https://youtube.com/watch?v=product-hunt-launch"
+      }
+    },
+    {
       "id": "remote-jobs",
       "product": {
         "logo": "https://dazzling-cat.netlify.app/jobwebsite.png",
@@ -119,7 +569,6 @@
         "screenshot": "https://dazzling-cat.netlify.app/Screenshot%202024-02-09%203.38.42%20AM.png",
         "youtubevideo": "https://youtube.com/watch?v=example-slack"
       }
-    }    
-
+    }
   ]
 }
