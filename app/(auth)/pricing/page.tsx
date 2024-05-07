@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from 'next/image'
+import notionfooterImage from '@/public/images/notionfooter.png';
 
 
 export default function Pricing() {
