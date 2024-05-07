@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
-import Head from 'next/head'  // Import Head component
+import PlausibleProvider from 'next-plausible'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -13,8 +13,7 @@ export default function DefaultLayout({
   children,
 }: {
   children: React.ReactNode
-}) {  
-
+}) {
   useEffect(() => {
     AOS.init({
       once: true,
@@ -25,14 +24,11 @@ export default function DefaultLayout({
   })
 
   return (
-    <>
-      <Head>
-      <script defer data-domain="notionbear.com" src="https://plausible.io/js/script.js"></script>
-      </Head>
+    <PlausibleProvider domain="notionbear.com">
       <main className="grow">
         {children}
       </main>
       <Footer />
-    </>
+    </PlausibleProvider>
   )
 }
