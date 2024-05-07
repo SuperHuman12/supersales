@@ -98,13 +98,13 @@ export default function ComparisonAgainst() {
           <div className="max-w-xl mx-auto text-center pb-12 md:pb-20">
             <Image src={filterBySlug?.product?.heroimage} 
             alt={filterBySlug?.product?.name}
-            width={400}
+            width={200}
             height={300}
             loading='eager'
-            className="w-100 rounded p-8 mb-8 dyanmictext m-auto" />
+            className="w-100 rounded p-8 mb-8 m-auto" />
 
 
-            <h1 className="h1 mb-4">Tired of <b className="dyanmictext">{filterBySlug?.product?.name}</b>? <br /> Say hi to NotionBear</h1>
+            <h1 className="h1 mb-4">Tired of <b>{filterBySlug?.product?.name}</b>? <br /> Say hi to NotionBear</h1>
             <p className="text-xl text-gray-600">{filterBySlug?.product?.description}</p>
             <button className="text-white bg-gray-900 rounded w-fit p-2 mt-4 px-4">Get Started</button>
           </div>
