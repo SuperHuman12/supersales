@@ -40,6 +40,50 @@ export default function Pricing() {
                                 <p className="mt-2 text-lg font-medium text-gray-400">Enjoy 2 months free with our annual plan.</p>
                             </div>
                             <div className="justify-center mb-4 w-100 my-5"><div className="w-100"></div></div>
+
+
+                            <div className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden" 
+          >
+
+            {/* Background illustration */}
+            <div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" >
+
+             
+
+            <Image alt="Logo" 
+              width={400} 
+              className="block" 
+              src={notionfooterImage} />
+
+
+
+            </div>
+
+            <div className="relative flex flex-col lg:flex-row justify-between items-center">
+
+              {/* CTA content */}
+              <div className="text-center lg:text-left lg:max-w-xl">
+                <h3 className="h3 text-white mb-2">Lifetime Offer - Limited</h3>
+                <p className="text-xl text-gray-600 mb-4">Join the NotionBear AI and discover the easiest way to manage your website.</p>
+
+                {/* CTA form */}
+                <form className="w-full lg:w-auto">
+                  <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
+                    <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="I want a site that…" aria-label="I want a site..." />
+                    <a className="btn text-white bg-orange-600 hover:bg-orange-700 shadow" href="#0">Create</a>
+                  </div>
+                  {/* Success message */}
+                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
+                  <p className="text-sm text-gray-400 mt-3">Phew! Hassle free life starts here.</p>
+                </form>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
                             <div dir="ltr" data-orientation="horizontal" className="mt-8 mb-8 w-1/2 lg:mb-13 border rounded-full m-auto border-gray-600">
                                 <div role="tablist" aria-orientation="horizontal" className="relative flex w-full rounded-full bg-gray-100 font-semibold z-0 border-1 border-gray-600" data-orientation="horizontal">
                                     <span className={`absolute inset-y-0 left-0 -z-10 rounded-full border-2 w-1/2 h-14 transition-transform duration-300 ease-in-out ${activeTab === 'Monthly' ? 'translate-x-full' : ''}`}></span>
