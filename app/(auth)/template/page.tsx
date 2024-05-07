@@ -48,11 +48,17 @@ export default async function Template() {
                         unoptimized
                         alt={template?.product?.name} />
 
-                      <span className="text-dark font-bold">{template?.product?.name}</span>
+
+<div className='flex justify-between gap-4'>
+
+<span className="text-dark font-bold">{template?.product?.name}</span>
+<span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
+
+</div>
+
                     </div>
                     <p className="text-gray-600">{template?.product?.description}</p>
 
-                    <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
 
 
                     <div className="flex gap-4 justify-between">
