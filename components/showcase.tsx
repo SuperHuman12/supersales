@@ -47,8 +47,7 @@ export default function showcases() {
                 <a href="https://catalog-xi.vercel.app" target="_blank" className="block" rel="noopener noreferrer">
                   <img src="https://dazzling-cat.netlify.app/catalog-xi.vercel.app_.png" alt="PreviewX" className="w-auto mx-auto" />
                   <div className="p-4">
-                    <h2 className="text-start mt-2 font-bold">PreviewX</h2>
-                    <h5 className="card-title text-start mb-4 text-gray-500">help.notionbear.com</h5>
+                    <h2 className="text-start mt-2 font-bold mb-4">PreviewX</h2>
                     <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
                     <div className="flex mt-2 gap-4">
                       <Link className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4 rounded text-center" href="#0">Duplicate</Link>
@@ -62,7 +61,7 @@ export default function showcases() {
                 <a href="https://supportgroups.vercel.app" target="_blank" className="block" rel="noopener noreferrer">
                   <img src="https://dazzling-cat.netlify.app/supportgroups.vercel.app_.png" alt="Support Groups" className="w-auto mx-auto" />
                   <div className="p-4">
-                    <h2 className="text-start mt-2 font-bold">Support Groups</h2>
+                    <h2 className="text-start mt-2 font-bold mb-4">Support Groups</h2>
                     <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
                     <div className="flex mt-2 gap-4">
                       <Link className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4 rounded text-center" href="#0">Duplicate</Link>
@@ -76,7 +75,7 @@ export default function showcases() {
                 <a href="https://agencydatahub.vercel.app" target="_blank" className="block" rel="noopener noreferrer">
                   <img src="https://dazzling-cat.netlify.app/agencydatahub.vercel.app_.png" alt="Bear Vocal : Agency Hub" className="w-auto mx-auto" />
                   <div className="p-4">
-                    <h2 className="text-start mt-2 font-bold">Bear Vocal : Agency Hub</h2>
+                    <h2 className="text-start mt-2 font-bold mb-4">Bear Vocal : Agency Hub</h2>
                     <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
                     <div className="flex mt-2 gap-4">
                       <Link className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4 rounded text-center" href="#0">Duplicate</Link>
@@ -90,7 +89,7 @@ export default function showcases() {
                 <a href="http://eventstown.vercel.app" target="_blank" className="block" rel="noopener noreferrer">
                   <img src="https://dazzling-cat.netlify.app/eventstown.vercel.app_.png" alt="Event Town" className="w-auto mx-auto" />
                   <div className="p-4">
-                    <h2 className="text-start mt-2 font-bold">Event Town</h2>
+                    <h2 className="text-start mt-2 font-bold mb-4">Event Town</h2>
                     <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
                     <div className="flex mt-2 gap-4">
                       <Link className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4 rounded text-center" href="#0">Duplicate</Link>
@@ -104,7 +103,7 @@ export default function showcases() {
                 <a href="https://workremotelyeverywhere.vercel.app" target="_blank" className="block" rel="noopener noreferrer">
                   <img src="https://dazzling-cat.netlify.app/workremotelyeverywhere.vercel.app.png" alt="Work Remote Jobs" className="w-auto mx-auto" />
                   <div className="p-4">
-                    <h2 className="text-start mt-2 font-bold">Work Remote Jobs</h2>
+                    <h2 className="text-start mt-2 font-bold mb-4">Work Remote Jobs</h2>
                     <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
                     <div className="flex mt-2 gap-4">
                       <Link className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4 rounded text-center" href="#0">Duplicate</Link>
@@ -118,7 +117,7 @@ export default function showcases() {
                 <a href="https://stevemarksvoice.com/" target="_blank" className="block" rel="noopener noreferrer">
                   <img src="https://assets-global.website-files.com/64edcbee727ea2112b0c00f2/64edcbee727ea2112b0c0776_brandbird%20(53).jpg" alt="Steve Marks Voice" className="w-auto mx-auto" />
                   <div className="p-4">
-                    <h2 className="text-start mt-2 font-bold">Steve Marks Voice</h2>
+                    <h2 className="text-start mt-2 font-bold mb-4">Steve Marks Voice</h2>
                     <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
                     <div className="flex mt-2 gap-4">
                       <Link className="bg-gray-900 border p-2 px-4 rounded my-2 text-white w-full mt-4 rounded text-center" href="#0">Duplicate</Link>

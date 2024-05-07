@@ -115,7 +115,7 @@ export default function Features() {
                         unoptimized
                         width={500}
                         height={462} alt="Features bg" />
-                        <div className="text-gray-600 flex gap-2 justify-center mt-4 text-xl">A simpler alternative to <img alt="Ana" src="./images/simpler-helpdesk2.png" className="rounded-full w-auto h-8" /> and <img alt="Ana" src="./images/simpler-helpdesk.png" className="rounded-full w-auto h-8" /></div>
+                        <div className="flex gap-2 justify-center mt-4 text-xl">A simpler alternative to <img alt="Ana" src="./images/simpler-helpdesk2.png" className="rounded-full w-auto h-8" /> and <img alt="Ana" src="./images/simpler-helpdesk.png" className="rounded-full w-auto h-8" /></div>
                     </div>
                   </Transition>
                   {/* Item 2 */}
@@ -134,7 +134,7 @@ export default function Features() {
                   >
                     <div className="relative inline-flex flex-col">
                       <Image className="md:max-w-none mx-auto rounded border border-2 border-gray-600 shadow-lg" src="/images/blog.gif" unoptimized width={500} height="462" alt="Features bg" />
-                      <div className="text-gray-600 flex gap-2 justify-center mt-4 text-xl">A simpler alternative to <img alt="Ana" src="./images/simpler-blog.png" className="rounded-full w-auto h-8" /> and <img alt="Ana" src="./images/simpler-blog2.png" className="rounded-full w-auto h-8" /></div>
+                      <div className="flex gap-2 justify-center mt-4 text-xl">A simpler alternative to <img alt="Ana" src="./images/simpler-blog.png" className="rounded-full w-auto h-8" /> and <img alt="Ana" src="./images/simpler-blog2.png" className="rounded-full w-auto h-8" /></div>
                     </div>
                   </Transition>
                   {/* Item 3 */}
@@ -156,7 +156,7 @@ export default function Features() {
                         src={catalogImage} width={500} height={462}
                         unoptimized
                         alt="Features bg" />
-                      <div className="text-gray-600 flex gap-2 justify-center mt-4 text-xl">A simpler alternative to <img alt="Ana" src="./images/simpler-catalogue2.png" className="rounded-full w-auto h-8" /> and <img alt="Ana" src="./images/simpler-catalogue.png" className="rounded-full w-auto h-8" /></div>
+                      <div className="flex gap-2 justify-center mt-4 text-xl">A simpler alternative to <img alt="Ana" src="./images/simpler-catalogue2.png" className="rounded-full w-auto h-8" /> and <img alt="Ana" src="./images/simpler-catalogue.png" className="rounded-full w-auto h-8" /></div>
                     </div>
                   </Transition>
 
@@ -180,7 +180,7 @@ export default function Features() {
                         height={462}
                         unoptimized
                         alt="Fourth tab gif" />
-                      <div className="text-gray-600 flex gap-2 justify-center mt-4 text-xl">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-8" /> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-8" /></div>
+                      <div className="flex gap-2 justify-center mt-4 text-xl">A simpler alternative to <img alt="Ana" src="./images/webflow-icon.png" className="rounded-full w-auto h-8" /> and <img alt="Ana" src="./images/framer-icon.png" className="rounded-full w-auto h-8" /></div>
                     </div>
                   </Transition>
 

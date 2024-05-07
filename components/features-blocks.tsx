@@ -91,12 +91,12 @@ export default function FeaturesBlocks() {
             </div>
 
             <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
-              <div className="p-8">
+              <div >
                 <img
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full shadow-md rounded"
+                  className="w-full rounded"
                   src="https://dazzling-cat.netlify.app/write%20on%20notion.png"
                 />
               </div>
@@ -119,12 +119,12 @@ export default function FeaturesBlocks() {
             </div>
 
             <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
-              <div className="p-8">
+              <div >
                 <img
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full shadow-md rounded"
+                  className="w-full rounded"
                   src="https://dazzling-cat.netlify.app/notion to website.png"
                 />
               </div>
@@ -146,12 +146,12 @@ export default function FeaturesBlocks() {
             </div>
 
             <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
-              <div className="p-8">
+              <div >
                 <img
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full shadow-md rounded"
+                  className="w-full rounded"
                   src="https://dazzling-cat.netlify.app/performancewebsite.png"
                 />
               </div>
@@ -173,12 +173,12 @@ export default function FeaturesBlocks() {
             </div>
 
             <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
-              <div className="p-8">
+              <div >
                 <img
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full shadow-md rounded"
+                  className="w-full rounded"
                   src="https://dazzling-cat.netlify.app/analyticsseo.png"
                 />
               </div>
@@ -199,12 +199,12 @@ export default function FeaturesBlocks() {
               </div>
             </div>
             <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
-              <div className="p-8">
+              <div >
                 <img
                   alt="image"
                   loading="lazy"
                   decoding="async"
-                  className="w-full shadow-md rounded"
+                  className="w-full rounded"
                   src="https://dazzling-cat.netlify.app/seograph.png"
                 />
               </div>
