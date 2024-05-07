@@ -41,7 +41,7 @@ export default async function Template() {
                 <div>
                   <div>
                     <div className="items-start">
-                      <Image className="w-full rounded mb-4 border border-dashed"
+                      <Image className="w-full rounded mb-4 border border-dashed border-2"
                         width={100}
                         height={100}
                         src={template?.product?.logo}
@@ -51,7 +51,7 @@ export default async function Template() {
 
 <div className='flex justify-between gap-4'>
 
-<span className="text-dark font-bold">{template?.product?.name}</span>
+<span className="text-dark font-bold m-auto ml-1">{template?.product?.name}</span>
 <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
 
 </div>
