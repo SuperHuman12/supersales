@@ -9,12 +9,12 @@
         "provider": "CryptoFund",
         "description": "Secure funding for your blockchain projects through targeted grants.",
         "callToCopy": {
-          "text": "Apply for Grant",
-          "link": "https://blockchain-grants.com/apply"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "View Available Grants",
-          "link": "https://blockchain-grants.com"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -40,12 +40,12 @@
         "provider": "RemoteCo",
         "description": "A platform to find and list remote work opportunities.",
         "callToCopy": {
-          "text": "Find Jobs",
-          "link": "https://workremote.com/jobs"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Browse Jobs",
-          "link": "https://workremote.com"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -71,12 +71,12 @@
         "provider": "AgencySolutions",
         "description": "A classifieds platform to connect businesses with the best agencies and for agencies to receive offers from potential clients.",
         "callToCopy": {
-          "text": "Find Agencies",
-          "link": "https://agencyhub.com/find"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "See How It Works",
-          "link": "https://agencyhub.com/demo"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -102,12 +102,12 @@
         "provider": "HealthConnect",
         "description": "Find and organize support group meetings for mental health, addiction recovery, and more.",
         "callToCopy": {
-          "text": "Join an Event",
-          "link": "https://supportgroupsevents.com/join"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Upcoming Events",
-          "link": "https://supportgroupsevents.com/events"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -133,12 +133,12 @@
         "provider": "TalentInc",
         "description": "Connect with top professionals and industry leaders to grow your career.",
         "callToCopy": {
-          "text": "Discover Talent",
-          "link": "https://toptalenthub.com/discover"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Browse Profiles",
-          "link": "https://toptalenthub.com/profiles"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -164,12 +164,12 @@
         "provider": "Eventify",
         "description": "A dynamic platform for hosting and managing all types of events online.",
         "callToCopy": {
-          "text": "Host Your Event",
-          "link": "https://eventswebsite.com/host"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
           "text": "View Demo",
-          "link": "https://eventswebsite.com/demo"
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -195,12 +195,12 @@
         "provider": "StartupJourney",
         "description": "Learn from successful entrepreneurs and launch your startup using proven strategies.",
         "callToCopy": {
-          "text": "Get Inspired",
-          "link": "https://starterstory.com/inspire"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Read Success Stories",
-          "link": "https://starterstory.com/stories"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -226,12 +226,12 @@
         "provider": "AndroidMarket",
         "description": "A trusted platform for downloading Android apps and games.",
         "callToCopy": {
-          "text": "Download Now",
-          "link": "https://apkstore.com/download"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Browse Apps",
-          "link": "https://apkstore.com/apps"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -257,12 +257,12 @@
         "provider": "AndroidMarket",
         "description": "A trusted platform for downloading Android apps and games.",
         "callToCopy": {
-          "text": "Download Now",
-          "link": "https://apkstore.com/download"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Browse Apps",
-          "link": "https://apkstore.com/apps"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -288,12 +288,12 @@
         "provider": "InvestorTools",
         "description": "Streamline your investment tracking and analysis with VCSheet.",
         "callToCopy": {
-          "text": "Start Tracking",
-          "link": "https://vcsheet.com/track"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "See Features",
-          "link": "https://vcsheet.com/features"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -319,12 +319,12 @@
         "provider": "PropertyPortal",
         "description": "Buy, sell, or rent properties with ease using our comprehensive real estate platform.",
         "callToCopy": {
-          "text": "Find Properties",
-          "link": "https://realestatewebsite.com/search"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Explore Listings",
-          "link": "https://realestatewebsite.com/listings"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -350,12 +350,12 @@
         "provider": "ChatConnect",
         "description": "Create and manage your own private servers on Discord, Telegram, and WhatsApp for business or personal use.",
         "callToCopy": {
-          "text": "Set Up Server",
-          "link": "https://messagingplatforms.com/setup"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Server Examples",
-          "link": "https://messagingplatforms.com/examples"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -381,12 +381,12 @@
         "provider": "SaaSTech",
         "description": "Jumpstart your SaaS application development with our ready-to-use code boilerplates.",
         "callToCopy": {
-          "text": "Get Started",
-          "link": "https://saasboilerplates.com/start"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Code Examples",
-          "link": "https://saasboilerplates.com/examples"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -412,12 +412,12 @@
         "provider": "MindfulBlogs",
         "description": "Explore and contribute to our collection of blogs focusing on mental health awareness and well-being.",
         "callToCopy": {
-          "text": "Read Blogs",
-          "link": "https://mentalhealthblogs.com/read"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Featured Posts",
-          "link": "https://mentalhealthblogs.com/featured"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -443,12 +443,12 @@
         "provider": "HuntTech",
         "description": "Discover new products, upvote your favorites, and engage with creators and other enthusiasts.",
         "callToCopy": {
-          "text": "Explore New Products",
-          "link": "https://producthunt.com/explore"
+          "text": "Deploy Template",
+          "link": "https://example.com/install-arcade-notionbear"
         },
         "ViewDemo": {
-          "text": "Today's Hunts",
-          "link": "https://producthunt.com/today"
+          "text": "View Demo",
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -509,7 +509,7 @@
         },
         "ViewDemo": {
           "text": "View Demo",
-          "link": "https://vetted-talent.com"
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -540,7 +540,7 @@
         },
         "ViewDemo": {
           "text": "View Demo",
-          "link": "https://vetted-talent.com"
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
@@ -571,7 +571,7 @@
         },
         "ViewDemo": {
           "text": "View Demo",
-          "link": "https://vetted-talent.com"
+          "link": "https://remote-jobs.com"
         }
       },
       "overview": {
