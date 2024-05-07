@@ -82,7 +82,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “Utilizing NotionBear, we've been able to reallocate funds previously spent on our website's upkeep towards enhancing our marketing efforts, propelling dormakaba forward.“
+                I had a blog and use to struggle with markdown, recompiling, and overthinking. <b className="text-orange-600"> Now, I just write to @NotionHQ, with my website deployed on @NotionBear showing always pin and proper</b>. 
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -174,7 +174,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Adding NotionBear to our set of tools has significantly streamlined development and review processes within our team — all while empowering designers to do their best work.“
+                  I needed <b className="text-orange-600"> a place for quick documentation and AI support that can help people who come looking for support </b> , NotionBear solved that for me.
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
