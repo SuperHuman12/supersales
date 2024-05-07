@@ -51,9 +51,18 @@ export default async function Template() {
                       <span className="text-dark font-bold">{template?.product?.name}</span>
                     </div>
                     <p className="text-gray-600">{template?.product?.description}</p>
+
+<div className="flex gap-4 justify-between">
+
                     <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">
-                      {template?.callToCopy?.text || "Create Website" }
+                      {template?.callToCopy?.text || "Duplicate" }
                     </button>
+
+                    <button className="text-white bg-gray-900 rounded w-full p-2 mt-4">
+                      {template?.callToCopy?.text || "View Site" }
+                    </button>
+</div>
+
                   </div>
                 </div>
               </Link>
