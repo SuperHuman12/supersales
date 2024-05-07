@@ -100,7 +100,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “Getting to build and manage my company helpdesk using notion as a content provider is really slick, it has got <b className="text-orange-700">our writers focus on what is important.</b>“
+                  “Getting to build and manage my company helpdesk using notion as a content provider is really slick, it has got <b className="text-orange-600">our writers focus on what is important.</b>“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -118,7 +118,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I've been trying to find a blogging solution that not only is <b className="text-orange-700">easy to work with but also is SEO ready</b>, notionbear is worth every penny.“
+                  “ I've been trying to find a blogging solution that not only is <b className="text-orange-600">easy to work with but also is SEO ready</b>, notionbear is worth every penny.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -136,7 +136,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Since migrating to NotionBear, our recruitment marketing agency has bypassed the need to outsource web development, <b className="text-orange-700">attracted bigger clients, and introduced a new revenue stream </b>.“
+                  “ Since migrating to NotionBear, our recruitment marketing agency has bypassed the need to outsource web development, <b className="text-orange-600">attracted bigger clients, and introduced a new revenue stream </b>.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -155,7 +155,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ With limited resources and no in-house developers, <b className="text-orange-700">our team can easily manage our blog, helpdesk and company wiki faster</b>.“
+                  “ With limited resources and no in-house developers, <b className="text-orange-600">our team can easily manage our blog, helpdesk and company wiki faster</b>.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
