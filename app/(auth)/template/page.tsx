@@ -26,7 +26,45 @@ export default async function Template() {
             <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
 
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center aos-init aos-animate mt-6">
-              <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Ask our Designer for Help - Free</a></div>
+
+              <div className="relative bg-gray-900 rounded py-6 px-4 md:py-8 md:px-12 shadow-2xl overflow-hidden"
+              >
+
+                {/* Background illustration */}
+                <div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" >
+
+
+
+                  <Image alt="Logo"
+                    width={220}
+                    className="block"
+                    src={notionfooterImage} />
+
+
+
+                </div>
+
+                <div className="relative flex flex-col lg:flex-row justify-between items-center">
+
+                  {/* CTA content */}
+                  <div className="text-center lg:text-left lg:max-w-xl">
+                    <h3 className="h3 text-white mb-2">Get <b className="text-orange-600">Lifetime Deal</b> at $137</h3>
+
+                    {/* CTA form */}
+                    <form className="w-full lg:w-auto">
+                      <div>
+                        <a className="btn bg-orange-600 hover:bg-orange-700 shadow" href="https://buy.stripe.com/5kAeV0b6K27w8BG6os">Get this Deal</a>
+                      </div>
+                      {/* Success message */}
+                      {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
+                      <p className="text-sm text-gray-400 mt-3">Offer ends in 2 days, next plan $199.</p>
+                    </form>
+                  </div>
+
+                </div>
+
+              </div>
+
             </div>
 
           </div>
@@ -49,12 +87,12 @@ export default async function Template() {
                         alt={template?.product?.name} />
 
 
-<div className='flex justify-between gap-4'>
+                      <div className='flex justify-between gap-4'>
 
-<span className="text-dark font-bold m-auto ml-1">{template?.product?.name}</span>
-<span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
+                        <span className="text-dark font-bold m-auto ml-1">{template?.product?.name}</span>
+                        <span className="bg-gray-100 border-gray-200 border-dashed border-2 p-1 px-4 rounded my-2">Helpdesk</span>
 
-</div>
+                      </div>
 
                     </div>
                     <p className="text-gray-600">{template?.product?.description}</p>
