@@ -64,7 +64,7 @@ export default function Footer() {
                 <a href="/compare-against/notionbear-vs-wordpress" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with WordPress</a>
               </li>
               <li className="mb-2">
-                <a href="/compare-against/notionbear-vs-unbounce" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Unbounce</a>
+                <a href="/compare-against/notionbear-vs-squarespace" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Squarespace</a>
               </li>
               <li className="mb-2">
                 <a href="/compare-against/notionbear-vs-zendesk" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Zendesk</a>

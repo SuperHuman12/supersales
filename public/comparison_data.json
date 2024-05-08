@@ -23,7 +23,7 @@
             "Item": true,
             "Notion": true
           }
-        },        
+        },
         {
           "feature": "Built-in SEO",
           "feature_value": {
@@ -93,14 +93,14 @@
             "Item": true,
             "Notion": true
           }
-        },        
+        },
         {
           "feature": "Integrated analytics",
           "feature_value": {
             "Item": true,
             "Notion": true
           }
-        }        
+        }
       ]
     },
     {
@@ -111,7 +111,6 @@
         "provider": "NotionBear",
         "description": "Why NotionBear is a versatile alternative to Wix for dynamic website creation.",
         "heroimage": "https://cdn-icons-png.flaticon.com/512/5968/5968770.png"
-
       },
       "comparison_table": [
         {
@@ -127,7 +126,7 @@
             "Item": true,
             "Notion": true
           }
-        },        
+        },
         {
           "feature": "Built-in SEO",
           "feature_value": {
@@ -197,14 +196,14 @@
             "Item": true,
             "Notion": true
           }
-        },        
+        },
         {
           "feature": "Integrated analytics",
           "feature_value": {
             "Item": true,
             "Notion": true
           }
-        }        
+        }
       ]
     },
     {
@@ -230,7 +229,7 @@
             "Item": true,
             "Notion": true
           }
-        },        
+        },
         {
           "feature": "Built-in SEO",
           "feature_value": {
@@ -300,16 +299,736 @@
             "Item": true,
             "Notion": true
           }
-        },        
+        },
         {
           "feature": "Integrated analytics",
           "feature_value": {
             "Item": true,
             "Notion": true
           }
-        }        
+        }
       ]
-    }
-    
+    },
+    {
+      "id": "notionbear-vs-squarespace",
+      "product": {
+        "logo": "https://via.placeholder.com/100",
+        "name": "Squarespace",
+        "provider": "NotionBear",
+        "description": "Why NotionBear offers a more versatile solution compared to Squarespace for creative website building.",
+        "heroimage": "https://cdn.iconscout.com/icon/free/png-512/squarespace-283289.png"
+      },
+      "comparison_table": [
+        {
+          "feature": "Beginner Friendly",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Ease of Notion",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Built-in SEO",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Custom domain",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Multiple Website Support",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "AI Support Agent",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Collaboration",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Edit on Mobile",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Blog CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Helpdesk CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Catalog CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Company Wiki CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Integrated analytics",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "notionbear-vs-shopify",
+      "product": {
+        "logo": "https://via.placeholder.com/100",
+        "name": "Shopify",
+        "provider": "NotionBear",
+        "description": "Discover why NotionBear is a comprehensive alternative to Shopify for seamless e-commerce solutions.",
+        "heroimage": "https://cdn.iconscout.com/icon/free/png-512/shopify-2752200-2285006.png"
+      },
+      "comparison_table": [
+        {
+          "feature": "Beginner Friendly",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Ease of Notion",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Built-in SEO",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Custom domain",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Multiple Website Support",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "AI Support Agent",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Collaboration",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Edit on Mobile",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Blog CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Helpdesk CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Catalog CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Company Wiki CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Integrated analytics",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "notionbear-vs-zendesk",
+      "product": {
+        "logo": "https://via.placeholder.com/100",
+        "name": "Zendesk",
+        "provider": "NotionBear",
+        "description": "How NotionBear presents a comprehensive alternative to Zendesk for customer support and helpdesk management.",
+        "heroimage": "https://cdn.iconscout.com/icon/free/png-512/zendesk-282332.png"
+      },
+      "comparison_table": [
+        {
+          "feature": "Beginner Friendly",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Ease of Notion",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Built-in SEO",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Custom domain",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Multiple Website Support",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "AI Support Agent",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Collaboration",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Edit on Mobile",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Blog CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Helpdesk CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Catalog CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Company Wiki CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Integrated analytics",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "notionbear-vs-intercom",
+      "product": {
+        "logo": "https://via.placeholder.com/100",
+        "name": "Intercom",
+        "provider": "NotionBear",
+        "description": "Why NotionBear is a robust alternative to Intercom for customer support and engagement.",
+        "heroimage": "https://cdn.iconscout.com/icon/free/png-512/intercom-282319.png"
+      },
+      "comparison_table": [
+        {
+          "feature": "Beginner Friendly",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Ease of Notion",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Built-in SEO",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Custom domain",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Multiple Website Support",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "AI Support Agent",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Collaboration",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Edit on Mobile",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Blog CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Helpdesk CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Catalog CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Company Wiki CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Integrated analytics",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "notionbear-vs-gitbook",
+      "product": {
+        "logo": "https://via.placeholder.com/100",
+        "name": "GitBook",
+        "provider": "NotionBear",
+        "description": "How NotionBear is a versatile alternative to GitBook for documentation and collaboration.",
+        "heroimage": "https://cdn-icons-png.flaticon.com/512/1051/1051287.png"
+      },
+      "comparison_table": [
+        {
+          "feature": "Beginner Friendly",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Ease of Notion",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Built-in SEO",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Custom domain",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Multiple Website Support",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "AI Support Agent",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Collaboration",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Edit on Mobile",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Blog CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Helpdesk CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Catalog CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Company Wiki CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Integrated analytics",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "notionbear-vs-framer",
+      "product": {
+        "logo": "https://via.placeholder.com/100",
+        "name": "Framer",
+        "provider": "NotionBear",
+        "description": "Why NotionBear is a feature-rich alternative to Framer for design-focused web development.",
+        "heroimage": "https://cdn.iconscout.com/icon/free/png-512/framer-3521459-2944877.png"
+      },
+      "comparison_table": [
+        {
+          "feature": "Beginner Friendly",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Ease of Notion",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Built-in SEO",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Custom domain",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Multiple Website Support",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "AI Support Agent",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Collaboration",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Edit on Mobile",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Blog CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Helpdesk CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Catalog CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Company Wiki CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Integrated analytics",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "notionbear-vs-ghost",
+      "product": {
+        "logo": "https://via.placeholder.com/100",
+        "name": "Ghost",
+        "provider": "NotionBear",
+        "description": "Why NotionBear is a comprehensive alternative to Ghost for blogging and content management.",
+        "heroimage": "https://cdn.iconscout.com/icon/free/png-512/ghost-8-1175000.png"
+      },
+      "comparison_table": [
+        {
+          "feature": "Beginner Friendly",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Ease of Notion",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Built-in SEO",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Custom domain",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Multiple Website Support",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "AI Support Agent",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Collaboration",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Edit on Mobile",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Blog CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Helpdesk CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Catalog CMS",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Company Wiki CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },
+        {
+          "feature": "Integrated analytics",
+          "feature_value": {
+            "Item": false,
+            "Notion": true
+          }
+        }
+      ]
+    }                            
   ]
 }
