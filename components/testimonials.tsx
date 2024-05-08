@@ -79,14 +79,14 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/36ee27ca00ba110131c925e463c42c885e523d10/de5f0/assets/images/influencers/corey.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                 I had a blog and use to struggle with markdown, recompiling, and overthinking. <b className="text-orange-600"> Now, I just write to @NotionHQ, with my website deployed on @NotionBear showing always pin and proper</b>. 
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Corey Haines</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">@Dropbox</a>
+                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">Conversion Factory</a>
                 </div>
               </div>
 
@@ -97,14 +97,14 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/c6f92e1ae2769f7cc13d3ece99c16d591564bf4a/7114a/assets/images/influencers/ayush.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “Getting to build and manage my company helpdesk using notion as a content provider is really slick, it has got <b className="text-orange-600">our writers focus on what is important.</b>“
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Ayush</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">@Dropbox</a>
+                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">Indie Master Minds</a>
                 </div>
               </div>
 
@@ -115,14 +115,14 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src="https://cdn.feather.blog/?src=https%3A%2F%2Ffeather.so%2Fimages%2Flanding%2Favatars%2Ftom.png&optimizer=image" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “ I've been trying to find a blogging solution that not only is <b className="text-orange-600">easy to work with but also is SEO ready</b>, notionbear is worth every penny.“
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Tom</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">@ Dropbox</a>
+                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">TweetHunter</a>
                 </div>
               </div>
 
@@ -138,9 +138,9 @@ export default function Testimonials() {
                 <blockquote className="text-xl font-medium mb-4">
                   “ Since migrating to NotionBear, our recruitment marketing agency has bypassed the need to outsource web development, <b className="text-orange-600">attracted bigger clients, and introduced a new revenue stream </b>.“
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Alex MacCaw</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">@Dropbox</a>
+                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">ClearBit</a>
                 </div>
               </div>
 
