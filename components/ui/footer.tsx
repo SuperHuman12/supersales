@@ -98,9 +98,6 @@ export default function Footer() {
                 <a href="https://www.whatsapp.com/channel/0029VaBrxz9FnSzC4z2HGd2T" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Join Whatsapp Channel</a>
               </li>
               <li className="mb-2">
-                <a href="mailto:hey@vaibhavkalra.com?subject=NotionBear%20Whitelable%20Program&body=Hi%2C%20I%20have%20a%20query%20regarding%20NotionBear%20Whitelable%20Program" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Whitelable</a>
-              </li>
-              <li className="mb-2">
                 <a href="https://drive.google.com/drive/u/2/folders/13TfS2QV-VHg5Snw6rVbgmoVVRXTeiDHA" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Media Kit</a>
               </li>
               <li className="mb-2">
