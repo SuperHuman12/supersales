@@ -133,7 +133,7 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/75af78aa9bf70a1c124768d0b60e37a5cd1bd9b7/11cb5/assets/images/influencers/alex.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “ Since migrating to NotionBear, our recruitment marketing agency has bypassed the need to outsource web development, <b className="text-orange-600">attracted bigger clients, and introduced a new revenue stream </b>.“
@@ -152,14 +152,14 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="px-12 py-8 pt-12 mx-4 md:mx-0">
                 <div className="mb-4">
-                  <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
+                  <Image className="relative rounded-full" src="https://twitter-avatars.s3.us-east-1.amazonaws.com/avatars/adamwathan" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
                   “ With limited resources and no in-house developers, <b className="text-orange-600">our team can easily manage our blog, helpdesk and company wiki faster</b>.“
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Adam Wathan</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">@Dropbox</a>
+                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">Tailwind</a>
                 </div>
               </div>
 
@@ -178,7 +178,7 @@ export default function Testimonials() {
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">@Dropbox</a>
+                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">Floosh</a>
                 </div>
               </div>
 
