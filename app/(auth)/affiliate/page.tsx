@@ -19,7 +19,7 @@ export default function ResetPassword() {
             <p className="text-xl text-gray-600">For every paid client you refer to NotionBear, you will be paid 33% of the recurring commission. Forever.</p>
           </div>
 
-          <div className="m-auto text-center"><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://notionbear.lemonsqueezy.com/affiliates">Sign Up</a></div>
+          <div className="m-auto text-center"><a className="btn  bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://notionbear.lemonsqueezy.com/affiliates">Sign Up</a></div>
 
 
 
@@ -68,7 +68,7 @@ export default function ResetPassword() {
               </div>
 
               <div className="mt-8 text-center">
-                <a href="https://notionbear.lemonsqueezy.com/affiliates" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our Partner</a>
+                <a href="https://notionbear.lemonsqueezy.com/affiliates" target="_self" className="btn  bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our Partner</a>
               </div>
             </div>
 
@@ -187,7 +187,7 @@ export default function ResetPassword() {
                 </li>
               </ul>
               <div className="text-center mt-8">
-                <a href="https://partner.notionbear.com/" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Start to earn money</a>
+                <a href="https://partner.notionbear.com/" target="_self" className="btn  bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Start to earn money</a>
               </div>
             </div>
           </div>
@@ -284,7 +284,7 @@ export default function ResetPassword() {
               <p className="mt-4 text-gray-400">Quick payouts to Wise, Paypal or your local bank. Premium support and cross-promotions from us.</p>
 
               <div className="mt-8">
-                <a href="https://notionbear.lemonsqueezy.com/affiliates" target="_blank" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our partner</a>
+                <a href="https://notionbear.lemonsqueezy.com/affiliates" target="_blank" className="btn  bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our partner</a>
               </div>
             </div>
           </div>
