@@ -77,7 +77,13 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a href="/compare-against/notionbear-vs-framer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Framer</a>
-              </li>              
+              </li>  
+              <li className="mb-2">
+                <a href="/compare-against/notionbear-vs-gitbook" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Gitbook</a>
+              </li>                
+              <li className="mb-2">
+                <a href="/compare-against/notionbear-vs-shopify" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Shopify</a>
+              </li>                                 
             </ul>
           </div>
 
