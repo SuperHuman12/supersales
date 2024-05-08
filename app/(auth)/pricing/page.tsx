@@ -43,43 +43,43 @@ export default function Pricing() {
                             <div className="justify-center mb-4 w-100 my-5"><div className="w-100"></div></div>
 
 
-                            <div className="relative bg-gray-900 rounded py-6 px-4 md:py-8 md:px-12 shadow-2xl overflow-hidden" 
-          >
+                            <div className="relative bg-gray-900 rounded py-6 px-4 md:py-8 md:px-12 shadow-2xl overflow-hidden"
+                            >
 
-            {/* Background illustration */}
-            <div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" >
-
-             
-
-            <Image alt="Logo" 
-              width={220} 
-              className="block" 
-              src={notionfooterImage} />
+                                {/* Background illustration */}
+                                <div className="absolute right-0 bottom-0 pointer-events-none hidden lg:block" >
 
 
 
-            </div>
+                                    <Image alt="Logo"
+                                        width={220}
+                                        className="block"
+                                        src={notionfooterImage} />
 
-            <div className="relative flex flex-col lg:flex-row justify-between items-center">
 
-              {/* CTA content */}
-              <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Get <b className="text-orange-600">Lifetime Deal</b> at $137</h3>
 
-                {/* CTA form */}
-                <form className="w-full lg:w-auto">
-                  <div>
-                    <a className="btn bg-orange-600 hover:bg-orange-700 shadow" href="https://buy.stripe.com/5kAeV0b6K27w8BG6os">Get this Deal</a>
-                  </div>
-                  {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">Offer ends in 2 days, next plan $199.</p>
-                </form>
-              </div>
+                                </div>
 
-            </div>
+                                <div className="relative flex flex-col lg:flex-row justify-between items-center">
 
-          </div>
+                                    {/* CTA content */}
+                                    <div className="text-center lg:text-left lg:max-w-xl">
+                                        <h3 className="h3 text-white mb-2">Get <b className="text-orange-600">Lifetime Deal</b> at $137</h3>
+
+                                        {/* CTA form */}
+                                        <form className="w-full lg:w-auto">
+                                            <div>
+                                                <a className="btn bg-orange-600 hover:bg-orange-700 shadow" href="https://buy.stripe.com/5kAeV0b6K27w8BG6os">Get this Deal</a>
+                                            </div>
+                                            {/* Success message */}
+                                            {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
+                                            <p className="text-sm text-gray-400 mt-3">Offer ends in 2 days, next plan $199.</p>
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                            </div>
 
 
 
@@ -258,7 +258,7 @@ export default function Pricing() {
                                                         <div className="relative flex items-center">
                                                             <div className="flex h-5 items-center"><input type="checkbox" id="addon" checked name="addon" className="h-5 w-5 rounded border-gray-300 text-gray-900 focus:ring-gray-900" aria-label="Sub-directory blogs addon" /></div>
                                                             <div className="ml-3 text-base">
-                                                            <label className="font-normal text-gray-900"><span>Including </span><span className="mr-3 inline-flex items-center rounded-md bg-gray-900 px-2.5 py-0.5 text-sm font-medium uppercase text-white">Free Design Services</span><span>limited time only.</span></label>
+                                                                <label className="font-normal text-gray-900"><span>Including </span><span className="mr-3 inline-flex items-center rounded-md bg-gray-900 px-2.5 py-0.5 text-sm font-medium uppercase text-white">Free Design Services</span><span>limited time only.</span></label>
                                                             </div>
 
                                                         </div>

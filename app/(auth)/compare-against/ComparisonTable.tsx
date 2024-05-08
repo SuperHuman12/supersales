@@ -34,12 +34,12 @@ const ComparisonTable = ({ id }:{id:any}) => {
                 <tr key={index}>
                   <td className="border px-4 py-4">{item.feature}</td>
                   <td className="border px-4 py-4 text-center">
-                    <span className='border border-gray-600 p-2 px-4 rounded-full'>
+                    <span className='border border-gray-600 p-2 px-4 rounded-full font-bold'>
                     {item.feature_value[`${libraryItem?.product?.name}`] ? '✓' : '✕'}
                     </span>
                   </td>
                   <td className="border px-4 py-4 text-center">
-                  <span className='border bg-orange-600 p-2 px-4 rounded-full'>
+                  <span className='border bg-orange-600 p-2 px-4 rounded-full font-bold'>
                     {item.feature_value["Notion"] ? '✓' : '✕'}
                   </span>  
                   </td>

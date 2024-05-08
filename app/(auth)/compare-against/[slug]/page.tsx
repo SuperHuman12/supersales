@@ -95,10 +95,10 @@ export default function ComparisonAgainst() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-20 md:pb-20">
 
-          <div className="max-w-xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-xl mx-auto text-center pb-12 md:pb-20 pt-12">
             <Image src={filterBySlug?.product?.heroimage} 
             alt={filterBySlug?.product?.name}
-            width={200}
+            width={150}
             height={300}
             loading='eager'
             className="w-100 rounded p-8 mb-8 m-auto" />
