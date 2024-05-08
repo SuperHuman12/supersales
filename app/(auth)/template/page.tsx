@@ -27,7 +27,7 @@ export default async function Template() {
             <h1 className="h1 mb-4">Find your Template</h1>
             <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
 
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center aos-init aos-animate mt-6">
+            <div className="mt-6">
 
               <div className="relative bg-gray-900 rounded py-6 px-4 md:py-8 md:px-12 shadow-2xl overflow-hidden"
               >
@@ -50,16 +50,16 @@ export default async function Template() {
 
                   {/* CTA content */}
                   <div className="text-center lg:text-left lg:max-w-xl">
-                    <h3 className="h3 text-white mb-2">Get <b className="text-orange-600">Lifetime Deal</b> at $137</h3>
+                    <h3 className="h3 text-white mb-2">Get <b className="text-orange-600">Free Design Services</b> Complimentary</h3>
 
                     {/* CTA form */}
                     <form className="w-full lg:w-auto">
                       <div>
-                        <a className="btn bg-orange-600 hover:bg-orange-700 shadow" href="https://buy.stripe.com/5kAeV0b6K27w8BG6os">Get this Deal</a>
+                        <a className="btn bg-orange-600 hover:bg-orange-700 shadow" href="https://buy.stripe.com/5kAeV0b6K27w8BG6os">Subscribe</a>
                       </div>
                       {/* Success message */}
                       {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                      <p className="text-sm text-gray-400 mt-3">Offer ends in 2 days, next plan $199.</p>
+                      <p className="text-sm text-gray-400 mt-3">Subsribe to a monthly plan</p>
                     </form>
                   </div>
 
