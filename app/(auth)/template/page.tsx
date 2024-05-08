@@ -6,11 +6,6 @@ import { _loadFromJson } from '@/app/utils/helper';
 import notionfooterImage from '@/public/images/notionfooter.png';
 import { useState } from 'react';
 
-export const metadata = {
-  title: 'Notion Bear Templates',
-  description: 'Jumpstart your SaaS business with pre-built solutions from NotionBear and our community',
-}
-
 export default async function Template() {
   const templates = await _loadFromJson();
 
