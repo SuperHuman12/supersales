@@ -88,6 +88,13 @@
           }
         },
         {
+          "feature": "Company Wiki CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },        
+        {
           "feature": "Integrated analytics",
           "feature_value": {
             "Item": true,
@@ -108,82 +115,96 @@
       },
       "comparison_table": [
         {
-          "feature": "Project management",
+          "feature": "Beginner Friendly",
           "feature_value": {
-            "Wix": false,
+            "Item": true,
             "Notion": true
           }
         },
         {
-          "feature": "Issue tracking",
+          "feature": "Ease of Notion",
           "feature_value": {
-            "Wix": false,
+            "Item": true,
+            "Notion": true
+          }
+        },        
+        {
+          "feature": "Built-in SEO",
+          "feature_value": {
+            "Item": false,
             "Notion": true
           }
         },
         {
-          "feature": "Unlimited automations",
+          "feature": "Custom domain",
           "feature_value": {
-            "Wix": true,
+            "Item": false,
             "Notion": true
           }
         },
         {
-          "feature": "AI answers",
+          "feature": "Multiple Website Support",
           "feature_value": {
-            "Wix": false,
+            "Item": true,
             "Notion": true
           }
         },
         {
-          "feature": "Databases",
+          "feature": "AI Support Agent",
           "feature_value": {
-            "Wix": true,
-            "Notion": true
-          }
-        },
-        {
-          "feature": "Docs",
-          "feature_value": {
-            "Wix": false,
+            "Item": true,
             "Notion": true
           }
         },
         {
           "feature": "Collaboration",
           "feature_value": {
-            "Wix": true,
+            "Item": true,
             "Notion": true
           }
         },
         {
-          "feature": "Mobile",
+          "feature": "Edit on Mobile",
           "feature_value": {
-            "Wix": true,
+            "Item": false,
             "Notion": true
           }
         },
         {
-          "feature": "Enterprise admin",
+          "feature": "Blog CMS",
           "feature_value": {
-            "Wix": false,
+            "Item": false,
             "Notion": true
           }
         },
         {
-          "feature": "Integrations",
+          "feature": "Helpdesk CMS",
           "feature_value": {
-            "Wix": true,
+            "Item": true,
             "Notion": true
           }
         },
         {
-          "feature": "Templates",
+          "feature": "Catalog CMS",
           "feature_value": {
-            "Wix": true,
+            "Item": true,
             "Notion": true
           }
-        }
+        },
+        {
+          "feature": "Company Wiki CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },        
+        {
+          "feature": "Integrated analytics",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        }        
       ]
     },
     {
@@ -197,82 +218,96 @@
       },
       "comparison_table": [
         {
-          "feature": "Project management",
+          "feature": "Beginner Friendly",
           "feature_value": {
-            "WordPress": false,
+            "Item": true,
             "Notion": true
           }
         },
         {
-          "feature": "Issue tracking",
+          "feature": "Ease of Notion",
           "feature_value": {
-            "WordPress": false,
+            "Item": true,
+            "Notion": true
+          }
+        },        
+        {
+          "feature": "Built-in SEO",
+          "feature_value": {
+            "Item": false,
             "Notion": true
           }
         },
         {
-          "feature": "Unlimited automations",
+          "feature": "Custom domain",
           "feature_value": {
-            "WordPress": false,
+            "Item": false,
             "Notion": true
           }
         },
         {
-          "feature": "AI answers",
+          "feature": "Multiple Website Support",
           "feature_value": {
-            "WordPress": false,
+            "Item": true,
             "Notion": true
           }
         },
         {
-          "feature": "Databases",
+          "feature": "AI Support Agent",
           "feature_value": {
-            "WordPress": false,
-            "Notion": true
-          }
-        },
-        {
-          "feature": "Docs",
-          "feature_value": {
-            "WordPress": false,
+            "Item": true,
             "Notion": true
           }
         },
         {
           "feature": "Collaboration",
           "feature_value": {
-            "WordPress": true,
+            "Item": true,
             "Notion": true
           }
         },
         {
-          "feature": "Mobile",
+          "feature": "Edit on Mobile",
           "feature_value": {
-            "WordPress": true,
+            "Item": false,
             "Notion": true
           }
         },
         {
-          "feature": "Enterprise admin",
+          "feature": "Blog CMS",
           "feature_value": {
-            "WordPress": true,
+            "Item": false,
             "Notion": true
           }
         },
         {
-          "feature": "Integrations",
+          "feature": "Helpdesk CMS",
           "feature_value": {
-            "WordPress": true,
+            "Item": true,
             "Notion": true
           }
         },
         {
-          "feature": "Templates",
+          "feature": "Catalog CMS",
           "feature_value": {
-            "WordPress": true,
+            "Item": true,
             "Notion": true
           }
-        }
+        },
+        {
+          "feature": "Company Wiki CMS",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        },        
+        {
+          "feature": "Integrated analytics",
+          "feature_value": {
+            "Item": true,
+            "Notion": true
+          }
+        }        
       ]
     }
     

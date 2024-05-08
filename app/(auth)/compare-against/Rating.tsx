@@ -6,8 +6,8 @@ const Rating = () => {
     return (
         
         <div className='max-w-3xl mx-auto text-center py-20 pb-12 md:pb-20'>
-        <h1 className="h1 mb-4">NotionBear is rated the best on G2</h1>
-        <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
+        <h1 className="h1 mb-4">NotionBear is rated the Best.</h1>
+        <p className="text-xl text-gray-600"> Numbers quantify everything, this is what stands us apart from the competition.</p>
 
 
         {/* Items */}

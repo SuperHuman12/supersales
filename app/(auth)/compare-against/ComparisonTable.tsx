@@ -32,13 +32,13 @@ const ComparisonTable = ({ id }:{id:any}) => {
               <tbody>
                 {libraryItem.comparison_table.map((item: any, index: number) => (
                 <tr key={index}>
-                  <td className="border px-4 py-2">{item.feature}</td>
-                  <td className="border px-4 py-2 text-center">
+                  <td className="border px-4 py-4">{item.feature}</td>
+                  <td className="border px-4 py-4 text-center">
                     <span className='border border-gray-600 p-2 px-4 rounded-full'>
                     {item.feature_value[`${libraryItem?.product?.name}`] ? '✓' : '✕'}
                     </span>
                   </td>
-                  <td className="border px-4 py-2 text-center">
+                  <td className="border px-4 py-4 text-center">
                   <span className='border bg-orange-600 p-2 px-4 rounded-full'>
                     {item.feature_value["Notion"] ? '✓' : '✕'}
                   </span>  
