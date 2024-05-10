@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { _loadFromJson } from '@/app/utils/helper';
-import notionfooterImage from '@/public/images/notionfooter.png';
+import notionfooterImage from '@/public/images/freedesigner.png';
 
 
 
