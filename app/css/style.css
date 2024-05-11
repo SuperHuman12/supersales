@@ -40,3 +40,17 @@
 .dyanmictext{
     background: #ffba73;
 }
+
+
+@keyframes flip {
+    0% { transform: rotateX(0); opacity: 1; }
+    50% { transform: rotateX(90deg); opacity: 0; }
+    100% { transform: rotateX(0); opacity: 1; }
+  }
+  
+  .word-flip {
+    display: inline-block;
+    transition: transform 0.3s, opacity 0.3s;
+    animation: flip 1s infinite;
+  }
+  
