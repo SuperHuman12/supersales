@@ -72,10 +72,9 @@ const TemplateDesign = () => {
             <div className="max-w-sm">
                 <div className="flex items-center space-x-4">
                     <div className="space-y-2">
-                        <h1 className="mt-4 text-2xl font-bold text-gray-900 sm:text-3xl">In built Analytics</h1>
+                        <h1 className="mt-4 text-2xl font-bold text-gray-900 sm:text-3xl">In-built Analytics</h1>
                         <p className="mt-2 text-base font-normal text-gray-700 lg:text-lg">
-                        Social sharing cards are automatically created from page content and your site’s HTML is optimized to use best practices for search engines. NotionBear sites are automatically built with the ability to rank high in search and look great when shared on social media.
-
+                        See your page views, visitors, referrers, clicks, and much more for all of your websites. Notionbear provides Inbuilt analytics for all your sites tp help ou find out where people are finding your blog, which links people are clicking the most, which of your posts are popular.
                         </p>
                     </div>
                 </div>

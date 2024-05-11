@@ -33,8 +33,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Designed for all types of content.</h1>
-            <p className="text-xl text-gray-600">From AI support to blog posts and technical documentation, NotionBear helps flexibly manage any website your company needs.</p>
+            <h1 className="h2 mb-4">Already use Notion?  Why not use it for everything else too.</h1>
+            <p className="text-xl text-gray-600">Notionbear is designed for all types from content curation to content creation. Build company blogs, helpdesks, company wiki, documentations,  or even catalog and directories.</p>
           </div>
 
           {/* Section content */}

@@ -190,10 +190,9 @@ export default function FeaturesBlocks() {
           <section className="py-12 mt-8 mb-8 md:flex sm:grid">
             <div className="md:w-1/2 sm:w-full">
               <div className="text-start mt-6 w-full p-4">
-                <h2 className="h2 font-bold mb-4">In built Analytics</h2>
+                <h2 className="h2 font-bold mb-4">In-built Analytics</h2>
                 <p className="text-gray-700">
-                  Social sharing cards are automatically created from page content and your site’s HTML is optimized to use best practices for search engines. NotionBear sites are automatically built with the ability to rank high in
-                  search and look great when shared on social media.
+                See your page views, visitors, referrers, clicks, and much more for all of your websites. Notionbear provides Inbuilt analytics for all your sites tp help ou find out where people are finding your blog, which links people are clicking the most, which of your posts are popular.
                 </p>
                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
                   <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
@@ -219,8 +218,10 @@ export default function FeaturesBlocks() {
               <div className="text-start mt-6 w-full p-4">
                 <h2 className="h2 font-bold mb-4">Optimized for SEO</h2>
                 <p className="text-gray-700">
-                  Social sharing cards are automatically created from page content and your site’s HTML is optimized to use best practices for search engines. NotionBear sites are automatically built with the ability to rank high in
-                  search and look great when shared on social media.
+
+
+                  All you have to do is to write good content that satisfies the needs of your readers. We take care of the rest. Set all the proper meta tags and canonical links, Structured Schema markup for all your posts, Served from the edge to make the blog super fast, Easy controls to override the SEO settings.
+
                 </p>
                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
                   <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get free lifetime plan</a></div>
