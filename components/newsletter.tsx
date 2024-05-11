@@ -1,3 +1,6 @@
+'use client'
+
+
 import React, { useState, useEffect } from 'react'; // Import React hooks
 import Image from 'next/image'; // Import the Image component from Next.js
 import notionfooterImage from '@/public/images/notionfooter.png';
