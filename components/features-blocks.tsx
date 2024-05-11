@@ -8,7 +8,7 @@ export default function FeaturesBlocks() {
           <section className="mt-2">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pt-12 ">
-              <h2 className="h2 mb-4">Really Easy To Use Website Builder</h2>
+              <h2 className="h2 mb-4">Already using  Notion for documenting and sharing? Use it for your helpdesk, blog, and catalogs too. </h2>
               <p className="text-xl text-gray-600">Notion Bear is a powerful website builder for startups, solo-entrepreneurs and hackers. Try it for free.</p>
             </div>
 
@@ -72,6 +72,35 @@ export default function FeaturesBlocks() {
                   <p className="text-gray-600 text-center">Know how your website performs.</p>
                 </div>
               </div>
+
+              {/* 7th item */}
+              <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+                <img alt="image" loading="lazy" decoding="async" className="h-20 mb-2" src="/images/uicomponents.png" />
+                <div>
+                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Your Domain</h4>
+                  <p className="text-gray-600 text-center">No need to be a designer.</p>
+                </div>
+              </div>
+
+              {/* 8th item */}
+              <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+                <img alt="image" loading="lazy" decoding="async" className="h-20 mb-2" src="/images/customcode.png" />
+                <div>
+                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Perfect for Teams</h4>
+                  <p className="text-gray-600 text-center">If you need more, you can add custom code.</p>
+                </div>
+              </div>
+
+              {/* 9th item */}
+              <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
+                <img alt="image" loading="lazy" decoding="async" className="h-20 mb-2" src="/images/analytics.png" />
+                <div>
+                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Blazingly Fast</h4>
+                  <p className="text-gray-600 text-center">Know how your website performs.</p>
+                </div>
+              </div>
+
+
             </div>
           </section>
 
