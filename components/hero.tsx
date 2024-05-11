@@ -1,8 +1,21 @@
-import VideoThumb from '@/public/images/hero-image.png'
-import ModalVideo from '@/components/modal-video'
-import Image from 'next/image' // Import the Image component from Next.js
+import { useState, useEffect } from 'react';
+import VideoThumb from '@/public/images/hero-image.png';
+import ModalVideo from '@/components/modal-video';
+import Image from 'next/image'; // Import the Image component from Next.js
 
 export default function Hero() {
+  const [index, setIndex] = useState(0);
+  const words = ['Helpdesk', 'Blog', 'Company Wiki', 'Documentation'];
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % words.length); // Cycle through the words array
+    }, 1000); // Change word every 1 second
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+  }, []);
+
+
   return (
     <section>
 
@@ -14,16 +27,15 @@ export default function Hero() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-
-        {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-
-          {/* Section header */}
           <div className="text-center">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Create websites that scale on  <span className="bg-clip-text text-transparent text-orange-600">Notion.</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">
+              Easily build your <span>{words[index]}</span> on <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">Notion.</span>
+            </h1>
+
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-              <b className="text-gray-900">AI Website builder</b> that helps to quickly create websites without design or development skills for <b className="text-gray-900">SaaS, Apps, Directories, Blogs, Helpdesks</b>.
+              <b className="text-gray-900">Turn your Notion docs</b> quickly into a beautiful <b className="text-gray-900">SaaS, Apps, Directories, Blogs, Helpdesks</b> – no code required.
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
