@@ -30,7 +30,7 @@ export default function Pricing() {
 
                     {/* Page header */}
                     <div className="max-w-3xl mx-auto text-center">
-                        <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 aos-init aos-animate">Pricing</h1>
+                        <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 aos-init aos-animate">Try NotionBear free for <u>7 days</u></h1>
                     </div>
 
                     {/* Form */}
