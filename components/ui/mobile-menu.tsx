@@ -66,7 +66,7 @@ export default function MobileMenu() {
           <ul className="px-5 py-2">
 
           <li>
-                <Link href="/affiliate" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Earn $$$</Link>
+                <Link href="/affiliate" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Partner with Us</Link>
               </li>
             <li>
                 <Link href="/pricing" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Pricing</Link>
