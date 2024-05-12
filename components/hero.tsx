@@ -19,7 +19,7 @@ export default function Hero() {
 
   return (
     <section>
-      <div className="absolute bottom-0 pointer-events-none z-1 h-screen w-screen" aria-hidden="true" style={{ width: '-webkit-fill-available', opacity: 0.1 }}>
+      <div className="absolute bottom-0 pointer-events-none z-1 h-screen w-screen" aria-hidden="true" style={{ width: '-webkit-fill-available', opacity: 0.5 }}>
 
 
         <Image src={BackgroundCover} unoptimized alt="Logo" className='w-full h-full' />
