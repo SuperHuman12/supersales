@@ -23,7 +23,7 @@ export default function FeaturesBlocks() {
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
                 <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/appleicon.png" />
                 <div>
-                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">AI-Powered</h4>
+                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Apples</h4>
                   <p className="text-gray-600 text-center">Build a website or make changes with prompts.</p>
                 </div>
               </div>
@@ -32,7 +32,7 @@ export default function FeaturesBlocks() {
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
                 <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/mangoicon.png" />
                 <div>
-                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Accept Payments</h4>
+                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Mangoes</h4>
                   <p className="text-gray-600 text-center">Accept payments with secure Stripe</p>
                 </div>
               </div>
@@ -41,7 +41,7 @@ export default function FeaturesBlocks() {
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
                 <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/kinnowicon.png" />
                 <div>
-                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">100% No Code</h4>
+                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Kinnow</h4>
                   <p className="text-gray-600 text-center">No need to code to build a powerful website.</p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ export default function FeaturesBlocks() {
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
                 <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/pearicon.png" />
                 <div>
-                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">UI & UX-Ready</h4>
+                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Pears</h4>
                   <p className="text-gray-600 text-center">No need to be a designer.</p>
                 </div>
               </div>
@@ -59,16 +59,16 @@ export default function FeaturesBlocks() {
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
                 <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/pomogranateicon.png" />
                 <div>
-                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Custom Code</h4>
+                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Pomegranate</h4>
                   <p className="text-gray-600 text-center">If you need more, you can add custom code.</p>
                 </div>
               </div>
 
               {/* 6th item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-                <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/analytics.png" />
+                <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/guavaicon.png" />
                 <div>
-                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Full Analytics</h4>
+                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Guavas</h4>
                   <p className="text-gray-600 text-center">Know how your website performs.</p>
                 </div>
               </div>
