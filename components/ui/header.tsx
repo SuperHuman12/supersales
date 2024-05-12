@@ -41,7 +41,7 @@ export default function Header() {
               </li>
            
               <li>
-                <Link href="/template" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">-----</Link>
+                <Link href="/template" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Mandi Rates Today</Link>
               </li>
               <li>
                 <Link href="/showcase" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">------</Link>
