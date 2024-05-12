@@ -29,7 +29,7 @@ export default function Header() {
 
           {/* Site branding */}
           <Link href="/" className="shrink-0 mr-4">
-          <Image src={Logo} unoptimized alt="Logo" width={200} height={200} />
+          <Image src={Logo} unoptimized alt="Logo" width={400} height={200} />
           </Link>
 
           {/* Desktop navigation */}

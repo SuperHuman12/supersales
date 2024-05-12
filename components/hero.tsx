@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react';
 import VideoThumb from '@/public/images/hero-image.png';
 import ModalVideo from '@/components/modal-video';
 import Image from 'next/image';
+import BackgroundCover from '@/public/images/backgroundcover.png'
+
 
 export default function Hero() {
   const words = ["Apples", "Oranges", "Mangoes", "Pears", "Guava"];
@@ -28,6 +30,12 @@ export default function Hero() {
           </defs>
           <rect width="100%" height="100%" fill="url(#grid-pattern)"></rect>
         </svg>
+
+        <Image src={BackgroundCover} unoptimized alt="Logo" className='w-full h-full' />
+
+
+
+        
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
@@ -58,7 +66,6 @@ export default function Hero() {
             </div> <div className="flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" className="mr-2 text-orange-600"><path d="M9.1.3L4 5.4l-2-2c-.3-.3-.7-.4-1-.3S0 3.5 0 4c0 .4 0 .8.3 1l2.8 2.8c.2.2.5.3.8.3s.6-.1.8-.3l6-5.9c.3-.2.4-.6.3-1a1 1 0 0 0-.8-.8c-.4 0-.8 0-1 .3z" fill="currentColor"></path></svg>
               24/7 support
             </div></div>
-
 
           <div className="hidden sm:flex justify-center items-center mt-8 sm:mb-0 mb-3 sm:mt-12 sm:w-[60%] mx-auto">
             <div className="flex-shrink-0 sm:block hidden"><img src="https://www.helpkit.so/imgs/testimonials/adjust_square_portrait.jpg" alt="Author's image" className="w-16 h-16 object-cover text-gray-300 bg-white rounded-full" /></div>
