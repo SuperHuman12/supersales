@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import TestimonialImage from '@/public/images/testimonial.jpg'
 import familyteam from '@/public/images/familyteam.png'
-import ConnectingTogether from '@/public/images/connectingtogether.png'
+import addresspart from '@/public/images/contactustogether.png'
 
 export default function Testimonials() {
   return (
@@ -234,6 +234,47 @@ export default function Testimonials() {
         </div>
       </div>
 
+
+
+      <div className="px-6 pt-16 mb-10 md:pt-20 max-w-6xl mx-auto px-4 sm:px-6 pb-12">
+        <h2 className="mb-1 font-semibold leading-6 tracking-wide text-center text-orange-600 uppercase">
+          About supersalesagro
+        </h2>
+        <h3 className="pb-8 text-2xl font-black text-center text-gray-900 sm:text-4xl tracking-snug sm:leading-15 md:leading-20">
+          Ready to ship?  Come see how well we sell.  
+        </h3>
+        <div className="grid items-start pt-6 mx-auto gap-8 md:flex md:items-start justify-center">
+          <div className="float-right w-1/2 mb-6 ml-6 sm:float-none sm:mb-0 ">
+
+
+            <Image src={addresspart} unoptimized alt="Logo" width="600"
+              height="905"
+              className="rounded-md"
+              style={{ filter: 'grayscale(1)' }} />
+
+
+          </div>
+          <div className="prose-sm text-gray-600 sm:prose sm:w-2/3 prose-indigo">
+            <p className='my-2'>
+              Hey 👋 <br className="block sm:hidden" />
+              I’m Vaibhav, the founder of supersalesagro.
+            </p>
+            <p className='my-2'>
+              There are already a couple of website builders and knowledge base softwares out there to help you post and manage content. And while most of them are certainly doing a good job,
+              <strong className="text-gray-900">are they actually making use of the best content management system in the world?</strong>
+            </p>
+            <p className='my-2'>
+              I have been using <strong className="text-gray-900">Notion</strong> for a few years now. It's an amazing tool for storing and organizing all of my company's knowledge and writings. It should feel similiar to tools such as Intercom or Zendesk when it comes to support or webflow and framer if your building catalogs with 1000s of documents. <br />
+              <br />
+              Since I couldn't find the right solution – <strong className="text-gray-900">I built supersalesagro</strong>. Sure, you can publish your Notion page on its own but it might come across as unprofessional. The messy Notion url, distracting links pointing to
+              Notion and the lack of customizability are just a few disadvantages...
+            </p>
+            <p className='my-2'><strong className="text-gray-900">supersalesagro is solving all of this. It is for businesses who need an easy way to create a reliable knowledge site powered by Notion. </strong></p>
+            <br /> <br />
+            <p className='my-2'>— Vaibhav, Founder</p>
+          </div>
+        </div>
+      </div>
 
 
 

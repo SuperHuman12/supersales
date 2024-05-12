@@ -87,7 +87,7 @@ export default function FeaturesBlocks() {
 
             <div className="md:w-1/2 sm:w-full">
               <div className="text-start mt-6 w-full p-4">
-                <h2 className="h2 font-bold mb-4">Bridging the gap between FARMERS and BUYERS</h2>
+                <h2 className="h2 font-bold mb-4">Bridging the gap between <span className='text-orange-600'>FARMERS</span> and <span className='text-orange-600'>BUYERS</span></h2>
                 <p className="text-gray-700">
                   Your work stays in a place you control and love, while supersalesagro handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building
                   your brand without worrying about configurations, plugins, downtime, performance, or security.
