@@ -15,7 +15,7 @@ export default function ResetPassword() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-4">
-            <h1 className="h1 mb-4">Earn <b className="text-orange-600">$972 per month</b>* promoting an award-winning notion backed web app builder</h1>
+            <h1 className="h1 mb-4">Earn <b className="text-orange-600">₹ 1,00,000 per month</b>*  promoting an award-winning wholesale business with 250+ happy users.</h1>
             <p className="text-xl text-gray-600">For every paid client you refer to supersalesagro, you will be paid 33% of the recurring commission. Forever.</p>
           </div>
 

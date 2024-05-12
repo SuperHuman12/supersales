@@ -249,12 +249,30 @@ export default function Testimonials() {
 
             <Image src={addresspart} unoptimized alt="Logo" width="600"
               height="905"
-              className="rounded-md"
-              style={{ filter: 'grayscale(1)' }} />
+              className="rounded-md"/>
 
 
           </div>
           <div className="prose-sm text-gray-600 sm:prose sm:w-2/3 prose-indigo">
+
+          <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="flex justify-between items-center px-6 py-4">
+        <button className="bg-yellow-300 text-white font-bold py-2 px-4 rounded hover:bg-yellow-400">Join Channel</button>
+        <button className="bg-green-400 text-white font-bold py-2 px-4 rounded hover:bg-green-500">Message on Whatsapp</button>
+      </div>
+      <div className="px-6 py-4">
+        <h3 className="text-lg font-semibold text-gray-800">Address</h3>
+        <p className="text-gray-600">A-285, 1st and 2nd floor, New Subzi Mandi, Azadpur, Delhi-110034</p>
+        <h3 className="text-lg font-semibold text-gray-800 mt-4">Telephone</h3>
+        <p className="text-gray-600">+91-9899262264</p>
+        <p className="text-gray-600">+91-981645230</p>
+        <h3 className="text-lg font-semibold text-gray-800 mt-4">Email</h3>
+        <p className="text-gray-600">hello@reallygreatsite.com</p>
+      </div>
+    </div>
+
+
+
             <p className='my-2'>
               Hey 👋 <br className="block sm:hidden" />
               I’m Vaibhav, the founder of supersalesagro.
