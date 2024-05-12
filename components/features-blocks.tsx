@@ -8,7 +8,7 @@ export default function FeaturesBlocks() {
           <section className="mt-2">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pt-12 ">
-              <h2 className="h2 mb-4">Notionbear packs everything your startup needs.</h2>
+              <h2 className="h2 mb-4">We deal in various produce.</h2>
               <p className="text-xl text-gray-600">Notion Bear is a powerful website builder for startups, solo-entrepreneurs and hackers. Try it for free.</p>
             </div>
 

@@ -42,9 +42,7 @@ export default function Header() {
             <li>
                 <Link href="/pricing" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Pricing</Link>
               </li>
-              <li>
-                <Link href="/integration" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Integrations</Link>
-              </li>              
+           
               <li>
                 <Link href="/template" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Templates</Link>
               </li>

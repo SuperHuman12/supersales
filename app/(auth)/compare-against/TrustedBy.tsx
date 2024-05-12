@@ -49,7 +49,7 @@ export default function TrustedBy() {
   return (
     <div>
 
-    <p className="text-center">Trusted by teams</p>
+    <p className="text-center">Trusted by 250+ Traders & Businesses</p>
 
     <div className="flex flex-row flex-wrap max-w-800 gap-4 mx-auto justify-center flex items-center p-6">
         {/* Image 1 */}
