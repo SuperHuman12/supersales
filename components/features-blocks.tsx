@@ -21,7 +21,7 @@ export default function FeaturesBlocks() {
             <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
               {/* 1st item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-                <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/appleicon.png" />
+                <img alt="image" loading="lazy" decoding="async" className="mb-2 p-8" src="/images/appleicon.png" />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Apples</h4>
                   <p className="text-gray-600 text-center">Build a website or make changes with prompts.</p>
@@ -30,7 +30,7 @@ export default function FeaturesBlocks() {
 
               {/* 2nd item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-                <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/mangoicon.png" />
+                <img alt="image" loading="lazy" decoding="async" className="mb-2 p-8" src="/images/mangoicon.png" />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Mangoes</h4>
                   <p className="text-gray-600 text-center">Accept payments with secure Stripe</p>
@@ -39,7 +39,7 @@ export default function FeaturesBlocks() {
 
               {/* 3rd item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-                <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/kinnowicon.png" />
+                <img alt="image" loading="lazy" decoding="async" className="mb-2 p-8" src="/images/kinnowicon.png" />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Kinnow</h4>
                   <p className="text-gray-600 text-center">No need to code to build a powerful website.</p>
@@ -48,7 +48,7 @@ export default function FeaturesBlocks() {
 
               {/* 4th item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-                <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/pearicon.png" />
+                <img alt="image" loading="lazy" decoding="async" className="mb-2 p-8" src="/images/pearicon.png" />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Pears</h4>
                   <p className="text-gray-600 text-center">No need to be a designer.</p>
@@ -57,7 +57,7 @@ export default function FeaturesBlocks() {
 
               {/* 5th item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-                <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/pomogranateicon.png" />
+                <img alt="image" loading="lazy" decoding="async" className="mb-2 p-8" src="/images/pomogranateicon.png" />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Pomegranate</h4>
                   <p className="text-gray-600 text-center">If you need more, you can add custom code.</p>
@@ -66,7 +66,7 @@ export default function FeaturesBlocks() {
 
               {/* 6th item */}
               <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl text-center h-full border">
-                <img alt="image" loading="lazy" decoding="async" className="mb-2" src="/images/guavaicon.png" />
+                <img alt="image" loading="lazy" decoding="async" className="mb-2 p-8" src="/images/guavaicon.png" />
                 <div>
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Guavas</h4>
                   <p className="text-gray-600 text-center">Know how your website performs.</p>

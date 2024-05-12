@@ -20,14 +20,7 @@ export default function Hero() {
   return (
     <section>
       <div className="absolute bottom-0 pointer-events-none z-1 h-screen w-screen" aria-hidden="true" style={{
-    width: '-webkit-fill-available',
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundColor: '#FFFEF9',
-    overflow: 'hidden',
-    border: '1px solid #fcf6e1',
-    backgroundImage: 'url(https://supersalesagro.netlify.app/_next/static/media/backgroundcover.bddf999e.png)'
+    width: '-webkit-fill-available'
 }}>
 
 
@@ -37,7 +30,7 @@ export default function Hero() {
 
         
       </div>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 h-screen">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="text-center">
             <h1 className="text-5xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4 aos-init aos-animate" data-aos="zoom-y-out">
