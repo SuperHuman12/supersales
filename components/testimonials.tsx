@@ -304,13 +304,9 @@ export default function Testimonials() {
             <p className='my-2'>— Vaibhav, Founder</p>
           </div>
         </div>
-      </div>
 
 
+      </section>
 
-
-
-
-    </section>
   )
 }
