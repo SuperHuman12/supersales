@@ -16,7 +16,6 @@ export default function Home() {
     <>
       <Hero />
       <FeaturesBlocks />
-      <Features />
       <Showcases />
       <Testimonials />
       <Newsletter />
