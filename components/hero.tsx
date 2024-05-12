@@ -1,8 +1,6 @@
 'use client'
 
 import React, { useState, useEffect } from 'react';
-import VideoThumb from '@/public/images/hero-image.png';
-import ModalVideo from '@/components/modal-video';
 import Image from 'next/image';
 import BackgroundCover from '@/public/images/backgroundcover.png'
 
@@ -22,14 +20,7 @@ export default function Hero() {
   return (
     <section>
       <div className="absolute bottom-0 pointer-events-none z-1 h-screen w-screen" aria-hidden="true" style={{ width: '-webkit-fill-available', opacity: 0.1 }}>
-        <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="grid-pattern" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
-              <path d="M0 32V.5H32" fill="none" stroke="currentColor"></path>
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#grid-pattern)"></rect>
-        </svg>
+
 
         <Image src={BackgroundCover} unoptimized alt="Logo" className='w-full h-full' />
 
