@@ -6,8 +6,8 @@ import notionfooterImage from '@/public/images/freedesigner.png';
 
 
 export const metadata = {
-  title: 'Notion Bear Templates',
-  description: 'Jumpstart your SaaS business with pre-built solutions from NotionBear and our community',
+  title: 'Super Sales Agro Templates',
+  description: 'Jumpstart your SaaS business with pre-built solutions from supersalesagro and our community',
 }
 
 
@@ -25,7 +25,7 @@ export default async function Template() {
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h1 className="h1 mb-4">Find your Template</h1>
-            <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from NotionBear and our community.</p>
+            <p className="text-xl text-gray-600">Jumpstart your SaaS business with pre-built solutions from supersalesagro and our community.</p>
 
             <div className="mt-6">
 

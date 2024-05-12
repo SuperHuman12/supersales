@@ -12,8 +12,8 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'NotionBear vs {children}',
-  description: 'Compare notionbear to {children}',
+  title: 'supersalesagro vs {children}',
+  description: 'Compare supersalesagro to {children}',
 }
 
 export default function RootLayout({

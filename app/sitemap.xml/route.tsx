@@ -1,7 +1,7 @@
 // Assuming _loadFromJson is imported from a utility module
 import { _loadFromJson, _loadFromJsonComparison } from "../utils/helper";
 
-const URL = "https://notionbear.com";
+const URL = "https://supersalesagro.com";
 
 interface IntegrationOrTemplate {
   id: string;

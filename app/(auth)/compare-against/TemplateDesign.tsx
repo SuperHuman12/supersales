@@ -11,13 +11,13 @@ const TemplateDesign = () => {
                     <div className="space-y-2">
                         <h1 className="mt-4 text-2xl font-bold text-gray-900 sm:text-3xl">Your content lives in Notion</h1>
                         <p className="mt-2 text-base font-normal text-gray-700 lg:text-lg">
-                            Your work stays in a place you control and love, while NotionBear handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.
+                            Your work stays in a place you control and love, while supersalesagro handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building your brand without worrying about configurations, plugins, downtime, performance, or security.
 
                         </p>
                     </div>
                 </div>
                 <div className="mt-6 space-y-3 text-base font-normal text-gray-700 lg:text-lg">
-                    <a href="https://app.notionbear.com/integrations/arcade" className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank"><span>Sign Up</span></a>
+                    <a href="https://app.supersalesagro.com/integrations/arcade" className="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center" rel="noopener noreferrer" target="_blank"><span>Sign Up</span></a>
                 </div>
             </div>
             <div className="relative w-full"><img src="https://dazzling-cat.netlify.app/write%20on%20notion.png" alt="" className="h-full w-full rounded-2xl object-cover" /></div>

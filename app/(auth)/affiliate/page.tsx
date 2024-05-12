@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const metadata = {
   title: 'Affiliate Program',
-  description: 'Join the NotionBear affiliate program to become our partner. Spread the website builder and earn money with us.',
+  description: 'Join the supersalesagro affiliate program to become our partner. Spread the website builder and earn money with us.',
 }
 
 export default function ResetPassword() {
@@ -16,10 +16,10 @@ export default function ResetPassword() {
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-4">
             <h1 className="h1 mb-4">Earn <b className="text-orange-600">$972 per month</b>* promoting an award-winning notion backed web app builder</h1>
-            <p className="text-xl text-gray-600">For every paid client you refer to NotionBear, you will be paid 33% of the recurring commission. Forever.</p>
+            <p className="text-xl text-gray-600">For every paid client you refer to supersalesagro, you will be paid 33% of the recurring commission. Forever.</p>
           </div>
 
-          <div className="m-auto text-center"><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://notionbear.lemonsqueezy.com/affiliates">Sign Up</a></div>
+          <div className="m-auto text-center"><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://supersalesagro.lemonsqueezy.com/affiliates">Sign Up</a></div>
 
 
 
@@ -47,7 +47,7 @@ export default function ResetPassword() {
                         {/* SVG icon */}
                       </div>
                     </div>
-                    <div className="mt-4 text-center">Join NotionBear's affiliate program, grab your unique link and share it.</div>
+                    <div className="mt-4 text-center">Join supersalesagro's affiliate program, grab your unique link and share it.</div>
                   </li>
                   <li className="flex flex-col items-center">
                     <div className="relative">
@@ -68,7 +68,7 @@ export default function ResetPassword() {
               </div>
 
               <div className="mt-8 text-center">
-                <a href="https://notionbear.lemonsqueezy.com/affiliates" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our Partner</a>
+                <a href="https://supersalesagro.lemonsqueezy.com/affiliates" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our Partner</a>
               </div>
             </div>
 
@@ -124,7 +124,7 @@ export default function ResetPassword() {
             <img src="https://dazzling-cat.netlify.app/freelancer-mockup.webp" alt="Design agency" className="w-full lg:w-1/2 p-8 m-auto" />
             <div className="w-full lg:w-1/2 p-8 m-auto">
               <h2 className="h2 font-bold mb-8">You’re a freelancer or an agency</h2>
-              <p className="text-md mt-4 mb-4 text-gray-800">Demonstrate your industry knowledge by recommending NotionBear to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
+              <p className="text-md mt-4 mb-4 text-gray-800">Demonstrate your industry knowledge by recommending supersalesagro to your clients and fellow marketers. This will help you create an additional revenue source for your business. "Diversification is the key to financial resilience." — Warren Buffett.</p>
             </div>
           </div>
 
@@ -187,7 +187,7 @@ export default function ResetPassword() {
                 </li>
               </ul>
               <div className="text-center mt-8">
-                <a href="https://partner.notionbear.com/" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Start to earn money</a>
+                <a href="https://partner.supersalesagro.com/" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Start to earn money</a>
               </div>
             </div>
           </div>
@@ -237,17 +237,17 @@ export default function ResetPassword() {
               <div className="mt-8">
                 <div className="space-y-6">
                   <div className='p-8 border rounded-md border-gray-600'>
-                    <h3 className="font-bold text-xl">Who is NotionBear for?</h3>
+                    <h3 className="font-bold text-xl">Who is supersalesagro for?</h3>
                     <br />
-                    <p className="text-md mt-4 mb-4 text-gray-800">NotionBear is a quick business builder for startup founders. Our users can quickly create a beautiful web apps, blogs, and helpdesks for a mobile or desktop, for a SaaS product, for a plugin, an open-source project, a SMM tool etc.</p>
-                    <p className="text-md mt-4 mb-4 text-gray-800">If your audience are tech guys, NotionBear is for them. They will be more willing to use a tailored tool for startups rather than generic old-fashioned Webflow or Wordpress.</p>
+                    <p className="text-md mt-4 mb-4 text-gray-800">supersalesagro is a quick business builder for startup founders. Our users can quickly create a beautiful web apps, blogs, and helpdesks for a mobile or desktop, for a SaaS product, for a plugin, an open-source project, a SMM tool etc.</p>
+                    <p className="text-md mt-4 mb-4 text-gray-800">If your audience are tech guys, supersalesagro is for them. They will be more willing to use a tailored tool for startups rather than generic old-fashioned Webflow or Wordpress.</p>
                   </div>
 
                   <div className='p-8 border rounded-md border-gray-600'>
                     <h3 className="font-bold text-xl">Why promote you while I can promote some other website builder?</h3>
                     <br />
                     <p className="text-md mt-4 mb-4 text-gray-800">The key advantage is the approach. We are building a landing page generator for startups only. That means, we pay all the attention to startups-only demands. In particular, we will provide not-so-popular integrations, specific components and templates.</p>
-                    <p className="text-md mt-4 mb-4 text-gray-800">This is why startup founders love NotionBear more than other tools.</p>
+                    <p className="text-md mt-4 mb-4 text-gray-800">This is why startup founders love supersalesagro more than other tools.</p>
                     <p className="text-md mt-4 mb-4 text-gray-800">Why believe me? Just A/B test it yourself. Put a Wix affiliate link for a month, measure your earnings. Then put our link. Compare. Pick the winner.</p>
                   </div>
 
@@ -279,12 +279,12 @@ export default function ResetPassword() {
 
           <div className="bg-gray-200 border border-gray-600 border-2 border-dashed py-20 rounded-md">
             <div className="max-w-md mx-auto text-center">
-              <h2 className="h2 font-bold">Start earning cash by referring customers to NotionBear</h2>
+              <h2 className="h2 font-bold">Start earning cash by referring customers to supersalesagro</h2>
               <br />
               <p className="mt-4 text-gray-400">Quick payouts to Wise, Paypal or your local bank. Premium support and cross-promotions from us.</p>
 
               <div className="mt-8">
-                <a href="https://notionbear.lemonsqueezy.com/affiliates" target="_blank" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our partner</a>
+                <a href="https://supersalesagro.lemonsqueezy.com/affiliates" target="_blank" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our partner</a>
               </div>
             </div>
           </div>

@@ -81,7 +81,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/36ee27ca00ba110131c925e463c42c885e523d10/de5f0/assets/images/influencers/corey.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                I had a blog and use to struggle with markdown, recompiling, and overthinking. <b className="text-orange-600"> Now, I just write to @NotionHQ, with my website deployed on @NotionBear showing always pin and proper</b>. 
+                I had a blog and use to struggle with markdown, recompiling, and overthinking. <b className="text-orange-600"> Now, I just write to @NotionHQ, with my website deployed on @supersalesagro showing always pin and proper</b>. 
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Corey Haines</cite>
                 <div className="text-gray-600">
@@ -117,7 +117,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://cdn.feather.blog/?src=https%3A%2F%2Ffeather.so%2Fimages%2Flanding%2Favatars%2Ftom.png&optimizer=image" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I've been trying to find a blogging solution that not only is <b className="text-orange-600">easy to work with but also is SEO ready</b>, notionbear is worth every penny.“
+                  “ I've been trying to find a blogging solution that not only is <b className="text-orange-600">easy to work with but also is SEO ready</b>, supersalesagro is worth every penny.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Tom</cite>
                 <div className="text-gray-600">
@@ -135,7 +135,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/75af78aa9bf70a1c124768d0b60e37a5cd1bd9b7/11cb5/assets/images/influencers/alex.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Since migrating to NotionBear, our recruitment marketing agency has bypassed the need to outsource web development, <b className="text-orange-600">attracted bigger clients, and introduced a new revenue stream </b>.“
+                  “ Since migrating to supersalesagro, our recruitment marketing agency has bypassed the need to outsource web development, <b className="text-orange-600">attracted bigger clients, and introduced a new revenue stream </b>.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Alex MacCaw</cite>
                 <div className="text-gray-600">
@@ -173,7 +173,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  I needed <b className="text-orange-600"> a place for quick documentation and AI support that can help people who come looking for support </b> , NotionBear solved that for me.
+                  I needed <b className="text-orange-600"> a place for quick documentation and AI support that can help people who come looking for support </b> , supersalesagro solved that for me.
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
@@ -196,7 +196,7 @@ export default function Testimonials() {
 
       <div className="px-6 pt-16 mb-10 md:pt-20 max-w-6xl mx-auto px-4 sm:px-6 pb-12">
     <h2 className="mb-1 font-semibold leading-6 tracking-wide text-center text-orange-600 uppercase">
-        About NotionBear
+        About supersalesagro
     </h2>
     <h3 className="pb-8 text-2xl font-black text-center text-gray-900 sm:text-4xl tracking-snug sm:leading-15 md:leading-20">
         I want you to launch real businesses on and spend less time on support and website development.
@@ -214,7 +214,7 @@ export default function Testimonials() {
         <div className="prose-sm text-gray-600 sm:prose sm:w-2/3 prose-indigo">
             <p className='my-2'>
                 Hey 👋 <br className="block sm:hidden" />
-                I’m Vaibhav, the founder of NotionBear.
+                I’m Vaibhav, the founder of supersalesagro.
             </p>
             <p className='my-2'>
                 There are already a couple of website builders and knowledge base softwares out there to help you post and manage content. And while most of them are certainly doing a good job,
@@ -223,10 +223,10 @@ export default function Testimonials() {
             <p className='my-2'>
                 I have been using <strong className="text-gray-900">Notion</strong> for a few years now. It's an amazing tool for storing and organizing all of my company's knowledge and writings. It should feel similiar to tools such as Intercom or Zendesk when it comes to support or webflow and framer if your building catalogs with 1000s of documents. <br />
                 <br />
-                Since I couldn't find the right solution – <strong className="text-gray-900">I built NotionBear</strong>. Sure, you can publish your Notion page on its own but it might come across as unprofessional. The messy Notion url, distracting links pointing to
+                Since I couldn't find the right solution – <strong className="text-gray-900">I built supersalesagro</strong>. Sure, you can publish your Notion page on its own but it might come across as unprofessional. The messy Notion url, distracting links pointing to
                 Notion and the lack of customizability are just a few disadvantages...
             </p>
-            <p className='my-2'><strong className="text-gray-900">NotionBear is solving all of this. It is for businesses who need an easy way to create a reliable knowledge site powered by Notion. </strong></p>
+            <p className='my-2'><strong className="text-gray-900">supersalesagro is solving all of this. It is for businesses who need an easy way to create a reliable knowledge site powered by Notion. </strong></p>
             <br/> <br/>
             <p className='my-2'>— Vaibhav, Founder</p>
         </div>

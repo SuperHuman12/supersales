@@ -40,7 +40,7 @@ export default function Hero() {
 
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
               <div>
-                <a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.notionbear.com">Get in Touch</a>
+                <a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.supersalesagro.com">Get in Touch</a>
               </div>
               <div>
                 <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/template">Why Traders Love Us</a>
@@ -61,7 +61,7 @@ export default function Hero() {
             <div className="ml-5">
               <div className="text-left">
                 <p className="-mt-1 opacity-70">
-                  <span className="mr-1 text-xl italic opacity-60 font-medium">"</span>With NotionBear we literally went
+                  <span className="mr-1 text-xl italic opacity-60 font-medium">"</span>With supersalesagro we literally went
                   <span className="bg-[#ffecd7] text-[##ce6a01] font-medium px-0.5 py-0.5">from 0 to fully functional knowledge-base in 1 hour.</span> I highly recommend it!<span className="ml-0 font-serif text-xl italic opacity-50">"</span>
                 </p>
                 <div className="mt-2 text-sm opacity-100 text-gray-400 inline-flex justify-start items-center">
