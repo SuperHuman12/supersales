@@ -1,3 +1,9 @@
+
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import ConnectingTogether from '@/public/images/connectingtogether.png'
+
+
 export default function FeaturesBlocks() {
   return (
     <section className="relative">
@@ -77,11 +83,11 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-          <section className="py-12 mt-8 mb-8 md:flex sm:grid">
+          <section className="py-12 mt-8 mb-8 grid">
 
             <div className="md:w-1/2 sm:w-full">
               <div className="text-start mt-6 w-full p-4">
-                <h2 className="h2 font-bold mb-4">Your content lives in Notion</h2>
+                <h2 className="h2 font-bold mb-4">Bridging the gap between FARMERS and BUYERS</h2>
                 <p className="text-gray-700">
                   Your work stays in a place you control and love, while supersalesagro handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building
                   your brand without worrying about configurations, plugins, downtime, performance, or security.
@@ -92,15 +98,12 @@ export default function FeaturesBlocks() {
               </div>
             </div>
 
-            <div className="flex justify-start mt-6 md:w-1/2 sm:w-full rounded">
+            <div className="flex justify-start mt-6 md:w-full sm:w-full rounded">
               <div >
-                <img
-                  alt="image"
-                  loading="lazy"
-                  decoding="async"
-                  className="w-full rounded"
-                  src="https://dazzling-cat.netlify.app/write%20on%20notion.png"
-                />
+
+              <Image src={ConnectingTogether} unoptimized alt="Logo" className="w-full rounded" />
+
+
               </div>
             </div>
           </section>

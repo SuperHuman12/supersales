@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import TestimonialImage from '@/public/images/testimonial.jpg'
 import familyteam from '@/public/images/familyteam.png'
+import ConnectingTogether from '@/public/images/connectingtogether.png'
 
 export default function Testimonials() {
   return (
@@ -203,13 +204,13 @@ export default function Testimonials() {
         We not a business we are a family.
     </h3>
     <div className="grid items-start pt-6 mx-auto gap-8 md:flex md:items-start justify-center">
-        <div className="float-right w-1/3 mb-6 ml-6 sm:float-none sm:ml-12 sm:mb-0 ">
+        <div className="float-right w-1/2 mb-6 ml-6 sm:float-none sm:mb-0 ">
 
 
 <Image src={familyteam} unoptimized alt="Logo" width="600"
                 height="905"
                 className="rounded-md"
-                style={{ filter: 'grayscale(1)', opacity: 0.85 }}/>
+                style={{ filter: 'grayscale(1)'}}/>
 
 
         </div>
