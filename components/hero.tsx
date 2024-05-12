@@ -19,7 +19,16 @@ export default function Hero() {
 
   return (
     <section>
-      <div className="absolute bottom-0 pointer-events-none z-1 h-screen w-screen" aria-hidden="true" style={{ width: '-webkit-fill-available', opacity: 0.5 }}>
+      <div className="absolute bottom-0 pointer-events-none z-1 h-screen w-screen" aria-hidden="true" style={{
+    width: '-webkit-fill-available',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundColor: '#FFFEF9',
+    overflow: 'hidden',
+    border: '1px solid #fcf6e1',
+    backgroundImage: 'url(https://supersalesagro.netlify.app/_next/static/media/backgroundcover.bddf999e.png)'
+}}>
 
 
         <Image src={BackgroundCover} unoptimized alt="Logo" className='w-full h-full' />
@@ -49,11 +58,11 @@ export default function Hero() {
           </div>
 
           <div className="flex flex-col items-center justify-center space-x-2 space-y-1 text-sm opacity-60 sm:flex-row sm:space-y-0 mt-6"><div className="flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" className="mr-2 text-orange-600"><path d="M9.1.3L4 5.4l-2-2c-.3-.3-.7-.4-1-.3S0 3.5 0 4c0 .4 0 .8.3 1l2.8 2.8c.2.2.5.3.8.3s.6-.1.8-.3l6-5.9c.3-.2.4-.6.3-1a1 1 0 0 0-.8-.8c-.4 0-.8 0-1 .3z" fill="currentColor"></path></svg>
-            Free 7-day trial
+            42 years experience
           </div> <div className="flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" className="mr-2 text-orange-600"><path d="M9.1.3L4 5.4l-2-2c-.3-.3-.7-.4-1-.3S0 3.5 0 4c0 .4 0 .8.3 1l2.8 2.8c.2.2.5.3.8.3s.6-.1.8-.3l6-5.9c.3-.2.4-.6.3-1a1 1 0 0 0-.8-.8c-.4 0-.8 0-1 .3z" fill="currentColor"></path></svg>
-              No credit card required
+              Same Day Payment
             </div> <div className="flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="8" className="mr-2 text-orange-600"><path d="M9.1.3L4 5.4l-2-2c-.3-.3-.7-.4-1-.3S0 3.5 0 4c0 .4 0 .8.3 1l2.8 2.8c.2.2.5.3.8.3s.6-.1.8-.3l6-5.9c.3-.2.4-.6.3-1a1 1 0 0 0-.8-.8c-.4 0-.8 0-1 .3z" fill="currentColor"></path></svg>
-              24/7 support
+              Family Owned
             </div></div>
 
           <div className="hidden sm:flex justify-center items-center mt-8 sm:mb-0 mb-3 sm:mt-12 sm:w-[60%] mx-auto">
