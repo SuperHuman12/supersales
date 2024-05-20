@@ -14,7 +14,7 @@ export default function Header() {
   // detect whether user has scrolled the page down by 10px
   const scrollHandler = () => {
     window.pageYOffset > 10 ? setTop(false) : setTop(true)
-  }  
+  }
 
   useEffect(() => {
     scrollHandler()
@@ -29,7 +29,7 @@ export default function Header() {
 
           {/* Site branding */}
           <Link href="/" className="shrink-0 mr-4">
-          <Image src={Logo} unoptimized alt="Logo" width={400} height={200} />
+            <Image src={Logo} unoptimized alt="Logo" width={400} height={200} />
           </Link>
 
           {/* Desktop navigation */}
@@ -37,15 +37,15 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
 
-            <li>
+              <li>
                 <Link href="#products" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Products</Link>
               </li>
 
               <li>
                 <Link href="#about_us" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About Us</Link>
               </li>
-      
-           
+
+
               <li>
                 <Link href="/template" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Mandi Rates Today</Link>
               </li>

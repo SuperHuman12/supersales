@@ -10,10 +10,10 @@ import TemplateDesign from '../TemplateDesign';
 import TemplateLibrary from '../TemplateList';
 
 
- 
+
 import { _loadFromJson, _loadFromJsonComparison, _transformDataToPostPageView } from '../../../utils/helper';
-import { usePathname, useSearchParams } from 'next/navigation'; 
-import { useState,useEffect } from 'react';
+import { usePathname, useSearchParams } from 'next/navigation';
+import { useState, useEffect } from 'react';
 import MoveBack from '@/components/MoveBack';
 import Loading from '@/components/Loading';
 
@@ -86,7 +86,7 @@ export default function ComparisonAgainst() {
   }, [pathname, searchParams]);
 
   if (!filterBySlug) {
-    return <Loading/>;
+    return <Loading />;
   }
 
 
@@ -96,12 +96,12 @@ export default function ComparisonAgainst() {
         <div className="pt-32 pb-12 md:pt-20 md:pb-20">
 
           <div className="max-w-xl mx-auto text-center pb-12 md:pb-20 pt-12">
-            <Image src={filterBySlug?.product?.heroimage} 
-            alt={filterBySlug?.product?.name}
-            width={150}
-            height={300}
-            loading='eager'
-            className="w-100 rounded p-8 mb-8 m-auto" />
+            <Image src={filterBySlug?.product?.heroimage}
+              alt={filterBySlug?.product?.name}
+              width={150}
+              height={300}
+              loading='eager'
+              className="w-100 rounded p-8 mb-8 m-auto" />
 
 
             <h1 className="h1 mb-4">Tired of <b>{filterBySlug?.product?.name}</b>? <br /> Say hi to supersalesagro</h1>

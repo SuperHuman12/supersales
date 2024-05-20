@@ -20,21 +20,21 @@ export default function Hero() {
   return (
     <section>
       <div className="absolute bottom-0 pointer-events-none z-1 h-screen w-screen" aria-hidden="true" style={{
-    width: '-webkit-fill-available'
-}}>
+        width: '-webkit-fill-available'
+      }}>
 
 
         <Image src={BackgroundCover} unoptimized alt="Logo" className='w-full h-full' />
 
 
 
-        
+
       </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-screen">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="text-center">
             <h1 className="text-5xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4 aos-init aos-animate" data-aos="zoom-y-out">
-            Fruit Wholesalers with over 42 years of experience in <span className=" -translate-y-full slideUp h-full w-full bg-clip-text text-transparent text-orange-600">{words[index]}</span>
+              Fruit Wholesalers with over 42 years of experience in <span className=" -translate-y-full slideUp h-full w-full bg-clip-text text-transparent text-orange-600">{words[index]}</span>
             </h1>
           </div>
           {/* Additional JSX content */}

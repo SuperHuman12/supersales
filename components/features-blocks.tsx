@@ -84,8 +84,8 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
-<br/>
-<br/>
+          <br />
+          <br />
 
           <TrustedBy />
 
@@ -109,7 +109,7 @@ export default function FeaturesBlocks() {
             <div className="flex justify-start mt-6 md:w-full sm:w-full rounded">
               <div >
 
-              <Image src={ConnectingTogether} unoptimized alt="Logo" className="w-full rounded" />
+                <Image src={ConnectingTogether} unoptimized alt="Logo" className="w-full rounded" />
 
 
               </div>
@@ -129,7 +129,7 @@ export default function FeaturesBlocks() {
 
 
     </section>
-    
+
 
 
 
