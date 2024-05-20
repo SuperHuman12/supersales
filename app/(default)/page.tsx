@@ -9,6 +9,7 @@ import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 import Showcases from '@/components/showcase'
 import Newsletter from '@/components/newsletter'
+import TrustedBy from '../(auth)/compare-against/TrustedBy'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
     <>
       <Hero />
       <FeaturesBlocks />
+      <TrustedBy / >
       <Testimonials />
       <Newsletter />
     </>
