@@ -16,7 +16,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <TrustedBy />
       <FeaturesBlocks />
       <BigCustomers />
       <Testimonials />
