@@ -6,7 +6,7 @@ import ConnectingTogether from '@/public/images/connectingtogether.png'
 
 export default function FeaturesBlocks() {
   return (
-    <section className="relative">
+    <section className="relative" id="products">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
