@@ -20,7 +20,7 @@ export default function FeaturesBlocks() {
             </div>
 
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6 justify-center py-12" data-aos="zoom-y-out" data-aos-delay="300">
-              <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.supersalesagro.com">Get in Touch</a></div>
+              <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="#contact_us">Get in Touch</a></div>
               <div><a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">View all features</a></div>
             </div>
 
@@ -101,7 +101,7 @@ export default function FeaturesBlocks() {
                   your brand without worrying about configurations, plugins, downtime, performance, or security.
                 </p>
                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
-                  <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.supersalesagro.com">Get in Touch</a></div>
+                  <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="#contact_us">Get in Touch</a></div>
                 </div>
               </div>
             </div>
