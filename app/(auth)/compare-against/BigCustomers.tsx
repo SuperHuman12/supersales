@@ -45,7 +45,7 @@ const imageData = [
   },
 ];
 
-export default function TrustedBy() {
+export default function BigCustomers() {
   return (
     <div>
 

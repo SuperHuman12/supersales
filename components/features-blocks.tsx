@@ -84,6 +84,8 @@ export default function FeaturesBlocks() {
             </div>
           </section>
 
+<br/>
+<br/>
 
           <TrustedBy />
 

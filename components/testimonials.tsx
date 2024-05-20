@@ -3,7 +3,7 @@ import TestimonialImage from '@/public/images/testimonial.jpg'
 import familyteam from '@/public/images/familyteam.png'
 import addresspart from '@/public/images/contactustogether.png'
 import TrustedBy from '@/app/(auth)/compare-against/TrustedBy'
-
+import BigCustomers from '@/app/(auth)/compare-against/BigCustomers'
 
 export default function Testimonials() {
   return (
@@ -76,6 +76,7 @@ export default function Testimonials() {
           </div>
 
           {/* Items */}
+
 <TrustedBy />
 
           {/* Testimonials */}
@@ -193,6 +194,9 @@ export default function Testimonials() {
 
 
           </div>
+
+
+<BigCustomers />
 
         </div>
       </div>
