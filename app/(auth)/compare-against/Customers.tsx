@@ -49,7 +49,9 @@ export default function TrustedBy() {
   return (
     <div>
 
-    <p className="text-center">Trusted by Well-Known Brands</p>
+
+
+    <p className="text-center">Our Customers</p>
 
     <div className="flex flex-row flex-wrap max-w-800 gap-4 mx-auto justify-center flex items-center p-6">
         {/* Image 1 */}
@@ -62,7 +64,7 @@ export default function TrustedBy() {
                 decoding="async"
                 className="flex items-center justify-center py-2 col-span-2 md:col-auto m-auto w-1/2 md:w-full p-4"
                 unoptimized
-                src="https://suriagrofresh.com/wp-content/uploads/2021/01/Zespri-250x200.png"
+                src="https://suriagrofresh.com/wp-content/uploads/2020/08/Big-Basket.png"
             />
         </div>
         {/* Image 2 */}
@@ -75,7 +77,7 @@ export default function TrustedBy() {
                 decoding="async"
                 className="flex items-center justify-center py-2 col-span-2 md:col-auto m-auto w-1/2 md:w-full p-4"
                 unoptimized
-                src="https://suriagrofresh.com/wp-content/uploads/2021/01/Manson-250x200.png"
+                src="https://suriagrofresh.com/wp-content/uploads/2020/08/Walmart.png"
             />
         </div>
         {/* Image 3 */}
@@ -88,7 +90,7 @@ export default function TrustedBy() {
                 decoding="async"
                 className="flex items-center justify-center py-2 col-span-2 md:col-auto m-auto w-1/2 md:w-full p-4"
                 unoptimized
-                src="https://suriagrofresh.com/wp-content/uploads/2021/11/Northern-Fruit-250x200.png"
+                src="https://suriagrofresh.com/wp-content/uploads/2021/11/Ratnadeep-super-market.png"
             />
         </div>
         {/* Image 4 */}
@@ -101,7 +103,7 @@ export default function TrustedBy() {
                 decoding="async"
                 className="flex items-center justify-center py-2 col-span-2 md:col-auto m-auto w-1/2 md:w-full p-4"
                 unoptimized
-                src="https://suriagrofresh.com/wp-content/uploads/2021/01/Devos-250x200.png"
+                src="https://suriagrofresh.com/wp-content/uploads/2020/08/Google.png"
             />
         </div>
         {/* Image 5 */}
@@ -114,7 +116,7 @@ export default function TrustedBy() {
                 decoding="async"
                 className="flex items-center justify-center py-2 col-span-2 md:col-auto m-auto w-1/2 md:w-full p-4"
                 unoptimized
-                src="https://suriagrofresh.com/wp-content/uploads/2021/01/Chelan-250x200.png"
+                src="https://suriagrofresh.com/wp-content/uploads/2021/11/Nature-Basket.png"
             />
         </div>
         {/* Image 6 */}
@@ -127,7 +129,7 @@ export default function TrustedBy() {
                 decoding="async"
                 className="flex items-center justify-center py-2 col-span-2 md:col-auto m-auto w-1/2 md:w-full p-4"
                 unoptimized
-                src="https://suriagrofresh.com/wp-content/uploads/2021/01/Evelina-250x200.png"
+                src="https://suriagrofresh.com/wp-content/uploads/2020/08/More.png"
             />
         </div>
         {/* Image 7 */}
@@ -140,12 +142,10 @@ export default function TrustedBy() {
                 decoding="async"
                 className="flex items-center justify-center py-2 col-span-2 md:col-auto m-auto w-1/2 md:w-full p-4"
                 unoptimized
-                src="https://suriagrofresh.com/wp-content/uploads/2021/11/Natcha-250x200.png"
+                src="https://suriagrofresh.com/wp-content/uploads/2020/08/Reliance-Fresh.png"
             />
         </div>
     </div>
-
-
 
 
 </div>
