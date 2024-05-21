@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import ConnectingTogether from '@/public/images/connectingtogether.png'
 import TrustedBy from '@/app/(auth)/compare-against/TrustedBy';
-
+import BigCustomers from '@/app/(auth)/compare-against/BigCustomers';
 
 export default function FeaturesBlocks() {
   return (
@@ -117,7 +117,7 @@ export default function FeaturesBlocks() {
           </section>
 
 
-
+<BigCustomers />
 
 
         </div>
