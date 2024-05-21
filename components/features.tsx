@@ -7,6 +7,7 @@ import FeaturesBg from '@/public/images/features-bg.png'
 import FeaturesElement from '@/public/images/features-element.png'
 import helpdeskImage from '@/public/images/helpdesk.gif';
 import catalogImage from '@/public/images/catalog.gif';
+import BigCustomers from '@/app/(auth)/compare-against/BigCustomers'
 
 export default function Features() {
 
@@ -195,6 +196,9 @@ export default function Features() {
 
       <br />
       <br />
+
+
+<BigCustomers />
 
     </section>
   )

@@ -10,14 +10,12 @@ import Testimonials from '@/components/testimonials'
 import Showcases from '@/components/showcase'
 import Newsletter from '@/components/newsletter'
 import TrustedBy from '../(auth)/compare-against/TrustedBy'
-import BigCustomers from '../(auth)/compare-against/BigCustomers'
 
 export default function Home() {
   return (
     <>
       <Hero />
       <FeaturesBlocks />
-      <BigCustomers />
       <Testimonials />
       <Newsletter />
     </>
