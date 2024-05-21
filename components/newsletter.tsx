@@ -32,7 +32,7 @@ export default function Newsletter() {
              
 
             <Image alt="Logo" 
-              width={600} 
+              width={500} 
               className="block" 
               src={notionfooterImage} />
 
