@@ -218,9 +218,9 @@ export default function Testimonials() {
           </div>
 
 
-          <div className="w-1/2 mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="w-1/2 h-screen p-4 border mx-auto bg-white shadow-lg rounded-md overflow-hidden">
             <div className="flex justify-between items-center px-6 py-4">
-              <button className="bg-yellow-300 text-white font-bold py-2 px-4 rounded hover:bg-yellow-400 flex items-center">
+              <button className="bg-gray-800 text-white font-bold py-2 px-4 rounded hover:bg-yellow-400 flex items-center">
                 <svg className="w-4 h-4 mr-2 fill-current" viewBox="0 0 20 20"><path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zM9 5h2v5H9V5zm0 6h2v2H9v-2z" /></svg>
                 Join Channel
               </button>
