@@ -33,7 +33,7 @@ export default function showcases() {
             <h2 className="h2 mb-4 p-2">Incredible sites built with supersalesagro</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">Browse through examples of live Notion websites, built with supersalesagro</p>
 
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300"><div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.supersalesagro.com">Ask our Designer for Help</a></div><div><a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/template">View all Templates</a></div></div>
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300"><div><a className="btn text-dark bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.supersalesagro.com">Ask our Designer for Help</a></div><div><a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/template">View all Templates</a></div></div>
 
 
           </div>

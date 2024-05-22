@@ -27,7 +27,7 @@ export default function Testimonials() {
       </div>
 
       <div className="px-6 pt-16 mb-10 md:pt-20 max-w-6xl mx-auto px-4 sm:px-6 pb-12">
-        <h2 className="mb-1 font-semibold leading-6 tracking-wide text-center text-orange-600 uppercase">
+        <h2 className="mb-1 font-semibold leading-6 tracking-wide text-center text-green-600 uppercase">
           About supersalesagro
         </h2>
         <h3 className="pb-8 text-2xl font-black text-center text-gray-900 sm:text-4xl tracking-snug sm:leading-15 md:leading-20">
@@ -89,14 +89,14 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/36ee27ca00ba110131c925e463c42c885e523d10/de5f0/assets/images/influencers/corey.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  Good service, trustworthy fruit sales. <b className="text-orange-600">Sushil sir is the best</b>. I have been sending my fruits to them for 17 years. <b className="text-orange-600">Their advice has helped me save a lot of money</b>, best agents I have done business with.
+                  Good service, trustworthy fruit sales. <b className="text-green-600">Sushil sir is the best</b>. I have been sending my fruits to them for 17 years. <b className="text-green-600">Their advice has helped me save a lot of money</b>, best agents I have done business with.
                 </blockquote>
 
 
 
                 <cite className="block font-bold text-lg not-italic mb-1">Aman</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">Conversion Factory</a>
+                  <span>CEO & Co-Founder</span> <a className="text-green-600 hover:underline" href="#0">Conversion Factory</a>
                 </div>
               </div>
 
@@ -115,7 +115,7 @@ export default function Testimonials() {
 
                 <cite className="block font-bold text-lg not-italic mb-1">Ayush</cite>
                 <div className="text-gray-600">
-                  <span>Farmer</span> <a className="text-orange-600 hover:underline" href="#0">GC Orchards</a>
+                  <span>Farmer</span> <a className="text-green-600 hover:underline" href="#0">GC Orchards</a>
                 </div>
               </div>
 
@@ -129,12 +129,12 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://cdn.feather.blog/?src=https%3A%2F%2Ffeather.so%2Fimages%2Flanding%2Favatars%2Ftom.png&optimizer=image" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  I have been taking my fruits there since 10 years ago, they give me good price for it, thank you for your service. <b className="text-orange-600">Let's hope our business keeps going up and growing.</b>
+                  I have been taking my fruits there since 10 years ago, they give me good price for it, thank you for your service. <b className="text-green-600">Let's hope our business keeps going up and growing.</b>
                 </blockquote>
 
                 <cite className="block font-bold text-lg not-italic mb-1">Tom</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">TweetHunter</a>
+                  <span>CEO & Co-Founder</span> <a className="text-green-600 hover:underline" href="#0">TweetHunter</a>
                 </div>
               </div>
 
@@ -148,12 +148,12 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/75af78aa9bf70a1c124768d0b60e37a5cd1bd9b7/11cb5/assets/images/influencers/alex.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  Super excellence service... <b className="text-orange-600">they are really good at handling the fruit freshly and carefully. Have a good relation with them, so satisfied and happy with their service so far.</b>
+                  Super excellence service... <b className="text-green-600">they are really good at handling the fruit freshly and carefully. Have a good relation with them, so satisfied and happy with their service so far.</b>
                 </blockquote>
 
                 <cite className="block font-bold text-lg not-italic mb-1">Alex MacCaw</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">ClearBit</a>
+                  <span>CEO & Co-Founder</span> <a className="text-green-600 hover:underline" href="#0">ClearBit</a>
                 </div>
               </div>
 
@@ -168,12 +168,12 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://twitter-avatars.s3.us-east-1.amazonaws.com/avatars/adamwathan" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  Had a good relation with sir, working with him from last year. <b className="text-orange-600">Good experience.</b>
+                  Had a good relation with sir, working with him from last year. <b className="text-green-600">Good experience.</b>
                 </blockquote>
 
                 <cite className="block font-bold text-lg not-italic mb-1">Adam Wathan</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">Tailwind</a>
+                  <span>CEO & Co-Founder</span> <a className="text-green-600 hover:underline" href="#0">Tailwind</a>
                 </div>
               </div>
 
@@ -188,11 +188,11 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  I needed <b className="text-orange-600"> a place for quick documentation and AI support that can help people who come looking for support </b> , supersalesagro solved that for me.
+                  I needed <b className="text-green-600"> a place for quick documentation and AI support that can help people who come looking for support </b> , supersalesagro solved that for me.
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">Floosh</a>
+                  <span>CEO & Co-Founder</span> <a className="text-green-600 hover:underline" href="#0">Floosh</a>
                 </div>
               </div>
 
@@ -210,7 +210,7 @@ export default function Testimonials() {
       </div>
 
       <div className="px-6 pt-16 mb-10 md:pt-20 max-w-6xl mx-auto px-4 sm:px-6 pb-12" id="contact_us">
-        <h2 className="mb-1 font-semibold leading-6 tracking-wide text-center text-orange-600 uppercase">
+        <h2 className="mb-1 font-semibold leading-6 tracking-wide text-center text-green-600 uppercase">
           About Super Sales Agro
         </h2>
         <h3 className="pb-8 text-2xl font-black text-center text-gray-900 sm:text-4xl tracking-snug sm:leading-15 md:leading-20">

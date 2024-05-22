@@ -50,12 +50,12 @@ export default async function Template() {
 
                   {/* CTA content */}
                   <div className="text-center lg:text-left lg:max-w-xl">
-                    <h3 className="h3 text-white mb-2">Get <b className="text-orange-600">Free Design Services</b></h3>
+                    <h3 className="h3 text-white mb-2">Get <b className="text-green-600">Free Design Services</b></h3>
 
                     {/* CTA form */}
                     <form className="w-full lg:w-auto">
                       <div>
-                        <a className="btn bg-orange-600 hover:bg-orange-700 shadow" href="https://buy.stripe.com/5kAeV0b6K27w8BG6os">Subscribe</a>
+                        <a className="btn bg-green-600 hover:bg-green-700 shadow" href="https://buy.stripe.com/5kAeV0b6K27w8BG6os">Subscribe</a>
                       </div>
                       {/* Success message */}
                       {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}

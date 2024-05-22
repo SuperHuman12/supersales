@@ -15,11 +15,11 @@ export default function ResetPassword() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-4">
-            <h1 className="h1 mb-4">Earn <b className="text-orange-600">₹ 1,00,000 per month</b>*  promoting an award-winning wholesale business with 250+ happy users.</h1>
+            <h1 className="h1 mb-4">Earn <b className="text-green-600">₹ 1,00,000 per month</b>*  promoting an award-winning wholesale business with 250+ happy users.</h1>
             <p className="text-xl text-gray-600">For every paid client you refer to supersalesagro, you will be paid 33% of the recurring commission. Forever.</p>
           </div>
 
-          <div className="m-auto text-center"><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://supersalesagro.lemonsqueezy.com/affiliates">Sign Up</a></div>
+          <div className="m-auto text-center"><a className="btn text-dark bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://supersalesagro.lemonsqueezy.com/affiliates">Sign Up</a></div>
 
 
 
@@ -68,7 +68,7 @@ export default function ResetPassword() {
               </div>
 
               <div className="mt-8 text-center">
-                <a href="https://supersalesagro.lemonsqueezy.com/affiliates" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our Partner</a>
+                <a href="https://supersalesagro.lemonsqueezy.com/affiliates" target="_self" className="btn text-dark bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0">Become our Partner</a>
               </div>
             </div>
 
@@ -187,7 +187,7 @@ export default function ResetPassword() {
                 </li>
               </ul>
               <div className="text-center mt-8">
-                <a href="https://partner.supersalesagro.com/" target="_self" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Start to earn money</a>
+                <a href="https://partner.supersalesagro.com/" target="_self" className="btn text-dark bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0">Start to earn money</a>
               </div>
             </div>
           </div>
@@ -284,7 +284,7 @@ export default function ResetPassword() {
               <p className="mt-4 text-gray-400">Quick payouts to Wise, Paypal or your local bank. Premium support and cross-promotions from us.</p>
 
               <div className="mt-8">
-                <a href="https://supersalesagro.lemonsqueezy.com/affiliates" target="_blank" className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0">Become our partner</a>
+                <a href="https://supersalesagro.lemonsqueezy.com/affiliates" target="_blank" className="btn text-dark bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0">Become our partner</a>
               </div>
             </div>
           </div>

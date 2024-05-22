@@ -64,12 +64,12 @@ export default function Pricing() {
 
                                     {/* CTA content */}
                                     <div className="text-center lg:text-left lg:max-w-xl">
-                                        <h3 className="h3 text-white mb-2">Get <b className="text-orange-600">Lifetime Deal</b> at $137</h3>
+                                        <h3 className="h3 text-white mb-2">Get <b className="text-green-600">Lifetime Deal</b> at $137</h3>
 
                                         {/* CTA form */}
                                         <form className="w-full lg:w-auto">
                                             <div>
-                                                <a className="btn bg-orange-600 hover:bg-orange-700 shadow" href="https://buy.stripe.com/5kAeV0b6K27w8BG6os">Get this Deal</a>
+                                                <a className="btn bg-green-600 hover:bg-green-700 shadow" href="https://buy.stripe.com/5kAeV0b6K27w8BG6os">Get this Deal</a>
                                             </div>
                                             {/* Success message */}
                                             {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
@@ -87,7 +87,7 @@ export default function Pricing() {
                                 <div role="tablist" aria-orientation="horizontal" className="relative flex w-full rounded-full bg-gray-100 font-semibold z-0 border-1 border-gray-600" data-orientation="horizontal">
                                     <span className={`absolute inset-y-0 left-0 -z-10 rounded-full border-2 w-1/2 h-14 transition-transform duration-300 ease-in-out ${activeTab === 'Monthly' ? 'translate-x-full' : ''}`}></span>
                                     <button
-                                        className={`w-1/2 text-md h-14 flex items-center justify-center uppercase transition-colors duration-300 ease-in-out ${activeTab === 'Yearly' ? 'bg-orange-600 rounded-full border-2 border-dark' : 'bg-transparent text-gray-900'}`}
+                                        className={`w-1/2 text-md h-14 flex items-center justify-center uppercase transition-colors duration-300 ease-in-out ${activeTab === 'Yearly' ? 'bg-green-600 rounded-full border-2 border-dark' : 'bg-transparent text-gray-900'}`}
                                         type="button"
                                         role="tab"
                                         aria-selected={activeTab === 'Yearly'}
@@ -96,7 +96,7 @@ export default function Pricing() {
                                         Yearly<span className="relative -top-0.5 rounded-full bg-white p-1 text-xs font-normal text-gray-900 ml-4 px-3">-20%</span>
                                     </button>
                                     <button
-                                        className={`w-1/2 text-md h-14 flex items-center justify-center uppercase transition-colors duration-300 ease-in-out ${activeTab === 'Monthly' ? 'bg-orange-600 rounded-full border-2 border-dark' : 'bg-transparent text-gray-900'}`}
+                                        className={`w-1/2 text-md h-14 flex items-center justify-center uppercase transition-colors duration-300 ease-in-out ${activeTab === 'Monthly' ? 'bg-green-600 rounded-full border-2 border-dark' : 'bg-transparent text-gray-900'}`}
                                         type="button"
                                         role="tab"
                                         aria-selected={activeTab === 'Monthly'}

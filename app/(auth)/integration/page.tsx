@@ -18,7 +18,7 @@ const Integration = async () => {
             <p className="text-xl text-gray-600">Integrate with your stack and extend functionality with powerful integrations built by us and our amazing community.</p>
 
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center aos-init aos-animate mt-6">
-              <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.supersalesagro.com">Missing Integration? Ask for Help</a></div>
+              <div><a className="btn text-dark bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://app.supersalesagro.com">Missing Integration? Ask for Help</a></div>
             </div>
 
           </div>
@@ -46,7 +46,7 @@ const Integration = async () => {
                         <div className="w-10 h-10 bg-gray-200 rounded-full" ></div>
                         <span className="text-dark font-bold">And a lot more..</span>
                     </div>
-                    <button className="border border-gray-200 bg-orange-600 rounded w-full p-2 mt-4">Add More...</button>
+                    <button className="border border-gray-200 bg-green-600 rounded w-full p-2 mt-4">Add More...</button>
                 </div>
             </div>
 

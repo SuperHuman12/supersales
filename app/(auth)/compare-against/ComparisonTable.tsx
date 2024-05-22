@@ -39,7 +39,7 @@ const ComparisonTable = ({ id }:{id:any}) => {
                     </span>
                   </td>
                   <td className="border px-4 py-4 text-center">
-                  <span className='border bg-orange-600 p-2 px-4 rounded-full font-bold'>
+                  <span className='border bg-green-600 p-2 px-4 rounded-full font-bold'>
                     {item.feature_value["Notion"] ? '✓' : '✕'}
                   </span>  
                   </td>

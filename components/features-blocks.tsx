@@ -20,7 +20,7 @@ export default function FeaturesBlocks() {
             </div>
 
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6 justify-center py-12" data-aos="zoom-y-out" data-aos-delay="300">
-              <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="#contact_us">Get in Touch</a></div>
+              <div><a className="btn text-dark bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#contact_us">Get in Touch</a></div>
             </div>
 
             {/* Items */}
@@ -94,13 +94,13 @@ export default function FeaturesBlocks() {
 
             <div className="md:w-1/2 sm:w-full">
               <div className="text-start mt-6 w-full p-4">
-                <h2 className="h2 font-bold mb-4">We Bridge the gap between <span className='text-orange-600'>FARMERS</span> and <span className='text-orange-600'>BUYERS</span></h2>
+                <h2 className="h2 font-bold mb-4">We Bridge the gap between <span className='text-green-600'>FARMERS</span> and <span className='text-green-600'>BUYERS</span></h2>
                 <p className="text-gray-700">
                   Your work stays in a place you control and love, while supersalesagro handles the technical parts of publishing it to your website. This means you can focus what’s actually important to you: creating content and building
                   your brand without worrying about configurations, plugins, downtime, performance, or security.
                 </p>
                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6" data-aos="zoom-y-out" data-aos-delay="300">
-                  <div><a className="btn text-dark bg-orange-600 hover:bg-orange-700 w-full mb-4 sm:w-auto sm:mb-0" href="#contact_us">Get in Touch</a></div>
+                  <div><a className="btn text-dark bg-green-600 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0" href="#contact_us">Get in Touch</a></div>
                 </div>
               </div>
             </div>

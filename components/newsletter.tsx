@@ -44,14 +44,14 @@ export default function Newsletter() {
 
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Looking for the best rates for your  <span className=" -translate-y-full slideUp h-full w-full bg-clip-text text-transparent text-orange-600">{words[index]}</span> ?</h3>
+                <h3 className="h3 text-white mb-2">Looking for the best rates for your  <span className=" -translate-y-full slideUp h-full w-full bg-clip-text text-transparent text-green-600">{words[index]}</span> ?</h3>
                 <p className="text-xl text-gray-600 mb-4">Join the supersalesagro AI and discover the easiest way to manage your website.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="I want a site that…" aria-label="I want a site..." />
-                    <a className="btn text-white bg-orange-600 hover:bg-orange-700 shadow" href="#0">Create</a>
+                    <a className="btn text-white bg-green-600 hover:bg-green-700 shadow" href="#0">Create</a>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
