@@ -45,24 +45,26 @@ export default function Testimonials() {
 
           </div>
           <div className="prose-sm text-gray-600 sm:prose sm:w-2/3 prose-indigo">
-            <p className='my-2'>
-              Hey 👋 <br className="block sm:hidden" />
-              I’m Vaibhav, the founder of supersalesagro.
-            </p>
-            <p className='my-2'>
-              There are already a couple of website builders and knowledge base softwares out there to help you post and manage content. And while most of them are certainly doing a good job,
-              <strong className="text-gray-900">are they actually making use of the best content management system in the world?</strong>
-            </p>
-            <p className='my-2'>
-              I have been using <strong className="text-gray-900">Notion</strong> for a few years now. It's an amazing tool for storing and organizing all of my company's knowledge and writings. It should feel similiar to tools such as Intercom or Zendesk when it comes to support or webflow and framer if your building catalogs with 1000s of documents. <br />
-              <br />
-              Since I couldn't find the right solution – <strong className="text-gray-900">I built supersalesagro</strong>. Sure, you can publish your Notion page on its own but it might come across as unprofessional. The messy Notion url, distracting links pointing to
-              Notion and the lack of customizability are just a few disadvantages...
-            </p>
-            <p className='my-2'><strong className="text-gray-900">supersalesagro is solving all of this. It is for businesses who need an easy way to create a reliable knowledge site powered by Notion. </strong></p>
-            <br /> <br />
-            <p className='my-2'>— Vaibhav, Founder</p>
-          </div>
+  <p className='my-2'>
+    SSA was founded as a small business in 1982 with produce distribution which later make them leading distributors in Delhi, Himachal and Gujrat.
+  </p>
+  <p className='my-2'>
+    Super Sales Agro is one of the pioneering entities in the agricultural sector, committed to delivering the best rates with solutions that revolutionize farming practices. Specializing in the distribution and management of agricultural produce, ensuring that every step from the farm to the consumer is handled with utmost precision and care.
+  </p>
+  <p className='my-2'>
+    we believe in creating experiences that resonate deeply with our producers and buyers. The satisfaction of our farmers working with us is just as important as the delight of our customers savoring our produce. We meticulously oversee the journey of our products, guaranteeing they reach consumers in the highest quality possible.
+  </p>
+  <p className='my-2'>
+    Founded with a vision to address the challenges in the agricultural industry, SSA DELHI has embarked on a journey to establish itself as a leader in the field. Over the years, we have expanded into various sectors including cold chain logistics, packaging, and advanced agricultural technology. Our use of state of the art machinery and adherence to international standards has positioned us at the forefront of the global agricultural market.
+  </p>
+  <p className='my-2'>
+    Our dedication to sustainable growth and prices ensures that we not only meet the demands of our farmers/suppliers but exceed the expectations of our buyers. At supersalesagro, we operate like a family together cultivating a future where supply and quality go hand in hand.
+  </p>
+  <p className='my-2'>
+    — Sushil Kalra
+  </p>
+</div>
+
         </div>
       </div>
 
