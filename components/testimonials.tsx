@@ -48,6 +48,11 @@ export default function Testimonials() {
   <p className='my-2'>
     SSA was founded as a small business in 1982 with produce distribution which later made them leading distributors in Delhi, Himachal, and Gujarat.
   </p>
+
+  <strong className="text-gray-900">
+  Today, our loyal customer base extends beyond national barriers to the U.K, Europe, Australia, Middle East and South East Asia.
+  </strong>
+
   <p className='my-2'>
     Super Sales Agro is one of the pioneering entities in the agricultural sector, committed to delivering <strong className="text-gray-900">the best rates</strong> with solutions that revolutionize farming practices. Specializing in the distribution and management of agricultural produce, ensuring that every step from the farm to the consumer is handled with <strong className="text-gray-900">utmost precision and care</strong>.
   </p>
