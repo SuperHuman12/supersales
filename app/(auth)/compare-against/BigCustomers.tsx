@@ -51,7 +51,7 @@ export default function BigCustomers() {
 
 
 
-      <p className="text-center">Our Customers</p>
+      <p className="text-center">Our Buyers</p>
 
       <div className="flex flex-row flex-wrap max-w-800 gap-4 mx-auto justify-center flex items-center p-6">
         {/* Image 1 */}

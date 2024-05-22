@@ -49,7 +49,7 @@ export default function Newsletter() {
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
-                  <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
+                  <div className="flex flex-col justify-start max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <a className="btn text-white bg-green-600 hover:bg-green-700 shadow" href="#contact_us">Get in Touch</a>
                   </div>
                 </form>
