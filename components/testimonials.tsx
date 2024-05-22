@@ -89,8 +89,10 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/36ee27ca00ba110131c925e463c42c885e523d10/de5f0/assets/images/influencers/corey.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  Good service, trustworthy fruit sales. <b className="text-orange-600">Sushil sir, is the best when it comes to selling fruits. I sent my fruit harvest, it was taken care of very nicely. I have been sending my fruits to them for 17 years now, we have good relations with them, thank you for your service. Their advice has helped me save a lot of money in my thekedari business, thank you Sushil ji. We have been working with them for 8 years now, it has been a very good experience. Super Sales Agro is the best agents we have done business with.</b>
+                  Good service, trustworthy fruit sales. <b className="text-orange-600">Sushil sir is the best</b>. I have been sending my fruits to them for 17 years. <b className="text-orange-600">Their advice has helped me save a lot of money</b>, best agents I have done business with.
                 </blockquote>
+
+
 
                 <cite className="block font-bold text-lg not-italic mb-1">Aman</cite>
                 <div className="text-gray-600">
@@ -127,8 +129,9 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://cdn.feather.blog/?src=https%3A%2F%2Ffeather.so%2Fimages%2Flanding%2Favatars%2Ftom.png&optimizer=image" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I've been trying to find a blogging solution that not only is <b className="text-orange-600">easy to work with but also is SEO ready</b>, supersalesagro is worth every penny.“
+                  I have been taking my fruits there since 10 years ago, they give me good price for it, thank you for your service. <b className="text-orange-600">Let's hope our business keeps going up and growing.</b>
                 </blockquote>
+
                 <cite className="block font-bold text-lg not-italic mb-1">Tom</cite>
                 <div className="text-gray-600">
                   <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">TweetHunter</a>
@@ -145,8 +148,9 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/75af78aa9bf70a1c124768d0b60e37a5cd1bd9b7/11cb5/assets/images/influencers/alex.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Since migrating to supersalesagro, our recruitment marketing agency has bypassed the need to outsource web development, <b className="text-orange-600">attracted bigger clients, and introduced a new revenue stream </b>.“
+                  Super excellence service... <b className="text-orange-600">they are really good at handling the fruit freshly and carefully. Have a good relation with them, so satisfied and happy with their service so far.</b>
                 </blockquote>
+
                 <cite className="block font-bold text-lg not-italic mb-1">Alex MacCaw</cite>
                 <div className="text-gray-600">
                   <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">ClearBit</a>
@@ -164,8 +168,9 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://twitter-avatars.s3.us-east-1.amazonaws.com/avatars/adamwathan" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ With limited resources and no in-house developers, <b className="text-orange-600">our team can easily manage our blog, helpdesk and company wiki faster</b>.“
+                  Had a good relation with sir, working with him from last year. <b className="text-orange-600">Good experience.</b>
                 </blockquote>
+
                 <cite className="block font-bold text-lg not-italic mb-1">Adam Wathan</cite>
                 <div className="text-gray-600">
                   <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">Tailwind</a>
