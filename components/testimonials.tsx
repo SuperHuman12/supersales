@@ -45,25 +45,25 @@ export default function Testimonials() {
 
           </div>
           <div className="prose-sm text-gray-600 sm:prose sm:w-2/3 prose-indigo">
-  <p className='my-2'>
-    SSA was founded as a small business in 1982 with produce distribution which later made them leading distributors in Delhi, Himachal, and Gujarat.
-  </p>
+            <p className='my-2'>
+              SSA was founded as a small business in 1982 with produce distribution which later made them leading distributors in Delhi, Himachal, and Gujarat.
+            </p>
 
-  <strong className="text-gray-900">
-  Today, our loyal customer base extends beyond national barriers to the U.K, Europe, Australia, Middle East and South East Asia.
-  </strong>
+            <strong className="text-gray-900">
+              Today, our loyal customer base extends beyond national barriers to the U.K, Europe, Australia, Middle East and South East Asia.
+            </strong>
 
-  <p className='my-2'>
-    Super Sales Agro is one of the pioneering entities in the agricultural sector, committed to delivering <strong className="text-gray-900">the best rates</strong> with solutions that revolutionize farming practices. Specializing in the distribution and management of agricultural produce, ensuring that every step from the farm to the consumer is handled with <strong className="text-gray-900">utmost precision and care</strong>.
-  </p>
+            <p className='my-2'>
+              Super Sales Agro is one of the pioneering entities in the agricultural sector, committed to delivering <strong className="text-gray-900">the best rates</strong> with solutions that revolutionize farming practices. Specializing in the distribution and management of agricultural produce, ensuring that every step from the farm to the consumer is handled with <strong className="text-gray-900">utmost precision and care</strong>.
+            </p>
 
-  <p className='my-2'>
-    Founded with a vision to address the challenges in the agricultural industry, <strong className="text-gray-900">SSA DELHI</strong> has embarked on a journey to establish itself as a leader in the field. Over the years, we have expanded into various sectors including cold chain logistics, packaging, and advanced agricultural technology. Our use of <strong className="text-gray-900">state-of-the-art machinery</strong> and adherence to international standards has positioned us at the forefront of the global agricultural market.
-  </p>
-  <p className='my-2'>
-    Our dedication to sustainable growth and prices ensures that we not only meet the demands of our farmers/suppliers but exceed the expectations of our buyers. At supersalesagro, we operate like a family, together cultivating a future where <strong className="text-gray-900">supply and quality go hand in hand</strong>.
-  </p>
-</div>
+            <p className='my-2'>
+              Founded with a vision to address the challenges in the agricultural industry, <strong className="text-gray-900">SSA DELHI</strong> has embarked on a journey to establish itself as a leader in the field. Over the years, we have expanded into various sectors including cold chain logistics, packaging, and advanced agricultural technology. Our use of <strong className="text-gray-900">state-of-the-art machinery</strong> and adherence to international standards has positioned us at the forefront of the global agricultural market.
+            </p>
+            <p className='my-2'>
+              Our dedication to sustainable growth and prices ensures that we not only meet the demands of our farmers/suppliers but exceed the expectations of our buyers. At supersalesagro, we operate like a family, together cultivating a future where <strong className="text-gray-900">supply and quality go hand in hand</strong>.
+            </p>
+          </div>
 
 
         </div>
@@ -205,8 +205,8 @@ export default function Testimonials() {
 
           </div>
 
-<br/>
-<br/>
+          <br />
+          <br />
           <BigCustomers />
 
         </div>
@@ -240,36 +240,48 @@ export default function Testimonials() {
               </button>
             </div>
             <div className="px-6 py-4 gap-4 grid">
-            <a href="https://twitter.com/absurdfounder" aria-label="Twitter" className="mb-4 border p-4 rounded-md hover:border-gray-600 focus:shadow-md">
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
-                </svg>
+              <a href="https://twitter.com/absurdfounder" aria-label="Twitter" className="mb-4 border p-4 rounded-md hover:border-gray-600 focus:shadow-md">
+                <div className='flex gap-4'>
+                  <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                  </svg>
+                  Head Office
+                </div>
                 <p className="text-gray-600">A-285, 1st and 2nd floor, New Subzi Mandi, Azadpur, Delhi-110034</p>
               </a>
               <div className="mb-4 p-4 rounded-md">
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0m-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-                </svg>
-                <a href="https://twitter.com/absurdfounder" aria-label="Twitter" className="mb-4 border p-4 rounded-md hover:border-gray-600 focus:shadow-md">
-                <p className="text-gray-600 ml-4">+91-9899262264</p>
+                <div className='flex gap-4'>
+                  <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0m-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                  </svg>
+                  Phone Number
+                </div>
+                <a href="https://twitter.com/absurdfounder" aria-label="Twitter" className="mb-4 border p-4 rounded-md hover:border-gray-600 focus:shadow-md w-100 grid">
+                  <p className="text-gray-600 ml-4">+91-9899262264</p>
                 </a>
-                <a href="https://twitter.com/absurdfounder" aria-label="Twitter" className="mb-4 border p-4 rounded-md hover:border-gray-600 focus:shadow-md">
-                <p className="text-gray-600 ml-4">+91-9711269346</p>
+                <a href="https://twitter.com/absurdfounder" aria-label="Twitter" className="mb-4 border p-4 rounded-md hover:border-gray-600 focus:shadow-md w-100 grid">
+                  <p className="text-gray-600 ml-4">+91-9711269346</p>
                 </a>
               </div>
               <a href="https://twitter.com/absurdfounder" aria-label="Twitter" className="mb-4 border p-4 rounded-md hover:border-gray-600 focus:shadow-md">
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
-                 <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
-                </svg>
+                <div className='flex gap-4'>
+                  <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z" />
+                    <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+                  </svg>
+                  Email
+                </div>
                 <p className="text-gray-600">supersalesagro@gmail.com</p>
               </a>
               <a href="https://twitter.com/absurdfounder" aria-label="Twitter" className="mb-4 border p-4 rounded-md hover:border-gray-600 focus:shadow-md">
-                <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
-                </svg>
+                <div className='flex gap-4'>
+                  <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                  </svg>
+                  Shipping Address
+                </div>
                 <p className="text-gray-600">Licence No.: B-4881,  A-1022 New Subzi Mandi, Azadpur, Delhi-110034</p>
-              </a>              
+              </a>
             </div>
           </div>
 
