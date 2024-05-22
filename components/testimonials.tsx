@@ -99,7 +99,7 @@ export default function Testimonials() {
 
                 <cite className="block font-bold text-lg not-italic mb-1">Aman</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-green-600 hover:underline" href="#0">Conversion Factory</a>
+                <span>Farmer</span> <a className="text-green-600 hover:underline" href="#0">GC Orchards</a>
                 </div>
               </div>
 
@@ -113,12 +113,12 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/c6f92e1ae2769f7cc13d3ece99c16d591564bf4a/7114a/assets/images/influencers/ayush.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  I send my harvested fruits and I was happy with the friendly and good service.
+                  I sent my harvested fruits and I was happy with the rates and good service.
                 </blockquote>
 
-                <cite className="block font-bold text-lg not-italic mb-1">Ayush</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Hui Nam</cite>
                 <div className="text-gray-600">
-                  <span>Farmer</span> <a className="text-green-600 hover:underline" href="#0">GC Orchards</a>
+                  <span>Farmer</span> <a className="text-green-600 hover:underline" href="#0">Haitan Orchards</a>
                 </div>
               </div>
 
@@ -137,7 +137,7 @@ export default function Testimonials() {
 
                 <cite className="block font-bold text-lg not-italic mb-1">Tom</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-green-600 hover:underline" href="#0">TweetHunter</a>
+                <span>Farmer</span> <a className="text-green-600 hover:underline" href="#0">Virat Orchards</a>
                 </div>
               </div>
 
@@ -154,9 +154,9 @@ export default function Testimonials() {
                   Super excellence service... <b className="text-green-600">they are really good at handling the fruit freshly and carefully. Have a good relation with them, so satisfied and happy with their service so far.</b>
                 </blockquote>
 
-                <cite className="block font-bold text-lg not-italic mb-1">Alex MacCaw</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">Smt. KamlaDevi</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-green-600 hover:underline" href="#0">ClearBit</a>
+                <span>Farmer</span> <a className="text-green-600 hover:underline" href="#0">Jatin Orchards</a>
                 </div>
               </div>
 
@@ -171,12 +171,12 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://twitter-avatars.s3.us-east-1.amazonaws.com/avatars/adamwathan" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  Had a good relation with sir, working with him from last year. <b className="text-green-600">Good experience.</b>
+                  They suggested me to put my apple produce in cold store, I recieved good rates for my apples due to their suggestions and help. They even tested my apples before suggesting. <b className="text-green-600">Very Good experience.</b>
                 </blockquote>
 
                 <cite className="block font-bold text-lg not-italic mb-1">Adam Wathan</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-green-600 hover:underline" href="#0">Tailwind</a>
+                <span>Farmer</span> <a className="text-green-600 hover:underline" href="#0">Vijay Thakur Orchards</a>
                 </div>
               </div>
 
@@ -191,11 +191,11 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  I needed <b className="text-green-600"> a place for quick documentation and AI support that can help people who come looking for support </b> , supersalesagro solved that for me.
+                  The best thing is <b className="text-green-600"> they are polite and provide same day payment for my goods </b> , i find them really helpful.
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-green-600 hover:underline" href="#0">Floosh</a>
+                <span>Farmer</span> <a className="text-green-600 hover:underline" href="#0">Kaith Orchards</a>
                 </div>
               </div>
 
