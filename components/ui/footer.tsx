@@ -30,22 +30,10 @@ export default function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Product</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="https://app.supersalesagro.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">supersalesagro Builder</a>
-              </li>
-              <li className="mb-2">
                 <a href="/showcase" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Showcase</a>
               </li>
               <li className="mb-2">
                 <a href="https://supersalesagro.com/blog" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</a>
-              </li>
-              <li className="mb-2">
-                <a href="https://supersalesagro.com/changelog" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Changelog</a>
-              </li>
-              <li className="mb-2">
-                <a href="/integration" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</a>
-              </li>
-              <li className="mb-2">
-                <a href="/pricing" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</a>
               </li>
             </ul>
           </div>
@@ -59,31 +47,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a href="/compare-against/supersalesagro-vs-webflow" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Webflow</a>
-              </li>
-              <li className="mb-2">
-                <a href="/compare-against/supersalesagro-vs-wordpress" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with WordPress</a>
-              </li>
-              <li className="mb-2">
-                <a href="/compare-against/supersalesagro-vs-squarespace" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Squarespace</a>
-              </li>
-              <li className="mb-2">
-                <a href="/compare-against/supersalesagro-vs-zendesk" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Zendesk</a>
-              </li>
-              <li className="mb-2">
-                <a href="/compare-against/supersalesagro-vs-intercom" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Intercom</a>
-              </li>
-              <li className="mb-2">
-                <a href="/compare-against/supersalesagro-vs-ghost" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Ghost</a>
-              </li>
-              <li className="mb-2">
-                <a href="/compare-against/supersalesagro-vs-framer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Framer</a>
-              </li>  
-              <li className="mb-2">
-                <a href="/compare-against/supersalesagro-vs-gitbook" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Gitbook</a>
-              </li>                
-              <li className="mb-2">
-                <a href="/compare-against/supersalesagro-vs-shopify" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Compare with Shopify</a>
-              </li>                                 
+              </li>                                
             </ul>
           </div>
 
@@ -96,19 +60,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a href="https://www.whatsapp.com/channel/0029VaBrxz9FnSzC4z2HGd2T" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Join Whatsapp Channel</a>
-              </li>
-              <li className="mb-2">
-                <a href="https://drive.google.com/drive/u/2/folders/13TfS2QV-VHg5Snw6rVbgmoVVRXTeiDHA" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Media Kit</a>
-              </li>
-              <li className="mb-2">
-                <a href="mailto:hey@vaibhavkalra.com?subject=Hi%2C%20I%20have%20a%20query%20regarding%20supersalesagro" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Email Us</a>
-              </li>
-              <li className="mb-2">
-                <a href="/affiliate" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Affiliate Program</a>
-              </li>
-              <li className="mb-2">
-                <a href="https://supersalesagro.com/help" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Helpcenter</a>
-              </li>                                          
+              </li>                                         
             </ul>
           </div>
 
@@ -122,20 +74,6 @@ export default function Footer() {
               <li className="mb-2">
                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Telegram Bots</a>
               </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Whatsapp Bots</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Remote Jobs</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Mental Health</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Agency Catalog</a>
-              </li>
-
-
             </ul>
           </div>
 
