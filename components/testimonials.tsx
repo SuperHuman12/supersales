@@ -89,9 +89,10 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/36ee27ca00ba110131c925e463c42c885e523d10/de5f0/assets/images/influencers/corey.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  I had a blog and use to struggle with markdown, recompiling, and overthinking. <b className="text-orange-600"> Now, I just write to @NotionHQ, with my website deployed on @supersalesagro showing always pin and proper</b>.
+                  Good service, trustworthy fruit sales. <b className="text-orange-600">Sushil sir, is the best when it comes to selling fruits. I sent my fruit harvest, it was taken care of very nicely. I have been sending my fruits to them for 17 years now, we have good relations with them, thank you for your service. Their advice has helped me save a lot of money in my thekedari business, thank you Sushil ji. We have been working with them for 8 years now, it has been a very good experience. Super Sales Agro is the best agents we have done business with.</b>
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Corey Haines</cite>
+
+                <cite className="block font-bold text-lg not-italic mb-1">Aman</cite>
                 <div className="text-gray-600">
                   <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">Conversion Factory</a>
                 </div>
@@ -107,11 +108,12 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src="https://d33wubrfki0l68.cloudfront.net/c6f92e1ae2769f7cc13d3ece99c16d591564bf4a/7114a/assets/images/influencers/ayush.png" unoptimized width={50} height={50} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “Getting to build and manage my company helpdesk using notion as a content provider is really slick, it has got <b className="text-orange-600">our writers focus on what is important.</b>“
+                  I send my harvested fruits and I was happy with the friendly and good service.
                 </blockquote>
+
                 <cite className="block font-bold text-lg not-italic mb-1">Ayush</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-orange-600 hover:underline" href="#0">Indie Master Minds</a>
+                  <span>Farmer</span> <a className="text-orange-600 hover:underline" href="#0">GC Orchards</a>
                 </div>
               </div>
 
