@@ -16,7 +16,8 @@ export default function FeaturesBlocks() {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pt-12 ">
               <h2 className="h2 mb-4">We deal in various produce.</h2>
-              <p className="text-xl text-gray-600">Super Sales Agro is a powerful website builder for startups, solo-entrepreneurs and hackers. Try it for free.</p>
+              <p className="text-xl text-gray-600">
+              Super Sales Agro Private Limited is one of the best distributors and importers of fresh produce in India, handling over 65,000 MT of fruits and other produce every year and leading the Indian fresh produce sector through innovation, technology and sustainable growth.</p>
             </div>
 
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex aos-init aos-animate mt-6 justify-center py-12" data-aos="zoom-y-out" data-aos-delay="300">
