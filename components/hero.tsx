@@ -5,8 +5,9 @@ import Image from 'next/image';
 import BackgroundCover from '@/public/images/backgroundcover.png';
 
 export default function Hero() {
-  const words = ["Apples", "Oranges", "Mangoes", "Pears", "Guava"];
-  const [index, setIndex] = useState(0);
+  const words = ["🍎 Apples", "🍊 Oranges", "🥭 Mangoes", "🍐 Pears"];
+  console.log(words);
+    const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {

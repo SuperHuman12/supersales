@@ -6,7 +6,7 @@ import Image from 'next/image'; // Import the Image component from Next.js
 import notionfooterImage from '@/public/images/notionfooter.png';
 
 export default function Newsletter() {
-  const words = ["Apples", "Oranges", "Mangoes", "Pears", "Guava"];
+  const words = ["🍎 Apples", "🍊 Oranges", "🥭 Mangoes", "🍐 Pears"];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
